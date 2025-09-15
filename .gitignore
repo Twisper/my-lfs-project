@@ -1,0 +1,12 @@
+# System trash
+.DS_Store
+
+# Ignore compiled object files and binary files
+*.o
+*.a
+*.so
+
+# ignore temporary files and build directories
+lfs-sources/
+build/
+
