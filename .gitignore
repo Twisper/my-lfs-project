@@ -1,6 +1,8 @@
 # System trash
 .DS_Store
 
+._*
+
 # Ignore compiled object files and binary files
 *.o
 *.a
