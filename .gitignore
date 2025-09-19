@@ -9,6 +9,5 @@
 *.so
 
 # ignore temporary files and build directories
-lfs-sources/
+sources/
 build/
-
