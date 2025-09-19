@@ -6,6 +6,8 @@ LOG_DIR="/home/twisper/lfs_project/logs/ch05/04-glibc-pass1"
 mkdir -p "$LOG_DIR"
 echo "Created logging directory"
 
+cd $LFS/sources
+
 tar -xf glibc-2.42.tar.xz
 cd glibc-2.42
 
