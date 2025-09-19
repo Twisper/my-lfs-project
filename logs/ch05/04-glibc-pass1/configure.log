@@ -1,0 +1,133 @@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-lfs-linux-gnu
+checking for x86_64-lfs-linux-gnu-gcc... x86_64-lfs-linux-gnu-gcc
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-lfs-linux-gnu-gcc accepts -g... yes
+checking for x86_64-lfs-linux-gnu-gcc option to enable C11 features... none needed
+checking for gcc... gcc
+checking for x86_64-lfs-linux-gnu-g++... x86_64-lfs-linux-gnu-g++
+checking whether the compiler supports GNU C++... yes
+checking whether x86_64-lfs-linux-gnu-g++ accepts -g... yes
+checking for x86_64-lfs-linux-gnu-g++ option to enable C++11 features... unsupported
+checking for x86_64-lfs-linux-gnu-g++ option to enable C++98 features... unsupported
+checking whether x86_64-lfs-linux-gnu-g++ can link programs... no
+checking for sysdeps preconfigure fragments... aarch64 alpha arc arm csky hppa i386 loongarch m68k microblaze checking for egrep -e... /usr/bin/grep -E
+mips or1k powerpc riscv s390 sh checking for egrep -e... (cached) /usr/bin/grep -E
+sparc x86_64 checking whether x86_64-lfs-linux-gnu-gcc compiles in -mx32 mode by default... no
+
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking for /mnt/lfs/tools/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld... /mnt/lfs/tools/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld
+checking version of /mnt/lfs/tools/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld... 2.45, ok
+checking for gnumake... no
+checking for gmake... gmake
+checking version of gmake... 4.4.1, ok
+checking for gnumsgfmt... no
+checking for gmsgfmt... no
+checking for msgfmt... no
+checking for makeinfo... makeinfo
+checking version of makeinfo... 7.1.1, ok
+checking for sed... sed
+checking version of sed... 4.9, ok
+checking for gawk... gawk
+checking version of gawk... 5.2.1, ok
+checking for bison... bison
+checking version of bison... 3.8.2, ok
+checking if x86_64-lfs-linux-gnu-gcc is sufficient to build libc... yes
+checking for python3... python3
+checking version of python3... 3.13.5, ok
+configure: WARNING:
+*** These auxiliary programs are missing or incompatible versions: msgfmt
+*** some features or tests will be disabled.
+*** Check the INSTALL file for required versions.
+checking for use of fpu sysdeps directories... yes
+checking for clang in testing... no
+checking for clang++ in testing... no
+checking for -fstack-protector... yes
+checking for -fstack-protector-strong... yes
+checking for -fstack-protector-all... yes
+checking for assembler and linker STT_GNU_IFUNC support... yes
+checking for gcc attribute ifunc support... yes
+checking whether the linker supports textrels along with ifunc... yes
+checking for GNU attribute retain support... yes
+checking if compiler warns about alias for function with incompatible types... yes
+checking sysdep dirs... sysdeps/unix/sysv/linux/x86_64/64 sysdeps/unix/sysv/linux/x86_64 sysdeps/unix/sysv/linux/x86 sysdeps/x86/nptl sysdeps/unix/sysv/linux/wordsize-64 sysdeps/x86_64/nptl sysdeps/unix/sysv/linux sysdeps/nptl sysdeps/pthread sysdeps/gnu sysdeps/unix/inet sysdeps/unix/sysv sysdeps/unix/x86_64 sysdeps/unix sysdeps/posix sysdeps/x86_64/64 sysdeps/x86_64/fpu/multiarch sysdeps/x86_64/fpu sysdeps/x86/fpu sysdeps/x86_64/multiarch sysdeps/x86_64 sysdeps/x86 sysdeps/ieee754/float128 sysdeps/ieee754/ldbl-96 sysdeps/ieee754/dbl-64 sysdeps/ieee754/flt-32 sysdeps/wordsize-64 sysdeps/ieee754 sysdeps/generic
+checking LD_LIBRARY_PATH variable... ok
+checking for bash... /usr/bin/bash
+checking for perl... /usr/bin/perl
+checking for install-info... no
+checking for .set assembler directive... yes
+checking linker support for protected data symbol... no
+checking linker support for INSERT in linker script... yes
+checking for broken __attribute__((alias()))... no
+checking whether to put _rtld_local into .sdata section... no
+checking for libunwind-support in compiler... no
+checking whether --noexecstack is desirable for .S files... yes
+checking for linker that supports --no-error-execstack... yes
+checking for linker that supports -z execstack... yes
+checking for linker that supports -z start-stop-gc... yes
+checking for linker that supports --depaudit... yes
+checking for linker that supports -z pack-relative-relocs... yes
+checking for linker that supports --no-dynamic-linker... yes
+checking for -static-pie... yes
+checking for -fpie... yes
+checking for GLOB_DAT reloc... yes
+checking for tls descriptor support in testing... gnu2
+checking for traditional tls support in testing... gnu
+checking if -Wno-ignored-attributes is required for aliases... 
+checking whether cc puts quotes around section names... no
+checking for __builtin_memset... yes
+checking for redirection of built-in functions... yes
+checking for compiler option to disable generation of FMA instructions... -ffp-contract=off
+checking for compiler option that -fsignaling-nans... -fsignaling-nans
+checking -fsemantic-interposition in testing... yes
+checking for -ffloat-store in testing... -ffloat-store
+checking if __attribute__ ((__optimize__("-fno-tree-loop-distribute-patterns"))) works... yes
+checking for -Wimplicit-fallthrough... -Wimplicit-fallthrough
+checking for -Wfree-labels... -Wfree-labels
+checking for -Wmissing-parameter-name... -Wmissing-parameter-name
+checking support for trampolines in testing... yes
+checking -Wno-restrict in testing... -Wno-restrict
+checking -Wno-fortify-source in testing... -Wno-fortify-source
+checking -finput-charset=ascii in testing... -finput-charset=ascii
+checking  -finput-charset=ascii in testing... 
+checking for STB_GNU_UNIQUE in testing... no
+checking for libgd... no
+checking for is_selinux_enabled in -lselinux... no
+checking for maximum supported _FORTIFY_SOURCE level... 2
+checking whether the assembler requires one version per symbol... no
+checking for __builtin_trap with no external dependencies... yes
+checking whether the compiler supports __attribute__ ((aligned (65536)))... yes
+checking whether the C++ compiler supports thread_local... no
+running configure fragment for sysdeps/unix/sysv/linux/x86_64/64
+running configure fragment for sysdeps/unix/sysv/linux/x86_64
+running configure fragment for sysdeps/unix/sysv/linux
+checking installed Linux kernel header files... 3.2.0 or later
+checking for kernel header at least 5.4... ok
+running configure fragment for sysdeps/gnu
+running configure fragment for sysdeps/x86_64
+checking for -mprefer-vector-width=128... yes
+checking for linker that supports -z mark-plt... yes
+checking whether -mamx-tile works properly in testing... no
+checking whether -mapxf is enabled... no
+running configure fragment for sysdeps/x86
+checking for linker x86 ISA level support... yes
+checking for LAHF/SAHF instruction support... no
+checking for MOVBE instruction support... no
+checking for ISA level support... baseline
+checking if -mfpmath=387 works in testing... yes
+checking whether -fPIC is default... yes
+checking whether -fPIE is default... yes
+checking PDE load address... 0x0000000000400000
+checking for linker that supports -Ttext-segment=0x0000000000400000... yes
+checking if compiler supports -mbranch-protection=gcs... no
+checking for linker that supports -z gcs=always... no
+checking if we can build programs as PIE... yes
+checking if we can build static PIE programs... yes
+checking whether x86_64-lfs-linux-gnu-gcc can link against -lgcc_s... no
+configure: creating ./config.status
+config.status: creating config.make
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing default commands
