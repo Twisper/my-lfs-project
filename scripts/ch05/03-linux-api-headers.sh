@@ -17,6 +17,9 @@ echo "Installing headers"
 make headers 2>&1 | tee "$LOG_DIR/headers.log"
 echo "Done installing headers"
 
+find usr/include -type f ! -name '*.h' -delete
+cp -rv usr/include $LFS/usr
+
 echo "Cleaning all directories"
 cd $LFS/sources
 rm -rfv linux-6.16.1
