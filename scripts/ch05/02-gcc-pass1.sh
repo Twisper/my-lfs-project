@@ -26,7 +26,7 @@ esac
 mkdir -v build
 cd       build
 
-../configure                  \
+(../configure                  \
     --target=$LFS_TGT         \
     --prefix=$LFS/tools       \
     --with-glibc-version=2.42 \
@@ -45,7 +45,8 @@ cd       build
     --disable-libssp          \
     --disable-libvtv          \
     --disable-libstdcxx       \
-    --enable-languages=c,c++   2>&1 | tee "$LOG_DIR/configure.log"
+    --enable-languages=c,c++   
+)2>&1 | tee "$LOG_DIR/configure.log"
 
 make 2>&1 | tee "$LOG_DIR/make.log"
 make install 2>&1 | tee "$LOG_DIR/install.log"
