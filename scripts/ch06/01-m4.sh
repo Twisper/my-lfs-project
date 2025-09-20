@@ -24,5 +24,5 @@ echo "Installing complete"
 
 echo "Cleaning up..."
 cd $LFS/sources
-rm -rfv M4-1.4.20
+rm -rfv m4-1.4.20
 echo "All done"
