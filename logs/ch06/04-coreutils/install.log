@@ -1,0 +1,138 @@
+make  install-recursive
+make[1]: Entering directory '/mnt/lfs/sources/coreutils-9.7'
+Making install in po
+make[2]: Entering directory '/mnt/lfs/sources/coreutils-9.7/po'
+installing af.gmo as /mnt/lfs/usr/share/locale/af/LC_MESSAGES/coreutils.mo
+installing af.gmo link as /mnt/lfs/usr/share/locale/af/LC_TIME/coreutils.mo
+installing be.gmo as /mnt/lfs/usr/share/locale/be/LC_MESSAGES/coreutils.mo
+installing be.gmo link as /mnt/lfs/usr/share/locale/be/LC_TIME/coreutils.mo
+installing bg.gmo as /mnt/lfs/usr/share/locale/bg/LC_MESSAGES/coreutils.mo
+installing bg.gmo link as /mnt/lfs/usr/share/locale/bg/LC_TIME/coreutils.mo
+installing ca.gmo as /mnt/lfs/usr/share/locale/ca/LC_MESSAGES/coreutils.mo
+installing ca.gmo link as /mnt/lfs/usr/share/locale/ca/LC_TIME/coreutils.mo
+installing cs.gmo as /mnt/lfs/usr/share/locale/cs/LC_MESSAGES/coreutils.mo
+installing cs.gmo link as /mnt/lfs/usr/share/locale/cs/LC_TIME/coreutils.mo
+installing da.gmo as /mnt/lfs/usr/share/locale/da/LC_MESSAGES/coreutils.mo
+installing da.gmo link as /mnt/lfs/usr/share/locale/da/LC_TIME/coreutils.mo
+installing de.gmo as /mnt/lfs/usr/share/locale/de/LC_MESSAGES/coreutils.mo
+installing de.gmo link as /mnt/lfs/usr/share/locale/de/LC_TIME/coreutils.mo
+installing el.gmo as /mnt/lfs/usr/share/locale/el/LC_MESSAGES/coreutils.mo
+installing el.gmo link as /mnt/lfs/usr/share/locale/el/LC_TIME/coreutils.mo
+installing eo.gmo as /mnt/lfs/usr/share/locale/eo/LC_MESSAGES/coreutils.mo
+installing eo.gmo link as /mnt/lfs/usr/share/locale/eo/LC_TIME/coreutils.mo
+installing es.gmo as /mnt/lfs/usr/share/locale/es/LC_MESSAGES/coreutils.mo
+installing es.gmo link as /mnt/lfs/usr/share/locale/es/LC_TIME/coreutils.mo
+installing et.gmo as /mnt/lfs/usr/share/locale/et/LC_MESSAGES/coreutils.mo
+installing et.gmo link as /mnt/lfs/usr/share/locale/et/LC_TIME/coreutils.mo
+installing eu.gmo as /mnt/lfs/usr/share/locale/eu/LC_MESSAGES/coreutils.mo
+installing eu.gmo link as /mnt/lfs/usr/share/locale/eu/LC_TIME/coreutils.mo
+installing fi.gmo as /mnt/lfs/usr/share/locale/fi/LC_MESSAGES/coreutils.mo
+installing fi.gmo link as /mnt/lfs/usr/share/locale/fi/LC_TIME/coreutils.mo
+installing fr.gmo as /mnt/lfs/usr/share/locale/fr/LC_MESSAGES/coreutils.mo
+installing fr.gmo link as /mnt/lfs/usr/share/locale/fr/LC_TIME/coreutils.mo
+installing ga.gmo as /mnt/lfs/usr/share/locale/ga/LC_MESSAGES/coreutils.mo
+installing ga.gmo link as /mnt/lfs/usr/share/locale/ga/LC_TIME/coreutils.mo
+installing gl.gmo as /mnt/lfs/usr/share/locale/gl/LC_MESSAGES/coreutils.mo
+installing gl.gmo link as /mnt/lfs/usr/share/locale/gl/LC_TIME/coreutils.mo
+installing hr.gmo as /mnt/lfs/usr/share/locale/hr/LC_MESSAGES/coreutils.mo
+installing hr.gmo link as /mnt/lfs/usr/share/locale/hr/LC_TIME/coreutils.mo
+installing hu.gmo as /mnt/lfs/usr/share/locale/hu/LC_MESSAGES/coreutils.mo
+installing hu.gmo link as /mnt/lfs/usr/share/locale/hu/LC_TIME/coreutils.mo
+installing ia.gmo as /mnt/lfs/usr/share/locale/ia/LC_MESSAGES/coreutils.mo
+installing ia.gmo link as /mnt/lfs/usr/share/locale/ia/LC_TIME/coreutils.mo
+installing id.gmo as /mnt/lfs/usr/share/locale/id/LC_MESSAGES/coreutils.mo
+installing id.gmo link as /mnt/lfs/usr/share/locale/id/LC_TIME/coreutils.mo
+installing it.gmo as /mnt/lfs/usr/share/locale/it/LC_MESSAGES/coreutils.mo
+installing it.gmo link as /mnt/lfs/usr/share/locale/it/LC_TIME/coreutils.mo
+installing ja.gmo as /mnt/lfs/usr/share/locale/ja/LC_MESSAGES/coreutils.mo
+installing ja.gmo link as /mnt/lfs/usr/share/locale/ja/LC_TIME/coreutils.mo
+installing ka.gmo as /mnt/lfs/usr/share/locale/ka/LC_MESSAGES/coreutils.mo
+installing ka.gmo link as /mnt/lfs/usr/share/locale/ka/LC_TIME/coreutils.mo
+installing kk.gmo as /mnt/lfs/usr/share/locale/kk/LC_MESSAGES/coreutils.mo
+installing kk.gmo link as /mnt/lfs/usr/share/locale/kk/LC_TIME/coreutils.mo
+installing ko.gmo as /mnt/lfs/usr/share/locale/ko/LC_MESSAGES/coreutils.mo
+installing ko.gmo link as /mnt/lfs/usr/share/locale/ko/LC_TIME/coreutils.mo
+installing lg.gmo as /mnt/lfs/usr/share/locale/lg/LC_MESSAGES/coreutils.mo
+installing lg.gmo link as /mnt/lfs/usr/share/locale/lg/LC_TIME/coreutils.mo
+installing lt.gmo as /mnt/lfs/usr/share/locale/lt/LC_MESSAGES/coreutils.mo
+installing lt.gmo link as /mnt/lfs/usr/share/locale/lt/LC_TIME/coreutils.mo
+installing ms.gmo as /mnt/lfs/usr/share/locale/ms/LC_MESSAGES/coreutils.mo
+installing ms.gmo link as /mnt/lfs/usr/share/locale/ms/LC_TIME/coreutils.mo
+installing nb.gmo as /mnt/lfs/usr/share/locale/nb/LC_MESSAGES/coreutils.mo
+installing nb.gmo link as /mnt/lfs/usr/share/locale/nb/LC_TIME/coreutils.mo
+installing nl.gmo as /mnt/lfs/usr/share/locale/nl/LC_MESSAGES/coreutils.mo
+installing nl.gmo link as /mnt/lfs/usr/share/locale/nl/LC_TIME/coreutils.mo
+installing pl.gmo as /mnt/lfs/usr/share/locale/pl/LC_MESSAGES/coreutils.mo
+installing pl.gmo link as /mnt/lfs/usr/share/locale/pl/LC_TIME/coreutils.mo
+installing pt.gmo as /mnt/lfs/usr/share/locale/pt/LC_MESSAGES/coreutils.mo
+installing pt.gmo link as /mnt/lfs/usr/share/locale/pt/LC_TIME/coreutils.mo
+installing pt_BR.gmo as /mnt/lfs/usr/share/locale/pt_BR/LC_MESSAGES/coreutils.mo
+installing pt_BR.gmo link as /mnt/lfs/usr/share/locale/pt_BR/LC_TIME/coreutils.mo
+installing ro.gmo as /mnt/lfs/usr/share/locale/ro/LC_MESSAGES/coreutils.mo
+installing ro.gmo link as /mnt/lfs/usr/share/locale/ro/LC_TIME/coreutils.mo
+installing ru.gmo as /mnt/lfs/usr/share/locale/ru/LC_MESSAGES/coreutils.mo
+installing ru.gmo link as /mnt/lfs/usr/share/locale/ru/LC_TIME/coreutils.mo
+installing sk.gmo as /mnt/lfs/usr/share/locale/sk/LC_MESSAGES/coreutils.mo
+installing sk.gmo link as /mnt/lfs/usr/share/locale/sk/LC_TIME/coreutils.mo
+installing sl.gmo as /mnt/lfs/usr/share/locale/sl/LC_MESSAGES/coreutils.mo
+installing sl.gmo link as /mnt/lfs/usr/share/locale/sl/LC_TIME/coreutils.mo
+installing sr.gmo as /mnt/lfs/usr/share/locale/sr/LC_MESSAGES/coreutils.mo
+installing sr.gmo link as /mnt/lfs/usr/share/locale/sr/LC_TIME/coreutils.mo
+installing sv.gmo as /mnt/lfs/usr/share/locale/sv/LC_MESSAGES/coreutils.mo
+installing sv.gmo link as /mnt/lfs/usr/share/locale/sv/LC_TIME/coreutils.mo
+installing ta.gmo as /mnt/lfs/usr/share/locale/ta/LC_MESSAGES/coreutils.mo
+installing ta.gmo link as /mnt/lfs/usr/share/locale/ta/LC_TIME/coreutils.mo
+installing tr.gmo as /mnt/lfs/usr/share/locale/tr/LC_MESSAGES/coreutils.mo
+installing tr.gmo link as /mnt/lfs/usr/share/locale/tr/LC_TIME/coreutils.mo
+installing uk.gmo as /mnt/lfs/usr/share/locale/uk/LC_MESSAGES/coreutils.mo
+installing uk.gmo link as /mnt/lfs/usr/share/locale/uk/LC_TIME/coreutils.mo
+installing vi.gmo as /mnt/lfs/usr/share/locale/vi/LC_MESSAGES/coreutils.mo
+installing vi.gmo link as /mnt/lfs/usr/share/locale/vi/LC_TIME/coreutils.mo
+installing zh_CN.gmo as /mnt/lfs/usr/share/locale/zh_CN/LC_MESSAGES/coreutils.mo
+installing zh_CN.gmo link as /mnt/lfs/usr/share/locale/zh_CN/LC_TIME/coreutils.mo
+installing zh_TW.gmo as /mnt/lfs/usr/share/locale/zh_TW/LC_MESSAGES/coreutils.mo
+installing zh_TW.gmo link as /mnt/lfs/usr/share/locale/zh_TW/LC_TIME/coreutils.mo
+if test "coreutils" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /mnt/lfs/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    .././build-aux/install-sh -c -m 644 ./$file \
+		    /mnt/lfs/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /mnt/lfs/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/mnt/lfs/sources/coreutils-9.7/po'
+Making install in .
+make[2]: Entering directory '/mnt/lfs/sources/coreutils-9.7'
+make[3]: Entering directory '/mnt/lfs/sources/coreutils-9.7'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/info'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/bin'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/libexec/coreutils'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man1'
+ ./build-aux/install-sh -c -c -m 644 ./doc/coreutils.info '/mnt/lfs/usr/share/info'
+  ./build-aux/install-sh -c -c src/libstdbuf.so '/mnt/lfs/usr/libexec/coreutils'
+  ./build-aux/install-sh -c -c src/ginstall '/mnt/lfs/usr/bin/./install'
+ ./build-aux/install-sh -c -c -m 644 man/chroot.1 man/hostid.1 man/timeout.1 man/nice.1 man/who.1 man/users.1 man/pinky.1 man/stty.1 man/df.1 man/stdbuf.1 man/b2sum.1 man/base64.1 man/base32.1 man/basenc.1 man/basename.1 man/cat.1 man/chcon.1 man/chgrp.1 man/chmod.1 man/chown.1 man/cksum.1 man/comm.1 man/cp.1 man/csplit.1 man/cut.1 man/date.1 man/dd.1 man/dir.1 man/dircolors.1 man/dirname.1 man/du.1 man/echo.1 man/env.1 man/expand.1 man/expr.1 man/factor.1 man/false.1 man/fmt.1 man/fold.1 man/install.1 '/mnt/lfs/usr/share/man/man1'
+  ./build-aux/install-sh -c -c src/chroot src/hostid src/timeout src/nice src/who src/users src/pinky src/stty src/df src/stdbuf src/[ src/b2sum src/base64 src/base32 src/basenc src/basename src/cat src/chcon src/chgrp src/chmod src/chown src/cksum src/comm src/cp src/csplit src/cut src/date src/dd src/dir src/dircolors src/dirname src/du src/echo src/env src/expand src/expr src/factor src/false src/fmt src/fold src/groups src/head src/id src/join src/link src/ln src/logname src/ls src/md5sum src/mkdir src/mkfifo src/mknod src/mktemp src/mv src/nl src/nproc src/nohup src/numfmt src/od src/paste src/pathchk src/pr src/printenv src/printf src/ptx src/pwd src/readlink src/realpath src/rm src/rmdir src/runcon src/seq src/sha1sum src/sha224sum src/sha256sum src/sha384sum src/sha512sum src/shred src/shuf src/sleep src/sort src/split src/stat src/sum src/sync src/tac src/tail src/tee src/test src/touch src/tr src/true src/truncate src/tsort src/tty src/uname src/unexpand src/uniq src/unlink src/vdir src/wc src/whoami src/yes src/hostname '/mnt/lfs/usr/bin'
+ ./build-aux/install-sh -c -c -m 644 man/groups.1 man/head.1 man/id.1 man/join.1 man/link.1 man/ln.1 man/logname.1 man/ls.1 man/md5sum.1 man/mkdir.1 man/mkfifo.1 man/mknod.1 man/mktemp.1 man/mv.1 man/nl.1 man/nproc.1 man/nohup.1 man/numfmt.1 man/od.1 man/paste.1 man/pathchk.1 man/pr.1 man/printenv.1 man/printf.1 man/ptx.1 man/pwd.1 man/readlink.1 man/realpath.1 man/rm.1 man/rmdir.1 man/runcon.1 man/seq.1 man/sha1sum.1 man/sha224sum.1 man/sha256sum.1 man/sha384sum.1 man/sha512sum.1 man/shred.1 man/shuf.1 man/sleep.1 '/mnt/lfs/usr/share/man/man1'
+ ./build-aux/install-sh -c -c -m 644 man/sort.1 man/split.1 man/stat.1 man/sum.1 man/sync.1 man/tac.1 man/tail.1 man/tee.1 man/test.1 man/touch.1 man/tr.1 man/true.1 man/truncate.1 man/tsort.1 man/tty.1 man/uname.1 man/unexpand.1 man/uniq.1 man/unlink.1 man/vdir.1 man/wc.1 man/whoami.1 man/yes.1 man/hostname.1 '/mnt/lfs/usr/share/man/man1'
+make  install-exec-hook
+make[4]: Entering directory '/mnt/lfs/sources/coreutils-9.7'
+make[4]: Leaving directory '/mnt/lfs/sources/coreutils-9.7'
+make[3]: Leaving directory '/mnt/lfs/sources/coreutils-9.7'
+make[2]: Leaving directory '/mnt/lfs/sources/coreutils-9.7'
+Making install in gnulib-tests
+make[2]: Entering directory '/mnt/lfs/sources/coreutils-9.7/gnulib-tests'
+make  install-recursive
+make[3]: Entering directory '/mnt/lfs/sources/coreutils-9.7/gnulib-tests'
+Making install in .
+make[4]: Entering directory '/mnt/lfs/sources/coreutils-9.7/gnulib-tests'
+make[5]: Entering directory '/mnt/lfs/sources/coreutils-9.7/gnulib-tests'
+make[5]: Leaving directory '/mnt/lfs/sources/coreutils-9.7/gnulib-tests'
+make[4]: Leaving directory '/mnt/lfs/sources/coreutils-9.7/gnulib-tests'
+make[3]: Leaving directory '/mnt/lfs/sources/coreutils-9.7/gnulib-tests'
+make[2]: Leaving directory '/mnt/lfs/sources/coreutils-9.7/gnulib-tests'
+make[1]: Leaving directory '/mnt/lfs/sources/coreutils-9.7'
