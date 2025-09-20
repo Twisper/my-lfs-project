@@ -1,0 +1,334 @@
+cd checks && make 
+make[1]: Entering directory '/mnt/lfs/sources/m4-1.4.20/checks'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/checks'
+make  all-recursive
+make[1]: Entering directory '/mnt/lfs/sources/m4-1.4.20'
+Making all in .
+make[2]: Entering directory '/mnt/lfs/sources/m4-1.4.20'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/m4-1.4.20'
+Making all in examples
+make[2]: Entering directory '/mnt/lfs/sources/m4-1.4.20/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/examples'
+Making all in lib
+make[2]: Entering directory '/mnt/lfs/sources/m4-1.4.20/lib'
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      dirent.h
+  GEN      error.h
+  GEN      fcntl.h
+  GEN      getopt-cdefs.h
+  GEN      getopt.h
+  GEN      malloc/dynarray.gl.h
+  GEN      malloc/dynarray-skeleton.gl.h
+  GEN      malloc/scratch_buffer.gl.h
+  GEN      inttypes.h
+  GEN      iconv.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      math.h
+  GEN      obstack.h
+  GEN      pthread.h
+  GEN      sched.h
+  GEN      signal.h
+  GEN      sigsegv.h
+  GEN      spawn.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/random.h
+  GEN      sys/stat.h
+  GEN      sys/types.h
+  GEN      sys/wait.h
+  GEN      time.h
+  GEN      uchar.h
+  GEN      unicase.h
+  GEN      unictype.h
+  GEN      uninorm.h
+  GEN      unistd.h
+  GEN      unistr.h
+  GEN      unitypes.h
+  GEN      uniwidth.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-am
+make[3]: Entering directory '/mnt/lfs/sources/m4-1.4.20/lib'
+  CC       libm4_a-asyncsafe-spin.o
+  CC       libm4_a-openat-proc.o
+  CC       libm4_a-gl_avltree_oset.o
+  CC       libm4_a-binary-io.o
+  CC       libm4_a-basename-lgpl.o
+  CC       libm4_a-bitrotate.o
+  CC       libm4_a-btowc.o
+  CC       libm4_a-c-ctype.o
+  CC       libm4_a-c-stack.o
+  CC       libm4_a-c-strcasecmp.o
+  CC       libm4_a-c32isalnum.o
+  CC       libm4_a-c32isalpha.o
+  CC       libm4_a-c32isblank.o
+  CC       libm4_a-c32iscntrl.o
+  CC       libm4_a-c32isdigit.o
+  CC       libm4_a-c32isgraph.o
+  CC       libm4_a-c32islower.o
+  CC       libm4_a-c32isprint.o
+  CC       libm4_a-c32ispunct.o
+  CC       libm4_a-c32isspace.o
+  CC       libm4_a-c32isupper.o
+  CC       libm4_a-c32isxdigit.o
+  CC       libm4_a-c32tolower.o
+  CC       libm4_a-c32width.o
+  CC       libm4_a-canonicalize.o
+  CC       libm4_a-chdir-long.o
+  CC       libm4_a-clean-temp.o
+  CC       libm4_a-clean-temp-simple.o
+  CC       libm4_a-cloexec.o
+  CC       libm4_a-close-stream.o
+  CC       libm4_a-closein.o
+  CC       libm4_a-closeout.o
+  CC       libm4_a-concat-filename.o
+  CC       libm4_a-dirname.o
+  CC       libm4_a-basename.o
+  CC       libm4_a-dirname-lgpl.o
+  CC       libm4_a-stripslash.o
+  CC       libm4_a-error.o
+  CC       libm4_a-execute.o
+  CC       libm4_a-exitfail.o
+  CC       libm4_a-fatal-signal.o
+  CC       libm4_a-fclose.o
+  CC       libm4_a-fcntl.o
+  CC       libm4_a-fd-hook.o
+  CC       libm4_a-fd-safer-flag.o
+  CC       libm4_a-dup-safer-flag.o
+  CC       libm4_a-fflush.o
+  CC       libm4_a-file-set.o
+  CC       libm4_a-filenamecat.o
+  CC       libm4_a-filenamecat-lgpl.o
+  CC       libm4_a-findprog-in.o
+  CC       libm4_a-fopen-safer.o
+  CC       libm4_a-fpurge.o
+  CC       libm4_a-freadahead.o
+  CC       libm4_a-freading.o
+  CC       libm4_a-fseek.o
+  CC       libm4_a-fseeko.o
+  CC       libm4_a-fseterr.o
+  CC       libm4_a-getcwd.o
+  CC       libm4_a-getcwd-lgpl.o
+  CC       libm4_a-getlocalename_l-unsafe.o
+  CC       libm4_a-localename-table.o
+  CC       libm4_a-getopt.o
+  CC       libm4_a-getopt1.o
+  CC       libm4_a-getprogname.o
+  CC       libm4_a-hard-locale.o
+  CC       libm4_a-hash.o
+  CC       libm4_a-hashcode-named-file.o
+  CC       libm4_a-hashcode-string1.o
+  CC       libm4_a-hashcode-string2.o
+  CC       libm4_a-hashkey-string.o
+  CC       libm4_a-ialloc.o
+  CC       libm4_a-gl_linked_list.o
+  CC       libm4_a-gl_linkedhash_list.o
+  CC       libm4_a-gl_list.o
+  CC       libm4_a-localcharset.o
+  CC       libm4_a-localename.o
+  CC       libm4_a-localename-environ.o
+  CC       libm4_a-localename-unsafe.o
+  CC       libm4_a-malloca.o
+  CC       libm4_a-math.o
+  CC       libm4_a-mbchar.o
+  CC       libm4_a-mbiterf.o
+  CC       libm4_a-mbrtoc32.o
+  CC       libm4_a-mbrtowc.o
+  CC       libm4_a-mbslen.o
+  CC       libm4_a-mbsnlen.o
+  CC       libm4_a-mbsstr.o
+  CC       libm4_a-mbszero.o
+  CC       libm4_a-mbuiter.o
+  CC       libm4_a-mbuiterf.o
+  CC       libm4_a-memchr.o
+  CC       libm4_a-memchr2.o
+  CC       libm4_a-next-prime.o
+  CC       libm4_a-nl_langinfo.o
+  CC       libm4_a-obstack.o
+  CC       glthread/libm4_a-once.o
+  CC       libm4_a-openat-die.o
+  CC       libm4_a-gl_oset.o
+  CC       libm4_a-pipe2.o
+  CC       libm4_a-pipe2-safer.o
+  CC       libm4_a-spawn_faction_addchdir.o
+  CC       libm4_a-printf-frexp.o
+  CC       libm4_a-printf-frexpl.o
+  CC       libm4_a-progname.o
+  CC       libm4_a-propername.o
+  CC       libm4_a-quotearg.o
+  CC       libm4_a-realloc.o
+  CC       libm4_a-reallocarray.o
+  CC       libm4_a-regex.o
+  CC       libm4_a-same-inode.o
+  CC       libm4_a-save-cwd.o
+  CC       libm4_a-setlocale_null.o
+  CC       libm4_a-setlocale_null-unlocked.o
+  CC       libm4_a-sig-handler.o
+  CC       libm4_a-sigsegv.o
+  CC       libm4_a-stackvma.o
+  CC       libm4_a-spawn-pipe.o
+  CC       libm4_a-stat-time.o
+  CC       libm4_a-stdlib.o
+  CC       libm4_a-mkstemp-safer.o
+  CC       libm4_a-strerror.o
+  CC       libm4_a-striconv.o
+  CC       libm4_a-strnlen1.o
+  CC       libm4_a-tempname.o
+  CC       glthread/libm4_a-threadlib.o
+  CC       glthread/libm4_a-tls.o
+  CC       libm4_a-tmpdir.o
+  CC       libm4_a-trim.o
+  CC       libm4_a-unistd.o
+  CC       libm4_a-dup-safer.o
+  CC       libm4_a-fd-safer.o
+  CC       libm4_a-pipe-safer.o
+  CC       libm4_a-vaszprintf.o
+  CC       libm4_a-aszprintf.o
+  CC       libm4_a-version-etc.o
+  CC       libm4_a-version-etc-fsf.o
+  CC       libm4_a-vfzprintf.o
+  CC       libm4_a-vsnzprintf.o
+  CC       libm4_a-vzprintf.o
+  CC       libm4_a-wait-process.o
+  CC       libm4_a-wctype-h.o
+  CC       libm4_a-xmalloc.o
+  CC       libm4_a-xalloc-die.o
+  CC       libm4_a-gl_xlist.o
+  CC       libm4_a-xmalloca.o
+  CC       libm4_a-xmemdup0.o
+  CC       libm4_a-gl_xoset.o
+  CC       libm4_a-xprintf.o
+  CC       libm4_a-xsize.o
+  CC       libm4_a-xstriconv.o
+  CC       libm4_a-xvasprintf.o
+  CC       libm4_a-xasprintf.o
+  CC       libm4_a-asnprintf.o
+  CC       libm4_a-asprintf.o
+  CC       libm4_a-fopen.o
+  CC       libm4_a-printf-args.o
+  CC       libm4_a-printf-parse.o
+  CC       libm4_a-strstr.o
+  CC       libm4_a-vasnprintf.o
+  CC       libm4_a-vasprintf.o
+  CC       malloc/libm4_a-dynarray_at_failure.o
+  CC       malloc/libm4_a-dynarray_emplace_enlarge.o
+  CC       malloc/libm4_a-dynarray_finalize.o
+  CC       malloc/libm4_a-dynarray_resize.o
+  CC       malloc/libm4_a-dynarray_resize_clear.o
+  CC       malloc/libm4_a-scratch_buffer_grow.o
+  CC       malloc/libm4_a-scratch_buffer_grow_preserve.o
+  CC       malloc/libm4_a-scratch_buffer_set_array_size.o
+  CC       glthread/libm4_a-lock.o
+  CC       unicase/libm4_a-tolower.o
+  CC       unictype/libm4_a-ctype_alnum.o
+  CC       unictype/libm4_a-ctype_alpha.o
+  CC       unictype/libm4_a-ctype_blank.o
+  CC       unictype/libm4_a-ctype_cntrl.o
+  CC       unictype/libm4_a-ctype_digit.o
+  CC       unictype/libm4_a-ctype_graph.o
+  CC       unictype/libm4_a-ctype_lower.o
+  CC       unictype/libm4_a-ctype_print.o
+  CC       unictype/libm4_a-ctype_punct.o
+  CC       unictype/libm4_a-ctype_space.o
+  CC       unictype/libm4_a-ctype_upper.o
+  CC       unictype/libm4_a-ctype_xdigit.o
+  CC       unistr/libm4_a-u8-mbtoucr.o
+  CC       unistr/libm4_a-u8-uctomb.o
+  CC       unistr/libm4_a-u8-uctomb-aux.o
+  CC       uniwidth/libm4_a-width.o
+  AR       libm4.a
+make[3]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/lib'
+make[2]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/lib'
+Making all in src
+make[2]: Entering directory '/mnt/lfs/sources/m4-1.4.20/src'
+  CC       m4.o
+  CC       builtin.o
+  CC       debug.o
+  CC       eval.o
+  CC       format.o
+  CC       freeze.o
+  CC       input.o
+  CC       macro.o
+  CC       output.o
+  CC       path.o
+  CC       symtab.o
+  CCLD     m4
+make[2]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/src'
+Making all in doc
+make[2]: Entering directory '/mnt/lfs/sources/m4-1.4.20/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/doc'
+Making all in checks
+make[2]: Entering directory '/mnt/lfs/sources/m4-1.4.20/checks'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/checks'
+Making all in po
+make[2]: Entering directory '/mnt/lfs/sources/m4-1.4.20/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/po'
+Making all in tests
+make[2]: Entering directory '/mnt/lfs/sources/m4-1.4.20/tests'
+  GEN      arpa/inet.h
+  GEN      ctype.h
+  GEN      test-posix_spawn-dup2-stdout.sh
+  GEN      test-posix_spawn-dup2-stdin.sh
+  GEN      sys/ioctl.h
+  GEN      sys/select.h
+  GEN      sys/socket.h
+  GEN      sys/time.h
+  GEN      sys/uio.h
+## ---------------------------------------------------- ##
+## ------------------- Gnulib tests ------------------- ##
+## You can ignore compiler warnings in this directory.  ##
+## ---------------------------------------------------- ##
+make  all-recursive
+make[3]: Entering directory '/mnt/lfs/sources/m4-1.4.20/tests'
+Making all in .
+make[4]: Entering directory '/mnt/lfs/sources/m4-1.4.20/tests'
+  CC       locale.o
+  CC       arpa_inet.o
+  CC       gl_array_list.o
+  CC       gl_array_oset.o
+  CC       btoc32.o
+  CC       c-strncasecmp.o
+  CC       c-strcasestr.o
+  CC       c32tob.o
+  CC       findprog.o
+  CC       freopen.o
+  CC       imaxtostr.o
+  CC       inttostr.o
+  CC       offtostr.o
+  CC       uinttostr.o
+  CC       umaxtostr.o
+  CC       ioctl.o
+  CC       memset_explicit.o
+  CC       nanosleep.o
+  CC       perror.o
+  CC       pthread-rwlock.o
+  CC       pthread_sigmask.o
+  CC       read-file.o
+  CC       sockets.o
+  CC       str_endswith.o
+  CC       str_startswith.o
+  CC       sys_socket.o
+  CC       time.o
+  CC       xconcat-filename.o
+  CC       vma-iter.o
+  CC       xgetcwd.o
+  CC       strerror_r.o
+  CC       test-localcharset.o
+  CC       glthread/thread.o
+  AR       libtests.a
+  CCLD     current-locale
+  CCLD     test-localcharset
+make[4]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/tests'
+make[3]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/tests'
+make[2]: Leaving directory '/mnt/lfs/sources/m4-1.4.20/tests'
+make[1]: Leaving directory '/mnt/lfs/sources/m4-1.4.20'
