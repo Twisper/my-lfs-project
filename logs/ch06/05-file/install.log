@@ -1,0 +1,61 @@
+Making install in src
+make[1]: Entering directory '/mnt/lfs/sources/file-5.46/src'
+make  install-am
+make[2]: Entering directory '/mnt/lfs/sources/file-5.46/src'
+make[3]: Entering directory '/mnt/lfs/sources/file-5.46/src'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/lib'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/include'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libmagic.la '/mnt/lfs/usr/lib'
+ /usr/bin/install -c -m 644 magic.h '/mnt/lfs/usr/include'
+libtool: install: /usr/bin/install -c .libs/libmagic.so.1.0.0 /mnt/lfs/usr/lib/libmagic.so.1.0.0
+libtool: install: (cd /mnt/lfs/usr/lib && { ln -s -f libmagic.so.1.0.0 libmagic.so.1 || { rm -f libmagic.so.1 && ln -s libmagic.so.1.0.0 libmagic.so.1; }; })
+libtool: install: (cd /mnt/lfs/usr/lib && { ln -s -f libmagic.so.1.0.0 libmagic.so || { rm -f libmagic.so && ln -s libmagic.so.1.0.0 libmagic.so; }; })
+libtool: install: /usr/bin/install -c .libs/libmagic.lai /mnt/lfs/usr/lib/libmagic.la
+ /usr/bin/mkdir -p '/mnt/lfs/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c file '/mnt/lfs/usr/bin'
+libtool: install: /usr/bin/install -c .libs/file /mnt/lfs/usr/bin/file
+make[3]: Leaving directory '/mnt/lfs/sources/file-5.46/src'
+make[2]: Leaving directory '/mnt/lfs/sources/file-5.46/src'
+make[1]: Leaving directory '/mnt/lfs/sources/file-5.46/src'
+Making install in magic
+make[1]: Entering directory '/mnt/lfs/sources/file-5.46/magic'
+make[2]: Entering directory '/mnt/lfs/sources/file-5.46/magic'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/misc'
+ /usr/bin/install -c -m 644 magic.mgc '/mnt/lfs/usr/share/misc'
+make[2]: Leaving directory '/mnt/lfs/sources/file-5.46/magic'
+make[1]: Leaving directory '/mnt/lfs/sources/file-5.46/magic'
+Making install in tests
+make[1]: Entering directory '/mnt/lfs/sources/file-5.46/tests'
+make[2]: Entering directory '/mnt/lfs/sources/file-5.46/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/file-5.46/tests'
+make[1]: Leaving directory '/mnt/lfs/sources/file-5.46/tests'
+Making install in doc
+make[1]: Entering directory '/mnt/lfs/sources/file-5.46/doc'
+make[2]: Entering directory '/mnt/lfs/sources/file-5.46/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man3'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man4'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man5'
+ /usr/bin/install -c -m 644 file.1 '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/install -c -m 644 libmagic.3 '/mnt/lfs/usr/share/man/man3'
+ /usr/bin/install -c -m 644 magic.4 '/mnt/lfs/usr/share/man/man4'
+make[2]: Leaving directory '/mnt/lfs/sources/file-5.46/doc'
+make[1]: Leaving directory '/mnt/lfs/sources/file-5.46/doc'
+Making install in python
+make[1]: Entering directory '/mnt/lfs/sources/file-5.46/python'
+make[2]: Entering directory '/mnt/lfs/sources/file-5.46/python'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/file-5.46/python'
+make[1]: Leaving directory '/mnt/lfs/sources/file-5.46/python'
+make[1]: Entering directory '/mnt/lfs/sources/file-5.46'
+make[2]: Entering directory '/mnt/lfs/sources/file-5.46'
+make[2]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/mnt/lfs/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libmagic.pc '/mnt/lfs/usr/lib/pkgconfig'
+make[2]: Leaving directory '/mnt/lfs/sources/file-5.46'
+make[1]: Leaving directory '/mnt/lfs/sources/file-5.46'
