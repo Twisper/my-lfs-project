@@ -3,6 +3,7 @@
 set -e
 
 PACKET_NAME="ncurses-6.5-20250809.tgz"
+FOLDER_NAME="ncurses-6.5-20250809"
 
 LOG_DIR="/home/twisper/lfs_project/logs/ch06/02-ncurses"
 mkdir -p "$LOG_DIR"
@@ -12,7 +13,7 @@ cd $LFS/sources
 
 echo "Unpacking ncurses"
 tar -xf "$PACKET_NAME"
-cd "$PACKET_NAME"
+cd "$FOLDER_NAME"
 echo "Unpacked"
 
 echo "Building and installing tic"
@@ -27,11 +28,11 @@ popd
 echo "Installing is done"
 
 cd $LFS/sources
-rm -rfv "$PACKET_NAME"
+rm -rfv "$FOLDER_NAME"
 
 echo "Unpacking Ncurses"
 tar -xf "$PACKET_NAME"
-cd "$PACKET_NAME"
+cd "$FOLDER_NAME"
 echo "Unpacked"
 
 (./configure --prefix=/usr                \
@@ -57,5 +58,5 @@ sed -e 's/^#if.*XOPEN.*$/#if 1/' \
 echo "Done. Cleaning up"
 
 cd $LFS/sources
-rm -rfv "$PACKET_NAME"
+rm -rfv "$FOLDER_NAME"
 echo "All done"
