@@ -1,0 +1,113 @@
+Making install in lib
+make[1]: Entering directory '/mnt/lfs/sources/diffutils-3.12/lib'
+make  install-am
+make[2]: Entering directory '/mnt/lfs/sources/diffutils-3.12/lib'
+make[3]: Entering directory '/mnt/lfs/sources/diffutils-3.12/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/lib'
+make[2]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/lib'
+make[1]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/lib'
+Making install in src
+make[1]: Entering directory '/mnt/lfs/sources/diffutils-3.12/src'
+make  install-am
+make[2]: Entering directory '/mnt/lfs/sources/diffutils-3.12/src'
+make[3]: Entering directory '/mnt/lfs/sources/diffutils-3.12/src'
+make[3]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/mnt/lfs/usr/bin'
+  /usr/bin/install -c cmp diff diff3 sdiff '/mnt/lfs/usr/bin'
+make[3]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/src'
+make[2]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/src'
+make[1]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/src'
+Making install in tests
+make[1]: Entering directory '/mnt/lfs/sources/diffutils-3.12/tests'
+make[2]: Entering directory '/mnt/lfs/sources/diffutils-3.12/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/tests'
+make[1]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/tests'
+Making install in doc
+make[1]: Entering directory '/mnt/lfs/sources/diffutils-3.12/doc'
+make[2]: Entering directory '/mnt/lfs/sources/diffutils-3.12/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/info'
+ /usr/bin/install -c -m 644 ./diffutils.info '/mnt/lfs/usr/share/info'
+make[2]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/doc'
+make[1]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/doc'
+Making install in man
+make[1]: Entering directory '/mnt/lfs/sources/diffutils-3.12/man'
+make[2]: Entering directory '/mnt/lfs/sources/diffutils-3.12/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/install -c -m 644 cmp.1 diff.1 diff3.1 sdiff.1 '/mnt/lfs/usr/share/man/man1'
+make[2]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/man'
+make[1]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/man'
+Making install in po
+make[1]: Entering directory '/mnt/lfs/sources/diffutils-3.12/po'
+installing bg.gmo as /mnt/lfs/usr/share/locale/bg/LC_MESSAGES/diffutils.mo
+installing ca.gmo as /mnt/lfs/usr/share/locale/ca/LC_MESSAGES/diffutils.mo
+installing cs.gmo as /mnt/lfs/usr/share/locale/cs/LC_MESSAGES/diffutils.mo
+installing da.gmo as /mnt/lfs/usr/share/locale/da/LC_MESSAGES/diffutils.mo
+installing de.gmo as /mnt/lfs/usr/share/locale/de/LC_MESSAGES/diffutils.mo
+installing el.gmo as /mnt/lfs/usr/share/locale/el/LC_MESSAGES/diffutils.mo
+installing eo.gmo as /mnt/lfs/usr/share/locale/eo/LC_MESSAGES/diffutils.mo
+installing es.gmo as /mnt/lfs/usr/share/locale/es/LC_MESSAGES/diffutils.mo
+installing fi.gmo as /mnt/lfs/usr/share/locale/fi/LC_MESSAGES/diffutils.mo
+installing fr.gmo as /mnt/lfs/usr/share/locale/fr/LC_MESSAGES/diffutils.mo
+installing ga.gmo as /mnt/lfs/usr/share/locale/ga/LC_MESSAGES/diffutils.mo
+installing gl.gmo as /mnt/lfs/usr/share/locale/gl/LC_MESSAGES/diffutils.mo
+installing he.gmo as /mnt/lfs/usr/share/locale/he/LC_MESSAGES/diffutils.mo
+installing hr.gmo as /mnt/lfs/usr/share/locale/hr/LC_MESSAGES/diffutils.mo
+installing hu.gmo as /mnt/lfs/usr/share/locale/hu/LC_MESSAGES/diffutils.mo
+installing id.gmo as /mnt/lfs/usr/share/locale/id/LC_MESSAGES/diffutils.mo
+installing it.gmo as /mnt/lfs/usr/share/locale/it/LC_MESSAGES/diffutils.mo
+installing ja.gmo as /mnt/lfs/usr/share/locale/ja/LC_MESSAGES/diffutils.mo
+installing ka.gmo as /mnt/lfs/usr/share/locale/ka/LC_MESSAGES/diffutils.mo
+installing ko.gmo as /mnt/lfs/usr/share/locale/ko/LC_MESSAGES/diffutils.mo
+installing lv.gmo as /mnt/lfs/usr/share/locale/lv/LC_MESSAGES/diffutils.mo
+installing ms.gmo as /mnt/lfs/usr/share/locale/ms/LC_MESSAGES/diffutils.mo
+installing nb.gmo as /mnt/lfs/usr/share/locale/nb/LC_MESSAGES/diffutils.mo
+installing nl.gmo as /mnt/lfs/usr/share/locale/nl/LC_MESSAGES/diffutils.mo
+installing pl.gmo as /mnt/lfs/usr/share/locale/pl/LC_MESSAGES/diffutils.mo
+installing pt.gmo as /mnt/lfs/usr/share/locale/pt/LC_MESSAGES/diffutils.mo
+installing pt_BR.gmo as /mnt/lfs/usr/share/locale/pt_BR/LC_MESSAGES/diffutils.mo
+installing ro.gmo as /mnt/lfs/usr/share/locale/ro/LC_MESSAGES/diffutils.mo
+installing ru.gmo as /mnt/lfs/usr/share/locale/ru/LC_MESSAGES/diffutils.mo
+installing sr.gmo as /mnt/lfs/usr/share/locale/sr/LC_MESSAGES/diffutils.mo
+installing sv.gmo as /mnt/lfs/usr/share/locale/sv/LC_MESSAGES/diffutils.mo
+installing tr.gmo as /mnt/lfs/usr/share/locale/tr/LC_MESSAGES/diffutils.mo
+installing uk.gmo as /mnt/lfs/usr/share/locale/uk/LC_MESSAGES/diffutils.mo
+installing vi.gmo as /mnt/lfs/usr/share/locale/vi/LC_MESSAGES/diffutils.mo
+installing zh_CN.gmo as /mnt/lfs/usr/share/locale/zh_CN/LC_MESSAGES/diffutils.mo
+installing zh_TW.gmo as /mnt/lfs/usr/share/locale/zh_TW/LC_MESSAGES/diffutils.mo
+if test "diffutils" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /mnt/lfs/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /mnt/lfs/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /mnt/lfs/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/po'
+Making install in gnulib-tests
+make[1]: Entering directory '/mnt/lfs/sources/diffutils-3.12/gnulib-tests'
+make  install-recursive
+make[2]: Entering directory '/mnt/lfs/sources/diffutils-3.12/gnulib-tests'
+Making install in .
+make[3]: Entering directory '/mnt/lfs/sources/diffutils-3.12/gnulib-tests'
+make[4]: Entering directory '/mnt/lfs/sources/diffutils-3.12/gnulib-tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/gnulib-tests'
+make[3]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/gnulib-tests'
+make[2]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/gnulib-tests'
+make[1]: Leaving directory '/mnt/lfs/sources/diffutils-3.12/gnulib-tests'
+make[1]: Entering directory '/mnt/lfs/sources/diffutils-3.12'
+make[2]: Entering directory '/mnt/lfs/sources/diffutils-3.12'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/diffutils-3.12'
+make[1]: Leaving directory '/mnt/lfs/sources/diffutils-3.12'
