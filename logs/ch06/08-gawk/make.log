@@ -1,0 +1,276 @@
+make  all-recursive
+make[1]: Entering directory '/mnt/lfs/sources/gawk-5.3.2'
+Making all in support
+make[2]: Entering directory '/mnt/lfs/sources/gawk-5.3.2/support'
+depbase=`echo dfa.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT dfa.o -MD -MP -MF $depbase.Tpo -c -o dfa.o dfa.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo getopt.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT getopt.o -MD -MP -MF $depbase.Tpo -c -o getopt.o getopt.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo getopt1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT getopt1.o -MD -MP -MF $depbase.Tpo -c -o getopt1.o getopt1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo localeinfo.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT localeinfo.o -MD -MP -MF $depbase.Tpo -c -o localeinfo.o localeinfo.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo random.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT random.o -MD -MP -MF $depbase.Tpo -c -o random.o random.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo regex.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT regex.o -MD -MP -MF $depbase.Tpo -c -o regex.o regex.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo pma.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT pma.o -MD -MP -MF $depbase.Tpo -c -o pma.o pma.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo malloc/dynarray_at_failure.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT malloc/dynarray_at_failure.o -MD -MP -MF $depbase.Tpo -c -o malloc/dynarray_at_failure.o malloc/dynarray_at_failure.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo malloc/dynarray_emplace_enlarge.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT malloc/dynarray_emplace_enlarge.o -MD -MP -MF $depbase.Tpo -c -o malloc/dynarray_emplace_enlarge.o malloc/dynarray_emplace_enlarge.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo malloc/dynarray_finalize.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT malloc/dynarray_finalize.o -MD -MP -MF $depbase.Tpo -c -o malloc/dynarray_finalize.o malloc/dynarray_finalize.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo malloc/dynarray_resize.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT malloc/dynarray_resize.o -MD -MP -MF $depbase.Tpo -c -o malloc/dynarray_resize.o malloc/dynarray_resize.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo malloc/dynarray_resize_clear.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DGAWK -DHAVE_CONFIG_H -I"./.." -I. -I..    -g -O3 -DNDEBUG -DNDEBUG -g -O3 -DNDEBUG -MT malloc/dynarray_resize_clear.o -MD -MP -MF $depbase.Tpo -c -o malloc/dynarray_resize_clear.o malloc/dynarray_resize_clear.c &&\
+mv -f $depbase.Tpo $depbase.Po
+rm -f libsupport.a
+x86_64-lfs-linux-gnu-ar cru libsupport.a dfa.o getopt.o getopt1.o localeinfo.o random.o regex.o malloc/dynarray_at_failure.o malloc/dynarray_emplace_enlarge.o malloc/dynarray_finalize.o malloc/dynarray_resize.o malloc/dynarray_resize_clear.o pma.o 
+x86_64-lfs-linux-gnu-ranlib libsupport.a
+make[2]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2/support'
+Making all in .
+make[2]: Entering directory '/mnt/lfs/sources/gawk-5.3.2'
+depbase=`echo array.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT array.o -MD -MP -MF $depbase.Tpo -c -o array.o array.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo awkgram.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT awkgram.o -MD -MP -MF $depbase.Tpo -c -o awkgram.o awkgram.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo builtin.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT builtin.o -MD -MP -MF $depbase.Tpo -c -o builtin.o builtin.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo cint_array.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT cint_array.o -MD -MP -MF $depbase.Tpo -c -o cint_array.o cint_array.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo command.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT command.o -MD -MP -MF $depbase.Tpo -c -o command.o command.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo debug.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT debug.o -MD -MP -MF $depbase.Tpo -c -o debug.o debug.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo eval.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT eval.o -MD -MP -MF $depbase.Tpo -c -o eval.o eval.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo ext.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT ext.o -MD -MP -MF $depbase.Tpo -c -o ext.o ext.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo field.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT field.o -MD -MP -MF $depbase.Tpo -c -o field.o field.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo floatcomp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT floatcomp.o -MD -MP -MF $depbase.Tpo -c -o floatcomp.o floatcomp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo gawkapi.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT gawkapi.o -MD -MP -MF $depbase.Tpo -c -o gawkapi.o gawkapi.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo gawkmisc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT gawkmisc.o -MD -MP -MF $depbase.Tpo -c -o gawkmisc.o gawkmisc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo int_array.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT int_array.o -MD -MP -MF $depbase.Tpo -c -o int_array.o int_array.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo io.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT io.o -MD -MP -MF $depbase.Tpo -c -o io.o io.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT main.o -MD -MP -MF $depbase.Tpo -c -o main.o main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mpfr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT mpfr.o -MD -MP -MF $depbase.Tpo -c -o mpfr.o mpfr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo msg.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT msg.o -MD -MP -MF $depbase.Tpo -c -o msg.o msg.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo node.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT node.o -MD -MP -MF $depbase.Tpo -c -o node.o node.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo printf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT printf.o -MD -MP -MF $depbase.Tpo -c -o printf.o printf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo profile.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT profile.o -MD -MP -MF $depbase.Tpo -c -o profile.o profile.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo re.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT re.o -MD -MP -MF $depbase.Tpo -c -o re.o re.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo replace.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT replace.o -MD -MP -MF $depbase.Tpo -c -o replace.o replace.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo str_array.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT str_array.o -MD -MP -MF $depbase.Tpo -c -o str_array.o str_array.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo symbol.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT symbol.o -MD -MP -MF $depbase.Tpo -c -o symbol.o symbol.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo version.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DDEFPATH='".:/usr/share/awk"' -DDEFLIBPATH="\"/usr/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/usr/share/locale"' -I"./support" -I.    -g -O3 -DNDEBUG -g -O3 -DNDEBUG -MT version.o -MD -MP -MF $depbase.Tpo -c -o version.o version.c &&\
+mv -f $depbase.Tpo $depbase.Po
+x86_64-lfs-linux-gnu-gcc -g -O3 -DNDEBUG -g -O3 -DNDEBUG   -o gawk array.o awkgram.o builtin.o cint_array.o command.o debug.o eval.o ext.o field.o floatcomp.o gawkapi.o gawkmisc.o int_array.o io.o main.o mpfr.o msg.o node.o printf.o profile.o re.o replace.o str_array.o symbol.o version.o support/libsupport.a       -lm 
+make[2]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2'
+Making all in extension
+make[2]: Entering directory '/mnt/lfs/sources/gawk-5.3.2/extension'
+make  all-recursive
+make[3]: Entering directory '/mnt/lfs/sources/gawk-5.3.2/extension'
+Making all in po
+make[4]: Entering directory '/mnt/lfs/sources/gawk-5.3.2/extension/po'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2/extension/po'
+make[4]: Entering directory '/mnt/lfs/sources/gawk-5.3.2/extension'
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT testext.lo -MD -MP -MF .deps/testext.Tpo -c -o testext.lo testext.c
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT filefuncs.lo -MD -MP -MF .deps/filefuncs.Tpo -c -o filefuncs.lo filefuncs.c
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT stack.lo -MD -MP -MF .deps/stack.Tpo -c -o stack.lo stack.c
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT gawkfts.lo -MD -MP -MF .deps/gawkfts.Tpo -c -o gawkfts.lo gawkfts.c
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT fnmatch.lo -MD -MP -MF .deps/fnmatch.Tpo -c -o fnmatch.lo fnmatch.c
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT fork.lo -MD -MP -MF .deps/fork.Tpo -c -o fork.lo fork.c
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT inplace.lo -MD -MP -MF .deps/inplace.Tpo -c -o inplace.lo inplace.c
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT stack.lo -MD -MP -MF .deps/stack.Tpo -c stack.c  -fPIC -DPIC -o .libs/stack.o
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT fork.lo -MD -MP -MF .deps/fork.Tpo -c fork.c  -fPIC -DPIC -o .libs/fork.o
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT testext.lo -MD -MP -MF .deps/testext.Tpo -c testext.c  -fPIC -DPIC -o .libs/testext.o
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT inplace.lo -MD -MP -MF .deps/inplace.Tpo -c inplace.c  -fPIC -DPIC -o .libs/inplace.o
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT gawkfts.lo -MD -MP -MF .deps/gawkfts.Tpo -c gawkfts.c  -fPIC -DPIC -o .libs/gawkfts.o
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT filefuncs.lo -MD -MP -MF .deps/filefuncs.Tpo -c filefuncs.c  -fPIC -DPIC -o .libs/filefuncs.o
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT fnmatch.lo -MD -MP -MF .deps/fnmatch.Tpo -c fnmatch.c  -fPIC -DPIC -o .libs/fnmatch.o
+mv -f .deps/stack.Tpo .deps/stack.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT intdiv.lo -MD -MP -MF .deps/intdiv.Tpo -c -o intdiv.lo intdiv.c
+mv -f .deps/fnmatch.Tpo .deps/fnmatch.Plo
+mv -f .deps/fork.Tpo .deps/fork.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT ordchr.lo -MD -MP -MF .deps/ordchr.Tpo -c -o ordchr.lo ordchr.c
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT intdiv.lo -MD -MP -MF .deps/intdiv.Tpo -c intdiv.c  -fPIC -DPIC -o .libs/intdiv.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT readdir.lo -MD -MP -MF .deps/readdir.Tpo -c -o readdir.lo readdir.c
+mv -f .deps/inplace.Tpo .deps/inplace.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT readfile.lo -MD -MP -MF .deps/readfile.Tpo -c -o readfile.lo readfile.c
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT ordchr.lo -MD -MP -MF .deps/ordchr.Tpo -c ordchr.c  -fPIC -DPIC -o .libs/ordchr.o
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT readdir.lo -MD -MP -MF .deps/readdir.Tpo -c readdir.c  -fPIC -DPIC -o .libs/readdir.o
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT readfile.lo -MD -MP -MF .deps/readfile.Tpo -c readfile.c  -fPIC -DPIC -o .libs/readfile.o
+mv -f .deps/intdiv.Tpo .deps/intdiv.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT revoutput.lo -MD -MP -MF .deps/revoutput.Tpo -c -o revoutput.lo revoutput.c
+readdir.c: In function 'dir_get_record':
+readdir.c:221:27: warning: array subscript 1 is above array bounds of 'struct awk_field_info[1]' [-Warray-bounds=]
+  221 |         the_dir->fw.fields[1].len = flen-1;
+      |         ~~~~~~~~~~~~~~~~~~^~~
+In file included from readdir.c:65:
+./../gawkapi.h:142:11: note: while referencing 'fields'
+  142 |         } fields[1];            /* actual dimension should be nf */
+      |           ^~~~~~
+readdir.c:225:27: warning: array subscript 2 is above array bounds of 'struct awk_field_info[1]' [-Warray-bounds=]
+  225 |         the_dir->fw.fields[2].len = flen-1;
+      |         ~~~~~~~~~~~~~~~~~~^~~
+./../gawkapi.h:142:11: note: while referencing 'fields'
+  142 |         } fields[1];            /* actual dimension should be nf */
+      |           ^~~~~~
+readdir.c: In function 'dir_take_control_of':
+readdir.c:303:27: warning: array subscript 1 is above array bounds of 'struct awk_field_info[1]' [-Warray-bounds=]
+  303 |         the_dir->fw.fields[1].skip = 1; /* single '/' separator */
+      |         ~~~~~~~~~~~~~~~~~~^~~
+./../gawkapi.h:142:11: note: while referencing 'fields'
+  142 |         } fields[1];            /* actual dimension should be nf */
+      |           ^~~~~~
+readdir.c:304:27: warning: array subscript 2 is above array bounds of 'struct awk_field_info[1]' [-Warray-bounds=]
+  304 |         the_dir->fw.fields[2].skip = 1; /* single '/' separator */
+      |         ~~~~~~~~~~~~~~~~~~^~~
+./../gawkapi.h:142:11: note: while referencing 'fields'
+  142 |         } fields[1];            /* actual dimension should be nf */
+      |           ^~~~~~
+mv -f .deps/ordchr.Tpo .deps/ordchr.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT revtwoway.lo -MD -MP -MF .deps/revtwoway.Tpo -c -o revtwoway.lo revtwoway.c
+mv -f .deps/readdir.Tpo .deps/readdir.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT rwarray.lo -MD -MP -MF .deps/rwarray.Tpo -c -o rwarray.lo rwarray.c
+mv -f .deps/readfile.Tpo .deps/readfile.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I.  -I./..   -g -O3 -Wall -DNDEBUG -MT time.lo -MD -MP -MF .deps/time.Tpo -c -o time.lo time.c
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT revoutput.lo -MD -MP -MF .deps/revoutput.Tpo -c revoutput.c  -fPIC -DPIC -o .libs/revoutput.o
+mv -f .deps/gawkfts.Tpo .deps/gawkfts.Plo
+mv -f .deps/filefuncs.Tpo .deps/filefuncs.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o fnmatch.la -rpath /usr/lib/gawk fnmatch.lo  -lm 
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o fork.la -rpath /usr/lib/gawk fork.lo  -lm 
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT revtwoway.lo -MD -MP -MF .deps/revtwoway.Tpo -c revtwoway.c  -fPIC -DPIC -o .libs/revtwoway.o
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT rwarray.lo -MD -MP -MF .deps/rwarray.Tpo -c rwarray.c  -fPIC -DPIC -o .libs/rwarray.o
+mv -f .deps/testext.Tpo .deps/testext.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o inplace.la -rpath /usr/lib/gawk inplace.lo  -lm 
+libtool: compile:  x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I./.. -g -O3 -Wall -DNDEBUG -MT time.lo -MD -MP -MF .deps/time.Tpo -c time.c  -fPIC -DPIC -o .libs/time.o
+mv -f .deps/revoutput.Tpo .deps/revoutput.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o intdiv.la -rpath /usr/lib/gawk intdiv.lo   -lm -lm 
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/fork.o   -lm  -g -O3   -Wl,-soname -Wl,fork.so -o .libs/fork.so
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/fnmatch.o   -lm  -g -O3   -Wl,-soname -Wl,fnmatch.so -o .libs/fnmatch.so
+mv -f .deps/revtwoway.Tpo .deps/revtwoway.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o ordchr.la -rpath /usr/lib/gawk ordchr.lo  -lm 
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/inplace.o   -lm  -g -O3   -Wl,-soname -Wl,inplace.so -o .libs/inplace.so
+mv -f .deps/time.Tpo .deps/time.Plo
+libtool: link: ( cd ".libs" && rm -f "fork.la" && ln -s "../fork.la" "fork.la" )
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o readdir.la -rpath /usr/lib/gawk readdir.lo  -lm 
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o readfile.la -rpath /usr/lib/gawk readfile.lo  -lm 
+libtool: link: ( cd ".libs" && rm -f "fnmatch.la" && ln -s "../fnmatch.la" "fnmatch.la" )
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o revoutput.la -rpath /usr/lib/gawk revoutput.lo  -lm 
+libtool: link: ( cd ".libs" && rm -f "inplace.la" && ln -s "../inplace.la" "inplace.la" )
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o revtwoway.la -rpath /usr/lib/gawk revtwoway.lo  -lm 
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/intdiv.o   -lm  -g -O3   -Wl,-soname -Wl,intdiv.so -o .libs/intdiv.so
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/ordchr.o   -lm  -g -O3   -Wl,-soname -Wl,ordchr.so -o .libs/ordchr.so
+libtool: link: ( cd ".libs" && rm -f "intdiv.la" && ln -s "../intdiv.la" "intdiv.la" )
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o time.la -rpath /usr/lib/gawk time.lo  -lm 
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/readdir.o   -lm  -g -O3   -Wl,-soname -Wl,readdir.so -o .libs/readdir.so
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/readfile.o   -lm  -g -O3   -Wl,-soname -Wl,readfile.so -o .libs/readfile.so
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/revoutput.o   -lm  -g -O3   -Wl,-soname -Wl,revoutput.so -o .libs/revoutput.so
+mv -f .deps/rwarray.Tpo .deps/rwarray.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined -rpath /foo  -o testext.la  testext.lo   -lm 
+libtool: link: ( cd ".libs" && rm -f "ordchr.la" && ln -s "../ordchr.la" "ordchr.la" )
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o filefuncs.la -rpath /usr/lib/gawk filefuncs.lo stack.lo gawkfts.lo  -lm 
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/revtwoway.o   -lm  -g -O3   -Wl,-soname -Wl,revtwoway.so -o .libs/revtwoway.so
+libtool: link: ( cd ".libs" && rm -f "readfile.la" && ln -s "../readfile.la" "readfile.la" )
+libtool: link: ( cd ".libs" && rm -f "readdir.la" && ln -s "../readdir.la" "readdir.la" )
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-lfs-linux-gnu-gcc  -g -O3 -Wall -DNDEBUG -module -avoid-version -no-undefined  -o rwarray.la -rpath /usr/lib/gawk rwarray.lo   -lm 
+libtool: link: ( cd ".libs" && rm -f "revoutput.la" && ln -s "../revoutput.la" "revoutput.la" )
+libtool: link: ( cd ".libs" && rm -f "revtwoway.la" && ln -s "../revtwoway.la" "revtwoway.la" )
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/time.o   -lm  -g -O3   -Wl,-soname -Wl,time.so -o .libs/time.so
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/testext.o   -lm  -g -O3   -Wl,-soname -Wl,testext.so -o .libs/testext.so
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/filefuncs.o .libs/stack.o .libs/gawkfts.o   -lm  -g -O3   -Wl,-soname -Wl,filefuncs.so -o .libs/filefuncs.so
+libtool: link: ( cd ".libs" && rm -f "time.la" && ln -s "../time.la" "time.la" )
+libtool: link: x86_64-lfs-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/rwarray.o   -lm  -g -O3   -Wl,-soname -Wl,rwarray.so -o .libs/rwarray.so
+libtool: link: ( cd ".libs" && rm -f "testext.la" && ln -s "../testext.la" "testext.la" )
+libtool: link: ( cd ".libs" && rm -f "filefuncs.la" && ln -s "../filefuncs.la" "filefuncs.la" )
+libtool: link: ( cd ".libs" && rm -f "rwarray.la" && ln -s "../rwarray.la" "rwarray.la" )
+make[4]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2/extension'
+make[3]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2/extension'
+make[2]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2/extension'
+Making all in doc
+make[2]: Entering directory '/mnt/lfs/sources/gawk-5.3.2/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2/doc'
+Making all in awklib
+make[2]: Entering directory '/mnt/lfs/sources/gawk-5.3.2/awklib'
+rm -f pwcat.c
+rm -f grcat.c
+sed 's;/usr/local/libexec/awk;/usr/libexec/awk;' < ./eg/lib/passwdawk.in > passwd.awk
+sed 's;/usr/local/libexec/awk;/usr/libexec/awk;' < ./eg/lib/groupawk.in > group.awk
+ln -s ./eg/lib/pwcat.c .
+ln -s ./eg/lib/grcat.c .
+depbase=`echo pwcat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I..  -I.. -I.. -I../support   -g -O2 -DNDEBUG -MT pwcat.o -MD -MP -MF $depbase.Tpo -c -o pwcat.o pwcat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo grcat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-lfs-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I..  -I.. -I.. -I../support   -g -O2 -DNDEBUG -MT grcat.o -MD -MP -MF $depbase.Tpo -c -o grcat.o grcat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+x86_64-lfs-linux-gnu-gcc  -g -O2 -DNDEBUG   -o pwcat pwcat.o  -lm 
+x86_64-lfs-linux-gnu-gcc  -g -O2 -DNDEBUG   -o grcat grcat.o  -lm 
+make[2]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2/awklib'
+Making all in po
+make[2]: Entering directory '/mnt/lfs/sources/gawk-5.3.2/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2/po'
+Making all in test
+make[2]: Entering directory '/mnt/lfs/sources/gawk-5.3.2/test'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2/test'
+make[1]: Leaving directory '/mnt/lfs/sources/gawk-5.3.2'

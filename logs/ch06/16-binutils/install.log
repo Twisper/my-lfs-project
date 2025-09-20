@@ -1,0 +1,281 @@
+make[1]: Entering directory '/mnt/lfs/sources/binutils-2.45/build'
+/bin/sh ../mkinstalldirs /mnt/lfs/usr /mnt/lfs/usr
+make[1]: Nothing to be done for 'install-target'.
+make[2]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/etc'
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/etc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/etc'
+make[2]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/etc'
+make[2]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/libiberty'
+make[2]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/libsframe'
+make[2]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gprof'
+make  install-recursive
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/libiberty/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/libiberty/testsuite'
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/libiberty/testsuite'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/libiberty/testsuite'
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/libsframe'
+if test -n ""; then \
+	/bin/sh ../../libiberty/../mkinstalldirs /mnt/lfs/usr/lib/`x86_64-lfs-linux-gnu-gcc -g -O2     -print-multi-os-directory`; \
+	/usr/bin/install -c -m 644 ./libiberty.a /mnt/lfs/usr/lib/`x86_64-lfs-linux-gnu-gcc -g -O2     -print-multi-os-directory`/./libiberty.an; \
+	( cd /mnt/lfs/usr/lib/`x86_64-lfs-linux-gnu-gcc -g -O2     -print-multi-os-directory` ; chmod 644 ./libiberty.an ;x86_64-lfs-linux-gnu-ranlib --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so ./libiberty.an ); \
+	mv -f /mnt/lfs/usr/lib/`x86_64-lfs-linux-gnu-gcc -g -O2     -print-multi-os-directory`/./libiberty.an /mnt/lfs/usr/lib/`x86_64-lfs-linux-gnu-gcc -g -O2     -print-multi-os-directory`/./libiberty.a; \
+	case "" in \
+	  /*)    thd=;; \
+	  *)     thd=/usr/include/;; \
+	esac; \
+	/bin/sh ../../libiberty/../mkinstalldirs /mnt/lfs${thd}; \
+	for h in ../../libiberty/../include/ansidecl.h ../../libiberty/../include/demangle.h ../../libiberty/../include/doubly-linked-list.h ../../libiberty/../include/dyn-string.h ../../libiberty/../include/fibheap.h ../../libiberty/../include/floatformat.h ../../libiberty/../include/hashtab.h ../../libiberty/../include/libiberty.h ../../libiberty/../include/objalloc.h ../../libiberty/../include/partition.h ../../libiberty/../include/safe-ctype.h ../../libiberty/../include/sort.h ../../libiberty/../include/splay-tree.h ../../libiberty/../include/timeval-utils.h; do \
+	  /usr/bin/install -c -m 644 $h /mnt/lfs${thd}; \
+	done; \
+fi
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gprof'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/include'
+make[2]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gas'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/lib'
+make[2]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/libiberty'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libsframe.la '/mnt/lfs/usr/lib'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/info'
+ /usr/bin/install -c -m 644 ../../libsframe/../include/sframe.h ../../libsframe/../include/sframe-api.h '/mnt/lfs/usr/include'
+Making install in po
+Making install in po
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gprof/po'
+make[4]: Nothing to be done for 'install'.
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gprof/po'
+Making install in testsuite
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gas/po'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gas/po'
+ /usr/bin/install -c -m 644 ../../libsframe/doc/sframe-spec.info '/mnt/lfs/usr/share/info'
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gprof/testsuite'
+libtool: install: /usr/bin/install -c .libs/libsframe.so.2.0.0 /mnt/lfs/usr/lib/libsframe.so.2.0.0
+libtool: install: (cd /mnt/lfs/usr/lib && { ln -s -f libsframe.so.2.0.0 libsframe.so.2 || { rm -f libsframe.so.2 && ln -s libsframe.so.2.0.0 libsframe.so.2; }; })
+make[5]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gprof/testsuite'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gprof/testsuite'
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gprof/testsuite'
+libtool: install: (cd /mnt/lfs/usr/lib && { ln -s -f libsframe.so.2.0.0 libsframe.so || { rm -f libsframe.so && ln -s libsframe.so.2.0.0 libsframe.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsframe.lai /mnt/lfs/usr/lib/libsframe.la
+libtool: install: /usr/bin/install -c .libs/libsframe.a /mnt/lfs/usr/lib/libsframe.a
+libtool: install: chmod 644 /mnt/lfs/usr/lib/libsframe.a
+libtool: install: x86_64-lfs-linux-gnu-ranlib --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so /mnt/lfs/usr/lib/libsframe.a
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gas'
+  GEN      doc/asconfig.texi
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gprof'
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/libsframe'
+make[2]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/libsframe'
+make[5]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gprof'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/bin'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/info'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c gprof '/mnt/lfs/usr/bin'
+ /usr/bin/install -c -m 644 ../../gprof/gprof.info '/mnt/lfs/usr/share/info'
+ /usr/bin/install -c -m 644 ../../gprof/gprof.1 '/mnt/lfs/usr/share/man/man1'
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/gas'
+make[2]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/bfd'
+make  install-recursive
+libtool: install: /usr/bin/install -c .libs/gprof /mnt/lfs/usr/bin/gprof
+/bin/sh ../../gas/../mkinstalldirs /mnt/lfs/usr/bin
+  GEN      doc/asconfig.texi
+make[5]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gprof'
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gprof'
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gprof'
+make[2]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gprof'
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c as-new /usr/bin/as
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/info'
+ /usr/bin/install -c -m 644 doc/as.1 '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../gas/doc/as.info '/mnt/lfs/usr/share/info'
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/bfd'
+Making install in po
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/bfd/po'
+make[4]: Nothing to be done for 'install'.
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/bfd/po'
+libtool: install: /usr/bin/install -c .libs/as-new /mnt/lfs/usr/bin/as
+/bin/sh ../../gas/../mkinstalldirs /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin
+mkdir -p -- /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin
+n=`echo as | sed 's,y,y,'`; \
+if [ "/usr/bin/$n" != "/usr/x86_64-lfs-linux-gnu/bin/as" ]; then \
+  rm -f /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/as; \
+  ln /mnt/lfs/usr/bin/$n /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/as >/dev/null 2>/dev/null \
+    ||  /bin/sh ./libtool --mode=install /usr/bin/install -c as-new /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/as; \
+else \
+  true ; \
+fi
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gas'
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gas'
+make[2]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/gas'
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/bfd'
+make[5]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/bfd'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/mnt/lfs/usr/include'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libbfd.la '/mnt/lfs/usr/lib'
+ /usr/bin/install -c -m 644 bfd.h ../../bfd/../include/ansidecl.h ../../bfd/../include/symcat.h ../../bfd/../include/diagnostics.h ../../bfd/../include/bfdlink.h ../../bfd/../include/plugin-api.h '/mnt/lfs/usr/include'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/info'
+ /usr/bin/install -c -m 644 ../../bfd/doc/bfd.info '/mnt/lfs/usr/share/info'
+libtool: install: (cd /mnt/lfs/sources/binutils-2.45/build/bfd; /bin/sh /mnt/lfs/sources/binutils-2.45/build/bfd/libtool  --silent --tag CC --mode=relink x86_64-lfs-linux-gnu-gcc -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wstack-usage=262144 -I../../bfd/../zlib -g -O2 -release 2.45 -o libbfd.la -rpath /usr/lib archive.lo archures.lo bfd.lo bfdio.lo cache.lo coff-bfd.lo compress.lo corefile.lo elf-properties.lo format.lo hash.lo libbfd.lo linker.lo merge.lo opncls.lo reloc.lo section.lo simple.lo stab-syms.lo stabs.lo syms.lo targets.lo binary.lo ihex.lo srec.lo tekhex.lo verilog.lo elf64-x86-64.lo elfxx-x86.lo elf-ifunc.lo elf-vxworks.lo elf64.lo elf.lo elflink.lo elf-attrs.lo elf-strtab.lo elf-eh-frame.lo elf-sframe.lo dwarf1.lo dwarf2.lo elf32-i386.lo elf32.lo pei-i386.lo peigen.lo cofflink.lo coffgen.lo pe-x86_64.lo pex64igen.lo pei-x86_64.lo elf64-gen.lo elf32-gen.lo plugin.lo cpu-i386.lo cpu-iamcu.lo archive64.lo -L/mnt/lfs/sources/binutils-2.45/build/bfd/../libiberty/pic -liberty -Wl,-lc,--as-needed,-lm,--no-as-needed -L./../zlib -lz ../libsframe/libsframe.la -inst-prefix-dir /mnt/lfs)
+libtool: install: /usr/bin/install -c .libs/libbfd-2.45.soT /mnt/lfs/usr/lib/libbfd-2.45.so
+libtool: install: (cd /mnt/lfs/usr/lib && { ln -s -f libbfd-2.45.so libbfd.so || { rm -f libbfd.so && ln -s libbfd-2.45.so libbfd.so; }; })
+libtool: install: /usr/bin/install -c .libs/libbfd.lai /mnt/lfs/usr/lib/libbfd.la
+libtool: install: /usr/bin/install -c .libs/libbfd.a /mnt/lfs/usr/lib/libbfd.a
+libtool: install: chmod 644 /mnt/lfs/usr/lib/libbfd.a
+libtool: install: x86_64-lfs-linux-gnu-ranlib --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so /mnt/lfs/usr/lib/libbfd.a
+make[5]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/bfd'
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/bfd'
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/bfd'
+make[2]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/bfd'
+make[2]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/libctf'
+make[2]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/opcodes'
+Making install in .
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/libctf'
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/opcodes'
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/libctf'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/include'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libctf.la libctf-nobfd.la '/mnt/lfs/usr/lib'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/info'
+ /usr/bin/install -c -m 644 ../../libctf/../include/ctf.h ../../libctf/../include/ctf-api.h '/mnt/lfs/usr/include'
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/opcodes'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ../../libctf/doc/ctf-spec.info '/mnt/lfs/usr/share/info'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/include'
+ /usr/bin/install -c -m 644 ../../opcodes/../include/dis-asm.h '/mnt/lfs/usr/include'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/lib'
+libtool: install: (cd /mnt/lfs/sources/binutils-2.45/build/libctf; /bin/sh /mnt/lfs/sources/binutils-2.45/build/libctf/libtool  --silent --tag CC --mode=relink x86_64-lfs-linux-gnu-gcc -std=gnu99 -Wall -W -Wall -Wno-narrowing -Wwrite-strings -Wmissing-format-attribute -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -pedantic -Wno-long-long -I../../libctf/../zlib -g -O2 -version-info 0:0:0 -Wl,--version-script=../../libctf/libctf.ver -o libctf.la -rpath /usr/lib libctf_la-ctf-archive.lo libctf_la-ctf-dump.lo libctf_la-ctf-create.lo libctf_la-ctf-decl.lo libctf_la-ctf-error.lo libctf_la-ctf-hash.lo libctf_la-ctf-labels.lo libctf_la-ctf-dedup.lo libctf_la-ctf-link.lo libctf_la-ctf-lookup.lo libctf_la-ctf-open.lo libctf_la-ctf-serialize.lo libctf_la-ctf-sha1.lo libctf_la-ctf-string.lo libctf_la-ctf-subr.lo libctf_la-ctf-types.lo libctf_la-ctf-util.lo libctf_la-ctf-open-bfd.lo -L/mnt/lfs/sources/binutils-2.45/build/libctf/../libiberty/pic -liberty ../bfd/libbfd.la -L/mnt/lfs/sources/binutils-2.45/build/libctf/../libiberty/pic -liberty -L./../zlib -lz -inst-prefix-dir /mnt/lfs)
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libopcodes.la '/mnt/lfs/usr/lib'
+libtool: install: (cd /mnt/lfs/sources/binutils-2.45/build/opcodes; /bin/sh /mnt/lfs/sources/binutils-2.45/build/opcodes/libtool  --silent --tag CC --mode=relink x86_64-lfs-linux-gnu-gcc -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wstack-usage=262144 -g -O2 -release 2.45 -o libopcodes.la -rpath /usr/lib dis-buf.lo disassemble.lo dis-init.lo i386-dis.lo ../bfd/libbfd.la -L/mnt/lfs/sources/binutils-2.45/build/opcodes/../libiberty/pic -liberty -Wl,-lc,--as-needed,-lm,--no-as-needed -inst-prefix-dir /mnt/lfs)
+libtool: install: /usr/bin/install -c .libs/libopcodes-2.45.soT /mnt/lfs/usr/lib/libopcodes-2.45.so
+libtool: install: (cd /mnt/lfs/usr/lib && { ln -s -f libopcodes-2.45.so libopcodes.so || { rm -f libopcodes.so && ln -s libopcodes-2.45.so libopcodes.so; }; })
+libtool: install: /usr/bin/install -c .libs/libopcodes.lai /mnt/lfs/usr/lib/libopcodes.la
+libtool: install: /usr/bin/install -c .libs/libctf.so.0.0.0T /mnt/lfs/usr/lib/libctf.so.0.0.0
+libtool: install: /usr/bin/install -c .libs/libopcodes.a /mnt/lfs/usr/lib/libopcodes.a
+libtool: install: (cd /mnt/lfs/usr/lib && { ln -s -f libctf.so.0.0.0 libctf.so.0 || { rm -f libctf.so.0 && ln -s libctf.so.0.0.0 libctf.so.0; }; })
+libtool: install: chmod 644 /mnt/lfs/usr/lib/libopcodes.a
+libtool: install: (cd /mnt/lfs/usr/lib && { ln -s -f libctf.so.0.0.0 libctf.so || { rm -f libctf.so && ln -s libctf.so.0.0.0 libctf.so; }; })
+libtool: install: x86_64-lfs-linux-gnu-ranlib --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so /mnt/lfs/usr/lib/libopcodes.a
+libtool: install: /usr/bin/install -c .libs/libctf.lai /mnt/lfs/usr/lib/libctf.la
+libtool: install: /usr/bin/install -c .libs/libctf-nobfd.so.0.0.0 /mnt/lfs/usr/lib/libctf-nobfd.so.0.0.0
+libtool: install: (cd /mnt/lfs/usr/lib && { ln -s -f libctf-nobfd.so.0.0.0 libctf-nobfd.so.0 || { rm -f libctf-nobfd.so.0 && ln -s libctf-nobfd.so.0.0.0 libctf-nobfd.so.0; }; })
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/opcodes'
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/opcodes'
+Making install in po
+libtool: install: (cd /mnt/lfs/usr/lib && { ln -s -f libctf-nobfd.so.0.0.0 libctf-nobfd.so || { rm -f libctf-nobfd.so && ln -s libctf-nobfd.so.0.0.0 libctf-nobfd.so; }; })
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/opcodes/po'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/opcodes/po'
+libtool: install: /usr/bin/install -c .libs/libctf-nobfd.lai /mnt/lfs/usr/lib/libctf-nobfd.la
+make[2]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/opcodes'
+libtool: install: /usr/bin/install -c .libs/libctf.a /mnt/lfs/usr/lib/libctf.a
+libtool: install: chmod 644 /mnt/lfs/usr/lib/libctf.a
+libtool: install: x86_64-lfs-linux-gnu-ranlib --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so /mnt/lfs/usr/lib/libctf.a
+libtool: install: /usr/bin/install -c .libs/libctf-nobfd.a /mnt/lfs/usr/lib/libctf-nobfd.a
+libtool: install: chmod 644 /mnt/lfs/usr/lib/libctf-nobfd.a
+libtool: install: x86_64-lfs-linux-gnu-ranlib --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so --plugin /mnt/lfs/tools/libexec/gcc/x86_64-lfs-linux-gnu/15.2.0/liblto_plugin.so /mnt/lfs/usr/lib/libctf-nobfd.a
+make[2]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/binutils'
+make  install-recursive
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/libctf'
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/libctf'
+make[2]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/libctf'
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/binutils'
+Making install in po
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/binutils/po'
+make[4]: Nothing to be done for 'install'.
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/binutils/po'
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/binutils'
+make[2]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/ld'
+make  install-recursive
+make[5]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/binutils'
+make[3]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/ld'
+Making install in po
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/ld/po'
+make[4]: Nothing to be done for 'install'.
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/ld/po'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/bin'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/info'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c size objdump ar strings ranlib objcopy addr2line readelf elfedit '/mnt/lfs/usr/bin'
+ /usr/bin/install -c -m 644 ../../binutils/doc/binutils.info '/mnt/lfs/usr/share/info'
+ /usr/bin/install -c -m 644 doc/addr2line.1 doc/ar.1 doc/dlltool.1 doc/nm.1 doc/objcopy.1 doc/objdump.1 doc/ranlib.1 doc/readelf.1 doc/size.1 doc/strings.1 doc/strip.1 doc/elfedit.1 doc/windres.1 doc/windmc.1 doc/c++filt.1 '/mnt/lfs/usr/share/man/man1'
+make[4]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/ld'
+libtool: install: /usr/bin/install -c .libs/size /mnt/lfs/usr/bin/size
+libtool: install: /usr/bin/install -c .libs/objdump /mnt/lfs/usr/bin/objdump
+make[5]: Entering directory '/mnt/lfs/sources/binutils-2.45/build/ld'
+libtool: install: /usr/bin/install -c .libs/ar /mnt/lfs/usr/bin/ar
+libtool: install: /usr/bin/install -c .libs/strings /mnt/lfs/usr/bin/strings
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/bin'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/lib/bfd-plugins'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/info'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libdep.la '/mnt/lfs/usr/lib/bfd-plugins'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c ld-new '/mnt/lfs/usr/bin/./ld.bfd'
+ /usr/bin/install -c -m 644 ../../ld/ld.1 '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../ld/ld.info ../../ld/ldint.info '/mnt/lfs/usr/share/info'
+libtool: install: /usr/bin/install -c .libs/libdep.so /mnt/lfs/usr/lib/bfd-plugins/libdep.so
+libtool: install: /usr/bin/install -c .libs/libdep.lai /mnt/lfs/usr/lib/bfd-plugins/libdep.la
+/bin/sh ../../ld/../mkinstalldirs /mnt/lfs/usr/x86_64-lfs-linux-gnu/lib/ldscripts
+libtool: install: /usr/bin/install -c .libs/ranlib /mnt/lfs/usr/bin/ranlib
+mkdir -p -- /mnt/lfs/usr/x86_64-lfs-linux-gnu/lib/ldscripts
+for f in ldscripts/* ; do \
+  case $f in \
+    stamp) ;; \
+    *) /usr/bin/install -c -m 644 $f /mnt/lfs/usr/x86_64-lfs-linux-gnu/lib/$f ; \
+  esac \
+done
+libtool: install: /usr/bin/install -c .libs/objcopy /mnt/lfs/usr/bin/objcopy
+libtool: install: /usr/bin/install -c .libs/ld-new /mnt/lfs/usr/bin/./ld.bfd
+/bin/sh ../../ld/../mkinstalldirs /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin
+n=`echo ld.bfd | sed 's/^ld-new$/ld.bfd/;s,y,y,'`; \
+if test "/usr/bin" != "/usr/x86_64-lfs-linux-gnu/bin"; then \
+  rm -f /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/ld.bfd; \
+  ln /mnt/lfs/usr/bin/$n /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/ld.bfd >/dev/null 2>/dev/null \
+  ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/ld.bfd; \
+fi; \
+if test "xyes" = "xyes"; then \
+  ld=`echo ld | sed 's/^ld-new$/ld.bfd/;s,y,y,'`; \
+  rm -f /mnt/lfs/usr/bin/$ld; \
+  ln /mnt/lfs/usr/bin/$n /mnt/lfs/usr/bin/$ld >/dev/null 2>/dev/null \
+  ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /mnt/lfs/usr/bin/$ld; \
+  if test "/usr/bin" != "/usr/x86_64-lfs-linux-gnu/bin"; then \
+    rm -f /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/ld; \
+    ln /mnt/lfs/usr/bin/$n /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/ld >/dev/null 2>/dev/null \
+    ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/ld; \
+  fi; \
+fi
+libtool: install: /usr/bin/install -c .libs/addr2line /mnt/lfs/usr/bin/addr2line
+libtool: install: /usr/bin/install -c .libs/readelf /mnt/lfs/usr/bin/readelf
+libtool: install: /usr/bin/install -c elfedit /mnt/lfs/usr/bin/elfedit
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c nm-new /usr/bin/nm
+libtool: install: /usr/bin/install -c .libs/nm-new /mnt/lfs/usr/bin/nm
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c strip-new /usr/bin/strip
+libtool: install: /usr/bin/install -c .libs/strip-new /mnt/lfs/usr/bin/strip
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c cxxfilt /usr/bin/c++filt
+libtool: install: /usr/bin/install -c .libs/cxxfilt /mnt/lfs/usr/bin/c++filt
+/bin/sh ../../binutils/../mkinstalldirs /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin
+for i in nm-new strip-new ar ranlib dlltool objdump objcopy readelf; do \
+  if [ -f $i ]; then \
+    j=`echo $i | sed -e 's/-new//'`; \
+    k=`echo $j | sed 's,y,y,'`; \
+    if [ "/usr/bin/$k" != "/usr/x86_64-lfs-linux-gnu/bin/$j" ]; then \
+      rm -f /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/$j; \
+      ln /mnt/lfs/usr/bin/$k /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/$j >/dev/null 2>/dev/null \
+	||  /bin/sh ./libtool --mode=install /usr/bin/install -c $i /mnt/lfs/usr/x86_64-lfs-linux-gnu/bin/$j; \
+    fi; \
+  else true; \
+  fi; \
+done
+rm -f /mnt/lfs/usr/lib/bfd-plugins/libdep.la
+make[5]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/binutils'
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/binutils'
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/binutils'
+make[2]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/binutils'
+rm -f /mnt/lfs/usr/lib/bfd-plugins/libdep.dll.a
+make[5]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/ld'
+make[4]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/ld'
+make[3]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/ld'
+make[2]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build/ld'
+make[1]: Leaving directory '/mnt/lfs/sources/binutils-2.45/build'

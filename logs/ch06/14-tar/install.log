@@ -1,0 +1,123 @@
+Making install in doc
+make[1]: Entering directory '/mnt/lfs/sources/tar-1.35/doc'
+make[2]: Entering directory '/mnt/lfs/sources/tar-1.35/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/man/man8'
+ /usr/bin/mkdir -p '/mnt/lfs/usr/share/info'
+ /usr/bin/install -c -m 644 tar.1 '/mnt/lfs/usr/share/man/man1'
+ /usr/bin/install -c -m 644 rmt.8 '/mnt/lfs/usr/share/man/man8'
+ /usr/bin/install -c -m 644 ./tar.info ./tar.info-1 ./tar.info-2 ./tar.info-3 '/mnt/lfs/usr/share/info'
+make[2]: Leaving directory '/mnt/lfs/sources/tar-1.35/doc'
+make[1]: Leaving directory '/mnt/lfs/sources/tar-1.35/doc'
+Making install in gnu
+make[1]: Entering directory '/mnt/lfs/sources/tar-1.35/gnu'
+make  install-recursive
+make[2]: Entering directory '/mnt/lfs/sources/tar-1.35/gnu'
+make[3]: Entering directory '/mnt/lfs/sources/tar-1.35/gnu'
+make[4]: Entering directory '/mnt/lfs/sources/tar-1.35/gnu'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/mnt/lfs/sources/tar-1.35/gnu'
+make[3]: Leaving directory '/mnt/lfs/sources/tar-1.35/gnu'
+make[2]: Leaving directory '/mnt/lfs/sources/tar-1.35/gnu'
+make[1]: Leaving directory '/mnt/lfs/sources/tar-1.35/gnu'
+Making install in lib
+make[1]: Entering directory '/mnt/lfs/sources/tar-1.35/lib'
+make  install-am
+make[2]: Entering directory '/mnt/lfs/sources/tar-1.35/lib'
+make[3]: Entering directory '/mnt/lfs/sources/tar-1.35/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/mnt/lfs/sources/tar-1.35/lib'
+make[2]: Leaving directory '/mnt/lfs/sources/tar-1.35/lib'
+make[1]: Leaving directory '/mnt/lfs/sources/tar-1.35/lib'
+Making install in rmt
+make[1]: Entering directory '/mnt/lfs/sources/tar-1.35/rmt'
+make[2]: Entering directory '/mnt/lfs/sources/tar-1.35/rmt'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/mnt/lfs/usr/libexec'
+  /usr/bin/install -c rmt '/mnt/lfs/usr/libexec'
+make[2]: Leaving directory '/mnt/lfs/sources/tar-1.35/rmt'
+make[1]: Leaving directory '/mnt/lfs/sources/tar-1.35/rmt'
+Making install in src
+make[1]: Entering directory '/mnt/lfs/sources/tar-1.35/src'
+make[2]: Entering directory '/mnt/lfs/sources/tar-1.35/src'
+make[2]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/mnt/lfs/usr/bin'
+  /usr/bin/install -c tar '/mnt/lfs/usr/bin'
+make[2]: Leaving directory '/mnt/lfs/sources/tar-1.35/src'
+make[1]: Leaving directory '/mnt/lfs/sources/tar-1.35/src'
+Making install in scripts
+make[1]: Entering directory '/mnt/lfs/sources/tar-1.35/scripts'
+make[2]: Entering directory '/mnt/lfs/sources/tar-1.35/scripts'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/tar-1.35/scripts'
+make[1]: Leaving directory '/mnt/lfs/sources/tar-1.35/scripts'
+Making install in po
+make[1]: Entering directory '/mnt/lfs/sources/tar-1.35/po'
+installing bg.gmo as /mnt/lfs/usr/share/locale/bg/LC_MESSAGES/tar.mo
+installing ca.gmo as /mnt/lfs/usr/share/locale/ca/LC_MESSAGES/tar.mo
+installing cs.gmo as /mnt/lfs/usr/share/locale/cs/LC_MESSAGES/tar.mo
+installing da.gmo as /mnt/lfs/usr/share/locale/da/LC_MESSAGES/tar.mo
+installing de.gmo as /mnt/lfs/usr/share/locale/de/LC_MESSAGES/tar.mo
+installing el.gmo as /mnt/lfs/usr/share/locale/el/LC_MESSAGES/tar.mo
+installing eo.gmo as /mnt/lfs/usr/share/locale/eo/LC_MESSAGES/tar.mo
+installing es.gmo as /mnt/lfs/usr/share/locale/es/LC_MESSAGES/tar.mo
+installing et.gmo as /mnt/lfs/usr/share/locale/et/LC_MESSAGES/tar.mo
+installing eu.gmo as /mnt/lfs/usr/share/locale/eu/LC_MESSAGES/tar.mo
+installing fi.gmo as /mnt/lfs/usr/share/locale/fi/LC_MESSAGES/tar.mo
+installing fr.gmo as /mnt/lfs/usr/share/locale/fr/LC_MESSAGES/tar.mo
+installing ga.gmo as /mnt/lfs/usr/share/locale/ga/LC_MESSAGES/tar.mo
+installing gl.gmo as /mnt/lfs/usr/share/locale/gl/LC_MESSAGES/tar.mo
+installing hr.gmo as /mnt/lfs/usr/share/locale/hr/LC_MESSAGES/tar.mo
+installing hu.gmo as /mnt/lfs/usr/share/locale/hu/LC_MESSAGES/tar.mo
+installing id.gmo as /mnt/lfs/usr/share/locale/id/LC_MESSAGES/tar.mo
+installing it.gmo as /mnt/lfs/usr/share/locale/it/LC_MESSAGES/tar.mo
+installing ja.gmo as /mnt/lfs/usr/share/locale/ja/LC_MESSAGES/tar.mo
+installing ka.gmo as /mnt/lfs/usr/share/locale/ka/LC_MESSAGES/tar.mo
+installing ko.gmo as /mnt/lfs/usr/share/locale/ko/LC_MESSAGES/tar.mo
+installing ky.gmo as /mnt/lfs/usr/share/locale/ky/LC_MESSAGES/tar.mo
+installing ms.gmo as /mnt/lfs/usr/share/locale/ms/LC_MESSAGES/tar.mo
+installing nb.gmo as /mnt/lfs/usr/share/locale/nb/LC_MESSAGES/tar.mo
+installing nl.gmo as /mnt/lfs/usr/share/locale/nl/LC_MESSAGES/tar.mo
+installing pl.gmo as /mnt/lfs/usr/share/locale/pl/LC_MESSAGES/tar.mo
+installing pt.gmo as /mnt/lfs/usr/share/locale/pt/LC_MESSAGES/tar.mo
+installing pt_BR.gmo as /mnt/lfs/usr/share/locale/pt_BR/LC_MESSAGES/tar.mo
+installing ro.gmo as /mnt/lfs/usr/share/locale/ro/LC_MESSAGES/tar.mo
+installing ru.gmo as /mnt/lfs/usr/share/locale/ru/LC_MESSAGES/tar.mo
+installing sk.gmo as /mnt/lfs/usr/share/locale/sk/LC_MESSAGES/tar.mo
+installing sl.gmo as /mnt/lfs/usr/share/locale/sl/LC_MESSAGES/tar.mo
+installing sr.gmo as /mnt/lfs/usr/share/locale/sr/LC_MESSAGES/tar.mo
+installing sv.gmo as /mnt/lfs/usr/share/locale/sv/LC_MESSAGES/tar.mo
+installing tr.gmo as /mnt/lfs/usr/share/locale/tr/LC_MESSAGES/tar.mo
+installing uk.gmo as /mnt/lfs/usr/share/locale/uk/LC_MESSAGES/tar.mo
+installing vi.gmo as /mnt/lfs/usr/share/locale/vi/LC_MESSAGES/tar.mo
+installing zh_CN.gmo as /mnt/lfs/usr/share/locale/zh_CN/LC_MESSAGES/tar.mo
+installing zh_TW.gmo as /mnt/lfs/usr/share/locale/zh_TW/LC_MESSAGES/tar.mo
+if test "tar" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /mnt/lfs/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /mnt/lfs/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /mnt/lfs/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/mnt/lfs/sources/tar-1.35/po'
+Making install in tests
+make[1]: Entering directory '/mnt/lfs/sources/tar-1.35/tests'
+make[2]: Entering directory '/mnt/lfs/sources/tar-1.35/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/tar-1.35/tests'
+make[1]: Leaving directory '/mnt/lfs/sources/tar-1.35/tests'
+make[1]: Entering directory '/mnt/lfs/sources/tar-1.35'
+make[2]: Entering directory '/mnt/lfs/sources/tar-1.35'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/mnt/lfs/sources/tar-1.35'
+make[1]: Leaving directory '/mnt/lfs/sources/tar-1.35'
