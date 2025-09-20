@@ -9,8 +9,8 @@ echo "Created logging directory"
 cd $LFS/sources
 
 echo "Unpacking M4"
-tar -xf "M4-1.4.20.tar.xz"
-cd M4-1.4.20
+tar -xf "m4-1.4.20.tar.xz"
+cd m4-1.4.20
 echo "Unpacking is done"
 
 (./configure --prefix=/usr   \
