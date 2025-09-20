@@ -25,7 +25,7 @@ echo "Unpacking done"
 
 echo "Building and installing Bash"
 make 2>&1 | tee "$LOG_DIR/make.log"
-make DESTDIR=$LFS install | tee 2>&1 "$LOG_DIR/install.log"
+make DESTDIR=$LFS install 2>&1 | tee "$LOG_DIR/install.log"
 ln -sv bash $LFS/bin/sh
 
 echo "Installing done. Cleaning up"
