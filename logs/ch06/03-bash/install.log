@@ -1,0 +1,245 @@
+
+make[1]: Entering directory '/mnt/lfs/sources/bash-5.3/builtins'
+make[1]: 'pipesize.h' is up to date.
+make[1]: Leaving directory '/mnt/lfs/sources/bash-5.3/builtins'
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 5.3.0(1)-release (x86_64-lfs-linux-gnu)
+	  *                                                         *
+mkdir -p -- /mnt/lfs/usr/share/doc/bash
+	  ***********************************************************
+( cd ./po/ ; make  DESTDIR=/mnt/lfs installdirs )
+
+make[1]: Entering directory '/mnt/lfs/sources/bash-5.3/po'
+/bin/sh ../support/mkinstalldirs /mnt/lfs/usr/share
+mkdir -p -- /mnt/lfs/usr/share/locale/en@quot/LC_MESSAGES
+mkdir -p -- /mnt/lfs/usr/share/locale/en@boldquot/LC_MESSAGES
+mkdir -p -- /mnt/lfs/usr/share/locale/af/LC_MESSAGES
+mkdir -p -- /mnt/lfs/usr/share/locale/et/LC_MESSAGES
+mkdir -p -- /mnt/lfs/usr/share/locale/sq/LC_MESSAGES
+if test "bash" = "gettext-tools"; then \
+  /bin/sh ../support/mkinstalldirs /mnt/lfs/usr/share/gettext/po; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/mnt/lfs/sources/bash-5.3/po'
+/usr/bin/install -c -m 0755 bash /mnt/lfs/usr/bin/bash
+/usr/bin/install -c -m 0555 bashbug /mnt/lfs/usr/bin/bashbug
+/usr/bin/install -c -m 644 ./CHANGES ./COMPAT ./NEWS ./POSIX ./RBASH ./README /mnt/lfs/usr/share/doc/bash
+( cd ./doc ; make  \
+	man1dir=/usr/share/man/man1 man1ext=.1 \
+	man3dir=/usr/share/man/man3 man3ext=.3 \
+	infodir=/usr/share/info htmldir=/usr/share/doc/bash DESTDIR=/mnt/lfs install )
+make[1]: Entering directory '/mnt/lfs/sources/bash-5.3/doc'
+/bin/sh ../support/mkinstalldirs /mnt/lfs/usr/share/man/man1
+/bin/sh ../support/mkinstalldirs /mnt/lfs/usr/share/info
+/bin/sh ../support/mkinstalldirs /mnt/lfs/usr/share/doc/bash
+if test -n "/usr/share/doc/bash" ; then \
+	/bin/sh ../support/mkinstalldirs /mnt/lfs/usr/share/doc/bash ; \
+fi
+/usr/bin/install -c -m 644 ./bash.1 /mnt/lfs/usr/share/man/man1/bash.1
+/usr/bin/install -c -m 644 ./bashbug.1 /mnt/lfs/usr/share/man/man1/bashbug.1
+/usr/bin/install -c -m 644 ./FAQ ./INTRO /mnt/lfs/usr/share/doc/bash
+if test -f bash.info; then d=.; else d=.; fi; \
+  /usr/bin/install -c -m 644 $d/bash.info /mnt/lfs/usr/share/info/bash.info
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+	install-info --dir-file=/mnt/lfs/usr/share/info/dir /mnt/lfs/usr/share/info/bash.info; \
+else true; fi
+if test -n "/usr/share/doc/bash" ; then \
+	/usr/bin/install -c -m 644 ./bash.html /mnt/lfs/usr/share/doc/bash ; \
+	/usr/bin/install -c -m 644 ./bashref.html /mnt/lfs/usr/share/doc/bash ; \
+fi
+make[1]: Leaving directory '/mnt/lfs/sources/bash-5.3/doc'
+( cd ./builtins ; make  DESTDIR=/mnt/lfs install )
+make[1]: Entering directory '/mnt/lfs/sources/bash-5.3/builtins'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/mnt/lfs/sources/bash-5.3/builtins'
+( cd ./po/ ; make  DESTDIR=/mnt/lfs install )
+make[1]: Entering directory '/mnt/lfs/sources/bash-5.3/po'
+/bin/sh ../support/mkinstalldirs /mnt/lfs/usr/share
+installing en@quot.gmo as /mnt/lfs/usr/share/locale/en@quot/LC_MESSAGES/bash.mo
+installing en@boldquot.gmo as /mnt/lfs/usr/share/locale/en@boldquot/LC_MESSAGES/bash.mo
+installing af.gmo as /mnt/lfs/usr/share/locale/af/LC_MESSAGES/bash.mo
+installing bg.gmo as /mnt/lfs/usr/share/locale/bg/LC_MESSAGES/bash.mo
+installing ca.gmo as /mnt/lfs/usr/share/locale/ca/LC_MESSAGES/bash.mo
+installing cs.gmo as /mnt/lfs/usr/share/locale/cs/LC_MESSAGES/bash.mo
+installing da.gmo as /mnt/lfs/usr/share/locale/da/LC_MESSAGES/bash.mo
+installing de.gmo as /mnt/lfs/usr/share/locale/de/LC_MESSAGES/bash.mo
+installing el.gmo as /mnt/lfs/usr/share/locale/el/LC_MESSAGES/bash.mo
+installing eo.gmo as /mnt/lfs/usr/share/locale/eo/LC_MESSAGES/bash.mo
+installing es.gmo as /mnt/lfs/usr/share/locale/es/LC_MESSAGES/bash.mo
+installing et.gmo as /mnt/lfs/usr/share/locale/et/LC_MESSAGES/bash.mo
+installing fi.gmo as /mnt/lfs/usr/share/locale/fi/LC_MESSAGES/bash.mo
+installing fr.gmo as /mnt/lfs/usr/share/locale/fr/LC_MESSAGES/bash.mo
+installing ga.gmo as /mnt/lfs/usr/share/locale/ga/LC_MESSAGES/bash.mo
+installing gl.gmo as /mnt/lfs/usr/share/locale/gl/LC_MESSAGES/bash.mo
+installing hr.gmo as /mnt/lfs/usr/share/locale/hr/LC_MESSAGES/bash.mo
+installing hu.gmo as /mnt/lfs/usr/share/locale/hu/LC_MESSAGES/bash.mo
+installing id.gmo as /mnt/lfs/usr/share/locale/id/LC_MESSAGES/bash.mo
+installing it.gmo as /mnt/lfs/usr/share/locale/it/LC_MESSAGES/bash.mo
+installing ja.gmo as /mnt/lfs/usr/share/locale/ja/LC_MESSAGES/bash.mo
+installing ka.gmo as /mnt/lfs/usr/share/locale/ka/LC_MESSAGES/bash.mo
+installing ko.gmo as /mnt/lfs/usr/share/locale/ko/LC_MESSAGES/bash.mo
+installing lt.gmo as /mnt/lfs/usr/share/locale/lt/LC_MESSAGES/bash.mo
+installing nb.gmo as /mnt/lfs/usr/share/locale/nb/LC_MESSAGES/bash.mo
+installing nl.gmo as /mnt/lfs/usr/share/locale/nl/LC_MESSAGES/bash.mo
+installing pl.gmo as /mnt/lfs/usr/share/locale/pl/LC_MESSAGES/bash.mo
+installing pt.gmo as /mnt/lfs/usr/share/locale/pt/LC_MESSAGES/bash.mo
+installing pt_BR.gmo as /mnt/lfs/usr/share/locale/pt_BR/LC_MESSAGES/bash.mo
+installing ro.gmo as /mnt/lfs/usr/share/locale/ro/LC_MESSAGES/bash.mo
+installing ru.gmo as /mnt/lfs/usr/share/locale/ru/LC_MESSAGES/bash.mo
+installing sk.gmo as /mnt/lfs/usr/share/locale/sk/LC_MESSAGES/bash.mo
+installing sl.gmo as /mnt/lfs/usr/share/locale/sl/LC_MESSAGES/bash.mo
+installing sq.gmo as /mnt/lfs/usr/share/locale/sq/LC_MESSAGES/bash.mo
+installing sr.gmo as /mnt/lfs/usr/share/locale/sr/LC_MESSAGES/bash.mo
+installing sv.gmo as /mnt/lfs/usr/share/locale/sv/LC_MESSAGES/bash.mo
+installing tr.gmo as /mnt/lfs/usr/share/locale/tr/LC_MESSAGES/bash.mo
+installing uk.gmo as /mnt/lfs/usr/share/locale/uk/LC_MESSAGES/bash.mo
+installing vi.gmo as /mnt/lfs/usr/share/locale/vi/LC_MESSAGES/bash.mo
+installing zh_CN.gmo as /mnt/lfs/usr/share/locale/zh_CN/LC_MESSAGES/bash.mo
+installing zh_TW.gmo as /mnt/lfs/usr/share/locale/zh_TW/LC_MESSAGES/bash.mo
+if test "bash" = "gettext-tools"; then \
+  /bin/sh ../support/mkinstalldirs /mnt/lfs/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /mnt/lfs/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /mnt/lfs/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/mnt/lfs/sources/bash-5.3/po'
+( cd /mnt/lfs/sources/bash-5.3/examples/loadables && make  DESTDIR=/mnt/lfs install )
+make[1]: Entering directory '/mnt/lfs/sources/bash-5.3/examples/loadables'
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o print.o print.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o truefalse.o truefalse.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o sleep.o sleep.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o finfo.o finfo.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o logname.o logname.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o basename.o basename.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o dirname.o dirname.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o fdflags.o fdflags.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o tty.o tty.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o pathchk.o pathchk.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o tee.o tee.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o head.o head.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o mkdir.o mkdir.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o rmdir.o rmdir.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o mkfifo.o mkfifo.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o mktemp.o mktemp.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o printenv.o printenv.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o id.o id.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o whoami.o whoami.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o uname.o uname.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o sync.o sync.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o push.o push.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o ln.o ln.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o unlink.o unlink.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o realpath.o realpath.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o strftime.o strftime.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o mypid.o mypid.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o setpgid.o setpgid.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o seq.o seq.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o rm.o rm.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o accept.o accept.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o csv.o csv.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o dsv.o dsv.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o cut.o cut.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o stat.o stat.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o getconf.o getconf.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o kv.o kv.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o strptime.o strptime.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o chmod.o chmod.c
+x86_64-lfs-linux-gnu-gcc -fPIC -DHAVE_CONFIG_H -DSHELL   -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/mnt/lfs/sources/bash-5.3 -I/mnt/lfs/sources/bash-5.3/lib -I/mnt/lfs/sources/bash-5.3/builtins  -c -o fltexpr.o fltexpr.c
+mkdir -p -- /mnt/lfs/usr/lib/bash
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,print   -o print print.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,truefalse   -o truefalse truefalse.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,sleep   -o sleep sleep.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,finfo   -o finfo finfo.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,logname   -o logname logname.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,basename   -o basename basename.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,dirname   -o dirname dirname.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,fdflags   -o fdflags fdflags.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,tty   -o tty tty.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,pathchk   -o pathchk pathchk.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,tee   -o tee tee.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,head   -o head head.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,mkdir   -o mkdir mkdir.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,rmdir   -o rmdir rmdir.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,mkfifo   -o mkfifo mkfifo.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,mktemp   -o mktemp mktemp.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,printenv   -o printenv printenv.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,id   -o id id.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,whoami   -o whoami whoami.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,uname   -o uname uname.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,sync   -o sync sync.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,push   -o push push.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,ln   -o ln ln.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,unlink   -o unlink unlink.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,realpath   -o realpath realpath.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,strftime   -o strftime strftime.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,mypid   -o mypid mypid.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,setpgid   -o setpgid setpgid.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,seq   -o seq seq.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,rm   -o rm rm.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,accept   -o accept accept.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,csv   -o csv csv.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,dsv   -o dsv dsv.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,cut   -o cut cut.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,stat   -o stat stat.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,getconf   -o getconf getconf.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,kv   -o kv kv.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,strptime   -o strptime strptime.o 
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,chmod   -o chmod chmod.o 
+make[2]: Entering directory '/mnt/lfs/sources/bash-5.3'
+mkdir -p -- /mnt/lfs/usr/include/bash
+mkdir -p -- /mnt/lfs/usr/include/bash/builtins
+mkdir -p -- /mnt/lfs/usr/include/bash/include
+mkdir -p -- /mnt/lfs/usr/lib/pkgconfig
+/usr/bin/install -c -m 644 ./support/bash.pc /mnt/lfs/usr/lib/pkgconfig/bash.pc
+make[2]: Leaving directory '/mnt/lfs/sources/bash-5.3'
+x86_64-lfs-linux-gnu-gcc -shared -Wl,-soname,fltexpr   -o fltexpr fltexpr.o  -lm
+installing example loadable builtins in /mnt/lfs/usr/lib/bash
+print
+truefalse
+sleep
+finfo
+logname
+basename
+dirname
+fdflags
+tty
+pathchk
+tee
+head
+mkdir
+rmdir
+mkfifo
+mktemp
+printenv
+id
+whoami
+uname
+sync
+push
+ln
+unlink
+realpath
+strftime
+mypid
+setpgid
+seq
+rm
+accept
+csv
+dsv
+cut
+stat
+getconf
+kv
+strptime
+chmod
+fltexpr
+make[1]: Leaving directory '/mnt/lfs/sources/bash-5.3/examples/loadables'
