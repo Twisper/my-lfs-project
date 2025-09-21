@@ -30,7 +30,7 @@ echo "Unpacking done"
 
 echo "Building and installing ${PKT_NAME}"
 make 2>&1 | tee "$LOG_DIR/make.log"
-make DESTDIR=$LFS install | tee 2>&1 "$LOG_DIR/install.log"
+make DESTDIR=$LFS install 2>&1 | tee "$LOG_DIR/install.log"
 
 rm -v $LFS/usr/lib/liblzma.la
 
