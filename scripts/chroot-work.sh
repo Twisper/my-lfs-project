@@ -44,11 +44,8 @@ echo "Unbinding project directories..."
 umount $LFS/lfs-project
 
 echo "Unmounting virtual kernel filesystems"
+mountpoint -q $LFS/dev/shm && umount $LFS/dev/shm
 umount $LFS/dev/pts
-umount $LFS/dev/shm
-umount $LFS/dev
-umount $LFS/proc
-umount $LFS/sys
-umount $LFS/run
+umount $LFS/{sys,proc,run,dev}
 
 echo "Chroot environment successfully unmounted"
