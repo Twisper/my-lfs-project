@@ -41,7 +41,7 @@ echo "Exited chroot. Cleaning up"
 echo "Unmounting LFS chroot environment"
 
 echo "Unbinding project directories..."
-umount $LFS/lfs-project
+umount $LFS/lfs_project
 
 echo "Unmounting virtual kernel filesystems"
 mountpoint -q $LFS/dev/shm && umount $LFS/dev/shm
