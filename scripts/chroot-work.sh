@@ -2,6 +2,8 @@
 
 set -e
 
+export LFS=/mnt/lfs
+
 if ! findmnt -v | grep -q "$LFS"; then
     echo "LFS partition is not mounted. Mounting..."
     mount -v -L LFS $LFS
