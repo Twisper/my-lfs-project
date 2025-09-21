@@ -20,6 +20,7 @@ else
   mount -vt tmpfs -o nosuid,nodev tmpfs $LFS/dev/shm
 fi
 
+mkdir -pv $LFS/lfs_project
 mount --bind /home/twisper/lfs_project $LFS/lfs_project
 
 echo "Entering chroot. Type exit to return"
