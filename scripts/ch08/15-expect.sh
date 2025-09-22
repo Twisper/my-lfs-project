@@ -11,10 +11,10 @@ CHPTR_NUM=$(basename "$CHPTR_DIR" | sed 's/ch//')
 
 TAR_NAME=$(find . -maxdepth 1 -name "${PKT_NAME}-*.tar.*" | head -n 1)
 
-if [[ -z "$TAR_NAME" ]]; then
-    echo "ERROR: No package with name ${PKT_NAME} found in /sources!"
-    exit 1
-fi
+#if [[ -z "$TAR_NAME" ]]; then
+#    echo "ERROR: No package with name ${PKT_NAME} found in /sources!"
+#    exit 1
+#fi
 
 FLD_NAME=$(basename "$TAR_NAME" | sed 's/\.tar\..*$//')
 VER_NAME=$(echo "$FLD_NAME" | sed "s/^${PKT_NAME}-//")
@@ -29,8 +29,8 @@ echo "Created logging directory"
 cd /sources
 
 echo "Unpacking ${PKT_NAME}"
-tar -xf "$TAR_NAME"
-cd "$FLD_NAME"
+tar -xf expect5.45.4.tar.gz
+cd expect5.45.4
 echo "Unpacking done"
 
 python3 -c 'from pty import spawn; spawn(["echo", "ok"])'
