@@ -1,0 +1,199 @@
+Making directory /usr/lib/tcl8.6
+Making directory /usr/lib/tcl8.6/msgs
+Making directory /usr/share/man/mann
+Installing libtcl8.6.so to /usr/lib/
+Installing header files to /usr/include/
+Configuring package 'itcl4.3.2'
+Configuring package 'sqlite3.47.2'
+Configuring package 'tdbc1.1.10'
+Configuring package 'tdbcmysql1.1.10'
+Configuring package 'tdbcodbc1.1.10'
+Making directory /usr/lib/tcl8.6/../tcl8
+Installing and cross-linking top-level (.1) docs to /usr/share/man/man1/
+Installing message catalog files to /usr/lib/tcl8.6/msgs/
+Installing tclsh as /usr/bin/tclsh8.6
+Configuring package 'tdbcpostgres1.1.10'
+Configuring package 'tdbcsqlite3-1.1.10'
+Configuring package 'thread2.8.11'
+Building package 'itcl4.3.2'
+Installing tclConfig.sh to /usr/lib/
+Making directory /usr/lib/tcl8.6/opt0.4
+Installing and cross-linking C API (.3) docs to /usr/share/man/man3/
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/itcl4.3.2'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/itcl4.3.2'
+Building package 'sqlite3.47.2'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/sqlite3.47.2'
+If you have documentation to create, place the commands to
+build the docs in the 'doc:' target.  For example:
+        xml2nroff sample.xml > sample.n
+Making directory /usr/lib/tcl8.6/http1.0
+Installing tclooConfig.sh to /usr/lib/
+        xml2html sample.xml > sample.html
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/sqlite3.47.2'
+Building package 'tdbc1.1.10'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/tdbc1.1.10'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/tdbc1.1.10'
+Building package 'tdbcmysql1.1.10'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/tdbcmysql1.1.10'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/tdbcmysql1.1.10'
+Installing libtclstub8.6.a to /usr/lib/
+Building package 'tdbcodbc1.1.10'
+Making directory /usr/lib/tcl8.6/encoding
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/tdbcodbc1.1.10'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/tdbcodbc1.1.10'
+Building package 'tdbcpostgres1.1.10'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/tdbcpostgres1.1.10'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/tdbcpostgres1.1.10'
+Installing pkg-config file to /usr/lib/pkgconfig/
+Building package 'tdbcsqlite3-1.1.10'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/tdbcsqlite3-1.1.10'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/tdbcsqlite3-1.1.10'
+Building package 'thread2.8.11'
+Making directory /usr/lib/tcl8.6/../tcl8/8.4
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/thread2.8.11'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/thread2.8.11'
+Installing package 'itcl4.3.2'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/itcl4.3.2'
+Installing header files in /usr/include
+Making directory /usr/lib/tcl8.6/../tcl8/8.4/platform
+Installing documentation in /usr/share/man
+Installing /sources/tcl8.6.16/pkgs/itcl4.3.2/generic/itcl.h
+Installing body.n
+Installing /sources/tcl8.6.16/pkgs/itcl4.3.2/generic/itclDecls.h
+ /bin/sh /sources/tcl8.6.16/pkgs/itcl4.3.2/tclconfig/install-sh -c  -m 644 libitcl4.3.2.so /usr/lib/itcl4.3.2/libitcl4.3.2.so
+Making directory /usr/lib/tcl8.6/../tcl8/8.5
+Installing class.n
+Installing /sources/tcl8.6.16/pkgs/itcl4.3.2/generic/itclInt.h
+ /bin/sh /sources/tcl8.6.16/pkgs/itcl4.3.2/tclconfig/install-sh -c  -m 644 libitclstub4.3.2.a /usr/lib/itcl4.3.2/libitclstub4.3.2.a
+Making directory /usr/lib/tcl8.6/../tcl8/8.6
+Installing /sources/tcl8.6.16/pkgs/itcl4.3.2/generic/itclMigrate2TclCore.h
+Installing code.n
+Installing /sources/tcl8.6.16/pkgs/itcl4.3.2/generic/itclTclIntStubsFcn.h
+ Install itcl.tcl /usr/lib/itcl4.3.2/itcl.tcl
+Installing configbody.n
+Installing library files to /usr/lib/tcl8.6/
+Installing /sources/tcl8.6.16/pkgs/itcl4.3.2/generic/itcl2TclOO.h
+ Install itclWidget.tcl /usr/lib/itcl4.3.2/itclWidget.tcl
+Installing delete.n
+Installing /sources/tcl8.6.16/pkgs/itcl4.3.2/generic/itclIntDecls.h
+ Install itclHullCmds.tcl /usr/lib/itcl4.3.2/itclHullCmds.tcl
+ Install pkgIndex.tcl /usr/lib/itcl4.3.2
+Installing ensemble.n
+/bin/sh /sources/tcl8.6.16/pkgs/itcl4.3.2/tclconfig/install-sh -c  -m 644 itclConfig.sh "/usr/lib/itcl4.3.2"
+Installing find.n
+Installing is.n
+Installing itcl.n
+Installing itclcomponent.n
+Installing itcldelegate.n
+Installing package http1.0 files to /usr/lib/tcl8.6/http1.0/
+Installing itclextendedclass.n
+Installing itcloption.n
+Installing package http 2.9.8 as a Tcl Module
+Installing itclvars.n
+Installing package opt0.4 files to /usr/lib/tcl8.6/opt0.4/
+Installing itclwidget.n
+Installing package msgcat 1.6.1 as a Tcl Module
+Installing local.n
+Installing package tcltest 2.5.9 as a Tcl Module
+Installing scope.n
+Installing package platform 1.0.19 as a Tcl Module
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/itcl4.3.2'
+Installing package 'sqlite3.47.2'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/sqlite3.47.2'
+Installing package platform::shell 1.1.4 as a Tcl Module
+If you have documentation to create, place the commands to
+build the docs in the 'doc:' target.  For example:
+        xml2nroff sample.xml > sample.n
+Installing header files in /usr/include
+        xml2html sample.xml > sample.html
+/bin/sh /sources/tcl8.6.16/pkgs/sqlite3.47.2/tclconfig/install-sh -c  -m 755 /sources/tcl8.6.16/pkgs/sqlite3.47.2/compat/sqlite3/spaceanal.tcl "/usr/bin/sqlite3_analyzer"
+Installing documentation in /usr/share/man
+Installing encoding files to /usr/lib/tcl8.6/encoding/
+Installing /sources/tcl8.6.16/pkgs/sqlite3.47.2/doc/sqlite3.n
+ /bin/sh /sources/tcl8.6.16/pkgs/sqlite3.47.2/tclconfig/install-sh -c  -m 644 libsqlite3.47.2.so /usr/lib/sqlite3.47.2/libsqlite3.47.2.so
+ Install pkgIndex.tcl /usr/lib/sqlite3.47.2
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/sqlite3.47.2'
+Installing package 'tdbc1.1.10'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/tdbc1.1.10'
+Installing header files in /usr/include
+Installing documentation in /usr/share/man
+Installing /sources/tcl8.6.16/pkgs/tdbc1.1.10/doc/Tdbc_Init.3
+Installing /sources/tcl8.6.16/pkgs/tdbc1.1.10/generic/tdbc.h
+ /bin/sh /sources/tcl8.6.16/pkgs/tdbc1.1.10/tclconfig/install-sh -c  -m 644 libtdbc1.1.10.so /usr/lib/tdbc1.1.10/libtdbc1.1.10.so
+Installing /sources/tcl8.6.16/pkgs/tdbc1.1.10/generic/tdbcInt.h
+Installing /sources/tcl8.6.16/pkgs/tdbc1.1.10/doc/tdbc.n
+Installing /sources/tcl8.6.16/pkgs/tdbc1.1.10/generic/tdbcDecls.h
+ /bin/sh /sources/tcl8.6.16/pkgs/tdbc1.1.10/tclconfig/install-sh -c  -m 644 libtdbcstub1.1.10.a /usr/lib/tdbc1.1.10/libtdbcstub1.1.10.a
+Installing /sources/tcl8.6.16/pkgs/tdbc1.1.10/doc/tdbc_connection.n
+Installing /sources/tcl8.6.16/pkgs/tdbc1.1.10/doc/tdbc_mapSqlState.n
+ Install tdbc.tcl /usr/lib/tdbc1.1.10/tdbc.tcl
+Installing /sources/tcl8.6.16/pkgs/tdbc1.1.10/doc/tdbc_resultset.n
+ Install pkgIndex.tcl /usr/lib/tdbc1.1.10
+Installing /sources/tcl8.6.16/pkgs/tdbc1.1.10/doc/tdbc_statement.n
+ Install tdbcConfig.sh /usr/lib/tdbc1.1.10
+Installing /sources/tcl8.6.16/pkgs/tdbc1.1.10/doc/tdbc_tokenize.n
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/tdbc1.1.10'
+Installing package 'tdbcmysql1.1.10'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/tdbcmysql1.1.10'
+Installing header files in /usr/include
+Installing documentation in /usr/share/man
+Installing /sources/tcl8.6.16/pkgs/tdbcmysql1.1.10/generic/fakemysql.h
+Installing /sources/tcl8.6.16/pkgs/tdbcmysql1.1.10/doc/tdbc_mysql.n
+ /bin/sh /sources/tcl8.6.16/pkgs/tdbcmysql1.1.10/tclconfig/install-sh -c  -m 644 libtdbcmysql1.1.10.so /usr/lib/tdbcmysql1.1.10/libtdbcmysql1.1.10.so
+Installing /sources/tcl8.6.16/pkgs/tdbcmysql1.1.10/generic/mysqlStubs.h
+ Install tdbcmysql.tcl /usr/lib/tdbcmysql1.1.10/tdbcmysql.tcl
+ Install pkgIndex.tcl /usr/lib/tdbcmysql1.1.10
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/tdbcmysql1.1.10'
+Installing package 'tdbcodbc1.1.10'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/tdbcodbc1.1.10'
+Installing header files in /usr/include
+Installing documentation in /usr/share/man
+Installing /sources/tcl8.6.16/pkgs/tdbcodbc1.1.10/generic/fakesql.h
+Installing /sources/tcl8.6.16/pkgs/tdbcodbc1.1.10/doc/tdbc_odbc.n
+Installing /sources/tcl8.6.16/pkgs/tdbcodbc1.1.10/generic/odbcStubs.h
+ /bin/sh /sources/tcl8.6.16/pkgs/tdbcodbc1.1.10/tclconfig/install-sh -c  -m 644 libtdbcodbc1.1.10.so /usr/lib/tdbcodbc1.1.10/libtdbcodbc1.1.10.so
+ Install tdbcodbc.tcl /usr/lib/tdbcodbc1.1.10/tdbcodbc.tcl
+ Install pkgIndex.tcl /usr/lib/tdbcodbc1.1.10
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/tdbcodbc1.1.10'
+Installing package 'tdbcpostgres1.1.10'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/tdbcpostgres1.1.10'
+Installing documentation in /usr/share/man
+Installing header files in /usr/include
+Installing /sources/tcl8.6.16/pkgs/tdbcpostgres1.1.10/doc/tdbc_postgres.n
+Installing /sources/tcl8.6.16/pkgs/tdbcpostgres1.1.10/generic/fakepq.h
+ /bin/sh /sources/tcl8.6.16/pkgs/tdbcpostgres1.1.10/tclconfig/install-sh -c  -m 644 libtdbcpostgres1.1.10.so /usr/lib/tdbcpostgres1.1.10/libtdbcpostgres1.1.10.so
+Installing /sources/tcl8.6.16/pkgs/tdbcpostgres1.1.10/generic/pqStubs.h
+ Install tdbcpostgres.tcl /usr/lib/tdbcpostgres1.1.10/tdbcpostgres.tcl
+ Install pkgIndex.tcl /usr/lib/tdbcpostgres1.1.10
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/tdbcpostgres1.1.10'
+Installing package 'tdbcsqlite3-1.1.10'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/tdbcsqlite3-1.1.10'
+Installing documentation in /usr/share/man
+Installing /sources/tcl8.6.16/pkgs/tdbcsqlite3-1.1.10/doc/tdbc_sqlite3.n
+/bin/sh /sources/tcl8.6.16/pkgs/tdbcsqlite3-1.1.10/tclconfig/install-sh -c  -m 644 /sources/tcl8.6.16/pkgs/tdbcsqlite3-1.1.10/library/tdbcsqlite3.tcl \
+    /usr/lib/tcl8/8.6/`echo tdbcsqlite3 | sed s=tdbc=tdbc/=`-1.1.10.tm
+/bin/sh /sources/tcl8.6.16/pkgs/tdbcsqlite3-1.1.10/tclconfig/install-sh -c  -m 644 /sources/tcl8.6.16/pkgs/tdbcsqlite3-1.1.10/manifest.uuid \
+    /usr/lib/tcl8/8.6/`echo tdbcsqlite3 | sed s=tdbc=tdbc/=`-1.1.10.uuid
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/tdbcsqlite3-1.1.10'
+Installing package 'thread2.8.11'
+make[1]: Entering directory '/sources/tcl8.6.16/unix/pkgs/thread2.8.11'
+Installing header files in /usr/include
+Installing documentation in /usr/share/man
+Installing /sources/tcl8.6.16/pkgs/thread2.8.11/generic/tclThread.h
+Installing /sources/tcl8.6.16/pkgs/thread2.8.11/doc/man/thread.n
+Installing /sources/tcl8.6.16/pkgs/thread2.8.11/doc/man/tpool.n
+ /bin/sh /sources/tcl8.6.16/pkgs/thread2.8.11/tclconfig/install-sh -c  -m 644 libthread2.8.11.so /usr/lib/thread2.8.11/libthread2.8.11.so
+Installing /sources/tcl8.6.16/pkgs/thread2.8.11/doc/man/tsv.n
+ : /usr/lib/thread2.8.11/libthread2.8.11.so
+Installing /sources/tcl8.6.16/pkgs/thread2.8.11/doc/man/ttrace.n
+ Install ttrace.tcl /usr/lib/thread2.8.11/ttrace.tcl
+ Install pkgIndex.tcl /usr/lib/thread2.8.11
+make[1]: Leaving directory '/sources/tcl8.6.16/unix/pkgs/thread2.8.11'
+Installing and cross-linking command (.n) docs to /usr/share/man/mann/
