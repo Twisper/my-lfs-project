@@ -1,0 +1,138 @@
+Making install in src
+make[1]: Entering directory '/sources/flex-2.6.4/src'
+make[2]: Entering directory '/sources/flex-2.6.4/src'
+ /usr/bin/mkdir -p '/usr/lib'
+ /usr/bin/mkdir -p '/usr/include'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libfl.la '/usr/lib'
+ /usr/bin/install -c -m 644 FlexLexer.h '/usr/include'
+libtool: install: /usr/bin/install -c .libs/libfl.so.2.0.0 /usr/lib/libfl.so.2.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libfl.so.2.0.0 libfl.so.2 || { rm -f libfl.so.2 && ln -s libfl.so.2.0.0 libfl.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libfl.so.2.0.0 libfl.so || { rm -f libfl.so && ln -s libfl.so.2.0.0 libfl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libfl.lai /usr/lib/libfl.la
+libtool: finish: PATH="/usr/bin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c flex '/usr/bin'
+libtool: install: /usr/bin/install -c flex /usr/bin/flex
+make[2]: Leaving directory '/sources/flex-2.6.4/src'
+make[1]: Leaving directory '/sources/flex-2.6.4/src'
+Making install in doc
+make[1]: Entering directory '/sources/flex-2.6.4/doc'
+make[2]: Entering directory '/sources/flex-2.6.4/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 flex.1 '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ./flex.info ./flex.info-1 ./flex.info-2 '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/flex.info'
+make[2]: Leaving directory '/sources/flex-2.6.4/doc'
+make[1]: Leaving directory '/sources/flex-2.6.4/doc'
+Making install in examples
+make[1]: Entering directory '/sources/flex-2.6.4/examples'
+Making install in manual
+make[2]: Entering directory '/sources/flex-2.6.4/examples/manual'
+make[3]: Entering directory '/sources/flex-2.6.4/examples/manual'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/flex-2.6.4/examples/manual'
+make[2]: Leaving directory '/sources/flex-2.6.4/examples/manual'
+Making install in fastwc
+make[2]: Entering directory '/sources/flex-2.6.4/examples/fastwc'
+make[3]: Entering directory '/sources/flex-2.6.4/examples/fastwc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/flex-2.6.4/examples/fastwc'
+make[2]: Leaving directory '/sources/flex-2.6.4/examples/fastwc'
+make[2]: Entering directory '/sources/flex-2.6.4/examples'
+make[3]: Entering directory '/sources/flex-2.6.4/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/flex-2.6.4/examples'
+make[2]: Leaving directory '/sources/flex-2.6.4/examples'
+make[1]: Leaving directory '/sources/flex-2.6.4/examples'
+Making install in po
+make[1]: Entering directory '/sources/flex-2.6.4/po'
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/flex.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/flex.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/flex.mo
+installing en@quot.gmo as /usr/share/locale/en@quot/LC_MESSAGES/flex.mo
+installing en@boldquot.gmo as /usr/share/locale/en@boldquot/LC_MESSAGES/flex.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/flex.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/flex.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/flex.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/flex.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/flex.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/flex.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/flex.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/flex.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/flex.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/flex.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/flex.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/flex.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/flex.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/flex.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/flex.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/flex.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/flex.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/flex.mo
+if test "flex" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/flex-2.6.4/po'
+Making install in tests
+make[1]: Entering directory '/sources/flex-2.6.4/tests'
+Makefile:2917: warning: ignoring prerequisites on suffix rule definition
+Makefile:2920: warning: ignoring prerequisites on suffix rule definition
+Makefile:2947: warning: ignoring prerequisites on suffix rule definition
+make[2]: Entering directory '/sources/flex-2.6.4/tests'
+Makefile:2917: warning: ignoring prerequisites on suffix rule definition
+Makefile:2920: warning: ignoring prerequisites on suffix rule definition
+Makefile:2947: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/flex-2.6.4/tests'
+make[1]: Leaving directory '/sources/flex-2.6.4/tests'
+Making install in tools
+make[1]: Entering directory '/sources/flex-2.6.4/tools'
+make[2]: Entering directory '/sources/flex-2.6.4/tools'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/flex-2.6.4/tools'
+make[1]: Leaving directory '/sources/flex-2.6.4/tools'
+make[1]: Entering directory '/sources/flex-2.6.4'
+make[2]: Entering directory '/sources/flex-2.6.4'
+make  install-exec-hook
+ /usr/bin/mkdir -p '/usr/share/doc/flex-2.6.4'
+make[3]: Entering directory '/sources/flex-2.6.4'
+cd /usr/bin && \
+	ln -s -f flex flex++
+make[3]: Leaving directory '/sources/flex-2.6.4'
+ /usr/bin/install -c -m 644 AUTHORS COPYING NEWS ONEWS README.md '/usr/share/doc/flex-2.6.4'
+make[2]: Leaving directory '/sources/flex-2.6.4'
+make[1]: Leaving directory '/sources/flex-2.6.4'
