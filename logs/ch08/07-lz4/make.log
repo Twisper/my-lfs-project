@@ -1,0 +1,9 @@
+make[1]: Entering directory '/sources/lz4-1.10.0/lib'
+compiling dynamic library 1.10.0
+creating pkgconfig
+creating versioned links
+make[1]: Leaving directory '/sources/lz4-1.10.0/lib'
+make[1]: Entering directory '/sources/lz4-1.10.0/programs'
+==> building with multithreading support
+make[1]: Leaving directory '/sources/lz4-1.10.0/programs'
+lz4 build completed

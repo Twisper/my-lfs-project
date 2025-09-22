@@ -1,0 +1,10 @@
+make[1]: Entering directory '/sources/lz4-1.10.0/lib'
+Installing libraries in /usr/lib
+Installing headers in /usr/include
+lz4 libraries installed
+make[1]: Leaving directory '/sources/lz4-1.10.0/lib'
+make[1]: Entering directory '/sources/lz4-1.10.0/programs'
+Installing binaries in /usr/bin
+Installing man pages in /usr/share/man/man1
+lz4 installation completed
+make[1]: Leaving directory '/sources/lz4-1.10.0/programs'
