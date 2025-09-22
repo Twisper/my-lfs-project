@@ -44,6 +44,8 @@ echo "Compiling and testing ${PKT_NAME}"
 make 2>&1 | tee "$LOG_DIR/make.log"
 
 echo "Compiling is done, check for results. Enter this:"
+echo "cd /sources/bash-5.3"
+echo "chown -R tester ."
 echo "LC_ALL=C.UTF-8 su -s /usr/bin/expect tester << "EOF""
 echo "set timeout -1"
 echo "spawn make tests"
