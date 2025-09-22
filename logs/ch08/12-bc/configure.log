@@ -1,0 +1,70 @@
+Testing NLS...
+NLS works.
+
+Testing gencat...
+gencat works.
+
+Testing history...
+History works.
+
+Testing for FreeBSD...
+Not on FreeBSD. Using _POSIX_C_SOURCE and _XOPEN_SOURCE.
+
+Testing for macOS...
+Not on macOS.
+
+Testing for OpenBSD...
+Not on OpenBSD.
+
+unneeded: bc_fuzzer.c dc_fuzzer.c library.c
+Version: 7.0.3
+Building bc
+Building dc
+
+BC_ENABLE_LIBRARY=0
+
+BC_ENABLE_HISTORY=1
+BC_ENABLE_EXTRA_MATH=1
+BC_ENABLE_NLS=1
+
+BC_ENABLE_AFL=0
+
+BC_NUM_KARATSUBA_LEN=32
+
+CC=gcc
+CFLAGS=-O3  -std=c99
+HOSTCC=gcc
+HOSTCFLAGS= -std=c99
+CPPFLAGS=-DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700
+LDFLAGS=-s  -lreadline
+PREFIX=/usr
+BINDIR=/usr/bin
+INCLUDEDIR=/usr/include
+LIBDIR=/usr/lib
+DATAROOTDIR=/usr/share
+DATADIR=/usr/share
+MANDIR=/usr/share/man
+MAN1DIR=/usr/share/man/man1
+MAN3DIR=/usr/share/man/man3
+NLSPATH=/usr/share/locale/%L/%N
+PC_PATH=
+EXECSUFFIX=
+EXECPREFIX=
+DESTDIR=
+LONG_BIT=
+GEN_HOST=1
+GEN_EMU=
+
+Setting Defaults
+================
+bc.banner=0
+bc.sigint_reset=1
+dc.sigint_reset=1
+bc.tty_mode=1
+dc.tty_mode=0
+bc.prompt=1
+dc.prompt=0
+bc.expr_exit=1
+dc.expr_exit=1
+bc.digit_clamp=0
+dc.digit_clamp=0

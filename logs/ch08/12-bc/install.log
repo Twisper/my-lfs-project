@@ -1,0 +1,13 @@
+./scripts/locale_install.sh /usr/share/locale/%L/%N bc 
+./scripts/safe-install.sh -Dm644 manuals/bc.1 /usr/share/man/man1/bc.1
+./scripts/safe-install.sh -Dm644 manuals/dc.1 /usr/share/man/man1/dc.1
+./scripts/exec-install.sh /usr/bin "" "/sources/bc-7.0.3/bin"
+./scripts/safe-install.sh: line 56: /sources/bc-7.0.3/bin/*: No such file or directory
+make: *** [Makefile:619: install_execs] Error 1
+make: *** Waiting for unfinished jobs....
+Installing en_US...done
+Linking de_DE.utf8...done
+Linking en_GB.utf8...done
+Linking en_US.utf8...done
+Linking fr_FR.utf8...done
+Linking ru_RU.utf8...done

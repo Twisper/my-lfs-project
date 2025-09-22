@@ -1,0 +1,75 @@
+***********************************************************************
+
+Running bc tests...
+
+Invalid exec arg: ./bin/bc
+Must be an executable file.
+
+usage: ./tests/test.sh dir test [generate_tests] [time_tests] [exe [args...]]
+valid dirs are:
+
+bc
+dc
+Invalid exec arg: ./bin/bc
+Must be an executable file.
+
+usage: ./tests/test.sh dir test [generate_tests] [time_tests] [exe [args...]]
+valid dirs are:
+
+
+Invalid exec arg: ./bin/bc
+Must be an executable file.
+
+usage: ./tests/test.sh dir test [generate_tests] [time_tests] [exe [args...]]
+valid dirs are:
+
+make: *** [Makefile:719: test_bc_decimal] Error 1
+make: *** Waiting for unfinished jobs....
+Invalid exec arg: ./bin/bc
+Must be an executable file.
+
+Invalid exec arg: ./bin/bc
+Must be an executable file.
+
+usage: ./tests/test.sh dir test [generate_tests] [time_tests] [exe [args...]]
+usage: ./tests/test.sh dir test [generate_tests] [time_tests] [exe [args...]]
+valid dirs are:
+valid dirs are:
+
+
+Invalid exec arg: ./bin/bc
+Invalid exec arg: ./bin/bc
+Must be an executable file.
+
+usage: ./tests/test.sh dir test [generate_tests] [time_tests] [exe [args...]]
+valid dirs are:
+
+Must be an executable file.
+
+usage: ./tests/test.sh dir test [generate_tests] [time_tests] [exe [args...]]
+valid dirs are:
+
+bc
+dc
+bc
+dc
+bc
+dc
+
+bc
+dc
+
+
+make: *** [Makefile:725: test_bc_parse] Error 1
+make: *** [Makefile:731: test_bc_print2] Error 1
+make: *** [Makefile:734: test_bc_length] Error 1
+
+make: *** [Makefile:722: test_bc_print] Error 1
+bc
+dc
+bc
+dc
+
+
+make: *** [Makefile:728: test_bc_lib2] Error 1
+make: *** [Makefile:737: test_bc_scale] Error 1
