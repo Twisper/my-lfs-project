@@ -1,0 +1,115 @@
+Done. Now run 'make install'.
+make  unit
+make[1]: Entering directory '/sources/dejagnu-1.6.3/build'
+depbase=`echo testsuite/libdejagnu/unit.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DPACKAGE_NAME=\"GNU\ DejaGnu\" -DPACKAGE_TARNAME=\"dejagnu\" -DPACKAGE_VERSION=\"1.6.3\" -DPACKAGE_STRING=\"GNU\ DejaGnu\ 1.6.3\" -DPACKAGE_BUGREPORT=\"bug-dejagnu@gnu.org\" -DPACKAGE_URL=\"http://www.gnu.org/software/dejagnu/\" -DPACKAGE=\"dejagnu\" -DVERSION=\"1.6.3\" -I. -I..    -I.. -g -g -O2 -MT testsuite/libdejagnu/unit.o -MD -MP -MF $depbase.Tpo -c -o testsuite/libdejagnu/unit.o ../testsuite/libdejagnu/unit.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+g++ -I.. -g -g -O2   -o unit testsuite/libdejagnu/unit.o  
+make[1]: Leaving directory '/sources/dejagnu-1.6.3/build'
+make  check-DEJAGNU
+make[1]: Entering directory '/sources/dejagnu-1.6.3/build'
+Making a new site.exp file ...
+srcdir='..'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "../runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='launcher libdejagnu report-card runtest'; for tool in $l; do \
+    if ../runtest  --tool $tool --srcdir $srcdir ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find '../runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+Using ../testsuite/lib/launcher.exp as tool init file.
+Test run by root on Mon Sep 22 23:43:17 2025
+Native configuration is x86_64-pc-linux-gnu
+
+		=== launcher tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using ../baseboards/unix.exp as board description file for target.
+Using ../config/unix.exp as generic interface file for target.
+Using ../testsuite/../config/unix.exp as tool-and-target-specific interface file.
+Running ../testsuite/launcher.all/command.exp ...
+Running ../testsuite/launcher.all/help.exp ...
+Running ../testsuite/launcher.all/interp.exp ...
+Running ../testsuite/launcher.all/verbose.exp ...
+
+		=== launcher Summary ===
+
+# of expected passes		54
+Using ../testsuite/lib/libdejagnu.exp as tool init file.
+Test run by root on Mon Sep 22 23:43:36 2025
+Native configuration is x86_64-pc-linux-gnu
+
+		=== libdejagnu tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using ../baseboards/unix.exp as board description file for target.
+Using ../config/unix.exp as generic interface file for target.
+Using ../testsuite/../config/unix.exp as tool-and-target-specific interface file.
+Running ../testsuite/libdejagnu/tunit.exp ...
+
+		=== libdejagnu Summary ===
+
+# of expected passes		5
+Using ../testsuite/lib/report-card.exp as tool init file.
+Test run by root on Mon Sep 22 23:43:38 2025
+Native configuration is x86_64-pc-linux-gnu
+
+		=== report-card tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using ../baseboards/unix.exp as board description file for target.
+Using ../config/unix.exp as generic interface file for target.
+Using ../testsuite/../config/unix.exp as tool-and-target-specific interface file.
+Running ../testsuite/report-card.all/onetest.exp ...
+Running ../testsuite/report-card.all/passes.exp ...
+
+		=== report-card Summary ===
+
+# of expected passes		245
+Using ../testsuite/lib/runtest.exp as tool init file.
+Test run by root on Mon Sep 22 23:43:46 2025
+Native configuration is x86_64-pc-linux-gnu
+
+		=== runtest tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using ../baseboards/unix.exp as board description file for target.
+Using ../config/unix.exp as generic interface file for target.
+Using ../testsuite/../config/unix.exp as tool-and-target-specific interface file.
+Running ../testsuite/runtest.libs/libs.exp ...
+Running ../testsuite/runtest.libs/clone_output.test ...
+Running ../testsuite/runtest.libs/config.test ...
+Running ../testsuite/runtest.libs/remote.test ...
+Running ../testsuite/runtest.libs/target.test ...
+Running ../testsuite/runtest.libs/testcase_group.test ...
+Running ../testsuite/runtest.libs/testsuite_can.test ...
+Running ../testsuite/runtest.libs/testsuite_file.test ...
+Running ../testsuite/runtest.libs/utils.test ...
+Running ../testsuite/runtest.main/error.exp ...
+Running ../testsuite/runtest.main/options.exp ...
+Running ../testsuite/runtest.main/pr42399.exp ...
+Running ../testsuite/runtest.main/pr48155.exp ...
+Running ../testsuite/runtest.main/stats.exp ...
+
+		=== runtest Summary ===
+
+# of expected passes		300
+DejaGnu version	1.6.3
+Expect version	5.45.4
+Tcl version	8.6
+
+make[1]: Leaving directory '/sources/dejagnu-1.6.3/build'
