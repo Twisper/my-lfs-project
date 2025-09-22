@@ -47,7 +47,8 @@ rpc: files
 # End /etc/nsswitch.conf
 EOF
 
-tar -xf ../../tzdata2025b.tar.gz
+cd /sources/glibc-2.42
+tar -xf /sources/tzdata2025b.tar.gz
 
 ZONEINFO=/usr/share/zoneinfo
 mkdir -pv $ZONEINFO/{posix,right}

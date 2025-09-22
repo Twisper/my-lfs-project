@@ -7,14 +7,16 @@ PKT_NUM="03"
 PKT_NAME="glibc"
 VER_NAME="2.42"
 ARH_NAME="tar.xz"
-LOG_DIR="/home/twisper/lfs_project/logs/ch${CHPTR_NUM}/${PKT_NUM}-${PKT_NAME}"
+LOG_DIR="/lfs_project/logs/ch${CHPTR_NUM}/${PKT_NUM}-${PKT_NAME}"
 FLD_NAME="${PKT_NAME}-${VER_NAME}"
 TAR_NAME="$FLD_NAME.${ARH_NAME}"
+
+cd /sources
 
 cd "$FLD_NAME"
 echo "Unpacking done"
 
-cd       build
+cd build
 
 echo "Testing ${PKT_NAME}"
 make check 2>&1 | tee "$LOG_DIR/check.log"
