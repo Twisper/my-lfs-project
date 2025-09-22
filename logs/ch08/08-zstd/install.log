@@ -1,0 +1,12 @@
+make[1]: Entering directory '/sources/zstd-1.5.7/lib'
+creating pkgconfig
+Installing includes
+Installing static library
+Installing shared library
+zstd static and shared library installed
+make[1]: Leaving directory '/sources/zstd-1.5.7/lib'
+make[1]: Entering directory '/sources/zstd-1.5.7/programs'
+Installing binaries
+Installing man pages
+zstd installation completed
+make[1]: Leaving directory '/sources/zstd-1.5.7/programs'
