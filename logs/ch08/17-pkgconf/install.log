@@ -1,0 +1,46 @@
+make[1]: Entering directory '/sources/pkgconf-2.5.1'
+ /usr/bin/mkdir -p '/usr/share/doc/pkgconf-2.5.1'
+ /usr/bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/mkdir -p '/usr/include/pkgconf'
+ /usr/bin/mkdir -p '/usr/share/man/man7'
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 README.md AUTHORS '/usr/share/doc/pkgconf-2.5.1'
+ /usr/bin/install -c -m 644 pkg.m4 '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 libpkgconf.pc '/usr/lib/pkgconfig'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libpkgconf.la '/usr/lib'
+ /usr/bin/mkdir -p '/usr/include/pkgconf/libpkgconf'
+ /usr/bin/install -c -m 644 man/bomtool.1 man/pkgconf.1 '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 man/pkg.m4.7 '/usr/share/man/man7'
+ /usr/bin/install -c -m 644 man/pc.5 man/pkgconf-personality.5 '/usr/share/man/man5'
+ /usr/bin/install -c -m 644  libpkgconf/bsdstubs.h libpkgconf/iter.h libpkgconf/libpkgconf.h libpkgconf/stdinc.h libpkgconf/libpkgconf-api.h '/usr/include/pkgconf/libpkgconf'
+libtool: install: /usr/bin/install -c .libs/libpkgconf.so.7.0.0 /usr/lib/libpkgconf.so.7.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libpkgconf.so.7.0.0 libpkgconf.so.7 || { rm -f libpkgconf.so.7 && ln -s libpkgconf.so.7.0.0 libpkgconf.so.7; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpkgconf.so.7.0.0 libpkgconf.so || { rm -f libpkgconf.so && ln -s libpkgconf.so.7.0.0 libpkgconf.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpkgconf.lai /usr/lib/libpkgconf.la
+libtool: finish: PATH="/usr/bin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c pkgconf bomtool '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/pkgconf /usr/bin/pkgconf
+libtool: install: /usr/bin/install -c .libs/bomtool /usr/bin/bomtool
+make[1]: Leaving directory '/sources/pkgconf-2.5.1'
