@@ -1,0 +1,110 @@
+test -d shlib || mkdir shlib
+( cd shlib ; make all )
+make[1]: Entering directory '/sources/readline-8.3/shlib'
+rm -f readline.so
+rm -f vi_mode.so
+rm -f funmap.so
+rm -f keymaps.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o readline.o ../readline.c 
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o vi_mode.o ../vi_mode.c 
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o funmap.o ../funmap.c 
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o keymaps.o ../keymaps.c 
+rm -f parens.so
+rm -f search.so
+rm -f rltty.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o parens.o ../parens.c 
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o search.o ../search.c 
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o rltty.o ../rltty.c 
+mv funmap.o funmap.so
+rm -f complete.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o complete.o ../complete.c 
+mv parens.o parens.so
+mv keymaps.o keymaps.so
+rm -f bind.so
+rm -f isearch.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o bind.o ../bind.c 
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o isearch.o ../isearch.c 
+mv rltty.o rltty.so
+rm -f display.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o display.o ../display.c 
+mv search.o search.so
+rm -f signals.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o signals.o ../signals.c 
+mv readline.o readline.so
+rm -f util.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o util.o ../util.c 
+mv isearch.o isearch.so
+rm -f kill.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o kill.o ../kill.c 
+mv signals.o signals.so
+rm -f undo.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o undo.o ../undo.c 
+mv util.o util.so
+rm -f macro.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o macro.o ../macro.c 
+mv undo.o undo.so
+rm -f input.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o input.o ../input.c 
+mv macro.o macro.so
+rm -f callback.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o callback.o ../callback.c 
+mv kill.o kill.so
+rm -f terminal.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o terminal.o ../terminal.c 
+mv vi_mode.o vi_mode.so
+rm -f text.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o text.o ../text.c 
+mv input.o input.so
+rm -f nls.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o nls.o ../nls.c 
+mv callback.o callback.so
+rm -f misc.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o misc.o ../misc.c 
+mv complete.o complete.so
+rm -f history.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o history.o ../history.c 
+mv nls.o nls.so
+rm -f histexpand.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o histexpand.o ../histexpand.c 
+mv terminal.o terminal.so
+rm -f histfile.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o histfile.o ../histfile.c 
+mv bind.o bind.so
+rm -f histsearch.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o histsearch.o ../histsearch.c 
+mv misc.o misc.so
+rm -f shell.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o shell.o ../shell.c 
+mv history.o history.so
+rm -f mbutil.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o mbutil.o ../mbutil.c 
+mv shell.o shell.so
+rm -f tilde.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -DREADLINE_LIBRARY -c -o tilde.o ../tilde.c
+mv histsearch.o histsearch.so
+rm -f colors.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o colors.o ../colors.c 
+mv histfile.o histfile.so
+rm -f parse-colors.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o parse-colors.o ../parse-colors.c 
+mv tilde.o tilde.so
+rm -f xmalloc.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o xmalloc.o ../xmalloc.c 
+mv colors.o colors.so
+rm -f xfree.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o xfree.o ../xfree.c 
+mv text.o text.so
+rm -f compat.so
+gcc -c -DHAVE_CONFIG_H   -I. -I.. -I..  -DRL_LIBRARY_VERSION='"8.3"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2 -Wno-parentheses -Wno-format-security -fPIC -o compat.o ../compat.c 
+mv xmalloc.o xmalloc.so
+mv parse-colors.o parse-colors.so
+mv xfree.o xfree.so
+mv mbutil.o mbutil.so
+mv compat.o compat.so
+mv display.o display.so
+mv histexpand.o histexpand.so
+rm -f libreadline.so.8.3
+rm -f libhistory.so.8.3
+gcc -shared -Wl,-soname,libreadline.so.8.3 -Wl,-soname,`basename libreadline.so.8.3 .3` -o libreadline.so.8.3 readline.so vi_mode.so funmap.so keymaps.so parens.so search.so rltty.so complete.so bind.so isearch.so display.so signals.so util.so kill.so undo.so macro.so input.so callback.so terminal.so text.so nls.so misc.so history.so histexpand.so histfile.so histsearch.so shell.so mbutil.so tilde.so colors.so parse-colors.so xmalloc.so xfree.so compat.so 
+gcc -shared -Wl,-soname,libhistory.so.8.3 -Wl,-soname,`basename libhistory.so.8.3 .3` -o libhistory.so.8.3 history.so histexpand.so histfile.so histsearch.so shell.so mbutil.so xmalloc.so xfree.so 
+make[1]: Leaving directory '/sources/readline-8.3/shlib'
