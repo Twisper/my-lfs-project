@@ -1,0 +1,111 @@
+cd checks && make 
+make[1]: Entering directory '/sources/m4-1.4.20/checks'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/m4-1.4.20/checks'
+make  install-recursive
+make[1]: Entering directory '/sources/m4-1.4.20'
+Making install in .
+make[2]: Entering directory '/sources/m4-1.4.20'
+make[3]: Entering directory '/sources/m4-1.4.20'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/m4-1.4.20'
+make[2]: Leaving directory '/sources/m4-1.4.20'
+Making install in examples
+make[2]: Entering directory '/sources/m4-1.4.20/examples'
+make[3]: Entering directory '/sources/m4-1.4.20/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/m4-1.4.20/examples'
+make[2]: Leaving directory '/sources/m4-1.4.20/examples'
+Making install in lib
+make[2]: Entering directory '/sources/m4-1.4.20/lib'
+make  install-am
+make[3]: Entering directory '/sources/m4-1.4.20/lib'
+make[4]: Entering directory '/sources/m4-1.4.20/lib'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/m4-1.4.20/lib'
+make[3]: Leaving directory '/sources/m4-1.4.20/lib'
+make[2]: Leaving directory '/sources/m4-1.4.20/lib'
+Making install in src
+make[2]: Entering directory '/sources/m4-1.4.20/src'
+make[3]: Entering directory '/sources/m4-1.4.20/src'
+make[3]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c m4 '/usr/bin'
+make[3]: Leaving directory '/sources/m4-1.4.20/src'
+make[2]: Leaving directory '/sources/m4-1.4.20/src'
+Making install in doc
+make[2]: Entering directory '/sources/m4-1.4.20/doc'
+make[3]: Entering directory '/sources/m4-1.4.20/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./m4.1 '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ./m4.info ./m4.info-1 ./m4.info-2 '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/m4.info'
+make[3]: Leaving directory '/sources/m4-1.4.20/doc'
+make[2]: Leaving directory '/sources/m4-1.4.20/doc'
+Making install in checks
+make[2]: Entering directory '/sources/m4-1.4.20/checks'
+make[3]: Entering directory '/sources/m4-1.4.20/checks'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/m4-1.4.20/checks'
+make[2]: Leaving directory '/sources/m4-1.4.20/checks'
+Making install in po
+make[2]: Entering directory '/sources/m4-1.4.20/po'
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/m4.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/m4.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/m4.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/m4.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/m4.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/m4.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/m4.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/m4.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/m4.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/m4.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/m4.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/m4.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/m4.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/m4.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/m4.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/m4.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/m4.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/m4.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/m4.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/m4.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/m4.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/m4.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/m4.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/m4.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/m4.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/m4.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/m4.mo
+if test "m4" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/sources/m4-1.4.20/po'
+Making install in tests
+make[2]: Entering directory '/sources/m4-1.4.20/tests'
+make  install-recursive
+make[3]: Entering directory '/sources/m4-1.4.20/tests'
+Making install in .
+make[4]: Entering directory '/sources/m4-1.4.20/tests'
+make[5]: Entering directory '/sources/m4-1.4.20/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Leaving directory '/sources/m4-1.4.20/tests'
+make[4]: Leaving directory '/sources/m4-1.4.20/tests'
+make[3]: Leaving directory '/sources/m4-1.4.20/tests'
+make[2]: Leaving directory '/sources/m4-1.4.20/tests'
+make[1]: Leaving directory '/sources/m4-1.4.20'
