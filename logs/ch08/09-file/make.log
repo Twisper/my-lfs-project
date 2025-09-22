@@ -1,0 +1,64 @@
+make  all-recursive
+make[1]: Entering directory '/sources/file-5.46'
+Making all in src
+make[2]: Entering directory '/sources/file-5.46/src'
+sed -e "s/X.YY/$(echo 5.46 | tr -d .)/" < ../src/magic.h.in > magic.h
+make  all-am
+make[3]: Entering directory '/sources/file-5.46/src'
+  CC       file.o
+  CC       seccomp.o
+  CC       buffer.lo
+  CC       magic.lo
+  CC       softmagic.lo
+  CC       ascmagic.lo
+  CC       apprentice.lo
+  CC       encoding.lo
+  CC       compress.lo
+  CC       is_csv.lo
+  CC       is_json.lo
+  CC       is_simh.lo
+  CC       is_tar.lo
+  CC       readelf.lo
+  CC       print.lo
+  CC       fsmagic.lo
+  CC       funcs.lo
+  CC       apptype.lo
+  CC       der.lo
+  CC       cdf.lo
+  CC       cdf_time.lo
+  CC       readcdf.lo
+  CC       fmtcheck.lo
+  CCLD     libmagic.la
+  CCLD     file
+make[3]: Leaving directory '/sources/file-5.46/src'
+make[2]: Leaving directory '/sources/file-5.46/src'
+Making all in magic
+make[2]: Entering directory '/sources/file-5.46/magic'
+../src/file -C -m magic
+make[2]: Leaving directory '/sources/file-5.46/magic'
+Making all in tests
+make[2]: Entering directory '/sources/file-5.46/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/file-5.46/tests'
+Making all in doc
+make[2]: Entering directory '/sources/file-5.46/doc'
+sed -e s@__CSECTION__@1@g \
+    -e s@__FSECTION__@4@g \
+    -e s@__VERSION__@5.46@g \
+    -e s@__MAGIC__@/usr/share/misc/magic@g ./file.man > file.1
+sed -e s@__CSECTION__@1@g \
+    -e s@__FSECTION__@4@g \
+    -e s@__VERSION__@5.46@g \
+    -e s@__MAGIC__@/usr/share/misc/magic@g ./magic.man > magic.4
+sed -e s@__CSECTION__@1@g \
+    -e s@__FSECTION__@4@g \
+    -e s@__VERSION__@5.46@g \
+    -e s@__MAGIC__@/usr/share/misc/magic@g ./libmagic.man > libmagic.3
+make[2]: Leaving directory '/sources/file-5.46/doc'
+Making all in python
+make[2]: Entering directory '/sources/file-5.46/python'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/file-5.46/python'
+make[2]: Entering directory '/sources/file-5.46'
+make[2]: Leaving directory '/sources/file-5.46'
+make[1]: Leaving directory '/sources/file-5.46'
