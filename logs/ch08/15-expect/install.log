@@ -1,0 +1,48 @@
+(echo 'if {![package vsatisfies [package provide Tcl] 8.6]} {return}' ; \
+ echo 'package ifneeded Expect 5.45.4 \
+    [list load [file join $dir libexpect5.45.4.so]]'\
+) > pkgIndex.tcl
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/timed-run > timed-run
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/timed-read > timed-read
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/ftp-rfc > ftp-rfc
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/autopasswd > autopasswd
+ /usr/bin/install -c expect /usr/bin/expect
+ /usr/bin/install -c libexpect5.45.4.so /usr/lib/expect5.45.4/libexpect5.45.4.so
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/lpunlock > lpunlock
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/weather > weather
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/passmass > passmass
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/rftp > rftp
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/kibitz > kibitz
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/rlogin-cwd > rlogin-cwd
+ : /usr/lib/expect5.45.4/libexpect5.45.4.so
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/xpstat > xpstat
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/tkpasswd > tkpasswd
+ Install pkgIndex.tcl /usr/lib/expect5.45.4
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/dislocate > dislocate
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/xkibitz > xkibitz
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/tknewsbiff > tknewsbiff
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/unbuffer > unbuffer
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/mkpasswd > mkpasswd
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/cryptdir > cryptdir
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/decryptdir > decryptdir
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/autoexpect > autoexpect
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 ./fixline1 /usr/bin < ./example/multixterm > multixterm
+Installing documentation in /usr/share/man
+/usr/bin/install -c -m 644 ./expect.man /usr/share/man/man1/expect.1
+/usr/bin/install -c -m 644 ./libexpect.man /usr/share/man/man3/libexpect.3
+for i in kibitz dislocate xkibitz tknewsbiff unbuffer mkpasswd passmass cryptdir decryptdir autoexpect multixterm end_of_list ; do \
+  if [ -f ./example/$i.man ] ; then \
+    /usr/bin/install -c -m 644 ./example/$i.man /usr/share/man/man1/$i.1 ; \
+  else true; fi ; \
+done
+Installing header files in /usr/include
+Installing ./expect.h
+Installing ./expect_tcl.h
+Installing ./expect_comm.h
+Installing ./tcldbg.h
+for i in timed-run timed-read ftp-rfc autopasswd lpunlock weather passmass rftp kibitz rlogin-cwd xpstat tkpasswd dislocate xkibitz tknewsbiff unbuffer mkpasswd cryptdir decryptdir autoexpect multixterm end_of_list ; do \
+  if [ -f $i ] ; then \
+    /usr/bin/install -c $i /usr/bin/$i ; \
+    rm -f $i ; \
+  else true; fi ; \
+done

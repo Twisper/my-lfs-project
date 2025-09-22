@@ -1,0 +1,14 @@
+(echo 'if {![package vsatisfies [package provide Tcl] 8.6]} {return}' ; \
+ echo 'package ifneeded Expect 5.45.4 \
+    [list load [file join $dir libexpect5.45.4.so]]'\
+) > pkgIndex.tcl
+TCL_LIBRARY=`echo /usr/include/library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/sbin" TCLLIBPATH="." /usr/bin/tclsh8.6 `echo ./tests/all.tcl` 
+cat.test
+expect.test
+logfile.test
+via sendvia send_uservia send_stdoutpid.test
+send.test
+spawn.test
+stty.test
+all.tcl:	Total	29	Passed	29	Skipped	0	Failed	0
+Sourced 0 Test Files.
