@@ -1,0 +1,331 @@
+make  all-recursive
+make[1]: Entering directory '/sources/shadow-4.18.0'
+Making all in lib
+make[2]: Entering directory '/sources/shadow-4.18.0/lib'
+  CC       libshadow_la-addgrps.lo
+  CC       libshadow_la-adds.lo
+  CC       libshadow_la-age.lo
+  CC       libshadow_la-agetpass.lo
+  CC       libshadow_la-audit_help.lo
+  CC       libshadow_la-basename.lo
+  CC       libshadow_la-bit.lo
+  CC       libshadow_la-chkname.lo
+In file included from string/strspn/stprcspn.h:13,
+                 from basename.c:20:
+./string/strspn/strrcspn.h: In function 'strrcspn':
+./string/strspn/strrcspn.h:29:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   29 |         p = strnul(s);
+      |           ^
+  CC       libshadow_la-chowndir.lo
+  CC       libshadow_la-chowntty.lo
+  CC       libshadow_la-cleanup.lo
+  CC       libshadow_la-cleanup_group.lo
+  CC       libshadow_la-cleanup_user.lo
+  CC       libshadow_la-commonio.lo
+  CC       libshadow_la-console.lo
+  CC       libshadow_la-copydir.lo
+  CC       libshadow_la-csrand.lo
+  CC       libshadow_la-encrypt.lo
+  CC       libshadow_la-env.lo
+  CC       libshadow_la-failure.lo
+  CC       libshadow_la-fd.lo
+  CC       libshadow_la-fields.lo
+  CC       libshadow_la-find_new_gid.lo
+  CC       libshadow_la-find_new_uid.lo
+  CC       libshadow_la-find_new_sub_gids.lo
+  CC       libshadow_la-find_new_sub_uids.lo
+In file included from string/strspn/stprspn.h:13,
+                 from fields.c:23:
+./string/strspn/strrspn.h: In function 'strrspn_':
+./string/strspn/strrspn.h:29:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   29 |         p = strnul(s);
+      |           ^
+  CC       libshadow_la-fputsx.lo
+  CC       libshadow_la-get_pid.lo
+  CC       libshadow_la-getdef.lo
+  CC       libshadow_la-getgr_nam_gid.lo
+  CC       libshadow_la-getrange.lo
+  CC       libshadow_la-gettime.lo
+  CC       libshadow_la-groupio.lo
+In file included from string/strspn/stprspn.h:13,
+                 from getdef.c:38:
+./string/strspn/strrspn.h: In function 'strrspn_':
+./string/strspn/strrspn.h:29:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   29 |         p = strnul(s);
+      |           ^
+  CC       libshadow_la-groupmem.lo
+  CC       libshadow_la-gshadow.lo
+  CC       libshadow_la-hushed.lo
+  CC       libshadow_la-idmapping.lo
+  CC       libshadow_la-isexpired.lo
+  CC       libshadow_la-limits.lo
+  CC       libshadow_la-list.lo
+  CC       libshadow_la-lockpw.lo
+  CC       libshadow_la-loginprompt.lo
+  CC       libshadow_la-mail.lo
+  CC       libshadow_la-motd.lo
+  CC       libshadow_la-myname.lo
+  CC       libshadow_la-nss.lo
+  CC       libshadow_la-nscd.lo
+  CC       libshadow_la-obscure.lo
+  CC       libshadow_la-pam_pass.lo
+  CC       libshadow_la-pam_pass_non_interactive.lo
+  CC       libshadow_la-port.lo
+  CC       libshadow_la-prefix_flag.lo
+  CC       libshadow_la-pwauth.lo
+  CC       libshadow_la-pwio.lo
+  CC       libshadow_la-pwd_init.lo
+  CC       libshadow_la-pwd2spwd.lo
+  CC       libshadow_la-pwdcheck.lo
+  CC       libshadow_la-pwmem.lo
+  CC       libshadow_la-remove_tree.lo
+  CC       libshadow_la-root_flag.lo
+  CC       libshadow_la-run_part.lo
+  CC       libshadow_la-salt.lo
+  CC       libshadow_la-selinux.lo
+  CC       libshadow_la-semanage.lo
+  CC       libshadow_la-setugid.lo
+  CC       libshadow_la-setupenv.lo
+  CC       libshadow_la-sgetgrent.lo
+  CC       libshadow_la-sgetpwent.lo
+  CC       libshadow_la-sgetspent.lo
+  CC       libshadow_la-sgroupio.lo
+  CC       libshadow_la-shadowio.lo
+  CC       libshadow_la-shadowlog.lo
+  CC       libshadow_la-shadowmem.lo
+  CC       libshadow_la-shell.lo
+  CC       libshadow_la-spawn.lo
+  CC       libshadow_la-sssd.lo
+  CC       libshadow_la-strtoday.lo
+  CC       libshadow_la-sub.lo
+  CC       libshadow_la-subordinateio.lo
+  CC       libshadow_la-sulog.lo
+  CC       libshadow_la-ttytype.lo
+  CC       libshadow_la-tz.lo
+  CC       libshadow_la-ulimit.lo
+  CC       libshadow_la-user_busy.lo
+  CC       libshadow_la-valid.lo
+  CC       libshadow_la-write_full.lo
+  CC       libshadow_la-xgetpwnam.lo
+  CC       libshadow_la-xprefix_getpwnam.lo
+  CC       libshadow_la-xgetpwuid.lo
+  CC       libshadow_la-xgetgrnam.lo
+  CC       libshadow_la-xgetgrgid.lo
+  CC       libshadow_la-xgetspnam.lo
+  CC       libshadow_la-yesno.lo
+  CC       libshadow_la-btrfs.lo
+  CC       libshadow_la-utmp.lo
+  CC       libshadow_la-freezero.lo
+  CC       libshadow_la-readpassphrase.lo
+  CC       alloc/libshadow_la-calloc.lo
+  CC       alloc/libshadow_la-malloc.lo
+  CC       alloc/libshadow_la-realloc.lo
+  CC       alloc/libshadow_la-reallocf.lo
+  CC       alloc/x/libshadow_la-xcalloc.lo
+  CC       alloc/x/libshadow_la-xmalloc.lo
+  CC       alloc/x/libshadow_la-xrealloc.lo
+  CC       atoi/a2i/libshadow_la-a2i.lo
+  CC       atoi/a2i/libshadow_la-a2s.lo
+  CC       atoi/a2i/libshadow_la-a2s_c.lo
+  CC       atoi/a2i/libshadow_la-a2s_nc.lo
+  CC       atoi/a2i/libshadow_la-a2u.lo
+  CC       atoi/a2i/libshadow_la-a2u_c.lo
+  CC       atoi/a2i/libshadow_la-a2u_nc.lo
+  CC       atoi/libshadow_la-getnum.lo
+  CC       atoi/libshadow_la-str2i.lo
+  CC       atoi/strtoi/libshadow_la-strtoi.lo
+  CC       atoi/strtoi/libshadow_la-strtou.lo
+  CC       atoi/strtoi/libshadow_la-strtou_noneg.lo
+  CC       fs/mkstemp/libshadow_la-fmkomstemp.lo
+  CC       fs/mkstemp/libshadow_la-mkomstemp.lo
+  CC       fs/readlink/libshadow_la-areadlink.lo
+  CC       fs/readlink/libshadow_la-readlinknul.lo
+  CC       search/cmp/libshadow_la-cmp.lo
+  CC       search/l/libshadow_la-lfind.lo
+  CC       search/l/libshadow_la-lsearch.lo
+  CC       search/sort/libshadow_la-qsort.lo
+  CC       shadow/grp/libshadow_la-agetgroups.lo
+  CC       string/ctype/strchrisascii/libshadow_la-strchriscntrl.lo
+  CC       string/ctype/strisascii/libshadow_la-strisdigit.lo
+  CC       string/ctype/strisascii/libshadow_la-strisprint.lo
+  CC       string/ctype/strtoascii/libshadow_la-strtolower.lo
+  CC       string/memset/libshadow_la-memzero.lo
+  CC       string/sprintf/libshadow_la-aprintf.lo
+  CC       string/sprintf/libshadow_la-snprintf.lo
+  CC       string/sprintf/libshadow_la-stpeprintf.lo
+  CC       string/sprintf/libshadow_la-xaprintf.lo
+  CC       string/strchr/libshadow_la-strchrcnt.lo
+  CC       string/strchr/libshadow_la-strchrscnt.lo
+  CC       string/strchr/libshadow_la-strnul.lo
+  CC       string/strcmp/libshadow_la-strcaseeq.lo
+  CC       string/strcmp/libshadow_la-strcaseprefix.lo
+  CC       string/strcmp/libshadow_la-streq.lo
+  CC       string/strcmp/libshadow_la-strprefix.lo
+  CC       string/strcpy/libshadow_la-strncat.lo
+  CC       string/strcpy/libshadow_la-stpecpy.lo
+  CC       string/strcpy/libshadow_la-strncpy.lo
+  CC       string/strcpy/libshadow_la-strtcpy.lo
+  CC       string/strdup/libshadow_la-strndupa.lo
+  CC       string/strdup/libshadow_la-xstrdup.lo
+  CC       string/strdup/libshadow_la-xstrndup.lo
+  CC       string/libshadow_la-strftime.lo
+  CC       string/strspn/libshadow_la-stpspn.lo
+  CC       string/strspn/libshadow_la-stprcspn.lo
+  CC       string/strspn/libshadow_la-stprspn.lo
+In file included from ./string/strspn/stprcspn.h:13,
+                 from string/strspn/stprcspn.c:7:
+./string/strspn/strrcspn.h: In function 'strrcspn':
+./string/strspn/strrcspn.h:29:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   29 |         p = strnul(s);
+      |           ^
+  CC       string/strspn/libshadow_la-strrcspn.lo
+  CC       string/strspn/libshadow_la-strrspn.lo
+  CC       string/strtok/libshadow_la-stpsep.lo
+  CC       string/strtok/libshadow_la-astrsep2ls.lo
+  CC       string/strtok/libshadow_la-strsep2arr.lo
+  CC       string/strtok/libshadow_la-strsep2ls.lo
+In file included from ./string/strspn/stprspn.h:13,
+                 from string/strspn/stprspn.c:7:
+./string/strspn/strrspn.h: In function 'strrspn_':
+./string/strspn/strrspn.h:29:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   29 |         p = strnul(s);
+      |           ^
+  CC       string/strtok/libshadow_la-xastrsep2ls.lo
+In file included from string/strspn/strrspn.c:7:
+./string/strspn/strrspn.h: In function 'strrspn_':
+./string/strspn/strrspn.h:29:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   29 |         p = strnul(s);
+      |           ^
+In file included from string/strspn/strrcspn.c:7:
+./string/strspn/strrcspn.h: In function 'strrcspn':
+./string/strspn/strrcspn.h:29:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   29 |         p = strnul(s);
+      |           ^
+  CC       time/libshadow_la-day_to_str.lo
+  CCLD     libshadow.la
+make[2]: Leaving directory '/sources/shadow-4.18.0/lib'
+Making all in libsubid
+make[2]: Entering directory '/sources/shadow-4.18.0/libsubid'
+  CC       api.lo
+  CCLD     libsubid.la
+make[2]: Leaving directory '/sources/shadow-4.18.0/libsubid'
+Making all in src
+make[2]: Entering directory '/sources/shadow-4.18.0/src'
+  CC       login.o
+  CC       login_nopam.o
+  CC       su.o
+  CC       suauth.o
+  CC       getsubids-getsubids.o
+  CC       get_subid_owners-get_subid_owners.o
+  CC       sulogin.o
+In file included from ../lib/string/strspn/stprspn.h:13,
+                 from suauth.c:25:
+../lib/string/strspn/strrspn.h: In function 'strrspn_':
+../lib/string/strspn/strrspn.h:29:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   29 |         p = strnul(s);
+      |           ^
+In file included from ../lib/string/strspn/stprspn.h:13,
+                 from login_nopam.c:66:
+../lib/string/strspn/strrspn.h: In function 'strrspn_':
+../lib/string/strspn/strrspn.h:29:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   29 |         p = strnul(s);
+      |           ^
+  CC       new_subid_range-new_subid_range.o
+  CC       free_subid_range-free_subid_range.o
+  CC       check_subid_range-check_subid_range.o
+  CC       nologin.o
+  CC       faillog.o
+  CC       chage.o
+  CC       chfn.o
+  CC       chsh.o
+  CC       gpasswd.o
+  CC       expiry.o
+  CC       newgrp.o
+  CC       passwd.o
+  CC       newgidmap.o
+  CC       newuidmap.o
+  CC       chgpasswd.o
+  CC       chpasswd.o
+  CC       groupadd.o
+  CC       groupdel.o
+  CC       groupmems.o
+  CC       groupmod.o
+  CC       grpck.o
+  CC       grpconv.o
+  CC       grpunconv.o
+  CC       logoutd.o
+  CC       newusers.o
+  CC       pwck.o
+  CC       pwconv.o
+  CC       pwunconv.o
+  CC       useradd.o
+  CC       userdel.o
+  CC       usermod.o
+  CC       vipw.o
+  CCLD     login
+  CCLD     su
+  CCLD     getsubids
+  CCLD     sulogin
+  CCLD     get_subid_owners
+  CCLD     new_subid_range
+  CCLD     free_subid_range
+  CCLD     check_subid_range
+  CCLD     nologin
+  CCLD     faillog
+  CCLD     chage
+  CCLD     chfn
+  CCLD     chsh
+  CCLD     expiry
+  CCLD     gpasswd
+  CCLD     newgrp
+  CCLD     passwd
+  CCLD     newgidmap
+  CCLD     newuidmap
+  CCLD     chgpasswd
+  CCLD     chpasswd
+  CCLD     groupadd
+  CCLD     groupdel
+  CCLD     groupmems
+  CCLD     groupmod
+  CCLD     grpck
+  CCLD     grpconv
+  CCLD     grpunconv
+  CCLD     logoutd
+  CCLD     newusers
+  CCLD     pwck
+  CCLD     pwconv
+  CCLD     pwunconv
+  CCLD     useradd
+  CCLD     userdel
+  CCLD     usermod
+  CCLD     vipw
+make[2]: Leaving directory '/sources/shadow-4.18.0/src'
+Making all in po
+make[2]: Entering directory '/sources/shadow-4.18.0/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/shadow-4.18.0/po'
+Making all in doc
+make[2]: Entering directory '/sources/shadow-4.18.0/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/shadow-4.18.0/doc'
+Making all in etc
+make[2]: Entering directory '/sources/shadow-4.18.0/etc'
+Making all in pam.d
+make[3]: Entering directory '/sources/shadow-4.18.0/etc/pam.d'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.18.0/etc/pam.d'
+Making all in shadow-maint
+make[3]: Entering directory '/sources/shadow-4.18.0/etc/shadow-maint'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.18.0/etc/shadow-maint'
+make[3]: Entering directory '/sources/shadow-4.18.0/etc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/shadow-4.18.0/etc'
+make[2]: Leaving directory '/sources/shadow-4.18.0/etc'
+Making all in tests/unit
+make[2]: Entering directory '/sources/shadow-4.18.0/tests/unit'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/shadow-4.18.0/tests/unit'
+make[2]: Entering directory '/sources/shadow-4.18.0'
+make[2]: Leaving directory '/sources/shadow-4.18.0'
+make[1]: Leaving directory '/sources/shadow-4.18.0'
