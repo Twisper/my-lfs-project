@@ -1,0 +1,108 @@
+Making html in tests
+make[1]: Entering directory '/sources/gmp-6.3.0/tests'
+Making html in .
+make[2]: Entering directory '/sources/gmp-6.3.0/tests'
+make[2]: Nothing to be done for 'html-am'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/tests'
+Making html in devel
+make[2]: Entering directory '/sources/gmp-6.3.0/tests/devel'
+make[2]: Nothing to be done for 'html'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/tests/devel'
+Making html in mpn
+make[2]: Entering directory '/sources/gmp-6.3.0/tests/mpn'
+make[2]: Nothing to be done for 'html'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/tests/mpn'
+Making html in mpz
+make[2]: Entering directory '/sources/gmp-6.3.0/tests/mpz'
+make[2]: Nothing to be done for 'html'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/tests/mpz'
+Making html in mpq
+make[2]: Entering directory '/sources/gmp-6.3.0/tests/mpq'
+make[2]: Nothing to be done for 'html'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/tests/mpq'
+Making html in mpf
+make[2]: Entering directory '/sources/gmp-6.3.0/tests/mpf'
+make[2]: Nothing to be done for 'html'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/tests/mpf'
+Making html in rand
+make[2]: Entering directory '/sources/gmp-6.3.0/tests/rand'
+make[2]: Nothing to be done for 'html'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/tests/rand'
+Making html in misc
+make[2]: Entering directory '/sources/gmp-6.3.0/tests/misc'
+make[2]: Nothing to be done for 'html'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/tests/misc'
+Making html in cxx
+make[2]: Entering directory '/sources/gmp-6.3.0/tests/cxx'
+make[2]: Nothing to be done for 'html'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/tests/cxx'
+make[1]: Leaving directory '/sources/gmp-6.3.0/tests'
+Making html in mpn
+make[1]: Entering directory '/sources/gmp-6.3.0/mpn'
+make[1]: Nothing to be done for 'html'.
+make[1]: Leaving directory '/sources/gmp-6.3.0/mpn'
+Making html in mpz
+make[1]: Entering directory '/sources/gmp-6.3.0/mpz'
+make[1]: Nothing to be done for 'html'.
+make[1]: Leaving directory '/sources/gmp-6.3.0/mpz'
+Making html in mpq
+make[1]: Entering directory '/sources/gmp-6.3.0/mpq'
+make[1]: Nothing to be done for 'html'.
+make[1]: Leaving directory '/sources/gmp-6.3.0/mpq'
+Making html in mpf
+make[1]: Entering directory '/sources/gmp-6.3.0/mpf'
+make[1]: Nothing to be done for 'html'.
+make[1]: Leaving directory '/sources/gmp-6.3.0/mpf'
+Making html in printf
+make[1]: Entering directory '/sources/gmp-6.3.0/printf'
+make[1]: Nothing to be done for 'html'.
+make[1]: Leaving directory '/sources/gmp-6.3.0/printf'
+Making html in scanf
+make[1]: Entering directory '/sources/gmp-6.3.0/scanf'
+make[1]: Nothing to be done for 'html'.
+make[1]: Leaving directory '/sources/gmp-6.3.0/scanf'
+Making html in rand
+make[1]: Entering directory '/sources/gmp-6.3.0/rand'
+make[1]: Nothing to be done for 'html'.
+make[1]: Leaving directory '/sources/gmp-6.3.0/rand'
+Making html in cxx
+make[1]: Entering directory '/sources/gmp-6.3.0/cxx'
+make[1]: Nothing to be done for 'html'.
+make[1]: Leaving directory '/sources/gmp-6.3.0/cxx'
+Making html in demos
+make[1]: Entering directory '/sources/gmp-6.3.0/demos'
+Making html in calc
+make[2]: Entering directory '/sources/gmp-6.3.0/demos/calc'
+make[2]: Nothing to be done for 'html'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/demos/calc'
+Making html in expr
+make[2]: Entering directory '/sources/gmp-6.3.0/demos/expr'
+make[2]: Nothing to be done for 'html'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/demos/expr'
+make[2]: Entering directory '/sources/gmp-6.3.0/demos'
+make[2]: Nothing to be done for 'html-am'.
+make[2]: Leaving directory '/sources/gmp-6.3.0/demos'
+make[1]: Leaving directory '/sources/gmp-6.3.0/demos'
+Making html in tune
+make[1]: Entering directory '/sources/gmp-6.3.0/tune'
+make[1]: Nothing to be done for 'html'.
+make[1]: Leaving directory '/sources/gmp-6.3.0/tune'
+Making html in doc
+make[1]: Entering directory '/sources/gmp-6.3.0/doc'
+rm -rf gmp.htp
+if /bin/sh /sources/gmp-6.3.0/missing makeinfo --html   -I . \
+ -o gmp.htp gmp.texi; \
+then \
+  rm -rf gmp.html && mv gmp.htp gmp.html; \
+else \
+  rm -rf gmp.htp; exit 1; \
+fi
+gmp.texi:447: warning: @refill is obsolete
+gmp.texi:452: warning: @refill is obsolete
+gmp.texi:458: warning: @refill is obsolete
+gmp.texi:464: warning: @refill is obsolete
+gmp.texi:82: warning: no htmlxref.cnf entry found for `dir'
+make[1]: Leaving directory '/sources/gmp-6.3.0/doc'
+make[1]: Entering directory '/sources/gmp-6.3.0'
+make[1]: Nothing to be done for 'html-am'.
+make[1]: Leaving directory '/sources/gmp-6.3.0'
