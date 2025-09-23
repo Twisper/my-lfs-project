@@ -1,0 +1,24 @@
+Making check in po
+make[1]: Entering directory '/sources/attr-2.5.2/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/attr-2.5.2/po'
+make[1]: Entering directory '/sources/attr-2.5.2'
+make  check-TESTS
+make[2]: Entering directory '/sources/attr-2.5.2'
+make[3]: Entering directory '/sources/attr-2.5.2'
+PASS: test/root/getfattr.test
+PASS: test/attr.test
+============================================================================
+Testsuite summary for attr 2.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/attr-2.5.2'
+make[2]: Leaving directory '/sources/attr-2.5.2'
+make[1]: Leaving directory '/sources/attr-2.5.2'

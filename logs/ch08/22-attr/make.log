@@ -1,0 +1,25 @@
+Making all in po
+make[1]: Entering directory '/sources/attr-2.5.2/po'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/attr-2.5.2/po'
+make[1]: Entering directory '/sources/attr-2.5.2'
+  CC       tools/attr.o
+  CC       libattr/la-attr_copy_action.lo
+  CC       libattr/la-attr_copy_check.lo
+  CC       libattr/la-attr_copy_fd.lo
+  CC       libattr/la-attr_copy_file.lo
+  CC       libattr/la-libattr.lo
+  CC       libattr/la-syscalls.lo
+  CC       libmisc/high_water_alloc.lo
+  CC       libmisc/next_line.lo
+  CC       libmisc/quote.lo
+  CC       libmisc/unquote.lo
+  CC       libmisc/walk_tree.lo
+  CC       tools/getfattr.o
+  CC       tools/setfattr.o
+  CCLD     libattr.la
+  CCLD     libmisc.la
+  CCLD     attr
+  CCLD     getfattr
+  CCLD     setfattr
+make[1]: Leaving directory '/sources/attr-2.5.2'
