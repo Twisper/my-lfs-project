@@ -1,0 +1,72 @@
+Making all in po
+make[1]: Entering directory '/sources/acl-2.3.2/po'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/acl-2.3.2/po'
+make[1]: Entering directory '/sources/acl-2.3.2'
+  CC       tools/chacl.o
+  CC       libacl/la-acl_add_perm.lo
+  CC       libacl/la-acl_calc_mask.lo
+  CC       libacl/la-acl_clear_perms.lo
+  CC       libacl/la-acl_copy_entry.lo
+  CC       libacl/la-acl_copy_ext.lo
+  CC       libacl/la-acl_copy_int.lo
+  CC       libacl/la-acl_create_entry.lo
+  CC       libacl/la-acl_delete_def_file.lo
+  CC       libacl/la-acl_delete_entry.lo
+  CC       libacl/la-acl_delete_perm.lo
+  CC       libacl/la-acl_dup.lo
+  CC       libacl/la-acl_free.lo
+  CC       libacl/la-acl_from_text.lo
+  CC       libacl/la-acl_get_entry.lo
+  CC       libacl/la-acl_get_fd.lo
+  CC       libacl/la-acl_get_file.lo
+  CC       libacl/la-acl_get_perm.lo
+  CC       libacl/la-acl_get_permset.lo
+  CC       libacl/la-acl_get_qualifier.lo
+  CC       libacl/la-acl_get_tag_type.lo
+  CC       libacl/la-acl_init.lo
+  CC       libacl/la-acl_set_fd.lo
+  CC       libacl/la-acl_set_file.lo
+  CC       libacl/la-acl_set_permset.lo
+  CC       libacl/la-acl_set_qualifier.lo
+  CC       libacl/la-acl_set_tag_type.lo
+  CC       libacl/la-acl_size.lo
+  CC       libacl/la-acl_to_text.lo
+  CC       libacl/la-acl_valid.lo
+  CC       libacl/la-acl_check.lo
+  CC       libacl/la-acl_cmp.lo
+  CC       libacl/la-acl_entries.lo
+  CC       libacl/la-acl_equiv_mode.lo
+  CC       libacl/la-acl_error.lo
+  CC       libacl/la-acl_extended_fd.lo
+  CC       libacl/la-acl_extended_file.lo
+  CC       libacl/la-acl_extended_file_nofollow.lo
+  CC       libacl/la-acl_from_mode.lo
+  CC       libacl/la-acl_to_any_text.lo
+  CC       libacl/la-__acl_extended_file.lo
+  CC       libacl/la-__acl_from_xattr.lo
+  CC       libacl/la-__acl_reorder_obj_p.lo
+  CC       libacl/la-__acl_to_any_text.lo
+  CC       libacl/la-__acl_to_xattr.lo
+  CC       libacl/la-__apply_mask_to_mode.lo
+  CC       libacl/la-__libobj.lo
+  CC       libacl/la-perm_copy_fd.lo
+  CC       libacl/la-perm_copy_file.lo
+  CC       libmisc/uid_gid_lookup.lo
+  CC       libmisc/high_water_alloc.lo
+  CC       libmisc/next_line.lo
+  CC       libmisc/quote.lo
+  CC       libmisc/unquote.lo
+  CC       libmisc/walk_tree.lo
+  CC       tools/getfacl.o
+  CC       tools/user_group.o
+  CC       tools/do_set.o
+  CC       tools/parse.o
+  CC       tools/sequence.o
+  CC       tools/setfacl.o
+  CCLD     libmisc.la
+  CCLD     libacl.la
+  CCLD     chacl
+  CCLD     getfacl
+  CCLD     setfacl
+make[1]: Leaving directory '/sources/acl-2.3.2'

@@ -1,0 +1,70 @@
+Making install in po
+make[1]: Entering directory '/sources/acl-2.3.2/po'
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/acl.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/acl.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/acl.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/acl.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/acl.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/acl.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/acl.mo
+installing en@boldquot.gmo as /usr/share/locale/en@boldquot/LC_MESSAGES/acl.mo
+installing en@quot.gmo as /usr/share/locale/en@quot/LC_MESSAGES/acl.mo
+if test "acl" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/acl-2.3.2/po'
+make[1]: Entering directory '/sources/acl-2.3.2'
+make[2]: Entering directory '/sources/acl-2.3.2'
+subst_install_header() { file=`echo "$1" | sed -e 's,^.*/,,'`; /usr/bin/sed -e "s/\<EXPORT\>/extern/" < "$1" > "include/$file.t" || exit 1; /usr/bin/mkdir -p "$2" || exit 1; /usr/bin/install -c -m 644 "include/$file.t" "$2/$file" || exit 1; rm -f "include/$file.t"; }; subst_install_header "include/libacl.h" "/usr/include/acl"
+subst_install_header() { file=`echo "$1" | sed -e 's,^.*/,,'`; /usr/bin/sed -e "s/\<EXPORT\>/extern/" < "$1" > "include/$file.t" || exit 1; /usr/bin/mkdir -p "$2" || exit 1; /usr/bin/install -c -m 644 "include/$file.t" "$2/$file" || exit 1; rm -f "include/$file.t"; }; subst_install_header "include/acl.h" "/usr/include/sys"
+ /usr/bin/mkdir -p '/usr/share/doc/acl-2.3.2'
+ /usr/bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 doc/CHANGES doc/COPYING doc/COPYING.LGPL doc/extensions.txt doc/libacl.txt '/usr/share/doc/acl-2.3.2'
+ /usr/bin/install -c -m 644 libacl.pc '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 man/man5/acl.5 '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 man/man1/chacl.1 man/man1/getfacl.1 man/man1/setfacl.1 '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libacl.la '/usr/lib'
+ /usr/bin/install -c -m 644 man/man3/acl_add_perm.3 man/man3/acl_calc_mask.3 man/man3/acl_check.3 man/man3/acl_clear_perms.3 man/man3/acl_cmp.3 man/man3/acl_copy_entry.3 man/man3/acl_copy_ext.3 man/man3/acl_copy_int.3 man/man3/acl_create_entry.3 man/man3/acl_delete_def_file.3 man/man3/acl_delete_entry.3 man/man3/acl_delete_perm.3 man/man3/acl_dup.3 man/man3/acl_entries.3 man/man3/acl_equiv_mode.3 man/man3/acl_error.3 man/man3/acl_extended_fd.3 man/man3/acl_extended_file.3 man/man3/acl_extended_file_nofollow.3 man/man3/acl_free.3 man/man3/acl_from_mode.3 man/man3/acl_from_text.3 man/man3/acl_get_entry.3 man/man3/acl_get_fd.3 man/man3/acl_get_file.3 man/man3/acl_get_perm.3 man/man3/acl_get_permset.3 man/man3/acl_get_qualifier.3 man/man3/acl_get_tag_type.3 man/man3/acl_init.3 man/man3/acl_set_fd.3 man/man3/acl_set_file.3 man/man3/acl_set_permset.3 man/man3/acl_set_qualifier.3 man/man3/acl_set_tag_type.3 man/man3/acl_size.3 man/man3/acl_to_any_text.3 man/man3/acl_to_text.3 man/man3/acl_valid.3 '/usr/share/man/man3'
+libtool: install: /usr/bin/install -c .libs/libacl.so.1.1.2302 /usr/lib/libacl.so.1.1.2302
+libtool: install: (cd /usr/lib && { ln -s -f libacl.so.1.1.2302 libacl.so.1 || { rm -f libacl.so.1 && ln -s libacl.so.1.1.2302 libacl.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libacl.so.1.1.2302 libacl.so || { rm -f libacl.so && ln -s libacl.so.1.1.2302 libacl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libacl.lai /usr/lib/libacl.la
+libtool: finish: PATH="/usr/bin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c chacl getfacl setfacl '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/chacl /usr/bin/chacl
+libtool: install: /usr/bin/install -c .libs/getfacl /usr/bin/getfacl
+libtool: install: /usr/bin/install -c .libs/setfacl /usr/bin/setfacl
+make[2]: Leaving directory '/sources/acl-2.3.2'
+make[1]: Leaving directory '/sources/acl-2.3.2'
