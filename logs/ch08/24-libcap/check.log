@@ -1,0 +1,163 @@
+make -C libcap test
+make[1]: Entering directory '/sources/libcap-2.76/libcap'
+gcc -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -fPIC -D_LIBPSX_PTHREAD_LINKAGE -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/sources/libcap-2.76/libcap/../libcap/include/uapi -I/sources/libcap-2.76/libcap/../libcap/include  cap_test.c cap_alloc.o cap_proc.o cap_extint.o cap_flag.o cap_text.o cap_file.o cap_syscalls.o -o cap_test
+./cap_test
+test_cap_bits: being called
+test_cap_flags: being called
+test_short_bits: being called
+test_alloc: being called
+test_alloc
+test_alloc: drop_launcher
+test_alloc: drop_iab
+test_alloc: drop_cap
+test_prctl: being called
+tested
+cap_test PASS
+make libcapsotest
+make[2]: Entering directory '/sources/libcap-2.76/libcap'
+./libcap.so
+./libcap.so is the shared library version: libcap-2.76.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+./libcap.so --usage
+./libcap.so is the shared library version: libcap-2.76.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+
+usage: libcap.so [--help|--usage|--summary]
+./libcap.so --help
+./libcap.so is the shared library version: libcap-2.76.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+
+usage: libcap.so [--help|--usage|--summary]
+./libcap.so --summary
+./libcap.so is the shared library version: libcap-2.76.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+
+Current mode: HYBRID
+Number of cap values known to: this libcap=41, running kernel=41
+make[2]: Leaving directory '/sources/libcap-2.76/libcap'
+make libpsxsotest
+make[2]: Entering directory '/sources/libcap-2.76/libcap'
+./libpsx.so
+./libpsx.so is the shared library version: libpsx-2.76.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+make[2]: Leaving directory '/sources/libcap-2.76/libcap'
+make[1]: Leaving directory '/sources/libcap-2.76/libcap'
+make -C tests test
+make[1]: Entering directory '/sources/libcap-2.76/tests'
+make run_psx_test run_libcap_psx_test
+make[2]: Entering directory '/sources/libcap-2.76/tests'
+gcc -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/sources/libcap-2.76/tests/../libcap/include/uapi -I/sources/libcap-2.76/tests/../libcap/include  psx_test.c -o psx_test -Wl,-rpath,../libcap -L/sources/libcap-2.76/tests/../libcap -Wl,--no-as-needed -Wl,--whole-archive -lpsx -Wl,--no-whole-archive -Wl,--as-needed -lpthread
+gcc -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/sources/libcap-2.76/tests/../libcap/include/uapi -I/sources/libcap-2.76/tests/../libcap/include  libcap_psx_test.c -o libcap_psx_test -Wl,-rpath,../libcap -L/sources/libcap-2.76/tests/../libcap -lcap -L/sources/libcap-2.76/tests/../libcap -Wl,--no-as-needed -Wl,--whole-archive -lpsx -Wl,--no-whole-archive -Wl,--as-needed -lpthread
+./libcap_psx_test
+hello libcap and libpsx .......... PASSED
+./psx_test
+child 167239 starting
+child 167239 exiting
+iteration [167238]: 0
+hello [167238], main<0> 7f202f4bc740 (keepcaps=1 vs. want=1)
+pid=167238 forked -> 167239
+[167238] started=0 vs 1
+[167238] started=1 vs 1
+iteration [167238]: 1
+hello [167238], main<1> 7f202f4bc740 (keepcaps=0 vs. want=0)
+hello [167238], thread<0> 7f202f4bb6c0 (keepcaps=0 vs. want=0)
+[167238] started=1 vs 2
+[167238] started=2 vs 2
+iteration [167238]: 2
+hello [167238], main<2> 7f202f4bc740 (keepcaps=1 vs. want=1)
+hello [167238], thread<1> 7f202f4bb6c0 (keepcaps=1 vs. want=1)
+hello [167238], thread<0> 7f202ecba6c0 (keepcaps=1 vs. want=1)
+[167238] started=2 vs 3
+[167238] started=3 vs 3
+iteration [167238]: 3
+hello [167238], main<3> 7f202f4bc740 (keepcaps=0 vs. want=0)
+hello [167238], thread<2> 7f202f4bb6c0 (keepcaps=0 vs. want=0)
+hello [167238], thread<0> 7f202e4b96c0 (keepcaps=0 vs. want=0)
+hello [167238], thread<1> 7f202ecba6c0 (keepcaps=0 vs. want=0)
+iteration [167238]: 4
+hello [167238], thread<1> 7f202e4b96c0 (keepcaps=1 vs. want=1)
+hello [167238], main<4> 7f202f4bc740 (keepcaps=1 vs. want=1)
+hello [167238], thread<2> 7f202ecba6c0 (keepcaps=1 vs. want=1)
+iteration [167238]: 5
+hello [167238], thread<2> 7f202e4b96c0 (keepcaps=0 vs. want=0)
+hello [167238], main<5> 7f202f4bc740 (keepcaps=0 vs. want=0)
+iteration [167238]: 6
+hello [167238], main<6> 7f202f4bc740 (keepcaps=1 vs. want=1)
+iteration [167238]: 7
+hello [167238], main<7> 7f202f4bc740 (keepcaps=0 vs. want=0)
+iteration [167238]: 8
+hello [167238], main<8> 7f202f4bc740 (keepcaps=1 vs. want=1)
+iteration [167238]: 9
+hello [167238], main<9> 7f202f4bc740 (keepcaps=0 vs. want=0)
+./psx_test PASSED
+make[2]: Leaving directory '/sources/libcap-2.76/tests'
+make run_b219174
+make[2]: Entering directory '/sources/libcap-2.76/tests'
+gcc -Wl,-x -shared -Wl,-shared -o weaver.so -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -fPIC -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/sources/libcap-2.76/tests/../libcap/include/uapi -I/sources/libcap-2.76/tests/../libcap/include weaver.c -DSHARED_LOADER=\"/lib64/ld-linux-x86-64.so.2\" -Wl,-e,__so_start -lpthread
+gcc -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/sources/libcap-2.76/tests/../libcap/include/uapi -I/sources/libcap-2.76/tests/../libcap/include b219174.c -o b219174 -Wl,-rpath,../libcap -L/sources/libcap-2.76/tests/../libcap -Wl,--no-as-needed -Wl,--whole-archive -lpsx -Wl,--no-whole-archive -Wl,--as-needed -lpthread -ldl
+./weaver.so
+PASSED
+./b219174
+for 1 weaver.so launched threads, total=2, wanted=2
+for 2 weaver.so launched threads, total=6, wanted=6
+for 3 weaver.so launched threads, total=6, wanted=6
+for 4 weaver.so launched threads, total=12, wanted=12
+for 5 weaver.so launched threads, total=10, wanted=10
+for 6 weaver.so launched threads, total=18, wanted=18
+for 7 weaver.so launched threads, total=14, wanted=14
+for 8 weaver.so launched threads, total=24, wanted=24
+for 9 weaver.so launched threads, total=18, wanted=18
+for 10 weaver.so launched threads, total=30, wanted=30
+for 11 weaver.so launched threads, total=22, wanted=22
+for 12 weaver.so launched threads, total=36, wanted=36
+for 13 weaver.so launched threads, total=26, wanted=26
+for 14 weaver.so launched threads, total=42, wanted=42
+for 15 weaver.so launched threads, total=30, wanted=30
+for 16 weaver.so launched threads, total=48, wanted=48
+for 17 weaver.so launched threads, total=34, wanted=34
+for 18 weaver.so launched threads, total=54, wanted=54
+for 19 weaver.so launched threads, total=38, wanted=38
+for 20 weaver.so launched threads, total=60, wanted=60
+for 21 weaver.so launched threads, total=42, wanted=42
+for 22 weaver.so launched threads, total=66, wanted=66
+for 23 weaver.so launched threads, total=46, wanted=46
+for 24 weaver.so launched threads, total=72, wanted=72
+for 25 weaver.so launched threads, total=50, wanted=50
+for 26 weaver.so launched threads, total=78, wanted=78
+for 27 weaver.so launched threads, total=54, wanted=54
+for 28 weaver.so launched threads, total=84, wanted=84
+for 29 weaver.so launched threads, total=58, wanted=58
+for 30 weaver.so launched threads, total=90, wanted=90
+for 31 weaver.so launched threads, total=62, wanted=62
+for 32 weaver.so launched threads, total=96, wanted=96
+for 33 weaver.so launched threads, total=66, wanted=66
+for 34 weaver.so launched threads, total=102, wanted=102
+for 35 weaver.so launched threads, total=70, wanted=70
+for 36 weaver.so launched threads, total=108, wanted=108
+for 37 weaver.so launched threads, total=74, wanted=74
+PASSED
+make[2]: Leaving directory '/sources/libcap-2.76/tests'
+make[1]: Leaving directory '/sources/libcap-2.76/tests'
+make -C progs test
+make[1]: Entering directory '/sources/libcap-2.76/progs'
+no program tests without privilege, try 'make sudotest'
+make[1]: Leaving directory '/sources/libcap-2.76/progs'
+make -C doc test
+make[1]: Entering directory '/sources/libcap-2.76/doc'
+no doc tests available
+make[1]: Leaving directory '/sources/libcap-2.76/doc'
