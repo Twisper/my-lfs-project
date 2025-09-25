@@ -1,0 +1,147 @@
+make  install-recursive
+make[1]: Entering directory '/sources/psmisc-23.7'
+Making install in doc
+make[2]: Entering directory '/sources/psmisc-23.7/doc'
+make[3]: Entering directory '/sources/psmisc-23.7/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 killall.1 peekfd.1 prtstat.1 pslog.1 pstree.1 fuser.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/psmisc-23.7/doc'
+make[2]: Leaving directory '/sources/psmisc-23.7/doc'
+Making install in po
+make[2]: Entering directory '/sources/psmisc-23.7/po'
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/psmisc.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/psmisc.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/psmisc.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/psmisc.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/psmisc.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/psmisc.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/psmisc.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/psmisc.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/psmisc.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/psmisc.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/psmisc.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/psmisc.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/psmisc.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/psmisc.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/psmisc.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/psmisc.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/psmisc.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/psmisc.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/psmisc.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/psmisc.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/psmisc.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/psmisc.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/psmisc.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/psmisc.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/psmisc.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/psmisc.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/psmisc.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/psmisc.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/psmisc.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/psmisc.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/psmisc.mo
+if test "psmisc" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/sources/psmisc-23.7/po'
+Making install in icons
+make[2]: Entering directory '/sources/psmisc-23.7/icons'
+make[3]: Entering directory '/sources/psmisc-23.7/icons'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/psmisc-23.7/icons'
+make[2]: Leaving directory '/sources/psmisc-23.7/icons'
+Making install in man-po
+make[2]: Entering directory '/sources/psmisc-23.7/man-po'
+make[3]: Entering directory '/sources/psmisc-23.7/man-po'
+make[3]: Nothing to be done for 'install-exec-am'.
+for lang in da de fr hr ko pt_BR ro ru sr sv uk; do \
+	files=""; \
+	for trans in fuser.1 killall.1 peekfd.1 prtstat.1 pslog.1 pstree.1; do \
+		if [ -f /sources/psmisc-23.7/man-po/$lang/$trans ]; then \
+			files="$files /sources/psmisc-23.7/man-po/$lang/$trans"; \
+		elif [ -f ./$lang/$trans ]; then \
+			files="$files ./$lang/$trans"; \
+		fi; \
+	done; \
+	make -C .. install-man \
+		mandir="/usr/share/man/$lang" \
+		dist_man_MANS="$files"; \
+done
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/da/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/da/prtstat.1 /sources/psmisc-23.7/man-po/da/pslog.1 '/usr/share/man/da/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/de/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/de/fuser.1 /sources/psmisc-23.7/man-po/de/killall.1 /sources/psmisc-23.7/man-po/de/peekfd.1 /sources/psmisc-23.7/man-po/de/prtstat.1 /sources/psmisc-23.7/man-po/de/pslog.1 /sources/psmisc-23.7/man-po/de/pstree.1 '/usr/share/man/de/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/fr/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/fr/fuser.1 /sources/psmisc-23.7/man-po/fr/killall.1 /sources/psmisc-23.7/man-po/fr/peekfd.1 /sources/psmisc-23.7/man-po/fr/prtstat.1 /sources/psmisc-23.7/man-po/fr/pslog.1 /sources/psmisc-23.7/man-po/fr/pstree.1 '/usr/share/man/fr/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/hr/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/hr/fuser.1 /sources/psmisc-23.7/man-po/hr/killall.1 /sources/psmisc-23.7/man-po/hr/peekfd.1 /sources/psmisc-23.7/man-po/hr/prtstat.1 /sources/psmisc-23.7/man-po/hr/pslog.1 /sources/psmisc-23.7/man-po/hr/pstree.1 '/usr/share/man/hr/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/ko/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/ko/fuser.1 /sources/psmisc-23.7/man-po/ko/killall.1 /sources/psmisc-23.7/man-po/ko/peekfd.1 /sources/psmisc-23.7/man-po/ko/prtstat.1 /sources/psmisc-23.7/man-po/ko/pslog.1 /sources/psmisc-23.7/man-po/ko/pstree.1 '/usr/share/man/ko/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/pt_BR/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/pt_BR/fuser.1 /sources/psmisc-23.7/man-po/pt_BR/killall.1 /sources/psmisc-23.7/man-po/pt_BR/peekfd.1 /sources/psmisc-23.7/man-po/pt_BR/prtstat.1 /sources/psmisc-23.7/man-po/pt_BR/pslog.1 /sources/psmisc-23.7/man-po/pt_BR/pstree.1 '/usr/share/man/pt_BR/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/ro/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/ro/fuser.1 /sources/psmisc-23.7/man-po/ro/killall.1 /sources/psmisc-23.7/man-po/ro/peekfd.1 /sources/psmisc-23.7/man-po/ro/prtstat.1 /sources/psmisc-23.7/man-po/ro/pslog.1 /sources/psmisc-23.7/man-po/ro/pstree.1 '/usr/share/man/ro/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/ru/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/ru/fuser.1 /sources/psmisc-23.7/man-po/ru/killall.1 /sources/psmisc-23.7/man-po/ru/peekfd.1 /sources/psmisc-23.7/man-po/ru/prtstat.1 /sources/psmisc-23.7/man-po/ru/pslog.1 /sources/psmisc-23.7/man-po/ru/pstree.1 '/usr/share/man/ru/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/sr/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/sr/fuser.1 /sources/psmisc-23.7/man-po/sr/killall.1 /sources/psmisc-23.7/man-po/sr/peekfd.1 /sources/psmisc-23.7/man-po/sr/prtstat.1 /sources/psmisc-23.7/man-po/sr/pslog.1 /sources/psmisc-23.7/man-po/sr/pstree.1 '/usr/share/man/sr/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/sv/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/sv/fuser.1 /sources/psmisc-23.7/man-po/sv/killall.1 /sources/psmisc-23.7/man-po/sv/peekfd.1 /sources/psmisc-23.7/man-po/sv/prtstat.1 /sources/psmisc-23.7/man-po/sv/pslog.1 /sources/psmisc-23.7/man-po/sv/pstree.1 '/usr/share/man/sv/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[4]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/uk/man1'
+ /usr/bin/install -c -m 644 /sources/psmisc-23.7/man-po/uk/fuser.1 /sources/psmisc-23.7/man-po/uk/killall.1 /sources/psmisc-23.7/man-po/uk/peekfd.1 /sources/psmisc-23.7/man-po/uk/prtstat.1 /sources/psmisc-23.7/man-po/uk/pslog.1 /sources/psmisc-23.7/man-po/uk/pstree.1 '/usr/share/man/uk/man1'
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[3]: Leaving directory '/sources/psmisc-23.7/man-po'
+make[2]: Leaving directory '/sources/psmisc-23.7/man-po'
+Making install in testsuite
+make[2]: Entering directory '/sources/psmisc-23.7/testsuite'
+make[3]: Entering directory '/sources/psmisc-23.7/testsuite'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/psmisc-23.7/testsuite'
+make[2]: Leaving directory '/sources/psmisc-23.7/testsuite'
+make[2]: Entering directory '/sources/psmisc-23.7'
+make[3]: Entering directory '/sources/psmisc-23.7'
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c src/killall src/pslog src/prtstat src/pstree src/fuser src/peekfd '/usr/bin'
+ /usr/bin/install -c -m 644 doc/killall.1 doc/pslog.1 doc/prtstat.1 doc/pstree.1 doc/peekfd.1 doc/fuser.1 '/usr/share/man/man1'
+make  install-exec-hook
+make[4]: Entering directory '/sources/psmisc-23.7'
+cd /usr/bin && \
+		( [ -h pstree.x11 ]  || ln -s pstree pstree.x11)
+make[4]: Leaving directory '/sources/psmisc-23.7'
+make[3]: Leaving directory '/sources/psmisc-23.7'
+make[2]: Leaving directory '/sources/psmisc-23.7'
+make[1]: Leaving directory '/sources/psmisc-23.7'

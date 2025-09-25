@@ -1,0 +1,48 @@
+echo 23.7 > .version-t && mv .version-t .version
+export LC_ALL=C ; \
+	gcc -E  -dM src/signames.c |\
+	tr -s '\t ' ' ' | sort -n -k 3 | sed \
+'s:#define SIG\([A-Z][A-Z]*[0-9]*\) \([0-9][0-9]*\).*:{\ \2,"\1" },:p;d' | \
+	  grep -v '[0-9][0-9][0-9]' >src/signames.h || \
+	  { rm -f src/signames.h; exit 1; }
+grep '^{ 1,"HUP" },$' src/signames.h >/dev/null || \
+	  { rm -f src/signames.h; exit 1; }
+make  all-recursive
+make[1]: Entering directory '/sources/psmisc-23.7'
+Making all in doc
+make[2]: Entering directory '/sources/psmisc-23.7/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-23.7/doc'
+Making all in po
+make[2]: Entering directory '/sources/psmisc-23.7/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-23.7/po'
+Making all in icons
+make[2]: Entering directory '/sources/psmisc-23.7/icons'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-23.7/icons'
+Making all in man-po
+make[2]: Entering directory '/sources/psmisc-23.7/man-po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-23.7/man-po'
+Making all in testsuite
+make[2]: Entering directory '/sources/psmisc-23.7/testsuite'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-23.7/testsuite'
+make[2]: Entering directory '/sources/psmisc-23.7'
+  CC       src/killall.o
+  CC       src/signals.o
+  CC       src/pslog.o
+  CC       src/prtstat.o
+  CC       src/pstree.o
+  CC       src/fuser.o
+  CC       src/statx.o
+  CC       src/peekfd.o
+  CCLD     src/pslog
+  CCLD     src/prtstat
+  CCLD     src/peekfd
+  CCLD     src/killall
+  CCLD     src/pstree
+  CCLD     src/fuser
+make[2]: Leaving directory '/sources/psmisc-23.7'
+make[1]: Leaving directory '/sources/psmisc-23.7'

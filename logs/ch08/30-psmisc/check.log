@@ -1,0 +1,104 @@
+  CC       src/socket_test.o
+  CCLD     src/socket_test
+make  check-recursive
+make[1]: Entering directory '/sources/psmisc-23.7'
+Making check in doc
+make[2]: Entering directory '/sources/psmisc-23.7/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/psmisc-23.7/doc'
+Making check in po
+make[2]: Entering directory '/sources/psmisc-23.7/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/psmisc-23.7/po'
+Making check in icons
+make[2]: Entering directory '/sources/psmisc-23.7/icons'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/psmisc-23.7/icons'
+Making check in man-po
+make[2]: Entering directory '/sources/psmisc-23.7/man-po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/psmisc-23.7/man-po'
+Making check in testsuite
+make[2]: Entering directory '/sources/psmisc-23.7/testsuite'
+make  check-DEJAGNU
+make[3]: Entering directory '/sources/psmisc-23.7/testsuite'
+Making a new site.exp file ...
+srcdir='.'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='killall pslog fuser'; for tool in $l; do \
+    if runtest --tool $tool --srcdir $srcdir  ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find 'runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+WARNING: Couldn't find tool init file
+Test run by root on Thu Sep 25 23:18:22 2025
+Native configuration is x86_64-pc-linux-gnu
+
+		=== killall tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+Using /sources/psmisc-23.7/testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running /sources/psmisc-23.7/testsuite/killall.test/killall.exp ...
+
+		=== killall Summary ===
+
+# of expected passes		66
+/sources/psmisc-23.7/src/killall version 23.7
+
+WARNING: Couldn't find tool init file
+Test run by root on Thu Sep 25 23:18:30 2025
+Native configuration is x86_64-pc-linux-gnu
+
+		=== pslog tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+Using /sources/psmisc-23.7/testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running /sources/psmisc-23.7/testsuite/pslog.test/pslog.exp ...
+
+		=== pslog Summary ===
+
+# of expected passes		2
+/sources/psmisc-23.7/src/pslog version 23.7
+
+WARNING: Couldn't find tool init file
+Test run by root on Thu Sep 25 23:18:30 2025
+Native configuration is x86_64-pc-linux-gnu
+
+		=== fuser tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+Using /sources/psmisc-23.7/testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running /sources/psmisc-23.7/testsuite/fuser.test/fuser.exp ...
+
+		=== fuser Summary ===
+
+# of expected passes		9
+/sources/psmisc-23.7/src/fuser version 23.7
+
+make[3]: Leaving directory '/sources/psmisc-23.7/testsuite'
+make[2]: Leaving directory '/sources/psmisc-23.7/testsuite'
+make[2]: Entering directory '/sources/psmisc-23.7'
+make  src/socket_test
+make[3]: Entering directory '/sources/psmisc-23.7'
+make[3]: 'src/socket_test' is up to date.
+make[3]: Leaving directory '/sources/psmisc-23.7'
+make[2]: Leaving directory '/sources/psmisc-23.7'
+make[1]: Leaving directory '/sources/psmisc-23.7'
