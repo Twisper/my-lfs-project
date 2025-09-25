@@ -1,0 +1,145 @@
+  GEN      lib/alloca.h
+  GEN      lib/ctype.h
+  GEN      lib/fcntl.h
+  GEN      lib/malloc/dynarray.gl.h
+  GEN      lib/malloc/dynarray-skeleton.gl.h
+  GEN      lib/malloc/scratch_buffer.gl.h
+  GEN      lib/inttypes.h
+  GEN      lib/langinfo.h
+  GEN      lib/limits.h
+  GEN      lib/locale.h
+  GEN      lib/selinux/context.h
+  GEN      lib/selinux/selinux.h
+  GEN      lib/selinux/label.h
+  GEN      lib/stdio.h
+  GEN      lib/stdlib.h
+  GEN      lib/string.h
+  GEN      lib/sys/random.h
+  GEN      lib/sys/stat.h
+  GEN      lib/sys/types.h
+  GEN      lib/time.h
+  GEN      lib/unistd.h
+  GEN      lib/wchar.h
+  GEN      sed/version.c
+  GEN      lib/wctype.h
+  GEN      sed/version.h
+make  all-recursive
+make[1]: Entering directory '/sources/sed-4.9'
+Making all in po
+make[2]: Entering directory '/sources/sed-4.9/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/sed-4.9/po'
+Making all in .
+make[2]: Entering directory '/sources/sed-4.9'
+  CC       lib/libsed_a-malloca.o
+  CC       lib/libsed_a-mbrlen.o
+  CC       lib/libsed_a-mbrtowc.o
+  CC       lib/libsed_a-obstack.o
+  CC       lib/libsed_a-progname.o
+  CC       lib/libsed_a-qcopy-acl.o
+  CC       lib/libsed_a-qset-acl.o
+  CC       lib/libsed_a-quotearg.o
+  CC       lib/libsed_a-se-context.o
+  CC       lib/libsed_a-se-label.o
+  CC       lib/libsed_a-se-selinux.o
+  CC       lib/libsed_a-setlocale_null.o
+  CC       lib/libsed_a-stat-time.o
+  CC       lib/libsed_a-tempname.o
+  CC       lib/glthread/libsed_a-threadlib.o
+  CC       lib/libsed_a-unistd.o
+  CC       lib/libsed_a-version-etc.o
+  CC       lib/libsed_a-version-etc-fsf.o
+  CC       lib/libsed_a-wctype-h.o
+  CC       lib/libsed_a-xmalloc.o
+  CC       lib/libsed_a-xalloc-die.o
+  CC       sed/version.o
+  CC       sed/sed-compile.o
+  CC       sed/sed-debug.o
+  CC       sed/sed-execute.o
+  CC       sed/sed-mbcs.o
+  CC       sed/sed-regexp.o
+  CC       sed/sed-sed.o
+  CC       sed/sed-utils.o
+  CC       lib/libsed_a-copy-acl.o
+  CC       lib/libsed_a-set-acl.o
+  CC       lib/libsed_a-acl-errno-valid.o
+  CC       lib/libsed_a-acl-internal.o
+  CC       lib/libsed_a-get-permissions.o
+  CC       lib/libsed_a-set-permissions.o
+  CC       lib/libsed_a-basename-lgpl.o
+  CC       lib/libsed_a-binary-io.o
+  CC       lib/libsed_a-c-ctype.o
+  CC       lib/libsed_a-c-strcasecmp.o
+  CC       lib/libsed_a-c-strncasecmp.o
+  CC       lib/libsed_a-cloexec.o
+  CC       lib/libsed_a-close-stream.o
+  CC       lib/libsed_a-closeout.o
+  CC       lib/libsed_a-dfa.o
+  CC       lib/libsed_a-localeinfo.o
+  CC       lib/libsed_a-dirname-lgpl.o
+  CC       lib/libsed_a-stripslash.o
+  CC       lib/libsed_a-exitfail.o
+  CC       lib/libsed_a-fcntl.o
+  CC       lib/libsed_a-fd-hook.o
+  CC       lib/libsed_a-getprogname.o
+  CC       lib/malloc/libsed_a-dynarray_at_failure.o
+  CC       lib/malloc/libsed_a-dynarray_emplace_enlarge.o
+  CC       lib/malloc/libsed_a-dynarray_finalize.o
+  CC       lib/malloc/libsed_a-dynarray_resize.o
+  CC       lib/malloc/libsed_a-dynarray_resize_clear.o
+  CC       lib/malloc/libsed_a-scratch_buffer_grow.o
+  CC       lib/malloc/libsed_a-scratch_buffer_grow_preserve.o
+  CC       lib/malloc/libsed_a-scratch_buffer_set_array_size.o
+  CC       lib/libsed_a-hard-locale.o
+  CC       lib/libsed_a-ialloc.o
+  CC       lib/libsed_a-localcharset.o
+  CC       lib/glthread/libsed_a-lock.o
+  AR       sed/libver.a
+  AR       lib/libsed.a
+  CCLD     sed/sed
+  GEN      doc/sed.1
+make[2]: Leaving directory '/sources/sed-4.9'
+Making all in gnulib-tests
+make[2]: Entering directory '/sources/sed-4.9/gnulib-tests'
+  GEN      arpa/inet.h
+  GEN      dirent.h
+  GEN      pthread.h
+  GEN      sched.h
+  GEN      sys/ioctl.h
+  GEN      signal.h
+  GEN      sys/select.h
+  GEN      sys/socket.h
+  GEN      sys/time.h
+## ---------------------------------------------------- ##
+  GEN      sys/uio.h
+## ------------------- Gnulib tests ------------------- ##
+## You can ignore compiler warnings in this directory.  ##
+## ---------------------------------------------------- ##
+make  all-recursive
+make[3]: Entering directory '/sources/sed-4.9/gnulib-tests'
+Making all in .
+make[4]: Entering directory '/sources/sed-4.9/gnulib-tests'
+  CC       locale.o
+  CC       file-has-acl.o
+  CC       fpurge.o
+  CC       freading.o
+  CC       getcwd-lgpl.o
+  CC       ioctl.o
+  CC       localename.o
+  CC       localename-table.o
+  CC       nanosleep.o
+  CC       pthread_sigmask.o
+  CC       read-file.o
+  CC       sockets.o
+  CC       sys_socket.o
+  CC       vma-iter.o
+  CC       strerror_r.o
+  CC       test-localcharset.o
+  CC       glthread/thread.o
+  AR       libtests.a
+  CCLD     current-locale
+  CCLD     test-localcharset
+make[4]: Leaving directory '/sources/sed-4.9/gnulib-tests'
+make[3]: Leaving directory '/sources/sed-4.9/gnulib-tests'
+make[2]: Leaving directory '/sources/sed-4.9/gnulib-tests'
+make[1]: Leaving directory '/sources/sed-4.9'
