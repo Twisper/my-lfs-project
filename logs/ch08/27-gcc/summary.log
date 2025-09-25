@@ -1,0 +1,53 @@
+		=== g++ Summary ===
+
+# of expected passes		248515
+# of unexpected failures	2
+# of expected failures		2282
+# of unsupported tests		2049
+/sources/gcc-15.2.0/build/gcc/xg++  version 15.2.0 (GCC) 
+
+--
+		=== gcc Summary ===
+
+# of expected passes		211454
+# of unexpected failures	20
+# of expected failures		1476
+# of unsupported tests		3784
+/sources/gcc-15.2.0/build/gcc/xgcc  version 15.2.0 (GCC) 
+
+--
+		=== libatomic Summary ===
+
+# of expected passes		54
+		=== libgomp tests ===
+
+
+Running target unix
+WARNING: libgomp.c++/../libgomp.c-c++-common/for-11.c (test for excess errors) program timed out.
+--
+		=== libgomp Summary ===
+
+# of expected passes		5984
+# of unexpected failures	2
+# of expected failures		46
+# of unresolved testcases	2
+# of unsupported tests		398
+		=== libitm tests ===
+--
+		=== libitm Summary ===
+
+# of expected passes		44
+# of expected failures		3
+# of unsupported tests		1
+		=== libstdc++ tests ===
+
+
+--
+		=== libstdc++ Summary ===
+
+# of expected passes		18872
+# of unexpected failures	27
+# of expected failures		131
+# of unresolved testcases	18
+# of unsupported tests		483
+
