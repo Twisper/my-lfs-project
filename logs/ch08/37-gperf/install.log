@@ -1,0 +1,29 @@
+cd lib; make install
+make[1]: Entering directory '/sources/gperf-3.3/lib'
+make  install-am
+make[2]: Entering directory '/sources/gperf-3.3/lib'
+make[3]: Entering directory '/sources/gperf-3.3/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/gperf-3.3/lib'
+make[2]: Leaving directory '/sources/gperf-3.3/lib'
+make[1]: Leaving directory '/sources/gperf-3.3/lib'
+cd src; make install
+make[1]: Entering directory '/sources/gperf-3.3/src'
+/bin/sh ./../build-aux/mkinstalldirs /usr/bin
+/usr/bin/install -c gperf /usr/bin/gperf
+make[1]: Leaving directory '/sources/gperf-3.3/src'
+cd tests; make install
+make[1]: Entering directory '/sources/gperf-3.3/tests'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/sources/gperf-3.3/tests'
+cd doc; make install
+make[1]: Entering directory '/sources/gperf-3.3/doc'
+/bin/sh ./../build-aux/mkinstalldirs /usr/share/info
+/usr/bin/install -c -m 644 ./gperf.info /usr/share/info/gperf.info
+/bin/sh ./../build-aux/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 ./gperf.1 /usr/share/man/man1/gperf.1
+/bin/sh ./../build-aux/mkinstalldirs /usr/share/doc/gperf-3.3
+mkdir -p -- /usr/share/doc/gperf-3.3
+/usr/bin/install -c -m 644 ./gperf.html /usr/share/doc/gperf-3.3/gperf.html
+make[1]: Leaving directory '/sources/gperf-3.3/doc'
