@@ -1,0 +1,1604 @@
+make  check-TESTS check-local
+make[1]: Entering directory '/sources/automake-1.18.1'
+make[2]: Entering directory '/sources/automake-1.18.1'
+XFAIL: t/pm/Cond3.pl
+XFAIL: t/pm/Cond2.pl
+PASS: t/pm/Condition.pl
+XFAIL: t/pm/DisjCon2.pl
+PASS: t/pm/General.pl
+XFAIL: t/pm/DisjCon3.pl
+PASS: t/pm/Version.pl
+XFAIL: t/pm/Version2.pl
+PASS: t/pm/DisjConditions.pl
+PASS: t/pm/Wrap.pl
+XFAIL: t/pm/Version3.pl
+PASS: t/pm/Condition-t.pl
+a68-demo: skipped test: required program 'ga68' not available
+SKIP: t/a68-demo.sh
+PASS: t/pm/DisjConditions-t.pl
+SKIP: t/get-sysconf.sh
+PASS: t/aclocal.sh
+PASS: t/aclocal-I-order-2.sh
+PASS: t/aclocal-I-order-3.sh
+PASS: t/aclocal-I-order-1.sh
+PASS: t/aclocal-comments-respected.sh
+PASS: t/aclocal-I-and-install.sh
+PASS: t/aclocal-acdir.sh
+PASS: t/aclocal-autoconf-version-check.sh
+PASS: t/aclocal-dirlist.sh
+PASS: t/aclocal-amflags.sh
+PASS: t/aclocal-deleted-header-aclocal-amflags.sh
+PASS: t/aclocal-dirlist-globbing.sh
+PASS: t/aclocal-dirlist-abspath.sh
+PASS: t/aclocal-install-absdir.sh
+aclocal-install-fail: skipped test: cannot drop directory write permissions
+SKIP: t/aclocal-install-fail.sh
+PASS: t/aclocal-deleted-header.sh
+PASS: t/aclocal-install-mkdir.sh
+PASS: t/aclocal-deps-subdir.sh
+PASS: t/aclocal-deps.sh
+PASS: t/aclocal-missing-macros.sh
+PASS: t/aclocal-m4-sinclude.sh
+PASS: t/aclocal-no-extra-scan.sh
+PASS: t/aclocal-no-install-no-mkdir.sh
+PASS: t/aclocal-m4-include-are-scanned-aclocal-amflags.sh
+PASS: t/aclocal-no-symlinked-overwrite.sh
+PASS: t/aclocal-no-unused-required.sh
+PASS: t/aclocal-m4-include-are-scanned.sh
+PASS: t/aclocal-path.sh
+PASS: t/aclocal-path-install.sh
+PASS: t/aclocal-path-nonexistent.sh
+PASS: t/aclocal-macrodir.tap 1 - AC_CONFIG_MACRO_DIR is honored
+PASS: t/aclocal-macrodir.tap 2 - AC_CONFIG_MACRO_DIR([foo]) interaction with --install
+PASS: t/aclocal-macrodir.tap 3 - '-I' option wins over AC_CONFIG_MACRO_DIR
+PASS: t/aclocal-macrodir.tap 4 - AC_CONFIG_MACRO_DIR([foo]) can create directory 'foo'
+PASS: t/aclocal-macrodir.tap 5 - AC_CONFIG_MACRO_DIR([non-existent]) warns with -Wunsupported
+PASS: t/aclocal-macrodir.tap 6 - AC_CONFIG_MACRO_DIR([not-exist]) and ACLOCAL_AMFLAGS = -I not-exist
+PASS: t/aclocal-macrodir.tap 7 - AC_CONFIG_MACRO_DIR interaction with AC_REQUIRE
+PASS: t/aclocal-print-acdir.sh
+PASS: t/aclocal-path-precedence.sh
+PASS: t/aclocal-pr450.sh
+PASS: t/aclocal-req.sh
+PASS: t/aclocal-path-install-serial.sh
+PASS: t/aclocal-scan-configure-ac-pr319.sh
+PASS: t/aclocal-underquoted-defun.sh
+PASS: t/aclocal-verbose-install.sh
+PASS: t/auxdir-pr15981.sh
+PASS: t/aclocal-no-force.sh
+PASS: t/acsilent.sh
+PASS: t/aclocal-serial.sh
+PASS: t/acsubst.sh
+PASS: t/aclocal-remake-misc.sh
+PASS: t/aclocal-macrodirs.tap 1 - AC_CONFIG_MACRO_DIRS is honored
+PASS: t/aclocal-macrodirs.tap 2 - AC_CONFIG_MACRO_DIRS several arguments
+PASS: t/aclocal-macrodirs.tap 3 - AC_CONFIG_MACRO_DIRS several calls
+PASS: t/aclocal-macrodirs.tap 4 - AC_CONFIG_MACRO_DIRS extra whitespace
+PASS: t/aclocal-macrodirs.tap 5 - AC_CONFIG_MACRO_DIRS precedence
+PASS: t/aclocal-macrodirs.tap 6 - AC_CONFIG_MACRO_DIRS interaction with --install
+PASS: t/aclocal-macrodirs.tap 7 - several AC_CONFIG_MACRO_DIRS arguments and --install
+PASS: t/aclocal-macrodirs.tap 8 - several AC_CONFIG_MACRO_DIRS calls and --install
+PASS: t/aclocal-macrodirs.tap 9 - '-I' option wins over AC_CONFIG_MACRO_DIRS
+PASS: t/aclocal-macrodirs.tap 10 - AC_CONFIG_MACRO_DIRS([foo]) can create directory 'foo'
+PASS: t/aclocal-macrodirs.tap 11 - AC_CONFIG_MACRO_DIRS([non-existent]) warns (1)
+PASS: t/aclocal-macrodirs.tap 12 - AC_CONFIG_MACRO_DIRS([non-existent]) warns (2)
+PASS: t/aclocal-macrodirs.tap 13 - AC_CONFIG_MACRO_DIRS([existent non-existent]) errors out
+PASS: t/aclocal-macrodirs.tap 14 - AC_CONFIG_MACRO_DIRS([not-exist]) and ACLOCAL_AMFLAGS = -I not-exist
+PASS: t/aclocal-macrodirs.tap 15 - AC_CONFIG_MACRO_DIRS interaction with AC_REQUIRE
+PASS: t/acsubst2.sh
+PASS: t/auxdir-cc-pr15981.sh
+PASS: t/add-missing-multiple.sh
+XFAIL: t/all.sh
+PASS: t/alloca.sh
+PASS: t/alloca2.sh
+PASS: t/all2.sh
+amhello-cross-compile: skipped test: required program 'i586-mingw32msvc-gcc' not available
+SKIP: t/amhello-cross-compile.sh
+PASS: t/alpha.sh
+PASS: t/alpha2.sh
+PASS: t/ac-output-old.tap 1 - aclocal groks '\' in AC_OUTPUT (acoutbs1)
+PASS: t/ac-output-old.tap 2 - automake groks '\' in AC_OUTPUT (acoutbs1)
+PASS: t/ac-output-old.tap 3 - autoconf groks '\' in AC_OUTPUT (acoutbs1)
+PASS: t/ac-output-old.tap 4 - can ./configure in acoutbs1
+PASS: t/ac-output-old.tap 5 - zot created in acoutbs1
+PASS: t/ac-output-old.tap 6 - '\' not leaked in filenames in acoutbs1
+PASS: t/ac-output-old.tap 7 - aclocal groks '\' in AC_OUTPUT (acoutbs2)
+PASS: t/ac-output-old.tap 8 - automake groks '\' in AC_OUTPUT (acoutbs2)
+PASS: t/ac-output-old.tap 9 - autoconf groks '\' in AC_OUTPUT (acoutbs2)
+PASS: t/ac-output-old.tap 10 - can ./configure in acoutbs2
+PASS: t/ac-output-old.tap 11 - zot created in acoutbs2
+PASS: t/ac-output-old.tap 12 - '\' not leaked in filenames in acoutbs2
+PASS: t/ac-output-old.tap 13 - aclocal and quoted AC_OUTPUT second argument
+PASS: t/ac-output-old.tap 14 - automake and quoted AC_OUTPUT second argument
+PASS: t/ac-output-old.tap 15 - aclocal and two AC_OUTPUT arguments on same line
+PASS: t/ac-output-old.tap 16 - automake and two AC_OUTPUT arguments on same line
+PASS: t/ac-output-old.tap 17 - aclocal and AC_OUTPUT (acoutput2)
+PASS: t/ac-output-old.tap 18 - automake and AC_OUTPUT (acoutput2)
+PASS: t/ac-output-old.tap 19 - foo.in mentioned two times in Makefile.in (acoutput2)
+PASS: t/ac-output-old.tap 20 - 'automake -a -f' and AC_OUTPUT (acoutput2)
+PASS: t/ac-output-old.tap 21 - aclocal and two AC_OUTPUT arguments on two lines
+PASS: t/ac-output-old.tap 22 - automake and two AC_OUTPUT arguments on two lines
+PASS: t/amhello-binpkg.sh
+PASS: t/amassign.sh
+PASS: t/add-missing.tap 1 - [link minimal] missing files, automake fails
+PASS: t/add-missing.tap 2 - [link minimal] warn about missing file install-sh
+PASS: t/add-missing.tap 3 - [link minimal] suggest --add-missing for install-sh
+PASS: t/add-missing.tap 4 - [link minimal] warn about missing file missing
+PASS: t/add-missing.tap 5 - [link minimal] suggest --add-missing for missing
+PASS: t/add-missing.tap 6 - [link minimal] no extra files installed
+PASS: t/add-missing.tap 7 - [link minimal] automake run successfully
+PASS: t/add-missing.tap 8 - [link minimal] file install-sh installed
+PASS: t/add-missing.tap 9 - [link minimal] file missing installed
+PASS: t/add-missing.tap 10 - [link minimal] report installation of install-sh
+PASS: t/add-missing.tap 11 - [link minimal] report installation of missing
+PASS: t/add-missing.tap 12 - [link minimal] all and only expected files installed
+PASS: t/add-missing.tap 13 - [link minimal] install-sh has been symlinked
+PASS: t/add-missing.tap 14 - [link minimal] missing has been symlinked
+PASS: t/add-missing.tap 15 - [link minimal] automake finds all added files
+PASS: t/add-missing.tap 16 - [copy minimal] missing files, automake fails
+PASS: t/add-missing.tap 17 - [copy minimal] warn about missing file install-sh
+PASS: t/add-missing.tap 18 - [copy minimal] suggest --add-missing for install-sh
+PASS: t/add-missing.tap 19 - [copy minimal] warn about missing file missing
+PASS: t/add-missing.tap 20 - [copy minimal] suggest --add-missing for missing
+PASS: t/add-missing.tap 21 - [copy minimal] no extra files installed
+PASS: t/add-missing.tap 22 - [copy minimal] automake run successfully
+PASS: t/add-missing.tap 23 - [copy minimal] file install-sh installed
+PASS: t/add-missing.tap 24 - [copy minimal] file missing installed
+PASS: t/add-missing.tap 25 - [copy minimal] report installation of install-sh
+PASS: t/add-missing.tap 26 - [copy minimal] report installation of missing
+PASS: t/add-missing.tap 27 - [copy minimal] all and only expected files installed
+PASS: t/add-missing.tap 28 - [copy minimal] install-sh has not been symlinked
+PASS: t/add-missing.tap 29 - [copy minimal] missing has not been symlinked
+PASS: t/add-missing.tap 30 - [copy minimal] automake finds all added files
+PASS: t/add-missing.tap 31 - [link depcomp/C] missing files, automake fails
+PASS: t/add-missing.tap 32 - [link depcomp/C] warn about missing file depcomp
+PASS: t/add-missing.tap 33 - [link depcomp/C] suggest --add-missing for depcomp
+PASS: t/add-missing.tap 34 - [link depcomp/C] warn about missing file compile
+PASS: t/add-missing.tap 35 - [link depcomp/C] suggest --add-missing for compile
+PASS: t/add-missing.tap 36 - [link depcomp/C] no extra files installed
+PASS: t/add-missing.tap 37 - [link depcomp/C] automake run successfully
+PASS: t/add-missing.tap 38 - [link depcomp/C] file depcomp installed
+PASS: t/add-missing.tap 39 - [link depcomp/C] file compile installed
+PASS: t/add-missing.tap 40 - [link depcomp/C] report installation of depcomp
+PASS: t/add-missing.tap 41 - [link depcomp/C] report installation of compile
+PASS: t/add-missing.tap 42 - [link depcomp/C] all and only expected files installed
+PASS: t/add-missing.tap 43 - [link depcomp/C] depcomp has been symlinked
+PASS: t/add-missing.tap 44 - [link depcomp/C] compile has been symlinked
+PASS: t/add-missing.tap 45 - [link depcomp/C] automake finds all added files
+PASS: t/add-missing.tap 46 - [copy depcomp/C] missing files, automake fails
+PASS: t/add-missing.tap 47 - [copy depcomp/C] warn about missing file depcomp
+PASS: t/add-missing.tap 48 - [copy depcomp/C] suggest --add-missing for depcomp
+PASS: t/add-missing.tap 49 - [copy depcomp/C] warn about missing file compile
+PASS: t/add-missing.tap 50 - [copy depcomp/C] suggest --add-missing for compile
+PASS: t/add-missing.tap 51 - [copy depcomp/C] no extra files installed
+PASS: t/add-missing.tap 52 - [copy depcomp/C] automake run successfully
+PASS: t/add-missing.tap 53 - [copy depcomp/C] file depcomp installed
+PASS: t/add-missing.tap 54 - [copy depcomp/C] file compile installed
+PASS: t/add-missing.tap 55 - [copy depcomp/C] reportPASS: t/amhello-cflags.sh
+PASS: t/aminit-trailing-dnl-comment-pr16841.sh
+PASS: t/am-macro-not-found.sh
+PASS: t/aminit-moreargs-deprecation.sh
+PASS: t/amopt.sh
+PASS: t/amopts-location.sh
+PASS: t/am-config-header.sh
+PASS: t/amopts-variable-expansion.sh
+PASS: t/am-include-only-one-generated-fragment.sh
+PASS: t/amsubst.sh
+PASS: t/am-prog-cc-stdc.sh
+PASS: t/ar-lib.sh
+PASS: t/ar-lib2.sh
+PASS: t/libtool-macros.sh
+PASS: t/ar-lib3.sh
+ installation of depcomp
+PASS: t/add-missing.tap 56 - [copy depcomp/C] report installation of compile
+PASS: t/add-missing.tap 57 - [copy depcomp/C] all and only expected files installed
+PASS: t/add-missing.tap 58 - [copy depcomp/C] depcomp has not been symlinked
+PASS: t/add-missing.tap 59 - [copy depcomp/C] compile has not been symlinked
+PASS: t/add-missing.tap 60 - [copy depcomp/C] automake finds all added files
+PASS: t/add-missing.tap 61 - [link depcomp/C++] missing files, automake fails
+PASS: t/add-missing.tap 62 - [link depcomp/C++] warn about missing file depcomp
+PASS: t/add-missing.tap 63 - [link depcomp/C++] suggest --add-missing for depcomp
+PASS: t/add-missing.tap 64 - [link depcomp/C++] no extra files installed
+PASS: t/add-missing.tap 65 - [link depcomp/C++] automake run successfully
+PASS: t/add-missing.tap 66 - [link depcomp/C++] file depcomp installed
+PASS: t/add-missing.tap 67 - [link depcomp/C++] report installation of depcomp
+PASS: t/add-missing.tap 68 - [link depcomp/C++] all and only expected files installed
+PASS: t/add-missing.tap 69 - [link depcomp/C++] depcomp has been symlinked
+PASS: t/add-missing.tap 70 - [link depcomp/C++] automake finds all added files
+PASS: t/add-missing.tap 71 - [copy depcomp/C++] missing files, automake fails
+PASS: t/add-missing.tap 72 - [copy depcomp/C++] warn about missing file depcomp
+PASS: t/add-missing.tap 73 - [copy depcomp/C++] suggest --add-missing for depcomp
+PASS: t/add-missing.tap 74 - [copy depcomp/C++] no extra files installed
+PASS: t/add-missing.tap 75 - [copy depcomp/C++] automake run successfully
+PASS: t/add-missing.tap 76 - [copy depcomp/C++] file depcomp installed
+PASS: t/add-missing.tap 77 - [copy depcomp/C++] report installation of depcomp
+PASS: t/add-missing.tap 78 - [copy depcomp/C++] all and only expected files installed
+PASS: t/add-missing.tap 79 - [copy depcomp/C++] depcomp has not been symlinked
+PASS: t/add-missing.tap 80 - [copy depcomp/C++] automake finds all added files
+PASS: t/add-missing.tap 81 - [compile] aclocal.m4 rebuilt
+PASS: t/add-missing.tap 82 - [link compile] missing files, automake fails
+PASS: t/add-missing.tap 83 - [link compile] warn about missing file compile
+PASS: t/add-missing.tap 84 - [link compile] suggest --add-missing for compile
+PASS: t/add-missing.tap 85 - [link compile] no extra files installed
+PASS: t/add-missing.tap 86 - [link compile] automake run successfully
+PASS: t/add-missing.tap 87 - [link compile] file compile installed
+PASS: t/add-missing.tap 88 - [link compile] report installation of compile
+PASS: t/add-missing.tap 89 - [link compile] all and only expected files installed
+PASS: t/add-missing.tap 90 - [link compile] compile has been symlinked
+PASS: t/add-missing.tap 91 - [link compile] automake finds all added files
+PASS: t/add-missing.tap 92 - [copy compile] missing files, automake fails
+PASS: t/add-missing.tap 93 - [copy compile] warn about missing file compile
+PASS: t/add-missing.tap 94 - [copy compile] suggest --add-missing for compile
+PASS: t/add-missing.tap 95 - [copy compile] no extra files installed
+PASS: t/add-missing.tap 96 - [copy compile] automake run successfully
+PASS: t/add-missing.tap 97 - [copy compile] file compile installed
+PASS: t/add-missing.tap 98 - [copy compile] report installation of compile
+PASS: t/add-missing.tap 99 - [copy compile] all and only expected files installed
+PASS: t/add-missing.tap 100 - [copy compile] compile has not been symlinked
+PASS: t/add-missing.tap 101 - [copy compile] automake finds all added files
+PASS: t/add-missing.tap 102 - [link cfg-build] missing files, automake fails
+PASS: t/add-missing.tap 103 - [link cfg-build] warn about missing file config.sub
+PASS: t/add-missing.tap 104 - [link cfg-build] suggest --add-missing for config.sub
+PASS: t/add-missing.tap 105 - [link cfg-build] warn about missing file config.guess
+PASS: t/add-missing.tap 106 - [link cfg-build] suggest --add-missing for config.guess
+PASS: t/add-missing.tap 107 - [link cfg-build] no extra files installed
+PASS: t/add-missing.tap 108 - [link cfg-build] automake run successfully
+PASS: t/add-missing.tap 1ar-lib5a: skipped test: Microsoft 'lib' utility not available
+SKIP: t/ar-lib5a.sh
+PASS: t/ansi2knr-no-more.sh
+PASS: t/am-prog-cc-c-o.sh
+PASS: t/ar-lib6a.sh
+PASS: t/ar-lib6b.sh
+PASS: t/ar2.sh
+PASS: t/ar-lib7.sh
+PASS: t/am-default-source-ext.sh
+PASS: t/ar3.sh
+PASS: t/ar.sh
+09 - [link cfg-build] file config.sub installed
+PASS: t/add-missing.tap 110 - [link cfg-build] file config.guess installed
+PASS: t/add-missing.tap 111 - [link cfg-build] report installation of config.sub
+PASS: t/add-missing.tap 112 - [link cfg-build] report installation of config.guess
+PASS: t/add-missing.tap 113 - [link cfg-build] all and only expected files installed
+PASS: t/add-missing.tap 114 - [link cfg-build] config.sub has been symlinked
+PASS: t/add-missing.tap 115 - [link cfg-build] config.guess has been symlinked
+PASS: t/add-missing.tap 116 - [link cfg-build] automake finds all added files
+PASS: t/add-missing.tap 117 - [copy cfg-build] missing files, automake fails
+PASS: t/add-missing.tap 118 - [copy cfg-build] warn about missing file config.sub
+PASS: t/add-missing.tap 119 - [copy cfg-build] suggest --add-missing for config.sub
+PASS: t/add-missing.tap 120 - [copy cfg-build] warn about missing file config.guess
+PASS: t/add-missing.tap 121 - [copy cfg-build] suggest --add-missing for config.guess
+PASS: t/add-missing.tap 122 - [copy cfg-build] no extra files installed
+PASS: t/add-missing.tap 123 - [copy cfg-build] automake run successfully
+PASS: t/add-missing.tap 124 - [copy cfg-build] file config.sub installed
+PASS: t/add-missing.tap 125 - [copy cfg-build] file config.guess installed
+PASS: t/add-missing.tap 126 - [copy cfg-build] report installation of config.sub
+PASS: t/add-missing.tap 127 - [copy cfg-build] report installation of config.guess
+PASS: t/add-missing.tap 128 - [copy cfg-build] all and only expected files installed
+PASS: t/add-missing.tap 129 - [copy cfg-build] config.sub has not been symlinked
+PASS: t/add-missing.tap 130 - [copy cfg-build] config.guess has not been symlinked
+PASS: t/add-missing.tap 131 - [copy cfg-build] automake finds all added files
+PASS: t/add-missing.tap 132 - [link cfg-host] missing files, automake fails
+PASS: t/add-missing.tap 133 - [link cfg-host] warn about missing file config.sub
+PASS: t/add-missing.tap 134 - [link cfg-host] suggest --add-missing for config.sub
+PASS: t/add-missing.tap 135 - [link cfg-host] warn about missing file config.guess
+PASS: t/add-missing.tap 136 - [link cfg-host] suggest --add-missing for config.guess
+PASS: t/add-missing.tap 137 - [link cfg-host] no extra files installed
+PASS: t/add-missing.tap 138 - [link cfg-host] automake run successfully
+PASS: t/add-missing.tap 139 - [link cfg-host] file config.sub installed
+PASS: t/add-missing.tap 140 - [link cfg-host] file config.guess installed
+PASS: t/add-missing.tap 141 - [link cfg-host] report installation of config.sub
+PASS: t/add-missing.tap 142 - [link cfg-host] report installation of config.guess
+PASS: t/add-missing.tap 143 - [link cfg-host] all and only expected files installed
+PASS: t/add-missing.tap 144 - [link cfg-host] config.sub has been symlinked
+PASS: t/add-missing.tap 145 - [link cfg-host] config.guess has been symlinked
+PASS: t/add-missing.tap 146 - [link cfg-host] automake finds all added files
+PASS: t/add-missing.tap 147 - [copy cfg-host] missing files, automake fails
+PASS: t/add-missing.tap 148 - [copy cfg-host] warn about missing file config.sub
+PASS: t/add-missing.tap 149 - [copy cfg-host] suggest --add-missing for config.sub
+PASS: t/add-missing.tap 150 - [copy cfg-host] warn about missing file config.guess
+PASS: t/add-missing.tap 151 - [copy cfg-host] suggest --add-missing for config.guess
+PASS: t/add-missing.tap 152 - [copy cfg-host] no extra files installed
+PASS: t/add-missing.tap 153 - [copy cfg-host] automake run successfully
+PASS: t/add-missing.tap 154 - [copy cfg-host] file config.sub installed
+PASS: t/add-missing.tap 155 - [copy cfg-host] file config.guess installed
+PASS: t/add-missing.tap 156 - [copy cfg-host] report installation of config.sub
+PASS: t/add-missing.tap 157 - [copy cfg-host] report installation of config.guess
+PASS: t/add-missing.tap 158 - [copy cfg-host] all and only expected files installed
+PASS: t/add-missing.tap 159 - [copy cfg-host] config.sub has not been symlinked
+PASS: t/add-missing.tap 160 - [copy cfg-host] config.guess has not been symlinked
+PASS: t/add-miPASS: t/ar-lib5b.sh
+PASS: t/ar_override.sh
+PASS: t/ar4.sh
+PASS: t/ar5.sh
+PASS: t/autodist.sh
+PASS: t/asm.sh
+ssing.tap 161 - [copy cfg-host] automake finds all added files
+PASS: t/add-missing.tap 162 - [link cfg-target] missing files, automake fails
+PASS: t/add-missing.tap 163 - [link cfg-target] warn about missing file config.sub
+PASS: t/add-missing.tap 164 - [link cfg-target] suggest --add-missing for config.sub
+PASS: t/add-missing.tap 165 - [link cfg-target] warn about missing file config.guess
+PASS: t/add-missing.tap 166 - [link cfg-target] suggest --add-missing for config.guess
+PASS: t/add-missing.tap 167 - [link cfg-target] no extra files installed
+PASS: t/add-missing.tap 168 - [link cfg-target] automake run successfully
+PASS: t/add-missing.tap 169 - [link cfg-target] file config.sub installed
+PASS: t/add-missing.tap 170 - [link cfg-target] file config.guess installed
+PASS: t/add-missing.tap 171 - [link cfg-target] report installation of config.sub
+PASS: t/add-missing.tap 172 - [link cfg-target] report installation of config.guess
+PASS: t/add-missing.tap 173 - [link cfg-target] all and only expected files installed
+PASS: t/add-missing.tap 174 - [link cfg-target] config.sub has been symlinked
+PASS: t/add-missing.tap 175 - [link cfg-target] config.guess has been symlinked
+PASS: t/add-missing.tap 176 - [link cfg-target] automake finds all added files
+PASS: t/add-missing.tap 177 - [copy cfg-target] missing files, automake fails
+PASS: t/add-missing.tap 178 - [copy cfg-target] warn about missing file config.sub
+PASS: t/add-missing.tap 179 - [copy cfg-target] suggest --add-missing for config.sub
+PASS: t/add-missing.tap 180 - [copy cfg-target] warn about missing file config.guess
+PASS: t/add-missing.tap 181 - [copy cfg-target] suggest --add-missing for config.guess
+PASS: t/add-missing.tap 182 - [copy cfg-target] no extra files installed
+PASS: t/add-missing.tap 183 - [copy cfg-target] automake run successfully
+PASS: t/add-missing.tap 184 - [copy cfg-target] file config.sub installed
+PASS: t/add-missing.tap 185 - [copy cfg-target] file config.guess installed
+PASS: t/add-missing.tap 186 - [copy cfg-target] report installation of config.sub
+PASS: t/add-missing.tap 187 - [copy cfg-target] report installation of config.guess
+PASS: t/add-missing.tap 188 - [copy cfg-target] all and only expected files installed
+PASS: t/add-missing.tap 189 - [copy cfg-target] config.sub has not been symlinked
+PASS: t/add-missing.tap 190 - [copy cfg-target] config.guess has not been symlinked
+PASS: t/add-missing.tap 191 - [copy cfg-target] automake finds all added files
+PASS: t/add-missing.tap 192 - [link cfg-system] missing files, automake fails
+PASS: t/add-missing.tap 193 - [link cfg-system] warn about missing file config.sub
+PASS: t/add-missing.tap 194 - [link cfg-system] suggest --add-missing for config.sub
+PASS: t/add-missing.tap 195 - [link cfg-system] warn about missing file config.guess
+PASS: t/add-missing.tap 196 - [link cfg-system] suggest --add-missing for config.guess
+PASS: t/add-missing.tap 197 - [link cfg-system] no extra files installed
+PASS: t/add-missing.tap 198 - [link cfg-system] automake run successfully
+PASS: t/add-missing.tap 199 - [link cfg-system] file config.sub installed
+PASS: t/add-missing.tap 200 - [link cfg-system] file config.guess installed
+PASS: t/add-missing.tap 201 - [link cfg-system] report installation of config.sub
+PASS: t/add-missing.tap 202 - [link cfg-system] report installation of config.guess
+PASS: t/add-missing.tap 203 - [link cfg-system] all and only expected files installed
+PASS: t/add-missing.tap 204 - [link cfg-system] config.sub has been symlinked
+PASS: t/add-missing.tap 205 - [link cfg-system] config.guess has been symlinked
+PASS: t/add-missing.tap 206 - [link cfg-system] automake finds all added files
+PASS: t/add-missing.tap 207 - [copy cfg-system] missing files, automake fails
+PASS: t/add-missing.tap 208 - [copy cfg-system] warn about missing file config.sub
+PASS: t/add-missing.tap 209 - [copy cfg-system] suggest --add-missing for config.sub
+PASS: t/add-missing.tap 210 - [copy cfg-system] warn about missing file config.guess
+PASS: t/add-missing.tap 211 - [copy cfg-system] suggest --add-missing for config.gPASS: t/asm2.sh
+PASS: t/autodist-subdir.sh
+PASS: t/asm3.sh
+PASS: t/autodist-acconfig.sh
+PASS: t/autodist-acconfig-no-subdir.sh
+PASS: t/autodist-no-duplicate.sh
+PASS: t/autodist-configure-no-subdir.sh
+PASS: t/autohdr.sh
+PASS: t/autodist-config-headers.sh
+PASS: t/autodist-aclocal-m4.sh
+PASS: t/autodist-stamp-vti.sh
+uess
+PASS: t/add-missing.tap 212 - [copy cfg-system] no extra files installed
+PASS: t/add-missing.tap 213 - [copy cfg-system] automake run successfully
+PASS: t/add-missing.tap 214 - [copy cfg-system] file config.sub installed
+PASS: t/add-missing.tap 215 - [copy cfg-system] file config.guess installed
+PASS: t/add-missing.tap 216 - [copy cfg-system] report installation of config.sub
+PASS: t/add-missing.tap 217 - [copy cfg-system] report installation of config.guess
+PASS: t/add-missing.tap 218 - [copy cfg-system] all and only expected files installed
+PASS: t/add-missing.tap 219 - [copy cfg-system] config.sub has not been symlinked
+PASS: t/add-missing.tap 220 - [copy cfg-system] config.guess has not been symlinked
+PASS: t/add-missing.tap 221 - [copy cfg-system] automake finds all added files
+PASS: t/add-missing.tap 222 - [link ylwrap/Lex] missing files, automake fails
+PASS: t/add-missing.tap 223 - [link ylwrap/Lex] warn about missing file ylwrap
+PASS: t/add-missing.tap 224 - [link ylwrap/Lex] suggest --add-missing for ylwrap
+PASS: t/add-missing.tap 225 - [link ylwrap/Lex] warn about missing file compile
+PASS: t/add-missing.tap 226 - [link ylwrap/Lex] suggest --add-missing for compile
+PASS: t/add-missing.tap 227 - [link ylwrap/Lex] no extra files installed
+PASS: t/add-missing.tap 228 - [link ylwrap/Lex] automake run successfully
+PASS: t/add-missing.tap 229 - [link ylwrap/Lex] file ylwrap installed
+PASS: t/add-missing.tap 230 - [link ylwrap/Lex] file compile installed
+PASS: t/add-missing.tap 231 - [link ylwrap/Lex] report installation of ylwrap
+PASS: t/add-missing.tap 232 - [link ylwrap/Lex] report installation of compile
+PASS: t/add-missing.tap 233 - [link ylwrap/Lex] all and only expected files installed
+PASS: t/add-missing.tap 234 - [link ylwrap/Lex] ylwrap has been symlinked
+PASS: t/add-missing.tap 235 - [link ylwrap/Lex] compile has been symlinked
+PASS: t/add-missing.tap 236 - [link ylwrap/Lex] automake finds all added files
+PASS: t/add-missing.tap 237 - [copy ylwrap/Lex] missing files, automake fails
+PASS: t/add-missing.tap 238 - [copy ylwrap/Lex] warn about missing file ylwrap
+PASS: t/add-missing.tap 239 - [copy ylwrap/Lex] suggest --add-missing for ylwrap
+PASS: t/add-missing.tap 240 - [copy ylwrap/Lex] warn about missing file compile
+PASS: t/add-missing.tap 241 - [copy ylwrap/Lex] suggest --add-missing for compile
+PASS: t/add-missing.tap 242 - [copy ylwrap/Lex] no extra files installed
+PASS: t/add-missing.tap 243 - [copy ylwrap/Lex] automake run successfully
+PASS: t/add-missing.tap 244 - [copy ylwrap/Lex] file ylwrap installed
+PASS: t/add-missing.tap 245 - [copy ylwrap/Lex] file compile installed
+PASS: t/add-missing.tap 246 - [copy ylwrap/Lex] report installation of ylwrap
+PASS: t/add-missing.tap 247 - [copy ylwrap/Lex] report installation of compile
+PASS: t/add-missing.tap 248 - [copy ylwrap/Lex] all and only expected files installed
+PASS: t/add-missing.tap 249 - [copy ylwrap/Lex] ylwrap has not been symlinked
+PASS: t/add-missing.tap 250 - [copy ylwrap/Lex] compile has not been symlinked
+PASS: t/add-missing.tap 251 - [copy ylwrap/Lex] automake finds all added files
+PASS: t/add-missing.tap 252 - [link ylwrap/Yacc] missing files, automake fails
+PASS: t/add-missing.tap 253 - [link ylwrap/Yacc] warn about missing file ylwrap
+PASS: t/add-missing.tap 254 - [link ylwrap/Yacc] suggest --add-missing for ylwrap
+PASS: t/add-missing.tap 255 - [link ylwrap/Yacc] warn about missing file compile
+PASS: t/add-missing.tap 256 - [link ylwrap/Yacc] suggest --add-missing for compile
+PASS: t/add-missing.tap 257 - [link ylwrap/Yacc] no extra files installed
+PASS: t/add-missing.tap 258 - [link ylwrap/Yacc] automake run successfully
+PASS: t/add-missing.tap 259 - [link ylwrap/Yacc] file ylwrap installed
+PASS: t/add-missing.tap 260 - [link ylwrap/Yacc] file compile installed
+PASS: t/add-missing.tap 261 - [link ylwrap/Yacc] report installation of ylwrap
+PASS: t/add-missing.tap 262 - [link ylwrap/Yacc] report installation of compile
+PASS: t/add-missing.tap 263 - [link ylwrap/Yacc] all and only expected files installed
+PASS: t/add-missing.tap 264 PASS: t/autohdrdry.sh
+PASS: t/automake-cmdline.tap 1 - invalid long option (run)
+PASS: t/automake-cmdline.tap 2 - invalid long option (stderr)
+PASS: t/automake-cmdline.tap 3 - empty argument (run)
+PASS: t/automake-cmdline.tap 4 - empty argument (stderr)
+PASS: t/automake-cmdline.tap 5 - missing argument for long option (run)
+PASS: t/automake-cmdline.tap 6 - missing argument for long option (stderr)
+PASS: t/automake-cmdline.tap 7 - missing argument for short option (run)
+PASS: t/automake-cmdline.tap 8 - missing argument for short option (stderr)
+PASS: t/automake-cmdline.tap 9 - '--help' as option argument (run)
+PASS: t/automake-cmdline.tap 10 - '--help' as option argument (stderr)
+PASS: t/automake-cmdline.tap 11 - '--help' as option argument (run)
+PASS: t/automake-cmdline.tap 12 - '--help' as option argument (stderr)
+PASS: t/automake-cmdline.tap 13 - ambiguous incomplete option (run)
+PASS: t/automake-cmdline.tap 14 - ambiguous incomplete option (stderr)
+PASS: t/autohdr-subdir-pr12495.sh
+PASS: t/auxdir.sh
+PASS: t/auxdir6.sh
+PASS: t/auxdir7.sh
+PASS: t/auxdir8.sh
+PASS: t/autohdr3.sh
+PASS: t/auxdir-misplaced.sh
+PASS: t/auxdir-computed.tap 1 - aclocal
+XFAIL: t/auxdir-computed.tap 2 - automake -a # TODO long-standing limitation
+XFAIL: t/auxdir-computed.tap 3 - automake # TODO long-standing limitation
+PASS: t/autohdr4.sh
+PASS: t/auxdir-nonexistent.sh
+PASS: t/auxdir-subsubdir.sh
+- [link ylwrap/Yacc] ylwrap has been symlinked
+PASS: t/add-missing.tap 265 - [link ylwrap/Yacc] compile has been symlinked
+PASS: t/add-missing.tap 266 - [link ylwrap/Yacc] automake finds all added files
+PASS: t/add-missing.tap 267 - [copy ylwrap/Yacc] missing files, automake fails
+PASS: t/add-missing.tap 268 - [copy ylwrap/Yacc] warn about missing file ylwrap
+PASS: t/add-missing.tap 269 - [copy ylwrap/Yacc] suggest --add-missing for ylwrap
+PASS: t/add-missing.tap 270 - [copy ylwrap/Yacc] warn about missing file compile
+PASS: t/add-missing.tap 271 - [copy ylwrap/Yacc] suggest --add-missing for compile
+PASS: t/add-missing.tap 272 - [copy ylwrap/Yacc] no extra files installed
+PASS: t/add-missing.tap 273 - [copy ylwrap/Yacc] automake run successfully
+PASS: t/add-missing.tap 274 - [copy ylwrap/Yacc] file ylwrap installed
+PASS: t/add-missing.tap 275 - [copy ylwrap/Yacc] file compile installed
+PASS: t/add-missing.tap 276 - [copy ylwrap/Yacc] report installation of ylwrap
+PASS: t/add-missing.tap 277 - [copy ylwrap/Yacc] report installation of compile
+PASS: t/add-missing.tap 278 - [copy ylwrap/Yacc] all and only expected files installed
+PASS: t/add-missing.tap 279 - [copy ylwrap/Yacc] ylwrap has not been symlinked
+PASS: t/add-missing.tap 280 - [copy ylwrap/Yacc] compile has not been symlinked
+PASS: t/add-missing.tap 281 - [copy ylwrap/Yacc] automake finds all added files
+PASS: t/add-missing.tap 282 - [link Texinfo] missing files, automake fails
+PASS: t/add-missing.tap 283 - [link Texinfo] warn about missing file texinfo.tex
+PASS: t/add-missing.tap 284 - [link Texinfo] suggest --add-missing for texinfo.tex
+PASS: t/add-missing.tap 285 - [link Texinfo] no extra files installed
+PASS: t/add-missing.tap 286 - [link Texinfo] automake run successfully
+PASS: t/add-missing.tap 287 - [link Texinfo] file texinfo.tex installed
+PASS: t/add-missing.tap 288 - [link Texinfo] report installation of texinfo.tex
+PASS: t/add-missing.tap 289 - [link Texinfo] all and only expected files installed
+PASS: t/add-missing.tap 290 - [link Texinfo] texinfo.tex has been symlinked
+PASS: t/add-missing.tap 291 - [link Texinfo] automake finds all added files
+PASS: t/add-missing.tap 292 - [copy Texinfo] missing files, automake fails
+PASS: t/add-missing.tap 293 - [copy Texinfo] warn about missing file texinfo.tex
+PASS: t/add-missing.tap 294 - [copy Texinfo] suggest --add-missing for texinfo.tex
+PASS: t/add-missing.tap 295 - [copy Texinfo] no extra files installed
+PASS: t/add-missing.tap 296 - [copy Texinfo] automake run successfully
+PASS: t/add-missing.tap 297 - [copy Texinfo] file texinfo.tex installed
+PASS: t/add-missing.tap 298 - [copy Texinfo] report installation of texinfo.tex
+PASS: t/add-missing.tap 299 - [copy Texinfo] all and only expected files installed
+PASS: t/add-missing.tap 300 - [copy Texinfo] texinfo.tex has not been symlinked
+PASS: t/add-missing.tap 301 - [copy Texinfo] automake finds all added files
+PASS: t/add-missing.tap 302 - [link Texinfo/mdate-sh] missing files, automake fails
+PASS: t/add-missing.tap 303 - [link Texinfo/mdate-sh] warn about missing file mdate-sh
+PASS: t/add-missing.tap 304 - [link Texinfo/mdate-sh] suggest --add-missing for mdate-sh
+PASS: t/add-missing.tap 305 - [link Texinfo/mdate-sh] warn about missing file texinfo.tex
+PASS: t/add-missing.tap 306 - [link Texinfo/mdate-sh] suggest --add-missing for texinfo.tex
+PASS: t/add-missing.tap 307 - [link Texinfo/mdate-sh] no extra files installed
+PASS: t/add-missing.tap 308 - [link Texinfo/mdate-sh] automake run successfully
+PASS: t/add-missing.tap 309 - [link Texinfo/mdate-sh] file mdate-sh installed
+PASS: t/add-missing.tap 310 - [link Texinfo/mdate-sh] file texinfo.tex installed
+PASS: t/add-missing.tap 311 - [link Texinfo/mdate-sh] report installation of mdate-sh
+PASS: t/add-missing.tap 312 - [link Texinfo/mdate-sh] report installation of texinfo.tex
+PASS: t/add-missing.tap 313 - [link Texinfo/mdate-sh] all and only expected files installed
+PASS: t/add-missing.tap 314 - [link Texinfo/mdate-sh] mdate-sh has been symlinked
+PASS: t/add-missing.tap 315 - [link Texinfo/mdate-sh] texinfo.tePASS: t/auxdir-unportable.tap 1 - automake exited 1
+PASS: t/auxdir-unportable.tap 2 - warn about non-existent unportable auxdir name
+PASS: t/auxdir-unportable.tap 3 - automake exited 1
+PASS: t/auxdir-unportable.tap 4 - warn about existent unportable auxdir name
+PASS: t/auxdir-pr19311.sh
+PASS: t/auxdir-autodetect.sh
+x has been symlinked
+PASS: t/add-missing.tap 316 - [link Texinfo/mdate-sh] automake finds all added files
+PASS: t/add-missing.tap 317 - [copy Texinfo/mdate-sh] missing files, automake fails
+PASS: t/add-missing.tap 318 - [copy Texinfo/mdate-sh] warn about missing file mdate-sh
+PASS: t/add-missing.tap 319 - [copy Texinfo/mdate-sh] suggest --add-missing for mdate-sh
+PASS: t/add-missing.tap 320 - [copy Texinfo/mdate-sh] warn about missing file texinfo.tex
+PASS: t/add-missing.tap 321 - [copy Texinfo/mdate-sh] suggest --add-missing for texinfo.tex
+PASS: t/add-missing.tap 322 - [copy Texinfo/mdate-sh] no extra files installed
+PASS: t/add-missing.tap 323 - [copy Texinfo/mdate-sh] automake run successfully
+PASS: t/add-missing.tap 324 - [copy Texinfo/mdate-sh] file mdate-sh installed
+PASS: t/add-missing.tap 325 - [copy Texinfo/mdate-sh] file texinfo.tex installed
+PASS: t/add-missing.tap 326 - [copy Texinfo/mdate-sh] report installation of mdate-sh
+PASS: t/add-missing.tap 327 - [copy Texinfo/mdate-sh] report installation of texinfo.tex
+PASS: t/add-missing.tap 328 - [copy Texinfo/mdate-sh] all and only expected files installed
+PASS: t/add-missing.tap 329 - [copy Texinfo/mdate-sh] mdate-sh has not been symlinked
+PASS: t/add-missing.tap 330 - [copy Texinfo/mdate-sh] texinfo.tex has not been symlinked
+PASS: t/add-missing.tap 331 - [copy Texinfo/mdate-sh] automake finds all added files
+PASS: t/add-missing.tap 332 - [link py-compile] missing files, automake fails
+PASS: t/add-missing.tap 333 - [link py-compile] warn about missing file py-compile
+PASS: t/add-missing.tap 334 - [link py-compile] suggest --add-missing for py-compile
+PASS: t/add-missing.tap 335 - [link py-compile] no extra files installed
+PASS: t/add-missing.tap 336 - [link py-compile] automake run successfully
+PASS: t/add-missing.tap 337 - [link py-compile] file py-compile installed
+PASS: t/add-missing.tap 338 - [link py-compile] report installation of py-compile
+PASS: t/add-missing.tap 339 - [link py-compile] all and only expected files installed
+PASS: t/add-missing.tap 340 - [link py-compile] py-compile has been symlinked
+PASS: t/add-missing.tap 341 - [link py-compile] automake finds all added files
+PASS: t/add-missing.tap 342 - [copy py-compile] missing files, automake fails
+PASS: t/add-missing.tap 343 - [copy py-compile] warn about missing file py-compile
+PASS: t/add-missing.tap 344 - [copy py-compile] suggest --add-missing for py-compile
+PASS: t/add-missing.tap 345 - [copy py-compile] no extra files installed
+PASS: t/add-missing.tap 346 - [copy py-compile] automake run successfully
+PASS: t/add-missing.tap 347 - [copy py-compile] file py-compile installed
+PASS: t/add-missing.tap 348 - [copy py-compile] report installation of py-compile
+PASS: t/add-missing.tap 349 - [copy py-compile] all and only expected files installed
+PASS: t/add-missing.tap 350 - [copy py-compile] py-compile has not been symlinked
+PASS: t/add-missing.tap 351 - [copy py-compile] automake finds all added files
+PASS: t/add-missing.tap 352 - [link misc] missing files, automake fails
+PASS: t/add-missing.tap 353 - [link misc] warn about missing file py-compile
+PASS: t/add-missing.tap 354 - [link misc] suggest --add-missing for py-compile
+PASS: t/add-missing.tap 355 - [link misc] warn about missing file depcomp
+PASS: t/add-missing.tap 356 - [link misc] suggest --add-missing for depcomp
+PASS: t/add-missing.tap 357 - [link misc] warn about missing file ylwrap
+PASS: t/add-missing.tap 358 - [link misc] suggest --add-missing for ylwrap
+PASS: t/add-missing.tap 359 - [link misc] warn about missing file config.sub
+PASS: t/add-missing.tap 360 - [link misc] suggest --add-missing for config.sub
+PASS: t/add-missing.tap 361 - [link misc] warn about missing file config.guess
+PASS: t/add-missing.tap 362 - [link misc] suggest --add-missing for config.guess
+PASS: t/add-missing.tap 363 - [link misc] no extra files installed
+PASS: t/add-missing.tap 364 - [link misc] automake run successfully
+PASS: t/add-missing.tap 365 - [link misc] file py-compile installed
+PASS: t/add-missing.tap 366 - [link misc] file depcomp installed
+PASS:PASS: t/backcompat3.sh
+PASS: t/backcompat2.sh
+PASS: t/backcompat6.sh
+ t/add-missing.tap 367 - [link misc] file ylwrap installed
+PASS: t/add-missing.tap 368 - [link misc] file config.sub installed
+PASS: t/add-missing.tap 369 - [link misc] file config.guess installed
+PASS: t/add-missing.tap 370 - [link misc] report installation of py-compile
+PASS: t/add-missing.tap 371 - [link misc] report installation of depcomp
+PASS: t/add-missing.tap 372 - [link misc] report installation of ylwrap
+PASS: t/add-missing.tap 373 - [link misc] report installation of config.sub
+PASS: t/add-missing.tap 374 - [link misc] report installation of config.guess
+PASS: t/add-missing.tap 375 - [link misc] all and only expected files installed
+PASS: t/add-missing.tap 376 - [link misc] py-compile has been symlinked
+PASS: t/add-missing.tap 377 - [link misc] depcomp has been symlinked
+PASS: t/add-missing.tap 378 - [link misc] ylwrap has been symlinked
+PASS: t/add-missing.tap 379 - [link misc] config.sub has been symlinked
+PASS: t/add-missing.tap 380 - [link misc] config.guess has been symlinked
+PASS: t/add-missing.tap 381 - [link misc] automake finds all added files
+PASS: t/add-missing.tap 382 - [copy misc] missing files, automake fails
+PASS: t/add-missing.tap 383 - [copy misc] warn about missing file py-compile
+PASS: t/add-missing.tap 384 - [copy misc] suggest --add-missing for py-compile
+PASS: t/add-missing.tap 385 - [copy misc] warn about missing file depcomp
+PASS: t/add-missing.tap 386 - [copy misc] suggest --add-missing for depcomp
+PASS: t/add-missing.tap 387 - [copy misc] warn about missing file ylwrap
+PASS: t/add-missing.tap 388 - [copy misc] suggest --add-missing for ylwrap
+PASS: t/add-missing.tap 389 - [copy misc] warn about missing file config.sub
+PASS: t/add-missing.tap 390 - [copy misc] suggest --add-missing for config.sub
+PASS: t/add-missing.tap 391 - [copy misc] warn about missing file config.guess
+PASS: t/add-missing.tap 392 - [copy misc] suggest --add-missing for config.guess
+PASS: t/add-missing.tap 393 - [copy misc] no extra files installed
+PASS: t/add-missing.tap 394 - [copy misc] automake run successfully
+PASS: t/add-missing.tap 395 - [copy misc] file py-compile installed
+PASS: t/add-missing.tap 396 - [copy misc] file depcomp installed
+PASS: t/add-missing.tap 397 - [copy misc] file ylwrap installed
+PASS: t/add-missing.tap 398 - [copy misc] file config.sub installed
+PASS: t/add-missing.tap 399 - [copy misc] file config.guess installed
+PASS: t/add-missing.tap 400 - [copy misc] report installation of py-compile
+PASS: t/add-missing.tap 401 - [copy misc] report installation of depcomp
+PASS: t/add-missing.tap 402 - [copy misc] report installation of ylwrap
+PASS: t/add-missing.tap 403 - [copy misc] report installation of config.sub
+PASS: t/add-missing.tap 404 - [copy misc] report installation of config.guess
+PASS: t/add-missing.tap 405 - [copy misc] all and only expected files installed
+PASS: t/add-missing.tap 406 - [copy misc] py-compile has not been symlinked
+PASS: t/add-missing.tap 407 - [copy misc] depcomp has not been symlinked
+PASS: t/add-missing.tap 408 - [copy misc] ylwrap has not been symlinked
+PASS: t/add-missing.tap 409 - [copy misc] config.sub has not been symlinked
+PASS: t/add-missing.tap 410 - [copy misc] config.guess has not been symlinked
+PASS: t/add-missing.tap 411 - [copy misc] automake finds all added files
+PASS: t/backslash-issues.sh
+PASS: t/badline.sh
+PASS: t/badopt.sh
+PASS: t/badprog.sh
+PASS: t/backslash-before-trailing-whitespace.sh
+PASS: t/built-sources-fork-bomb.sh
+PASS: t/built-sources-check.sh
+PASS: t/built-sources-install.sh
+PASS: t/built-sources-cond.sh
+PASS: t/built-sources-install-exec.sh
+PASS: t/backcompat.sh
+PASS: t/candist.sh
+PASS: t/canon.sh
+PASS: t/canon2.sh
+PASS: t/canon3.sh
+PASS: t/canon4.sh
+PASS: t/backcompat-acout.sh
+PASS: t/canon6.sh
+PASS: t/canon8.sh
+PASS: t/canon5.sh
+PASS: t/built-sources-subdir.sh
+PASS: t/canon-name.sh
+PASS: t/built-sources.sh
+PASS: t/ccnoco3.sh
+PASS: t/ccnoco4.sh
+PASS: t/ccnoco.sh
+PASS: t/ccnoco-lib.sh
+PASS: t/ccnoco-deps.sh
+PASS: t/check.sh
+PASS: t/check2.sh
+PASS: t/check4.sh
+PASS: t/check6.sh
+PASS: t/check5.sh
+PASS: t/canon7.sh
+PASS: t/check10.sh
+PASS: t/check11.sh
+PASS: t/check7.sh
+PASS: t/check8.sh
+PASS: t/check-subst.sh
+PASS: t/check-exported-srcdir.sh
+PASS: t/check-fd-redirect.sh
+PASS: t/check-subst-prog.sh
+PASS: t/check-no-test-driver.sh
+PASS: t/check-tests-in-builddir.sh
+PASS: t/ccnoco-lt.sh
+PASS: t/checkall.sh
+PASS: t/clean.sh
+PASS: t/colneq.sh
+PASS: t/check-concurrency-bug9245.sh
+PASS: t/colneq2.sh
+PASS: t/colneq3.sh
+PASS: t/colon4.sh
+PASS: t/check12.sh
+PASS: t/colon.sh
+PASS: t/colon2.sh
+PASS: t/colon7.sh
+PASS: t/colon3.sh
+PASS: t/colon5.sh
+PASS: t/color-tests-opt.sh
+PASS: t/colon6.sh
+PASS: t/comment.sh
+PASS: t/comment2.sh
+PASS: t/color-tests.sh
+PASS: t/comment3.sh
+PASS: t/comment4.sh
+PASS: t/comment7.sh
+PASS: t/comment9.sh
+PASS: t/comment5.sh
+PASS: t/commen10.sh
+PASS: t/comment8.sh
+PASS: t/commen11.sh
+PASS: t/comment6.sh
+PASS: t/comment12.sh
+PASS: t/comment-block.sh
+PASS: t/compile.sh
+PASS: t/compile2.sh
+PASS: t/compile3.sh
+compile4: skipped test: Microsoft C compiler 'cl' not available
+SKIP: t/compile4.sh
+PASS: t/color-tests2.sh
+compile7: skipped test: Intel C compiler 'icl' not available
+SKIP: t/compile7.sh
+PASS: t/comments-escaped-in-var.sh
+PASS: t/compile6.sh
+PASS: t/comments-in-var-def.sh
+PASS: t/compile_f90_c_cxx.sh
+PASS: t/cond-basic.sh
+PASS: t/compile_f_c_cxx.sh
+PASS: t/cond.sh
+compile5: skipped test: target OS is not MinGW
+SKIP: t/compile5.sh
+PASS: t/cond3.sh
+PASS: t/cond7.sh
+PASS: t/cond5.sh
+PASS: t/cond10.sh
+PASS: t/cond6.sh
+PASS: t/cond9.sh
+PASS: t/cond13.sh
+PASS: t/cond14.sh
+PASS: t/cond4.sh
+PASS: t/cond15.sh
+PASS: t/cond11.sh
+XFAIL: t/cond17.sh
+PASS: t/cond8.sh
+PASS: t/cond16.sh
+PASS: t/cond18.sh
+PASS: t/cond20.sh
+PASS: t/cond23.sh
+PASS: t/cond24.sh
+PASS: t/cond21.sh
+PASS: t/cond22.sh
+PASS: t/cond25.sh
+PASS: t/cond26.sh
+PASS: t/cond28.sh
+PASS: t/cond27.sh
+PASS: t/cond19.sh
+PASS: t/cond30.sh
+PASS: t/cond31.sh
+PASS: t/cond34.sh
+PASS: t/cond33.sh
+PASS: t/cond32.sh
+PASS: t/cond36.sh
+PASS: t/cond41.sh
+PASS: t/cond37.sh
+PASS: t/cond38.sh
+PASS: t/cond44.sh
+PASS: t/cond43.sh
+PASS: t/cond40.sh
+PASS: t/cond42.sh
+PASS: t/cond45.sh
+PASS: t/cond35.sh
+PASS: t/cond39.sh
+PASS: t/condd.sh
+PASS: t/condhook.sh
+PASS: t/condinc.sh
+PASS: t/condhook2.sh
+PASS: t/condlib.sh
+PASS: t/condman2.sh
+PASS: t/condinc2.sh
+PASS: t/cond46.sh
+PASS: t/configure.sh
+PASS: t/confdeps.sh
+PASS: t/conff2.sh
+PASS: t/condman3.sh
+PASS: t/confh4.sh
+PASS: t/conff.sh
+PASS: t/conffile-leading-dot.sh
+PASS: t/confh7.sh
+PASS: t/confh6.sh
+PASS: t/confh5.sh
+PASS: t/confh.sh
+PASS: t/confincl.sh
+PASS: t/confh-subdir-clean.sh
+PASS: t/conflnk.sh
+PASS: t/conflnk2.sh
+PASS: t/confh8.sh
+PASS: t/conflnk3.sh
+PASS: t/confvar.sh
+PASS: t/confvar2.sh
+PASS: t/confsub.sh
+PASS: t/conflnk4.sh
+cscope3: skipped test: required program 'cscope' not available
+SKIP: t/cscope3.sh
+PASS: t/cxx.sh
+PASS: t/cxx2.sh
+PASS: t/copy.sh
+PASS: t/cscope2.sh
+PASS: t/cxxcpp.sh
+PASS: t/cxxlibobj.sh
+PASS: t/cxxlink.sh
+PASS: t/cscope.tap 1 - [relative VPATH] configure
+PASS: t/cscope.tap 2 - [relative VPATH] make -n cscope
+SKIP: t/cscope.tap 3 # SKIP no proper cscope program available
+SKIP: t/cscope.tap 4 # SKIP no proper cscope program available
+SKIP: t/cscope.tap 5 # SKIP no proper cscope program available
+PASS: t/cscope.tap 6 - [relative VPATH] make distcheck
+PASS: t/cscope.tap 7 - [absolute VPATH] configure
+PASS: t/cscope.tap 8 - [absolute VPATH] make -n cscope
+SKIP: t/cscope.tap 9 # SKIP no proper cscope program available
+SKIP: t/cscope.tap 10 # SKIP no proper cscope program available
+SKIP: t/cscope.tap 11 # SKIP no proper cscope program available
+PASS: t/cscope.tap 12 - [absolute VPATH] make distcheck
+PASS: t/cscope.tap 13 - [in-tree build] configure
+PASS: t/cscope.tap 14 - [in-tree build] make -n cscope
+SKIP: t/cscope.tap 15 # SKIP no proper cscope program available
+SKIP: t/cscope.tap 16 # SKIP no proper cscope program available
+SKIP: t/cscope.tap 17 # SKIP no proper cscope program available
+PASS: t/cscope.tap 18 - [in-tree build] make distcheck
+PASS: t/cxxnoc.sh
+PASS: t/cygwin32.sh
+PASS: t/cygnus-no-more.sh
+PASS: t/dash.sh
+PASS: t/defun.sh
+PASS: t/defun2.sh
+PASS: t/dejagnu.sh
+PASS: t/c-demo.sh
+PASS: t/dejagnu2.sh
+XFAIL: t/instspc.tap 1 - squote in builddir # TODO long-standing limitation
+XFAIL: t/instspc.tap 2 - squote in destdir # TODO long-standing limitation
+XFAIL: t/instspc.tap 3 - dquote in builddir # TODO long-standing limitation
+XFAIL: t/instspc.tap 4 - dquote in destdir # TODO long-standing limitation
+XFAIL: t/instspc.tap 5 - bquote in builddir # TODO long-standing limitation
+XFAIL: t/instspc.tap 6 - bquote in destdir # TODO long-standing limitation
+XFAIL: t/instspc.tap 7 - sharp in builddir # TODO long-standing limitation
+XFAIL: t/instspc.tap 8 - sharp in destdir # TODO long-standing limitation
+XFAIL: t/instspc.tap 9 - dollar in builddir # TODO long-standing limitation
+XFAIL: t/instspc.tap 10 - dollar in destdir # TODO long-standing limitation
+PASS: t/instspc.tap 11 - bang in builddir
+PASS: t/instspc.tap 12 - bang in destdir
+XFAIL: t/instspc.tap 13 - bslash in builddir # TODO long-standing limitation
+PASS: t/instspc.tap 14 - bslash in destdir
+XFAIL: t/instspc.tap 15 - ampersand in builddir # TODO long-standing limitation
+PASS: t/instspc.tap 16 - ampersand in destdir
+PASS: t/instspc.tap 17 - percent in builddir
+PASS: t/instspc.tap 18 - percent in destdir
+PASS: t/instspc.tap 19 - leftpar in builddir
+PASS: t/instspc.tap 20 - leftpar in destdir
+PASS: t/instspc.tap 21 - rightpar in builddir
+PASS: t/instspc.tap 22 - rightpar in destdir
+PASS: t/instspc.tap 23 - pipe in builddir
+PASS: t/instspc.tap 24 - pipe in destdir
+PASS: t/instspc.tap 25 - caret in builddir
+PASS: t/instspc.tap 26 - caret in destdir
+PASS: t/instspc.tap 27 - tilde in builddir
+PASS: t/instspc.tap 28 - tilde in destdir
+PASS: t/instspc.tap 29 - qmark in builddir
+PASS: t/instspc.tap 30 - qmark in destdir
+PASS: t/instspc.tap 31 - star in builddir
+PASS: t/instspc.tap 32 - star in destdir
+PASS: t/instspc.tap 33 - plus in builddir
+PASS: t/instspc.tap 34 - plus in destdir
+PASS: t/instspc.tap 35 - minus in builddir
+PASS: t/instspc.tap 36 - minus in destdir
+PASS: t/instspc.tap 37 - comma in builddir
+PASS: t/instspc.tap 38 - comma in destdir
+PASS: t/instspc.tap 39 - colon in builddir
+PASS: t/instspc.tap 40 - colon in destdir
+PASS: t/instspc.tap 41 - semicol in builddir
+PASS: t/instspc.tap 42 - semicol in destdir
+PASS: t/instspc.tap 43 - equal in builddir
+PASS: t/instspc.tap 44 - equal in destdir
+PASS: t/instspc.tap 45 - less in builddir
+PASS: t/instspc.tap 46 - less in destdir
+PASS: t/instspc.tap 47 - more in builddir
+PASS: t/instspc.tap 48 - more in destdir
+PASS: t/instspc.tap 49 - at in builddir
+PASS: t/instspc.tap 50 - at in destdir
+PASS: t/instspc.tap 51 - lqbrack in builddir
+PASS: t/instspc.tap 52 - lqbrack in destdir
+PASS: t/instspc.tap 53 - rqbrack in builddir
+PASS: t/instspc.tap 54 - rqbrack in destdir
+PASS: t/instspc.tap 55 - lcbrack in builddir
+PASS: t/instspc.tap 56 - lcbrack in destdir
+PASS: t/instspc.tap 57 - rcbrack in builddir
+PASS: t/instspc.tap 58 - rcbrack in destdir
+PASS: t/instspc.tap 59 - space in builddir
+PASS: t/instspc.tap 60 - space in destdir
+PASS: t/instspc.tap 61 - tab in builddir
+PASS: t/instspc.tap 62 - tab in destdir
+XFAIL: t/instspc.tap 63 - linefeed in builddir # TODO long-standing limitation
+XFAIL: t/instspc.tap 64 - linefeed in destdir # TODO long-standing limitation
+PASS: t/instspc.tap 65 - backspace in builddir
+PASS: t/instspc.tap 66 - backspace in destdir
+PASS: t/instspc.tap 67 - formfeed in builddir
+PASS: t/instspc.tap 68 - formfeed in destdir
+PASS: t/instspc.tap 69 - carriageret in builddir
+PASS: t/instspc.tap 70 - carriageret in destdir
+XFAIL: t/instspc.tap 71 - quadrigraph0 in builddir # TODO long-standing limitation
+PASS: t/instspc.tap 72 - quadrigraph0 in destdir
+PASS: t/instspc.tap 73 - quadrigraph1 in builddir
+PASS: t/instspc.tap 74 - quadrigraph1 in destdir
+PASS: t/instspc.tap 75 - quadrigraph2 in builddir
+PASS: t/instspc.tap 76 - quadrigraph2 in destdir
+PASS: t/instspc.tap 77 - quadrigraph3 in builddir
+PASS: t/instspc.tap 78 - quadrigraph3 in destdir
+PASS: t/instspc.tap 79 - quadrigraph4 in builddir
+PASS: t/instspc.tap 80 - quadrigraph4 in destdir
+PASS: t/instspc.tap 81 - a_b in builddir
+PASS: t/instspc.tap 82 - a_b in destdPASS: t/dejagnu3.sh
+PASS: t/dejagnu6.sh
+PASS: t/dejagnu5.sh
+PASS: t/dejagnu4.sh
+PASS: t/cxx-demo.sh
+PASS: t/dejagnu7.sh
+PASS: t/dejagnu-absolute-builddir.sh
+PASS: t/dejagnu-relative-srcdir.sh
+PASS: t/dejagnu-siteexp-append.sh
+PASS: t/dejagnu-siteexp-useredit.sh
+PASS: t/depacl2.sh
+PASS: t/depcomp.sh
+PASS: t/dejagnu-siteexp-extend.sh
+PASS: t/deleted-am.sh
+PASS: t/depcomp2.sh
+PASS: t/depcomp-implicit-auxdir.sh
+PASS: t/deleted-m4.sh
+PASS: t/depend.sh
+PASS: t/depend3.sh
+PASS: t/depend4.sh
+PASS: t/depend5.sh
+PASS: t/depdist.sh
+PASS: t/cxx-lt-demo.sh
+destdir: skipped test: cannot drop directory write permissions
+SKIP: t/destdir.sh
+PASS: t/depcomp8a.sh
+PASS: t/depend6.sh
+PASS: t/discover.sh
+dist-bzip3: skipped test: required program 'bzip3' not available
+SKIP: t/dist-bzip3.sh
+PASS: t/dir-named-obj-is-bad.sh
+dist-tarZ: skipped test: cannot find a working 'compress' program
+SKIP: t/dist-tarZ.sh
+dist-shar: skipped test: required program 'shar' not available
+SKIP: t/dist-shar.sh
+ir
+PASS: t/instspc.tap 83 - a__b in builddir
+PASS: t/instspc.tap 84 - a__b in destdir
+XFAIL: t/instspc.tap 85 - a_lf_b in builddir # TODO long-standing limitation
+XFAIL: t/instspc.tap 86 - a_lf_b in destdir # TODO long-standing limitation
+PASS: t/instspc.tap 87 - dotdotdot in builddir
+PASS: t/instspc.tap 88 - dotdotdot in destdir
+PASS: t/instspc.tap 89 - dosdrive in builddir
+PASS: t/instspc.tap 90 - dosdrive in destdir
+PASS: t/instspc.tap 91 - miscglob1 in builddir
+PASS: t/instspc.tap 92 - miscglob1 in destdir
+PASS: t/instspc.tap 93 - miscglob2 in builddir
+PASS: t/instspc.tap 94 - miscglob2 in destdir
+PASS: t/deprecated-acinit.sh
+PASS: t/dist-lzma.sh
+PASS: t/dist-included-parent-dir.sh
+PASS: t/depend-postproc.sh
+PASS: t/dist-auxfile-2.sh
+PASS: t/dist-missing-am.sh
+PASS: t/dist-missing-included-m4.sh
+dist-readonly: skipped test: cannot drop file write permissions
+SKIP: t/dist-readonly.sh
+PASS: t/dist-auxfile.sh
+PASS: t/dist-repeated.sh
+XFAIL: t/dist-pr109765.sh
+PASS: t/dist-missing-m4.sh
+PASS: t/distcom2.sh
+PASS: t/dist-no-built-sources.sh
+PASS: t/dist-vs-built-sources.sh
+PASS: t/distcom3.sh
+PASS: t/depcomp8b.sh
+PASS: t/distcom4.sh
+PASS: t/dist-formats.tap 1 - default [automake]
+PASS: t/dist-formats.tap 2 - default [autoconf]
+PASS: t/dist-formats.tap 3 - default [configure]
+PASS: t/dist-formats.tap 4 - default [make distcheck]
+PASS: t/dist-formats.tap 5 - 'make dist' only builds *.tar.gz by default
+PASS: t/dist-formats.tap 6 - 'dist-gzip' target always created
+PASS: t/dist-formats.tap 7 - 'make dist-gzip' work by default
+PASS: t/dist-formats.tap 8 - 'dist-lzip' target always created
+SKIP: t/dist-formats.tap 9 - 'make dist-lzip' work by default # SKIP 'lzip' not available
+PASS: t/dist-formats.tap 10 - 'dist-xz' target always created
+PASS: t/dist-formats.tap 11 - 'make dist-xz' work by default
+PASS: t/dist-formats.tap 12 - 'dist-bzip2' target always created
+PASS: t/dist-formats.tap 13 - 'make dist-bzip2' work by default
+PASS: t/dist-formats.tap 14 - 'dist-zip' target always created
+SKIP: t/dist-formats.tap 15 - 'make dist-zip' work by default # SKIP 'zip' not available
+PASS: t/dist-formats.tap 16 - 'dist-zstd' target always created
+PASS: t/dist-formats.tap 17 - 'make dist-zstd' work by default
+PASS: t/dist-formats.tap 18 - no-dist-gzip (am) without other formats is an error
+PASS: t/dist-formats.tap 19 - no-dist-gzip (am) without other formats gives diagnostic
+PASS: t/dist-formats.tap 20 - no-dist-gzip (ac) without other formats is an error
+PASS: t/dist-formats.tap 21 - no-dist-gzip (ac) without other formats gives diagnostic
+PASS: t/dist-formats.tap 22 - am=dist-bzip2,no-dist-gzip [automake]
+PASS: t/dist-formats.tap 23 - am=dist-bzip2,no-dist-gzip [autoconf]
+PASS: t/dist-formats.tap 24 - am=dist-bzip2,no-dist-gzip [configure]
+PASS: t/dist-formats.tap 25 - am=dist-bzip2,no-dist-gzip [ark-name]
+PASS: t/dist-formats.tap 26 - am=dist-bzip2,no-dist-gzip [distcheck]
+PASS: t/dist-formats.tap 27 - am=dist-bzip2,no-dist-gzip [ark-exists]
+PASS: t/dist-formats.tap 28 - am=dist-bzip2,no-dist-gzip [no .tar.gz]
+PASS: t/dist-formats.tap 29 - am=dist-xz ac=no-dist-gzip [automake]
+PASS: t/dist-formats.tap 30 - am=dist-xz ac=no-dist-gzip [autoconf]
+PASS: t/dist-formats.tap 31 - am=dist-xz ac=no-dist-gzip [configure]
+PASS: t/dist-formats.tap 32 - am=dist-xz ac=no-dist-gzip [ark-name]
+PASS: t/dist-formats.tap 33 - am=dist-xz ac=no-dist-gzip [distcheck]
+PASS: t/dist-formats.tap 34 - am=dist-xz ac=no-dist-gzip [ark-exists]
+PASS: t/dist-formats.tap 35 - am=dist-xz ac=no-dist-gzip [no .tar.gz]
+PASS: t/dist-formats.tap 36 - am=no-dist-gzip ac=dist-lzip [automake]
+PASS: t/dist-formats.tap 37 - am=no-dist-gzip ac=dist-lzip [autoconf]
+PASS: t/dist-formats.tap 38 - am=no-dist-gzip ac=dist-lzip [configure]
+PASS: t/dist-formats.tap 39 - am=no-dist-gzip ac=dist-lzip [ark-name]
+SKIP: t/dist-formats.tap 40 - am=no-dist-gzip ac=dist-lzip [distcheck] # SKIP 'lzip' not available
+SKIP: t/dist-formats.tap 41 - am=no-dist-gzip ac=dist-lzip [ark-exists] # SKIP 'lzip' not available
+PASS: t/dist-formats.tap 42 - am=no-dist-gzip ac=dist-lzip [no .tar.gz]
+PASS: t/dist-formats.tap 43 - ac=dist-zip,no-dist-gzip [automake]
+PASS: t/dist-formats.tap 44 - ac=dist-zip,no-dist-gzip [autoconf]
+PASS: t/dist-formats.tap 45 - ac=dist-zip,no-dist-gzip [configure]
+PASS: t/dist-formats.tap 46 - ac=dist-zip,no-dist-gzip [ark-name]
+SKIP: t/dist-formats.tap 47 - ac=dist-zip,no-dist-gzip [distcheck] # SKIP 'zip' not available
+SKIP: t/dist-formats.tap 48 - ac=dist-zip,no-dist-gzip [ark-exists] # SKIP 'zip' not available
+PASS: t/dist-formats.tap 49 - ac=dist-zip,no-dist-gzip [no .tar.gz]
+PASS: t/dist-formats.tap 50 - ac=dist-zstd,no-dist-gzip [automake]
+PASS: t/dist-formats.tap 51 - ac=dist-zstd,no-dist-gzip [autoconf]
+PASS: t/dist-formats.tap 52 - ac=dist-zstd,no-dist-gzip [configure]
+PASS: t/dist-formats.tap 53 - ac=dist-zstd,no-dist-gzip [ark-name]
+PASS: t/dist-formats.tap 54 - ac=dist-zstd,no-dist-gzip [distcheck]
+PASS: t/dist-formats.tap 55 - ac=dist-zstd,no-dist-gzip [ark-exists]
+PASS: t/dist-formats.tap 56 - ac=dist-zstd,no-dist-gzip [no .tar.gz]
+PASS: t/dist-formats.tap 57 - dist-gzip persistence [automake]
+PASS: t/dist-formats.tap 58 - dist-gzip persistence [autoconf]
+PASS: t/dist-formats.tap 59 - dist-gziPASS: t/distcom5.sh
+PASS: t/distlinks.sh
+PASS: t/disthook.sh
+PASS: t/distcleancheck.sh
+PASS: t/distdir.sh
+p persistence [configure]
+PASS: t/dist-formats.tap 60 - 'dist-gzip' target always created
+PASS: t/dist-formats.tap 61 - 'make dist-gzip' work by default
+PASS: t/dist-formats.tap 62 - gzip+bzip2+xz [automake]
+PASS: t/dist-formats.tap 63 - gzip+bzip2+xz [autoconf]
+PASS: t/dist-formats.tap 64 - gzip+bzip2+xz [configure]
+PASS: t/dist-formats.tap 65 - gzip+bzip2+xz [make -j4 dist-all]
+PASS: t/dist-formats.tap 66 - gzip+bzip2+xz [check .tar.gz tarball]
+PASS: t/dist-formats.tap 67 - gzip+bzip2+xz [check .tar.bz2 tarball]
+PASS: t/dist-formats.tap 68 - gzip+bzip2+xz [check .tar.xz tarball]
+PASS: t/dist-formats.tap 69 - all compressors together [aclocal]
+PASS: t/dist-formats.tap 70 - all compressors together [automake]
+PASS: t/dist-formats.tap 71 - all compressors together [autoconf]
+PASS: t/dist-formats.tap 72 - all compressors together [configure]
+SKIP: t/dist-formats.tap 73 - all compressors together [make distcheck, real] # SKIP not all compressors available
+PASS: t/dist-formats.tap 74 - all compressors together ['make dist-all', stubbed]
+PASS: t/dist-formats.tap 75 - all compressors together ['make dist -j4', stubbed]
+PASS: t/distcom-subdir.sh
+PASS: t/distname.sh
+PASS: t/distlinksbrk.sh
+PASS: t/distcheck-configure-flags.sh
+PASS: t/distcheck-hook.sh
+PASS: t/distcheck-configure-flags-am.sh
+PASS: t/distcheck-configure-flags-subpkg.sh
+PASS: t/distcheck-writable-srcdir.sh
+PASS: t/distcheck-hook2.sh
+distcheck-override-infodir: skipped test: TeX is required, but it wasn't found by configure
+SKIP: t/distcheck-override-infodir.sh
+distcheck-pr10470: skipped test: system is able to remove "in use" directories
+SKIP: t/distcheck-pr10470.sh
+PASS: t/distcheck-no-prefix-or-srcdir-override.sh
+PASS: t/distcheck-override-dvi.sh
+PASS: t/doc-parsing-buglets-colneq-subst.sh
+PASS: t/distcheck-pr9579.sh
+PASS: t/dmalloc.sh
+PASS: t/distcheck-pr18286.sh
+PASS: t/doc-parsing-buglets-tabs.sh
+PASS: t/dollarvar.sh
+PASS: t/dollar.sh
+PASS: t/dup2.sh
+PASS: t/double.sh
+PASS: t/else.sh
+PASS: t/empty-sources-primary.tap 1 - aclocal
+PASS: t/empty-sources-primary.tap 2 - automake
+PASS: t/empty-sources-primary.tap 3 - default _SOURCES
+PASS: t/empty-sources-primary.tap 4 - empty _SOURCES (basic)
+PASS: t/empty-sources-primary.tap 5 - empty _SOURCES (elaborate)
+PASS: t/exdir.sh
+PASS: t/empty-data-primary.sh
+PASS: t/exdir2.sh
+PASS: t/distcheck-missing-m4.sh
+PASS: t/exdir3.sh
+PASS: t/exeext3.sh
+PASS: t/dollarvar2.sh
+PASS: t/exeext2.sh
+PASS: t/extra-sources.sh
+PASS: t/ext.sh
+PASS: t/ext2.sh
+PASS: t/ext3.sh
+PASS: t/exeext.sh
+PASS: t/extra.sh
+PASS: t/exeext4.sh
+PASS: t/extra-sources-no-spurious.sh
+PASS: t/extra-data.sh
+PASS: t/extra-dist-vpath-dir.sh
+PASS: t/distcheck-outdated-m4.sh
+PASS: t/extra-dist-dirs-and-subdirs.sh
+PASS: t/extra-dist-vpath-dir-merge.sh
+PASS: t/extra-dist-wildcards.sh
+PASS: t/extra-programs-misc.sh
+PASS: t/extra-programs-and-libs.sh
+PASS: t/extra-programs-empty.sh
+PASS: t/extra-dist-wildcards-vpath.sh
+PASS: t/extra-dist-wildcards-gnu.sh
+PASS: t/f90only.sh
+PASS: t/extra-portability2.sh
+PASS: t/extra-portability3.sh
+PASS: t/flibs.sh
+PASS: t/dist-auxdir-many-subdirs.sh
+PASS: t/fnoc.sh
+PASS: t/extra-portability.sh
+PASS: t/extra-deps.sh
+PASS: t/fn99.sh
+fort2: skipped test: GNU Fortran compiler unavailable
+SKIP: t/fort2.sh
+fort4: skipped test: GNU Fortran 77 compiler unavailable
+PASS: t/forcemiss.sh
+SKIP: t/fort4.sh
+fort5: skipped test: GNU Fortran 77 compiler unavailable
+SKIP: t/fort5.sh
+PASS: t/forcemiss2.sh
+PASS: t/fort1.sh
+PASS: t/fonly.sh
+PASS: t/fortdep.sh
+PASS: t/gcj.sh
+PASS: t/gcj2.sh
+gcj4: skipped test: GNU Java compiler unavailable
+SKIP: t/gcj4.sh
+gcj6: skipped test: GNU Java compiler unavailable
+SKIP: t/gcj6.sh
+PASS: t/gcj3.sh
+PASS: t/gcj5.sh
+PASS: t/fn99subdir.sh
+PASS: t/gnuwarn2.sh
+PASS: t/gettext-macros.sh
+PASS: t/gnuwarn.sh
+PASS: t/gnits.sh
+PASS: t/gnumake.sh
+PASS: t/header.sh
+PASS: t/help.sh
+PASS: t/hdr-vars-defined-once.sh
+PASS: t/help2.sh
+PASS: t/help4.sh
+PASS: t/gnits2.sh
+PASS: t/help3.sh
+PASS: t/gnits3.sh
+PASS: t/extra-deps-lt.sh
+PASS: t/help-dmalloc.sh
+PASS: t/help-depend.sh
+PASS: t/help-depend2.sh
+PASS: t/help-init.sh
+PASS: t/help-python.sh
+PASS: t/help-lispdir.sh
+PASS: t/help-upc.sh
+PASS: t/implicit.sh
+PASS: t/flavor.sh
+PASS: t/init2.sh
+PASS: t/help-silent.sh
+PASS: t/init.sh
+install-sh-option-C: skipped test: cannot drop file write permissions
+SKIP: t/install-sh-option-C.sh
+install-sh-option-S: skipped test: cannot drop file write permissions
+SKIP: t/install-sh-option-S.sh
+PASS: t/hfs.sh
+PASS: t/dist-install-sh.sh
+PASS: t/add-missing-install-sh.sh
+dist-with-unreadable-makefile-fails: skipped test: cannot drop file read permissions
+SKIP: t/dist-with-unreadable-makefile-fails.sh
+PASS: t/install-sh-unittests.sh
+PASS: t/instdat.sh
+PASS: t/instdat2.sh
+instdir-no-empty: skipped test: TeX is required, but it wasn't found by configure
+SKIP: t/instdir-no-empty.sh
+instdir-java: skipped test: Sun Java compiler not available
+SKIP: t/instdir-java.sh
+instdir-lisp: skipped test: required program 'emacs' not available
+SKIP: t/instdir-lisp.sh
+PASS: t/installdir.sh
+instdir-python: skipped test: python interpreter not available
+SKIP: t/instdir-python.sh
+PASS: t/instdir-cond.sh
+instdir-texi: skipped test: TeX is required, but it wasn't found by configure
+SKIP: t/instdir-texi.sh
+PASS: t/instdir.sh
+PASS: t/instdir2.sh
+XFAIL: t/instdir-cond2.sh
+instfail-java: skipped test: Sun Java compiler not available
+SKIP: t/instfail-java.sh
+PASS: t/instexec.sh
+PASS: t/instman.sh
+PASS: t/instman2.sh
+PASS: t/instdir-prog.sh
+instfail-info: skipped test: cannot drop file read permissions
+SKIP: t/instfail-info.sh
+instfail: skipped test: cannot drop file read permissions
+SKIP: t/instfail.sh
+instmany-python: skipped test: python interpreter not available
+SKIP: t/instmany-python.sh
+PASS: t/insthook.sh
+PASS: t/interp.sh
+java: skipped test: Sun Java compiler not available
+SKIP: t/java.sh
+PASS: t/interp2.sh
+instmany: skipped test: cannot drop file read permissions
+SKIP: t/instmany.sh
+XFAIL: t/instdir-ltlib.sh
+PASS: t/java2.sh
+PASS: t/install-info-dir.sh
+java-check: skipped test: Sun Java compiler not available
+SKIP: t/java-check.sh
+java-clean: skipped test: Sun Java compiler not available
+SKIP: t/java-clean.sh
+java-compile-install: skipped test: Sun Java compiler not available
+SKIP: t/java-compile-install.sh
+java-compile-run-flat: skipped test: Sun Java interpreter not found
+SKIP: t/java-compile-run-flat.sh
+PASS: t/javadir-undefined.sh
+instmany-mans: skipped test: cannot drop file read permissions
+SKIP: t/instmany-mans.sh
+java-compile-run-nested: skipped test: Sun Java interpreter not found
+SKIP: t/java-compile-run-nested.sh
+java-empty-classpath: skipped test: Sun Java compiler not available
+SKIP: t/java-empty-classpath.sh
+java-extra: skipped test: Sun Java compiler not available
+SKIP: t/java-extra.sh
+PASS: t/java3.sh
+java-nobase: skipped test: Sun Java compiler not available
+SKIP: t/java-nobase.sh
+PASS: t/javaprim.sh
+PASS: t/javasubst.sh
+java-noinst: skipped test: Sun Java compiler not available
+SKIP: t/java-noinst.sh
+java-rebuild: skipped test: Sun Java compiler not available
+SKIP: t/java-rebuild.sh
+java-uninstall: skipped test: Sun Java compiler not available
+SKIP: t/java-uninstall.sh
+PASS: t/javaflags.sh
+PASS: t/java-no-duplicate.sh
+PASS: t/java-mix.sh
+PASS: t/lex.sh
+PASS: t/lex2.sh
+PASS: t/ldadd.sh
+PASS: t/ldflags.sh
+PASS: t/java-sources.sh
+PASS: t/lexcpp.sh
+instfail-libtool: skipped test: cannot drop file read permissions
+SKIP: t/instfail-libtool.sh
+PASS: t/lex-args.sh
+XFAIL: t/lex-subobj-nodep.sh
+PASS: t/lex-lib.sh
+PASS: t/lexvpath.sh
+PASS: t/lex5.sh
+lex-lib-external: skipped test: no system-wide lex library found
+SKIP: t/lex-lib-external.sh
+PASS: t/lex-header.sh
+PASS: t/lex3.sh
+PASS: t/lex-depend-grep.sh
+PASS: t/lex-noyywrap.sh
+PASS: t/lex-clean-cxx.sh
+PASS: t/lex-clean.sh
+PASS: t/lex-libobj.sh
+PASS: t/lex-multiple.sh
+PASS: t/lex-depend.sh
+PASS: t/lex-depend-cxx.sh
+PASS: t/lflags.sh
+PASS: t/lflags-cxx.sh
+PASS: t/libexec.sh
+PASS: t/libobj3.sh
+PASS: t/lex-pr204.sh
+PASS: t/libobj4.sh
+PASS: t/libobj-no-dependency-tracking.sh
+PASS: t/libobj5.sh
+PASS: t/lex-nodist.sh
+PASS: t/libobj12.sh
+PASS: t/lex-line.sh
+PASS: t/libobj2.sh
+PASS: t/libobj13.sh
+PASS: t/libobj14.sh
+PASS: t/libobj15a.sh
+PASS: t/libobj15b.sh
+PASS: t/libobj15c.sh
+PASS: t/libobj10.sh
+PASS: t/libobj7.sh
+PASS: t/libobj18.sh
+PASS: t/libobj-basic.sh
+PASS: t/libobj20a.sh
+PASS: t/library.sh
+PASS: t/libobj20b.sh
+PASS: t/libobj20c.sh
+PASS: t/libobj17.sh
+PASS: t/library2.sh
+PASS: t/library3.sh
+PASS: t/libtool.sh
+PASS: t/libtool2.sh
+PASS: t/libtool4.sh
+PASS: t/libtool5.sh
+PASS: t/libtool6.sh
+PASS: t/libtool8.sh
+PASS: t/libobj19.sh
+PASS: t/libobj16a.sh
+PASS: t/libobj16b.sh
+PASS: t/license2.sh
+PASS: t/link_c_cxx.sh
+PASS: t/libtool7.sh
+PASS: t/link_dist.sh
+PASS: t/libtool9.sh
+PASS: t/license.sh
+PASS: t/link_f90_only.sh
+PASS: t/link_fc.sh
+PASS: t/link_fccxx.sh
+PASS: t/link_fcxx.sh
+PASS: t/link_f_only.sh
+PASS: t/link_override.sh
+lisp3: skipped test: required program 'emacs' not available
+SKIP: t/lisp3.sh
+lisp4: skipped test: required program 'emacs' not available
+SKIP: t/lisp4.sh
+PASS: t/libtool3.sh
+lisp5: skipped test: required program 'emacs' not available
+SKIP: t/lisp5.sh
+lisp6: skipped test: required program 'emacs' not available
+SKIP: t/lisp6.sh
+lisp8: skipped test: required program 'emacs' not available
+SKIP: t/lisp8.sh
+lisp-readonly-srcdir: skipped test: required program 'emacs' not available
+SKIP: t/lisp-readonly-srcdir.sh
+lisp-loadpath: skipped test: required program 'emacs' not available
+SKIP: t/lisp-loadpath.sh
+lisp-subdir: skipped test: required program 'emacs' not available
+SKIP: t/lisp-subdir.sh
+lisp-subdir2: skipped test: required program 'emacs' not available
+SKIP: t/lisp-subdir2.sh
+lisp-subdir-mix: skipped test: required program 'emacs' not available
+SKIP: t/lisp-subdir-mix.sh
+lispdry: skipped test: required program 'emacs' not available
+SKIP: t/lispdry.sh
+PASS: t/link_cond.sh
+lisp-pr11806: skipped test: required program 'emacs' not available
+SKIP: t/lisp-pr11806.sh
+PASS: t/lisp2.sh
+PASS: t/listval.sh
+PASS: t/lisp7.sh
+PASS: t/location.sh
+PASS: t/lisp-flags.sh
+PASS: t/longline.sh
+PASS: t/longlin2.sh
+PASS: t/libtoo10.sh
+PASS: t/libtoo11.sh
+PASS: t/ltdeps.sh
+PASS: t/ltlibobjs.sh
+PASS: t/ltinstloc.sh
+PASS: t/m4-inclusion.sh
+PASS: t/maintclean.sh
+PASS: t/ltcond2.sh
+PASS: t/ltcond.sh
+PASS: t/ltconv.sh
+PASS: t/maintclean-vpath.sh
+PASS: t/maintmode-configure-msg.sh
+PASS: t/makefile-deps.sh
+PASS: t/maken.sh
+PASS: t/makej2.sh
+PASS: t/ltorder.sh
+PASS: t/make.sh
+PASS: t/makej.sh
+PASS: t/makevars.sh
+PASS: t/ltinit.sh
+PASS: t/man.sh
+PASS: t/make-is-gnu.sh
+PASS: t/man2.sh
+PASS: t/make-dryrun.tap 1 - run
+PASS: t/make-dryrun.tap 2 - run (-s)
+PASS: t/make-dryrun.tap 3 - run (-s -r)
+PASS: t/make-dryrun.tap 4 - run
+PASS: t/make-dryrun.tap 5 - run (-s)
+PASS: t/make-dryrun.tap 6 - run (-s -r)
+PASS: t/make-dryrun.tap 7 - run
+PASS: t/make-dryrun.tap 8 - run (-s)
+PASS: t/make-dryrun.tap 9 - run (-s -r)
+PASS: t/make-dryrun.tap 10 - run
+PASS: t/make-dryrun.tap 11 - run (-s)
+PASS: t/make-dryrun.tap 12 - run (-s -r)
+PASS: t/make-dryrun.tap 13 - run
+PASS: t/make-dryrun.tap 14 - run (-s)
+PASS: t/make-dryrun.tap 15 - run (-s -r)
+PASS: t/make-dryrun.tap 16 - run
+PASS: t/make-dryrun.tap 17 - run (-s)
+PASS: t/make-dryrun.tap 18 - run (-s -r)
+PASS: t/make-dryrun.tap 19 - dry
+PASS: t/make-dryrun.tap 20 - dry (-s)
+PASS: t/make-dryrun.tap 21 - dry (-s -r)
+PASS: t/make-dryrun.tap 22 - dry
+PASS: t/make-dryrun.tap 23 - dry (-s)
+PASS: t/make-dryrun.tap 24 - dry (-s -r)
+PASS: t/make-dryrun.tap 25 - run [bug#13760]
+PASS: t/make-dryrun.tap 26 - run [bug#13760] (-s)
+PASS: t/make-dryrun.tap 27 - run [bug#13760] (-s -r)
+PASS: t/make-dryrun.tap 28 - run [bug#13760]
+PASS: t/make-dryrun.tap 29 - run [bug#13760] (-s)
+PASS: t/make-dryrun.tap 30 - run [bug#13760] (-s -r)
+PASS: t/make-dryrun.tap 31 - dry [bug#13760]
+PASS: t/make-dryrun.tap 32 - dry [bug#13760] (-s)
+PASS: t/make-dryrun.tap 33 - dry [bug#13760] (-s -r)
+PASS: t/make-dryrun.tap 34 - dry [bug#13760]
+PASS: t/make-dryrun.tap 35 - dry [bug#13760] (-s)
+PASS: t/make-dryrun.tap 36 - dry [bug#13760] (-s -r)
+PASS: t/make-dryrun.tap 37 - run [metachars]
+PASS: t/make-dryrun.tap 38 - run [metachars] (-s)
+PASS: t/make-dryrun.tap 39 - run [metachars] (-s -r)
+PASS: t/make-dryrun.tap 40 - run [metachars]
+PASS: t/make-dryrun.tap 41 - run [metachars] (-s)
+PASS: t/make-dryrun.tap 42 - run [metachars] (-s -r)
+PASS: t/make-dryrun.tap 43 - run [metachars]
+PASS: t/make-dryrun.tap 44 - run [metachars] (-s)
+PASS: t/make-dryrun.tap 45 - run [metachars] (-s -r)
+PASS: t/make-dryrun.tap 46 - run [metachars]
+PASS: t/make-dryrun.tap 47 - run [metachars] (-s)
+PASS: t/make-dryrun.tap 48 - run [metachars] (-s -r)
+PASS: t/make-dryrun.tap 49 - run [metachars]
+PASS: t/make-dryrun.tap 50 - run [metachars] (-s)
+PASS: t/make-dryrun.tap 51 - run [metachars] (-s -r)
+PASS: t/make-dryrun.tap 52 - run [metachars]
+PASS: t/make-dryrun.tap 53 - run [metachars] (-s)
+PASS: t/make-dryrun.tap 54 - run [metachars] (-s -r)
+PASS: t/make-dryrun.tap 55 - run [metachars]
+PASS: t/make-dryrun.tap 56 - run [metachars] (-s)
+PASS: t/make-dryrun.tap 57 - run [metachars] (-s -r)
+PASS: t/make-dryrun.tap 58 - run [metachars]
+PASS: t/make-dryrun.tap 59 - run [metachars] (-s)
+PASS: t/make-dryrun.tap 60 - run [metachars] (-s -r)
+PASS: t/make-keepgoing.tap 1 - k-n
+PASS: t/make-keepgoing.tap 2 - k-n (-s)
+PASS: t/make-keepgoing.tap 3 - k-n (-s -r)
+PASS: t/make-keepgoing.tap 4 - k-n
+PASS: t/make-keepgoing.tap 5 - k-n (-s)
+PASS: t/make-keepgoing.tap 6 - k-n (-s -r)
+PASS: t/make-keepgoing.tap 7 - k-n
+PASS: t/make-keepgoing.tap 8 - k-n (-s)
+PASS: t/make-keepgoing.tap 9 - k-n (-s -r)
+PASS: t/make-keepgoing.tap 10 - k-n
+PASS: t/make-keepgoing.tap 11 - k-n (-s)
+PASS: t/make-keepgoing.tap 12 - k-n (-s -r)
+PASS: t/make-keepgoing.tap 13 - k-n
+PASS: t/make-keepgoing.tap 14 - k-n (-s)
+PASS: t/make-keepgoing.tap 15 - k-n (-s -r)
+PASS: t/make-keepgoing.tap 16 - k-n
+PASS: t/make-keepgoing.tap 17 - k-n (-s)
+PASS: t/make-keepgoing.tap 18 - k-n (-s -r)
+PASS: t/make-keepgoing.tap 19 - k-y
+PASS: t/make-keepgoing.tap 20 - k-y (-s)
+PASS: t/make-keepgoing.tap 21 - k-y (-s -r)
+PASS: t/make-keepgoing.tap 22 - k-y
+PASS: t/make-keepgoing.tap 23 - k-y (-s)
+PASS: t/make-keepgoing.tap 24 - k-y (-s -r)
+PASS: t/make-keepgoing.tap 25 - k-n [bug#12554]
+PASS: t/make-keepgoing.tap 26 - k-n [bug#12554] (-s)
+PASS: t/make-keepgoing.tap 27 - k-n [bug#12554] (-s -r)
+PASS: t/make-keepgoing.tap 28 - k-n [bug#12554]
+PASS: t/make-keepgoing.tap 29 - k-n [bug#12554] (-s)
+PASS: t/make-keepgoing.tap 30 - k-n [bug#12554] (-s -r)
+PASS: t/make-keepgoing.tap 31 - k-y [bug#12554]
+PASS: t/make-keepgoing.tap 32 - k-y [bug#12554] (-s)
+PASS: t/make-keepgoing.tap 33 - k-y [bug#12554] (-s -r)
+PASS: t/make-keepgoing.tap 34 - k-y [bug#12554]
+PASS: t/make-keepgoing.tap 35 - k-y [bug#12554] (-s)
+PASS: t/make-keepgoing.tap 36 - k-y [bug#12554] (-s -r)
+PASS: t/make-keepgoing.tap 37 - k-n [metachars]
+PASS: t/make-keepgoing.tap 38 - k-n [metachars] (-s)
+PASS: t/make-keepgoing.tap 39 - k-n [metachars] (-s -r)
+PASS: t/make-keepgoing.tap 40 - k-n [metachars]
+PASS: t/make-keepgoing.tap 41 - k-n [metachars] (-s)
+PASS: t/make-keepgoing.tap 42 - k-n [metachars] (-s -r)
+PASS: t/make-keepgoing.tap 43 - k-n [metachars]
+PASS: t/make-keepgoing.tap 44 - k-n [metachars] (-s)
+PASS: t/make-keepgoing.tap 45 - k-n [metachars] (-s -r)
+PASS: t/make-keepgoing.tap 46 - k-n [metachars]
+PASS: t/make-keepgoing.tap 47 - k-n [metachars] (-s)
+PASS: t/make-keepgoing.tap 48 - k-n [metachars] (-s -r)
+PASS: t/make-keepgoing.tap 49 - k-n [metachars]
+PASS: t/make-keepgoing.tap 50 - k-n [metachars] (-s)
+PASS: t/make-keepgoing.tap 51 - k-n [metachars] (-s -r)
+PASS: t/make-keepgoing.tap 52 - k-n [metachars]
+PASS: t/make-keepgoing.tap 53 - k-n [metachars] (-s)
+PASS: t/make-keepgoing.tap 54 - k-n [metachars] (-s -r)
+PASS: t/make-keepgoing.tap 55 - k-n [metachars]
+PASS: t/make-keepgoing.tap 56 - k-n [metachars] (-s)
+PASS: t/make-keepgoing.tap 57 - k-n [metachars] (-s -r)
+PASS: t/make-keepgoing.tap 58 - k-n [metachars]
+PASS: t/make-keepgoing.tap 59 - k-n [metachars] (-s)
+PASS: t/make-keepgoing.tap 60 - k-n [metachars] (-s -r)
+man6: skipped test: required program 'help2man' not available
+SKIP: t/man6.sh
+PASS: t/ltlibsrc.sh
+PASS: t/maken3.sh
+PASS: t/mdate.sh
+PASS: t/mdate2.sh
+PASS: t/man5.sh
+PASS: t/man3.sh
+PASS: t/mdate5.sh
+PASS: t/mdate6.sh
+PASS: t/mdate3.sh
+PASS: t/missing3.sh
+PASS: t/mdate4.sh
+PASS: t/man7.sh
+PASS: t/missing-version-mismatch.sh
+PASS: t/missing-auxfile-stops-makefiles-creation.sh
+PASS: t/mkinstall.sh
+PASS: t/mkinst3.sh
+PASS: t/mkdirp-deprecation.sh
+PASS: t/man8.sh
+PASS: t/am-missing-prog.sh
+PASS: t/mkinst2.sh
+PASS: t/mkdir_p.sh
+PASS: t/no-extra-makefile-code.sh
+PASS: t/no-extra-c-stuff.sh
+PASS: t/no-spurious-install-recursive.sh
+nobase-python: skipped test: python interpreter not available
+SKIP: t/nobase-python.sh
+PASS: t/nobase-nodist.sh
+PASS: t/nobase-dist.sh
+PASS: t/nodef.sh
+PASS: t/nodep.sh
+PASS: t/mmode.sh
+PASS: t/nodep2.sh
+PASS: t/nodepcomp.sh
+PASS: t/nobase.sh
+PASS: t/nodist.sh
+PASS: t/mmodely.sh
+PASS: t/nodef2.sh
+PASS: t/noinst.sh
+PASS: t/nodist3.sh
+PASS: t/nodist2.sh
+PASS: t/nolink.sh
+PASS: t/number.sh
+PASS: t/objc-basic.sh
+PASS: t/noinstdir.sh
+PASS: t/notrans.sh
+SKIP: t/objc-minidemo.sh
+SKIP: t/objc-flags.sh
+PASS: t/nostdinc.sh
+SKIP: t/objc-deps.sh
+PASS: t/objcxx-basic.sh
+SKIP: t/objcxx-flags.sh
+SKIP: t/objcxx-minidemo.sh
+SKIP: t/objcxx-deps.sh
+PASS: t/oldvars.sh
+PASS: t/order.sh
+PASS: t/output.sh
+XFAIL: t/objext-pr10128.sh
+PASS: t/output2.sh
+PASS: t/output3.sh
+PASS: t/output4.sh
+PASS: t/output5.sh
+PASS: t/output6.sh
+PASS: t/output8.sh
+PASS: t/nobase-libtool.sh
+PASS: t/output7.sh
+PASS: t/output9.sh
+PASS: t/output10.sh
+XFAIL: t/override-conditional-2.sh
+PASS: t/output11.sh
+PASS: t/output13.sh
+PASS: t/output12.sh
+XFAIL: t/override-conditional-pr13940.sh
+SKIP: t/objc-megademo.sh
+PASS: t/override-conditional-1.sh
+PASS: t/override-html.sh
+PASS: t/override-suggest-local.sh
+PASS: t/output-order.sh
+PASS: t/serial-tests.sh
+PASS: t/parallel-tests-basics.sh
+PASS: t/parallel-tests-empty.sh
+PASS: t/parallel-am3.sh
+PASS: t/parallel-am.sh
+PASS: t/parallel-am2.sh
+PASS: t/parallel-tests-concurrency.sh
+PASS: t/parallel-tests-exit-status-reported.sh
+PASS: t/parallel-tests-trailing-whitespace.sh
+PASS: t/parallel-tests-concurrency-2.sh
+PASS: t/parallel-tests-recheck.sh
+PASS: t/parallel-tests-recheck-depends-on-all.sh
+PASS: t/parallel-tests-exeext.sh
+PASS: t/parallel-tests-recheck-pr11791.sh
+PASS: t/parallel-tests-generated-and-distributed.sh
+PASS: t/parallel-tests-suffix.sh
+PASS: t/parallel-tests-log-compiler-1.sh
+PASS: t/parallel-tests-dry-run-1.sh
+parallel-tests-unreadable: skipped test: you can still read unreadable files
+SKIP: t/parallel-tests-unreadable.sh
+PASS: t/parallel-tests-dry-run-2.sh
+PASS: t/parallel-tests-fd-redirect.sh
+PASS: t/parallel-tests-log-compiler-2.sh
+PASS: t/parallel-tests-suffix-prog.sh
+PASS: t/parallel-tests-fd-redirect-exeext.sh
+PASS: t/parallel-tests-subdir.sh
+PASS: t/parallel-tests-reset-term.sh
+PASS: t/parallel-tests-interrupt.tap 1 - logfile created and readable [SIG 1]
+PASS: t/parallel-tests-interrupt.tap 2 - logfile contains output from test script [SIG 1]
+PASS: t/parallel-tests-interrupt.tap 3 - signal 1 to test driver causes "make check" to fail
+PASS: t/parallel-tests-interrupt.tap 4 - test driver clean up log and tmp files after signal 1
+PASS: t/parallel-tests-interrupt.tap 5 - logfile created and readable [SIG 2]
+PASS: t/parallel-tests-interrupt.tap 6 - logfile contains output from test script [SIG 2]
+PASS: t/parallel-tests-interrupt.tap 7 - signal 2 to test driver causes "make check" to fail
+PASS: t/parallel-tests-interrupt.tap 8 - test driver clean up log and tmp files after signal 2
+PASS: t/parallel-tests-interrupt.tap 9 - logfile created and readable [SIG 13]
+PASS: t/parallel-tests-interrupt.tap 10 - logfile contains output from test script [SIG 13]
+PASS: t/parallel-tests-interrupt.tap 11 - signal 13 to test driver causes "make check" to fail
+PASS: t/parallel-tests-interrupt.tap 12 - test driver clean up log and tmp files after signal 13
+PASS: t/parallel-tests-interrupt.tap 13 - logfile created and readable [SIG 15]
+PASS: t/parallel-tests-interrupt.tap 14 - logfile contains output from test script [SIG 15]
+PASS: t/parallel-tests-interrupt.tap 15 - signal 15 to test driver causes "make check" to fail
+PASS: t/parallel-tests-interrupt.tap 16 - test driver clean up log and tmp files after signal 15
+parallel-tests-log-compiler-example: skipped test: python interpreter not available
+SKIP: t/parallel-tests-log-compiler-example.sh
+PASS: t/parallel-tests-extra-programs.sh

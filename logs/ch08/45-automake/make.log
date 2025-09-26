@@ -1,0 +1,13 @@
+  GEN      bin/automake
+  GEN      bin/aclocal
+  GEN      doc/aclocal.1
+  GEN      t/ax/shell-no-trail-bslash
+  GEN      t/ax/cc-no-c-o
+  GEN      runtest
+  GEN      doc/automake.1
+  GEN      lib/Automake/Config.pm
+  GEN      t/ax/test-defs.sh
+  GEN      bin/aclocal-1.18
+  GEN      doc/aclocal-1.18.1
+  GEN      bin/automake-1.18
+  GEN      doc/automake-1.18.1
