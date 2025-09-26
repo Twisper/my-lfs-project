@@ -1,0 +1,36 @@
+[1/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-file.c.o
+[2/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-builtin.c.o
+[3/36] Compiling C object libshared.a.p/shared_strbuf.c.o
+[4/36] Compiling C object libshared.a.p/shared_array.c.o
+[5/36] Compiling C object libshared.a.p/shared_hash.c.o
+[6/36] Compiling C object libshared.a.p/shared_util.c.o
+[7/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod.c.o
+[8/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-list.c.o
+[9/36] Linking static target libshared.a
+[10/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-file-zstd.c.o
+[11/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-file-xz.c.o
+[12/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-file-zlib.c.o
+[13/36] Compiling C object kmod.p/tools_insmod.c.o
+[14/36] Compiling C object kmod.p/tools_kmod.c.o
+[15/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-config.c.o
+[16/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-signature.c.o
+[17/36] Compiling C object kmod.p/tools_lsmod.c.o
+[18/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-index.c.o
+[19/36] Compiling C object kmod.p/tools_log.c.o
+[20/36] Compiling C object kmod.p/tools_opt.c.o
+[21/36] Compiling C object kmod.p/tools_rmmod.c.o
+[22/36] Compiling C object kmod.p/tools_static-nodes.c.o
+[23/36] Compiling C object kmod.p/tools_modinfo.c.o
+[24/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-elf.c.o
+[25/36] Compiling C object kmod.p/tools_modprobe.c.o
+[26/36] Compiling C object libkmod.so.2.5.1.p/libkmod_libkmod-module.c.o
+[27/36] Linking static target libkmod-internal.a
+[28/36] Linking target libkmod.so.2.5.1
+[29/36] Compiling C object kmod.p/tools_depmod.c.o
+[30/36] Linking target kmod
+[31/36] Generating depmod with a custom command
+[32/36] Generating insmod with a custom command
+[33/36] Generating lsmod with a custom command
+[34/36] Generating modinfo with a custom command
+[35/36] Generating modprobe with a custom command
+[36/36] Generating rmmod with a custom command

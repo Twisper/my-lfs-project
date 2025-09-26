@@ -1,0 +1,29 @@
+[0/1] Installing files
+Installing libkmod.so.2.5.1 to /usr/lib
+Installing kmod to /usr/bin
+Installing /sources/kmod-34.2/libkmod/libkmod.h to /usr/include
+Installing new directory /etc/depmod.d
+Installing new directory /etc/modprobe.d
+Installing new directory /usr/lib/depmod.d
+Installing new directory /usr/lib/modprobe.d
+Installing /sources/kmod-34.2/shell-completion/bash/insmod to /usr/share/bash-completion/completions
+Installing /sources/kmod-34.2/shell-completion/bash/lsmod to /usr/share/bash-completion/completions
+Installing /sources/kmod-34.2/shell-completion/bash/rmmod to /usr/share/bash-completion/completions
+Installing /sources/kmod-34.2/shell-completion/fish/insmod.fish to /usr/share/fish/vendor_functions.d
+Installing /sources/kmod-34.2/shell-completion/fish/lsmod.fish to /usr/share/fish/vendor_functions.d
+Installing /sources/kmod-34.2/shell-completion/fish/rmmod.fish to /usr/share/fish/vendor_functions.d
+Installing /sources/kmod-34.2/shell-completion/zsh/_insmod to /usr/share/zsh/site-functions
+Installing /sources/kmod-34.2/shell-completion/zsh/_lsmod to /usr/share/zsh/site-functions
+Installing /sources/kmod-34.2/shell-completion/zsh/_rmmod to /usr/share/zsh/site-functions
+Installing /sources/kmod-34.2/shell-completion/bash/kmod to /usr/share/bash-completion/completions
+Installing /sources/kmod-34.2/build/meson-private/libkmod.pc to /usr/lib/pkgconfig
+Installing /sources/kmod-34.2/build/meson-private/kmod.pc to /usr/share/pkgconfig
+Installing symlink pointing to libkmod.so.2.5.1 to /usr/lib/libkmod.so.2
+Installing symlink pointing to libkmod.so.2 to /usr/lib/libkmod.so
+Running custom install script '/usr/bin/sh -c mkdir -p "$DESTDIR/usr/sbin"'
+Running custom install script '/usr/bin/sh -c ln -sfr "$DESTDIR/usr/bin/kmod" "$DESTDIR/usr/sbin/depmod"'
+Running custom install script '/usr/bin/sh -c ln -sfr "$DESTDIR/usr/bin/kmod" "$DESTDIR/usr/sbin/insmod"'
+Running custom install script '/usr/bin/sh -c ln -sfr "$DESTDIR/usr/bin/kmod" "$DESTDIR/usr/sbin/lsmod"'
+Running custom install script '/usr/bin/sh -c ln -sfr "$DESTDIR/usr/bin/kmod" "$DESTDIR/usr/sbin/modinfo"'
+Running custom install script '/usr/bin/sh -c ln -sfr "$DESTDIR/usr/bin/kmod" "$DESTDIR/usr/sbin/modprobe"'
+Running custom install script '/usr/bin/sh -c ln -sfr "$DESTDIR/usr/bin/kmod" "$DESTDIR/usr/sbin/rmmod"'
