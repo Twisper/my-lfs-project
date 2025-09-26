@@ -1,0 +1,166 @@
+make  install-recursive
+make[1]: Entering directory '/sources/inetutils-2.6'
+Making install in lib
+make[2]: Entering directory '/sources/inetutils-2.6/lib'
+make  install-recursive
+make[3]: Entering directory '/sources/inetutils-2.6/lib'
+make[4]: Entering directory '/sources/inetutils-2.6/lib'
+make[5]: Entering directory '/sources/inetutils-2.6/lib'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Leaving directory '/sources/inetutils-2.6/lib'
+make[4]: Leaving directory '/sources/inetutils-2.6/lib'
+make[3]: Leaving directory '/sources/inetutils-2.6/lib'
+make[2]: Leaving directory '/sources/inetutils-2.6/lib'
+Making install in libinetutils
+make[2]: Entering directory '/sources/inetutils-2.6/libinetutils'
+make[3]: Entering directory '/sources/inetutils-2.6/libinetutils'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-2.6/libinetutils'
+make[2]: Leaving directory '/sources/inetutils-2.6/libinetutils'
+Making install in libtelnet
+make[2]: Entering directory '/sources/inetutils-2.6/libtelnet'
+make[3]: Entering directory '/sources/inetutils-2.6/libtelnet'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-2.6/libtelnet'
+make[2]: Leaving directory '/sources/inetutils-2.6/libtelnet'
+Making install in libicmp
+make[2]: Entering directory '/sources/inetutils-2.6/libicmp'
+make[3]: Entering directory '/sources/inetutils-2.6/libicmp'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-2.6/libicmp'
+make[2]: Leaving directory '/sources/inetutils-2.6/libicmp'
+Making install in libls
+make[2]: Entering directory '/sources/inetutils-2.6/libls'
+make[3]: Entering directory '/sources/inetutils-2.6/libls'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-2.6/libls'
+make[2]: Leaving directory '/sources/inetutils-2.6/libls'
+Making install in src
+make[2]: Entering directory '/sources/inetutils-2.6/src'
+make[3]: Entering directory '/sources/inetutils-2.6/src'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/mkdir -p '/usr/libexec'
+  /usr/bin/install -c hostname dnsdomainname tftp traceroute '/usr/bin'
+make  install-exec-hook
+make[4]: Entering directory '/sources/inetutils-2.6/src'
+make[4]: Leaving directory '/sources/inetutils-2.6/src'
+make[3]: Leaving directory '/sources/inetutils-2.6/src'
+make[2]: Leaving directory '/sources/inetutils-2.6/src'
+Making install in telnet
+make[2]: Entering directory '/sources/inetutils-2.6/telnet'
+make[3]: Entering directory '/sources/inetutils-2.6/telnet'
+make[3]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c telnet '/usr/bin'
+make[3]: Leaving directory '/sources/inetutils-2.6/telnet'
+make[2]: Leaving directory '/sources/inetutils-2.6/telnet'
+Making install in telnetd
+make[2]: Entering directory '/sources/inetutils-2.6/telnetd'
+make[3]: Entering directory '/sources/inetutils-2.6/telnetd'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/inetutils-2.6/telnetd'
+make[2]: Leaving directory '/sources/inetutils-2.6/telnetd'
+Making install in ftp
+make[2]: Entering directory '/sources/inetutils-2.6/ftp'
+make[3]: Entering directory '/sources/inetutils-2.6/ftp'
+make[3]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c ftp '/usr/bin'
+make[3]: Leaving directory '/sources/inetutils-2.6/ftp'
+make[2]: Leaving directory '/sources/inetutils-2.6/ftp'
+Making install in ftpd
+make[2]: Entering directory '/sources/inetutils-2.6/ftpd'
+make[3]: Entering directory '/sources/inetutils-2.6/ftpd'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/inetutils-2.6/ftpd'
+make[2]: Leaving directory '/sources/inetutils-2.6/ftpd'
+Making install in talk
+make[2]: Entering directory '/sources/inetutils-2.6/talk'
+make[3]: Entering directory '/sources/inetutils-2.6/talk'
+make[3]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c talk '/usr/bin'
+make[3]: Leaving directory '/sources/inetutils-2.6/talk'
+make[2]: Leaving directory '/sources/inetutils-2.6/talk'
+Making install in talkd
+make[2]: Entering directory '/sources/inetutils-2.6/talkd'
+make[3]: Entering directory '/sources/inetutils-2.6/talkd'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/inetutils-2.6/talkd'
+make[2]: Leaving directory '/sources/inetutils-2.6/talkd'
+Making install in whois
+make[2]: Entering directory '/sources/inetutils-2.6/whois'
+make  install-am
+make[3]: Entering directory '/sources/inetutils-2.6/whois'
+make[4]: Entering directory '/sources/inetutils-2.6/whois'
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/inetutils-2.6/whois'
+make[3]: Leaving directory '/sources/inetutils-2.6/whois'
+make[2]: Leaving directory '/sources/inetutils-2.6/whois'
+Making install in ping
+make[2]: Entering directory '/sources/inetutils-2.6/ping'
+make[3]: Entering directory '/sources/inetutils-2.6/ping'
+make[3]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c ping ping6 '/usr/bin'
+make  install-exec-hook
+make[4]: Entering directory '/sources/inetutils-2.6/ping'
+make[4]: Leaving directory '/sources/inetutils-2.6/ping'
+make[3]: Leaving directory '/sources/inetutils-2.6/ping'
+make[2]: Leaving directory '/sources/inetutils-2.6/ping'
+Making install in ifconfig
+make[2]: Entering directory '/sources/inetutils-2.6/ifconfig'
+Making install in system
+make[3]: Entering directory '/sources/inetutils-2.6/ifconfig/system'
+make[4]: Entering directory '/sources/inetutils-2.6/ifconfig/system'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/inetutils-2.6/ifconfig/system'
+make[3]: Leaving directory '/sources/inetutils-2.6/ifconfig/system'
+make[3]: Entering directory '/sources/inetutils-2.6/ifconfig'
+make[4]: Entering directory '/sources/inetutils-2.6/ifconfig'
+make[4]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c ifconfig '/usr/bin'
+make[4]: Leaving directory '/sources/inetutils-2.6/ifconfig'
+make[3]: Leaving directory '/sources/inetutils-2.6/ifconfig'
+make[2]: Leaving directory '/sources/inetutils-2.6/ifconfig'
+Making install in doc
+make[2]: Entering directory '/sources/inetutils-2.6/doc'
+make[3]: Entering directory '/sources/inetutils-2.6/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./inetutils.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/inetutils.info'
+make[3]: Leaving directory '/sources/inetutils-2.6/doc'
+make[2]: Leaving directory '/sources/inetutils-2.6/doc'
+Making install in man
+make[2]: Entering directory '/sources/inetutils-2.6/man'
+make[3]: Entering directory '/sources/inetutils-2.6/man'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 hostname.1 dnsdomainname.1 ifconfig.1 ftp.1 ping.1 ping6.1 talk.1 telnet.1 tftp.1 traceroute.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/inetutils-2.6/man'
+make[2]: Leaving directory '/sources/inetutils-2.6/man'
+Making install in tests
+make[2]: Entering directory '/sources/inetutils-2.6/tests'
+make  install-am
+make[3]: Entering directory '/sources/inetutils-2.6/tests'
+make[4]: Entering directory '/sources/inetutils-2.6/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/inetutils-2.6/tests'
+make[3]: Leaving directory '/sources/inetutils-2.6/tests'
+make[2]: Leaving directory '/sources/inetutils-2.6/tests'
+make[2]: Entering directory '/sources/inetutils-2.6'
+make[3]: Entering directory '/sources/inetutils-2.6'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-2.6'
+make[2]: Leaving directory '/sources/inetutils-2.6'
+make[1]: Leaving directory '/sources/inetutils-2.6'
