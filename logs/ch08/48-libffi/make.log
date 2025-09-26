@@ -1,0 +1,126 @@
+MAKE x86_64-pc-linux-gnu : 0 * all-all
+make[1]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+make  all-recursive
+make[2]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+Making all in include
+make[3]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/include'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/include'
+Making all in testsuite
+make[3]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/testsuite'
+Making all in man
+make[3]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/man'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/man'
+Making all in doc
+make[3]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/doc'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/doc'
+make[3]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -DX86_64 -DGENERATE_LIBFFI_MAP \
+ -E -x assembler-with-cpp -o libffi.map ../libffi.map.in
+depbase=`echo src/prep_cif.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/prep_cif.lo -MD -MP -MF $depbase.Tpo -c -o src/prep_cif.lo ../src/prep_cif.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo src/types.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/types.lo -MD -MP -MF $depbase.Tpo -c -o src/types.lo ../src/types.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo src/raw_api.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/raw_api.lo -MD -MP -MF $depbase.Tpo -c -o src/raw_api.lo ../src/raw_api.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo src/java_raw_api.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/java_raw_api.lo -MD -MP -MF $depbase.Tpo -c -o src/java_raw_api.lo ../src/java_raw_api.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo src/closures.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/closures.lo -MD -MP -MF $depbase.Tpo -c -o src/closures.lo ../src/closures.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo src/tramp.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/tramp.lo -MD -MP -MF $depbase.Tpo -c -o src/tramp.lo ../src/tramp.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo src/x86/ffi64.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/x86/ffi64.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/ffi64.lo ../src/x86/ffi64.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -Wall -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/types.lo -MD -MP -MF src/.deps/types.Tpo -c ../src/types.c  -fPIC -DPIC -o src/.libs/types.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -Wall -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/prep_cif.lo -MD -MP -MF src/.deps/prep_cif.Tpo -c ../src/prep_cif.c  -fPIC -DPIC -o src/.libs/prep_cif.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -Wall -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/java_raw_api.lo -MD -MP -MF src/.deps/java_raw_api.Tpo -c ../src/java_raw_api.c  -fPIC -DPIC -o src/.libs/java_raw_api.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -Wall -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/raw_api.lo -MD -MP -MF src/.deps/raw_api.Tpo -c ../src/raw_api.c  -fPIC -DPIC -o src/.libs/raw_api.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -Wall -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/tramp.lo -MD -MP -MF src/.deps/tramp.Tpo -c ../src/tramp.c  -fPIC -DPIC -o src/.libs/tramp.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -Wall -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/closures.lo -MD -MP -MF src/.deps/closures.Tpo -c ../src/closures.c  -fPIC -DPIC -o src/.libs/closures.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -Wall -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/x86/ffi64.lo -MD -MP -MF src/x86/.deps/ffi64.Tpo -c ../src/x86/ffi64.c  -fPIC -DPIC -o src/x86/.libs/ffi64.o
+../src/java_raw_api.c: In function 'ffi_java_raw_call':
+../src/java_raw_api.c:317:3: warning: 'ffi_java_raw_to_ptrarray' is deprecated [-Wdeprecated-declarations]
+  317 |   ffi_java_raw_to_ptrarray (cif, raw, avalue);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/java_raw_api.c:76:1: note: declared here
+   76 | ffi_java_raw_to_ptrarray (ffi_cif *cif, ffi_java_raw *raw, void **args)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/java_raw_api.c: In function 'ffi_java_translate_args':
+../src/java_raw_api.c:328:3: warning: 'ffi_java_raw_size' is deprecated [-Wdeprecated-declarations]
+  328 |   ffi_java_raw *raw = (ffi_java_raw*)alloca (ffi_java_raw_size (cif));
+      |   ^~~~~~~~~~~~
+../src/java_raw_api.c:45:1: note: declared here
+   45 | ffi_java_raw_size (ffi_cif *cif)
+      | ^~~~~~~~~~~~~~~~~
+../src/java_raw_api.c:331:3: warning: 'ffi_java_ptrarray_to_raw' is deprecated [-Wdeprecated-declarations]
+  331 |   ffi_java_ptrarray_to_raw (cif, avalue, raw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/java_raw_api.c:157:1: note: declared here
+  157 | ffi_java_ptrarray_to_raw (ffi_cif *cif, void **args, ffi_java_raw *raw)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/java_raw_api.c: In function 'ffi_prep_java_raw_closure':
+../src/java_raw_api.c:369:3: warning: 'ffi_prep_java_raw_closure_loc' is deprecated [-Wdeprecated-declarations]
+  369 |   return ffi_prep_java_raw_closure_loc (cl, cif, fun, user_data, cl);
+      |   ^~~~~~
+../src/java_raw_api.c:337:1: note: declared here
+  337 | ffi_prep_java_raw_closure_loc (ffi_java_raw_closure* cl,
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+depbase=`echo src/x86/unix64.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src  '-I. -I../include -Iinclude -I../src'  -MT src/x86/unix64.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/unix64.lo ../src/x86/unix64.S &&\
+mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo src/x86/ffiw64.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/x86/ffiw64.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/ffiw64.lo ../src/x86/ffiw64.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+depbase=`echo src/x86/win64.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src  '-I. -I../include -Iinclude -I../src'  -MT src/x86/win64.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/win64.lo ../src/x86/win64.S &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src "-I. -I../include -Iinclude -I../src" -MT src/x86/unix64.lo -MD -MP -MF src/x86/.deps/unix64.Tpo -c ../src/x86/unix64.S  -fPIC -DPIC -o src/x86/.libs/unix64.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -Wall -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -MT src/x86/ffiw64.lo -MD -MP -MF src/x86/.deps/ffiw64.Tpo -c ../src/x86/ffiw64.c  -fPIC -DPIC -o src/x86/.libs/ffiw64.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src "-I. -I../include -Iinclude -I../src" -MT src/x86/win64.lo -MD -MP -MF src/x86/.deps/win64.Tpo -c ../src/x86/win64.S  -fPIC -DPIC -o src/x86/.libs/win64.o
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions   -o libffi_convenience.la  src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo src/tramp.lo   src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffiw64.lo src/x86/win64.lo 
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -Wall  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=native -fexceptions -no-undefined -version-info `grep -v '^#' ../libtool-version` -Wl,--version-script,libffi.map    -o libffi.la -rpath /usr/lib/../lib src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo src/tramp.lo  src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffiw64.lo src/x86/win64.lo 
+libtool: link: ar cr .libs/libffi_convenience.a src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/.libs/tramp.o src/x86/.libs/ffi64.o src/x86/.libs/unix64.o src/x86/.libs/ffiw64.o src/x86/.libs/win64.o 
+libtool: link: gcc -shared  -fPIC -DPIC  src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/.libs/tramp.o src/x86/.libs/ffi64.o src/x86/.libs/unix64.o src/x86/.libs/ffiw64.o src/x86/.libs/win64.o    -O3 -march=native -Wl,--version-script -Wl,libffi.map   -Wl,-soname -Wl,libffi.so.8 -o .libs/libffi.so.8.2.0
+libtool: link: ranlib .libs/libffi_convenience.a
+libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && ln -s "../libffi_convenience.la" "libffi_convenience.la" )
+libtool: link: (cd ".libs" && rm -f "libffi.so.8" && ln -s "libffi.so.8.2.0" "libffi.so.8")
+libtool: link: (cd ".libs" && rm -f "libffi.so" && ln -s "libffi.so.8.2.0" "libffi.so")
+libtool: link: ( cd ".libs" && rm -f "libffi.la" && ln -s "../libffi.la" "libffi.la" )
+make[3]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+make[2]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+make[1]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+MAKE x86_64-pc-linux-gnu : 0 * all-configured
+make[1]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+make  all-recursive
+make[2]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+Making all in include
+make[3]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/include'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/include'
+Making all in testsuite
+make[3]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/testsuite'
+Making all in man
+make[3]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/man'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/man'
+Making all in doc
+make[3]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/doc'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu/doc'
+make[3]: Entering directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+make[3]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+make[2]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
+make[1]: Leaving directory '/sources/libffi-3.5.2/x86_64-pc-linux-gnu'
