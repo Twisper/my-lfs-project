@@ -1,0 +1,1525 @@
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Archive-Tar/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Attribute-Handlers/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/AutoLoader/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/CPAN/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/CPAN-Meta/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/CPAN-Meta-Requirements/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/CPAN-Meta-YAML/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/AutoLoader directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Carp/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/CPAN-Meta-Requirements directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Config-Perl-V/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Config-Perl-V directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Devel-SelfStubber/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for dist/Carp directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Digest/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Attribute-Handlers'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Archive-Tar'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/CPAN-Meta'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/CPAN'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/CPAN-Meta-YAML'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Attribute-Handlers'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Archive-Tar'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/CPAN-Meta'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Dumpvalue/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for dist/Devel-SelfStubber directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Env/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/CPAN-Meta-YAML'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/CPAN'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl ext/Errno/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Exporter/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/ExtUtils-CBuilder/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/ExtUtils-Constant/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Digest directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/ExtUtils-Install/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for dist/Dumpvalue directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/ExtUtils-MakeMaker/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for dist/ExtUtils-CBuilder directly
+Running pm_to_blib for dist/Env directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/ExtUtils-Manifest/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl ext/ExtUtils-Miniperl/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/ExtUtils-Constant directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/ExtUtils-PL2Bat/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/ExtUtils-Install directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/ExtUtils-ParseXS/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for ext/ExtUtils-Miniperl directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/File-Fetch/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/ExtUtils-PL2Bat directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl ext/File-Find/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Exporter'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/Errno'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Exporter'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/Errno'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/File-Path/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/File-Temp/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for ext/File-Find directly
+Running pm_to_blib for cpan/File-Fetch directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl ext/FileCache/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Filter-Simple/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/ExtUtils-MakeMaker'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/ExtUtils-Manifest'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/ExtUtils-MakeMaker'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/ExtUtils-ParseXS'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/FindBin/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/File-Path directly
+Running pm_to_blib for cpan/File-Temp directly
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/ExtUtils-Manifest'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Getopt-Long/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/HTTP-Tiny/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/I18N-Collate/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/ExtUtils-ParseXS'
+Running pm_to_blib for ext/FileCache directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/I18N-LangTags/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/lib/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/lib'
+Running pm_to_blib for cpan/Getopt-Long directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/IO-Socket-IP/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for dist/I18N-Collate directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/IO-Zlib/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Filter-Simple'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/lib'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/IPC-Cmd/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Filter-Simple'
+Running pm_to_blib for cpan/IO-Zlib directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl ext/IPC-Open3/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/JSON-PP/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/IO-Socket-IP directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Locale-Maketext/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/FindBin'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/HTTP-Tiny'
+Running pm_to_blib for cpan/IPC-Cmd directly
+make[1]: Entering directory '/sources/perl-5.42.0/dist/I18N-LangTags'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Locale-Maketext-Simple/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/FindBin'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/HTTP-Tiny'
+Running pm_to_blib for ext/IPC-Open3 directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Math-BigInt/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Math-Complex/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Memoize/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/I18N-LangTags'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Module-CoreList/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Locale-Maketext-Simple directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Module-Load/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Math-BigInt directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Module-Load-Conditional/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Memoize directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Module-Loaded/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/JSON-PP'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Locale-Maketext'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/JSON-PP'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Locale-Maketext'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Module-Metadata/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/NEXT/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Module-Load directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Net-Ping/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Module-Loaded directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Params-Check/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Module-Load-Conditional directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Perl-OSType/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Math-Complex'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Module-CoreList'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Math-Complex'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl ext/PerlIO-scalar/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/NEXT directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/PerlIO-via-QuotedPrint/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Module-CoreList'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Pod-Checker/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Params-Check directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Pod-Escapes/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Perl-OSType directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/if/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for ext/PerlIO-scalar directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl ext/Pod-Html/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Module-Metadata'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Net-Ping'
+Running pm_to_blib for cpan/PerlIO-via-QuotedPrint directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Pod-Perldoc/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Pod-Escapes directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Pod-Usage/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Module-Metadata'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Safe/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Net-Ping'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Search-Dict/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for dist/Safe directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/SelfLoader/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Pod-Checker'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/if'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/Pod-Html'
+Running pm_to_blib for dist/Search-Dict directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Term-ANSIColor/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Pod-Checker'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/if'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Term-Cap/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Term-Complete/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/Pod-Html'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Term-ReadLine/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Pod-Perldoc'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Pod-Usage'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Pod-Perldoc'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Term-Table/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Term-ANSIColor directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Test/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for dist/Term-Complete directly
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Pod-Usage'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Test-Harness/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/SelfLoader'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Test-Simple/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for dist/Term-ReadLine directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Text-Abbrev/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/SelfLoader'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Text-Balanced/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Term-Table directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Text-ParseWords/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Term-Cap'
+Running pm_to_blib for dist/Text-Abbrev directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Text-Tabs/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Term-Cap'
+Running pm_to_blib for cpan/Text-Balanced directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Thread-Queue/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Thread-Semaphore/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Text-ParseWords directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/Tie-File/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Test-Harness'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Test'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Test-Simple'
+Running pm_to_blib for cpan/Text-Tabs directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl ext/Tie-Hash-NamedCapture/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Test'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Test-Harness'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl ext/Tie-Memoize/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Tie-RefHash/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for ext/Tie-Hash-NamedCapture directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Time-Local/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Test-Simple'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/XSLoader/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Thread-Semaphore'
+Running pm_to_blib for ext/Tie-Memoize directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/autodie/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/Tie-RefHash directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/autouse/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Thread-Queue'
+Running pm_to_blib for cpan/Time-Local directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/base/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Thread-Semaphore'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/bignum/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Tie-File'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Thread-Queue'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/constant/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Tie-File'
+Running pm_to_blib for cpan/autodie directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl dist/encoding-warnings/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/experimental/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for dist/autouse directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/libnet/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/libnet'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/XSLoader'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/libnet'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/parent/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/experimental directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/perlfaq/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/XSLoader'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/podlators/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Entering directory '/sources/perl-5.42.0/dist/base'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/bignum'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/podlators'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/constant'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/base'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/version/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/bignum'
+Running pm_to_blib for cpan/parent directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/IO-Compress/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl cpan/Pod-Simple/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/perlfaq directly
+make[1]: Entering directory '/sources/perl-5.42.0/dist/encoding-warnings'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/constant'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/encoding-warnings'
+Running pm_to_blib for cpan/version directly
+Running pm_to_blib for cpan/Pod-Simple directly
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl ext/Pod-Functions/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Manifying 2 pod documents
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/podlators'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/IO-Compress'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/IO-Compress'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/Pod-Functions'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/Pod-Functions'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib lib/unicore/mktables -C lib/unicore -P pod -maketest -makenormtest -makelist -p
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl DynaLoader.o  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=static 
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib mkppport
+make[1]: Entering directory '/sources/perl-5.42.0/ext/DynaLoader'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/DynaLoader'
+ppport.h in cpan/DB_File is up-to-date
+ppport.h in cpan/IPC-SysV is up-to-date
+ppport.h in cpan/Win32API-File is up-to-date
+ppport.h in dist/Data-Dumper is up-to-date
+ppport.h in dist/Devel-PPPort is up-to-date
+ppport.h in dist/ExtUtils-ParseXS is up-to-date
+ppport.h in dist/IO is up-to-date
+ppport.h in dist/PathTools is up-to-date
+ppport.h in dist/Storable is up-to-date
+ppport.h in dist/threads is up-to-date
+ppport.h in dist/threads-shared is up-to-date
+ppport.h in dist/Time-HiRes is up-to-date
+ppport.h in dist/Unicode-Normalize is up-to-date
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/B/B.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Compress/Raw/Bzip2/Bzip2.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Compress/Raw/Zlib/Zlib.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Cwd/Cwd.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Data/Dumper/Dumper.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Devel/PPPort/PPPort.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+lib/unicore/mktables: Files seem to be ok, not bothering to rebuild.  Add '-w' option to force build
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Devel/Peek/Peek.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Compress-Raw-Zlib'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Data-Dumper'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Compress-Raw-Bzip2'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/B'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/PathTools'
+/sources/perl-5.42.0/cpan/Compress-Raw-Bzip2/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Bzip2.bs ../../lib/auto/Compress/Raw/Bzip2/Bzip2.bs 644
+/sources/perl-5.42.0/cpan/Compress-Raw-Zlib/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Zlib.bs ../../lib/auto/Compress/Raw/Zlib/Zlib.bs 644
+/sources/perl-5.42.0/dist/Data-Dumper/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Dumper.bs ../../lib/auto/Data/Dumper/Dumper.bs 644
+/sources/perl-5.42.0/ext/B/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- B.bs ../../lib/auto/B/B.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Devel-PPPort'
+/sources/perl-5.42.0/dist/PathTools/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Cwd.bs ../../lib/auto/Cwd/Cwd.bs 644
+/sources/perl-5.42.0/dist/Devel-PPPort/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- PPPort.bs ../../lib/auto/Devel/PPPort/PPPort.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Compress-Raw-Zlib'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Compress-Raw-Bzip2'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/B'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Data-Dumper'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Digest/MD5/MD5.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Digest/SHA/SHA.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/PathTools'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Encode/Encode.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Fcntl/Fcntl.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/File/DosGlob/DosGlob.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Devel-PPPort'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/File/Glob/Glob.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Entering directory '/sources/perl-5.42.0/ext/Devel-Peek'
+/sources/perl-5.42.0/ext/Devel-Peek/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Peek.bs ../../lib/auto/Devel/Peek/Peek.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/Devel-Peek'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Filter/Util/Call/Call.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Digest-MD5'
+/sources/perl-5.42.0/cpan/Digest-MD5/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- MD5.bs ../../lib/auto/Digest/MD5/MD5.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Encode'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Digest-SHA'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/File-DosGlob'
+/sources/perl-5.42.0/cpan/Encode/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Encode.bs ../../lib/auto/Encode/Encode.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/ext/Fcntl'
+/sources/perl-5.42.0/cpan/Digest-SHA/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- SHA.bs ../../lib/auto/Digest/SHA/SHA.bs 644
+/sources/perl-5.42.0/ext/File-DosGlob/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- DosGlob.bs ../../lib/auto/File/DosGlob/DosGlob.bs 644
+/sources/perl-5.42.0/ext/Fcntl/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Fcntl.bs ../../lib/auto/Fcntl/Fcntl.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/ext/File-Glob'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Digest-MD5'
+/sources/perl-5.42.0/ext/File-Glob/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Glob.bs ../../lib/auto/File/Glob/Glob.bs 644
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/GDBM_File/GDBM_File.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[2]: Entering directory '/sources/perl-5.42.0/cpan/Encode/Byte'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Digest-SHA'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/File-DosGlob'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Hash/Util/Util.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/Fcntl'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Hash/Util/FieldHash/FieldHash.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+/sources/perl-5.42.0/cpan/Encode/Byte/../../../miniperl "-I../../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Byte.bs ../../../lib/auto/Encode/Byte/Byte.bs 644
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/I18N/Langinfo/Langinfo.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/File-Glob'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/IO/IO.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Filter-Util-Call'
+/sources/perl-5.42.0/cpan/Filter-Util-Call/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Call.bs ../../lib/auto/Filter/Util/Call/Call.bs 644
+make[2]: Leaving directory '/sources/perl-5.42.0/cpan/Encode/Byte'
+make[2]: Entering directory '/sources/perl-5.42.0/cpan/Encode/CN'
+/sources/perl-5.42.0/cpan/Encode/CN/../../../miniperl "-I../../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- CN.bs ../../../lib/auto/Encode/CN/CN.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Filter-Util-Call'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/IPC/SysV/SysV.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[2]: Leaving directory '/sources/perl-5.42.0/cpan/Encode/CN'
+make[2]: Entering directory '/sources/perl-5.42.0/cpan/Encode/EBCDIC'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/GDBM_File'
+/sources/perl-5.42.0/cpan/Encode/EBCDIC/../../../miniperl "-I../../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- EBCDIC.bs ../../../lib/auto/Encode/EBCDIC/EBCDIC.bs 644
+/sources/perl-5.42.0/ext/GDBM_File/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- GDBM_File.bs ../../lib/auto/GDBM_File/GDBM_File.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/ext/Hash-Util-FieldHash'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/Hash-Util'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/I18N-Langinfo'
+/sources/perl-5.42.0/ext/Hash-Util-FieldHash/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- FieldHash.bs ../../lib/auto/Hash/Util/FieldHash/FieldHash.bs 644
+/sources/perl-5.42.0/ext/Hash-Util/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Util.bs ../../lib/auto/Hash/Util/Util.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/dist/IO'
+/sources/perl-5.42.0/ext/I18N-Langinfo/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Langinfo.bs ../../lib/auto/I18N/Langinfo/Langinfo.bs 644
+make[2]: Leaving directory '/sources/perl-5.42.0/cpan/Encode/EBCDIC'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/GDBM_File'
+/sources/perl-5.42.0/dist/IO/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- IO.bs ../../lib/auto/IO/IO.bs 644
+make[2]: Entering directory '/sources/perl-5.42.0/cpan/Encode/JP'
+/sources/perl-5.42.0/cpan/Encode/JP/../../../miniperl "-I../../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- JP.bs ../../../lib/auto/Encode/JP/JP.bs 644
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/List/Util/Util.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/Hash-Util-FieldHash'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/Hash-Util'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/MIME/Base64/Base64.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/NDBM_File/NDBM_File.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/I18N-Langinfo'
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/IO'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/ODBM_File/ODBM_File.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Opcode/Opcode.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/IPC-SysV'
+make[2]: Leaving directory '/sources/perl-5.42.0/cpan/Encode/JP'
+/sources/perl-5.42.0/cpan/IPC-SysV/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- SysV.bs ../../lib/auto/IPC/SysV/SysV.bs 644
+make[2]: Entering directory '/sources/perl-5.42.0/cpan/Encode/KR'
+/sources/perl-5.42.0/cpan/Encode/KR/../../../miniperl "-I../../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- KR.bs ../../../lib/auto/Encode/KR/KR.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/IPC-SysV'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/POSIX/POSIX.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[2]: Leaving directory '/sources/perl-5.42.0/cpan/Encode/KR'
+make[2]: Entering directory '/sources/perl-5.42.0/cpan/Encode/Symbol'
+/sources/perl-5.42.0/cpan/Encode/Symbol/../../../miniperl "-I../../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Symbol.bs ../../../lib/auto/Encode/Symbol/Symbol.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Scalar-List-Utils'
+/sources/perl-5.42.0/cpan/Scalar-List-Utils/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Util.bs ../../lib/auto/List/Util/Util.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/MIME-Base64'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/ODBM_File'
+/sources/perl-5.42.0/cpan/MIME-Base64/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Base64.bs ../../lib/auto/MIME/Base64/Base64.bs 644
+/sources/perl-5.42.0/ext/ODBM_File/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- ODBM_File.bs ../../lib/auto/ODBM_File/ODBM_File.bs 644
+make[2]: Leaving directory '/sources/perl-5.42.0/cpan/Encode/Symbol'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/NDBM_File'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/Opcode'
+/sources/perl-5.42.0/ext/NDBM_File/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- NDBM_File.bs ../../lib/auto/NDBM_File/NDBM_File.bs 644
+make[2]: Entering directory '/sources/perl-5.42.0/cpan/Encode/TW'
+/sources/perl-5.42.0/ext/Opcode/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Opcode.bs ../../lib/auto/Opcode/Opcode.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Scalar-List-Utils'
+/sources/perl-5.42.0/cpan/Encode/TW/../../../miniperl "-I../../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- TW.bs ../../../lib/auto/Encode/TW/TW.bs 644
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/PerlIO/encoding/encoding.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/MIME-Base64'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/PerlIO/mmap/mmap.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/ODBM_File'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/PerlIO/via/via.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Entering directory '/sources/perl-5.42.0/ext/POSIX'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/NDBM_File'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/Opcode'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/SDBM_File/SDBM_File.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+/sources/perl-5.42.0/ext/POSIX/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- POSIX.bs ../../lib/auto/POSIX/POSIX.bs 644
+make[2]: Leaving directory '/sources/perl-5.42.0/cpan/Encode/TW'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Socket/Socket.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[2]: Entering directory '/sources/perl-5.42.0/cpan/Encode/Unicode'
+/sources/perl-5.42.0/cpan/Encode/Unicode/../../../miniperl "-I../../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Unicode.bs ../../../lib/auto/Encode/Unicode/Unicode.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/POSIX'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Storable/Storable.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[2]: Leaving directory '/sources/perl-5.42.0/cpan/Encode/Unicode'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Encode'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Sys/Hostname/Hostname.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Entering directory '/sources/perl-5.42.0/ext/PerlIO-mmap'
+/sources/perl-5.42.0/ext/PerlIO-mmap/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- mmap.bs ../../lib/auto/PerlIO/mmap/mmap.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/ext/PerlIO-encoding'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/PerlIO-via'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/SDBM_File'
+/sources/perl-5.42.0/ext/PerlIO-encoding/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- encoding.bs ../../lib/auto/PerlIO/encoding/encoding.bs 644
+/sources/perl-5.42.0/ext/PerlIO-via/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- via.bs ../../lib/auto/PerlIO/via/via.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Socket'
+/sources/perl-5.42.0/ext/SDBM_File/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- SDBM_File.bs ../../lib/auto/SDBM_File/SDBM_File.bs 644
+/sources/perl-5.42.0/cpan/Socket/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Socket.bs ../../lib/auto/Socket/Socket.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/PerlIO-mmap'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Sys/Syslog/Syslog.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/PerlIO-encoding'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/PerlIO-via'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Storable'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Time/HiRes/HiRes.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/SDBM_File'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Time/Piece/Piece.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Socket'
+/sources/perl-5.42.0/dist/Storable/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Storable.bs ../../lib/auto/Storable/Storable.bs 644
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Unicode/Collate/Collate.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Unicode/Normalize/Normalize.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Storable'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/Sys-Hostname'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/XS/APItest/APItest.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+/sources/perl-5.42.0/ext/Sys-Hostname/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Hostname.bs ../../lib/auto/Sys/Hostname/Hostname.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/Sys-Hostname'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/XS/Typemap/Typemap.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Sys-Syslog'
+/sources/perl-5.42.0/cpan/Sys-Syslog/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Syslog.bs ../../lib/auto/Sys/Syslog/Syslog.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Time-Piece'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Time-HiRes'
+/sources/perl-5.42.0/cpan/Time-Piece/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Piece.bs ../../lib/auto/Time/Piece/Piece.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Unicode-Collate'
+/sources/perl-5.42.0/dist/Time-HiRes/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- HiRes.bs ../../lib/auto/Time/HiRes/HiRes.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/dist/Unicode-Normalize'
+/sources/perl-5.42.0/dist/Unicode-Normalize/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Normalize.bs ../../lib/auto/Unicode/Normalize/Normalize.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Sys-Syslog'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/attributes/attributes.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+/sources/perl-5.42.0/cpan/Unicode-Collate/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Collate.bs ../../lib/auto/Unicode/Collate/Collate.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Time-HiRes'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Time-Piece'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/XS-APItest'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/mro/mro.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/re/re.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/Unicode-Normalize'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/threads/threads.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Unicode-Collate'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/XS-APItest'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/threads/shared/shared.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Entering directory '/sources/perl-5.42.0/ext/XS-Typemap'
+ 
+	Making utilities
+/sources/perl-5.42.0/ext/XS-Typemap/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Typemap.bs ../../lib/auto/XS/Typemap/Typemap.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/utils'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/perl-5.42.0/utils'
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so ./miniperl -Ilib make_ext.pl lib/auto/Math/BigInt/FastCalc/FastCalc.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/XS-Typemap'
+make[1]: Entering directory '/sources/perl-5.42.0/ext/attributes'
+/sources/perl-5.42.0/ext/attributes/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- attributes.bs ../../lib/auto/attributes/attributes.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/ext/mro'
+/sources/perl-5.42.0/ext/mro/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- mro.bs ../../lib/auto/mro/mro.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/ext/re'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/attributes'
+/sources/perl-5.42.0/ext/re/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- re.bs ../../lib/auto/re/re.bs 644
+make[1]: Entering directory '/sources/perl-5.42.0/dist/threads'
+/sources/perl-5.42.0/dist/threads/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- threads.bs ../../lib/auto/threads/threads.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/mro'
+make[1]: Leaving directory '/sources/perl-5.42.0/ext/re'
+make[1]: Entering directory '/sources/perl-5.42.0/dist/threads-shared'
+/sources/perl-5.42.0/dist/threads-shared/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- shared.bs ../../lib/auto/threads/shared/shared.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/threads'
+make[1]: Entering directory '/sources/perl-5.42.0/cpan/Math-BigInt-FastCalc'
+/sources/perl-5.42.0/cpan/Math-BigInt-FastCalc/../../miniperl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- FastCalc.bs ../../lib/auto/Math/BigInt/FastCalc/FastCalc.bs 644
+make[1]: Leaving directory '/sources/perl-5.42.0/dist/threads-shared'
+make[1]: Leaving directory '/sources/perl-5.42.0/cpan/Math-BigInt-FastCalc'
+ 
+	Everything is up to date. Type 'make test' to run test suite.
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so  ./perl -Ilib -I. installperl --destdir=   
+  /usr/bin/perl5.42.0
+  /usr/lib/perl5/5.42/core_perl/Errno.pm
+  /usr/lib/perl5/5.42/core_perl/ODBM_File.pm
+  /usr/lib/perl5/5.42/core_perl/NDBM_File.pm
+  /usr/lib/perl5/5.42/core_perl/GDBM_File.pm
+  /usr/lib/perl5/5.42/core_perl/Config_heavy.pl
+  /usr/lib/perl5/5.42/core_perl/Config.pm
+  /usr/lib/perl5/5.42/core_perl/auto/Cwd/Cwd.so
+  /usr/lib/perl5/5.42/core_perl/auto/PerlIO/via/via.so
+  /usr/lib/perl5/5.42/core_perl/auto/PerlIO/mmap/mmap.so
+  /usr/lib/perl5/5.42/core_perl/auto/PerlIO/encoding/encoding.so
+  /usr/lib/perl5/5.42/core_perl/auto/IPC/SysV/SysV.so
+  /usr/lib/perl5/5.42/core_perl/auto/Sys/Syslog/Syslog.so
+  /usr/lib/perl5/5.42/core_perl/auto/Sys/Hostname/Hostname.so
+  /usr/lib/perl5/5.42/core_perl/auto/I18N/Langinfo/Langinfo.so
+  /usr/lib/perl5/5.42/core_perl/auto/B/B.so
+  /usr/lib/perl5/5.42/core_perl/auto/GDBM_File/GDBM_File.so
+  /usr/lib/perl5/5.42/core_perl/auto/NDBM_File/NDBM_File.so
+  /usr/lib/perl5/5.42/core_perl/auto/SDBM_File/SDBM_File.so
+  /usr/lib/perl5/5.42/core_perl/auto/Time/HiRes/HiRes.so
+  /usr/lib/perl5/5.42/core_perl/auto/Time/Piece/Piece.so
+  /usr/lib/perl5/5.42/core_perl/auto/attributes/attributes.so
+  /usr/lib/perl5/5.42/core_perl/auto/File/DosGlob/DosGlob.so
+  /usr/lib/perl5/5.42/core_perl/auto/File/Glob/Glob.so
+  /usr/lib/perl5/5.42/core_perl/auto/Hash/Util/Util.so
+  /usr/lib/perl5/5.42/core_perl/auto/Hash/Util/FieldHash/FieldHash.so
+  /usr/lib/perl5/5.42/core_perl/auto/Encode/Encode.so
+  /usr/lib/perl5/5.42/core_perl/auto/Encode/EBCDIC/EBCDIC.so
+  /usr/lib/perl5/5.42/core_perl/auto/Encode/KR/KR.so
+  /usr/lib/perl5/5.42/core_perl/auto/Encode/CN/CN.so
+  /usr/lib/perl5/5.42/core_perl/auto/Encode/Unicode/Unicode.so
+  /usr/lib/perl5/5.42/core_perl/auto/Encode/JP/JP.so
+  /usr/lib/perl5/5.42/core_perl/auto/Encode/Symbol/Symbol.so
+  /usr/lib/perl5/5.42/core_perl/auto/Encode/Byte/Byte.so
+  /usr/lib/perl5/5.42/core_perl/auto/Encode/TW/TW.so
+  /usr/lib/perl5/5.42/core_perl/auto/Filter/Util/Call/Call.so
+  /usr/lib/perl5/5.42/core_perl/auto/MIME/Base64/Base64.so
+  /usr/lib/perl5/5.42/core_perl/auto/Socket/Socket.so
+  /usr/lib/perl5/5.42/core_perl/auto/Fcntl/Fcntl.so
+  /usr/lib/perl5/5.42/core_perl/auto/Devel/Peek/Peek.so
+  /usr/lib/perl5/5.42/core_perl/auto/Storable/Storable.so
+  /usr/lib/perl5/5.42/core_perl/auto/mro/mro.so
+  /usr/lib/perl5/5.42/core_perl/auto/Unicode/Normalize/Normalize.so
+  /usr/lib/perl5/5.42/core_perl/auto/Unicode/Collate/Collate.so
+  /usr/lib/perl5/5.42/core_perl/auto/List/Util/Util.so
+  /usr/lib/perl5/5.42/core_perl/auto/Compress/Raw/Zlib/Zlib.so
+  /usr/lib/perl5/5.42/core_perl/auto/Compress/Raw/Bzip2/Bzip2.so
+  /usr/lib/perl5/5.42/core_perl/auto/IO/IO.so
+  /usr/lib/perl5/5.42/core_perl/auto/Data/Dumper/Dumper.so
+  /usr/lib/perl5/5.42/core_perl/auto/threads/threads.so
+  /usr/lib/perl5/5.42/core_perl/auto/threads/shared/shared.so
+  /usr/lib/perl5/5.42/core_perl/auto/Digest/MD5/MD5.so
+  /usr/lib/perl5/5.42/core_perl/auto/Digest/SHA/SHA.so
+  /usr/lib/perl5/5.42/core_perl/auto/Opcode/Opcode.so
+  /usr/lib/perl5/5.42/core_perl/auto/re/re.so
+  /usr/lib/perl5/5.42/core_perl/auto/Math/BigInt/FastCalc/FastCalc.so
+  /usr/lib/perl5/5.42/core_perl/auto/ODBM_File/ODBM_File.so
+  /usr/lib/perl5/5.42/core_perl/auto/POSIX/POSIX.so
+  /usr/lib/perl5/5.42/core_perl/CORE/config.h
+  /usr/lib/perl5/5.42/core_perl/CORE/libperl.so
+  /usr/bin/perl
+  /usr/bin/pod2man
+  /usr/bin/pod2text
+  /usr/bin/pod2usage
+  /usr/bin/podchecker
+  /usr/bin/cpan
+  /usr/bin/corelist
+  /usr/bin/enc2xs
+  /usr/bin/encguess
+  /usr/bin/h2ph
+  /usr/bin/h2xs
+  /usr/bin/instmodsh
+  /usr/bin/json_pp
+  /usr/bin/libnetcfg
+  /usr/bin/perlbug
+  /usr/bin/perldoc
+  /usr/bin/perlivp
+  /usr/bin/piconv
+  /usr/bin/pl2pm
+  /usr/bin/pod2html
+  /usr/bin/prove
+  /usr/bin/ptar
+  /usr/bin/ptardiff
+  /usr/bin/ptargrep
+  /usr/bin/shasum
+  /usr/bin/splain
+  /usr/bin/streamzip
+  /usr/bin/xsubpp
+  /usr/bin/zipdetails
+  /usr/bin/perlthanks
+  /usr/lib/perl5/5.42/core_perl/pod/perltoc.pod
+LD_LIBRARY_PATH=/sources/perl-5.42.0 /sources/perl-5.42.0/preload /sources/perl-5.42.0/libperl.so  ./perl -Ilib -I. installman --destdir= 
+  /usr/share/man/man1/perl.1
+  /usr/share/man/man1/perl5004delta.1
+  /usr/share/man/man1/perl5005delta.1
+  /usr/share/man/man1/perl5100delta.1
+  /usr/share/man/man1/perl5101delta.1
+  /usr/share/man/man1/perl5120delta.1
+  /usr/share/man/man1/perl5121delta.1
+  /usr/share/man/man1/perl5122delta.1
+  /usr/share/man/man1/perl5123delta.1
+  /usr/share/man/man1/perl5124delta.1
+  /usr/share/man/man1/perl5125delta.1
+  /usr/share/man/man1/perl5140delta.1
+  /usr/share/man/man1/perl5141delta.1
+  /usr/share/man/man1/perl5142delta.1
+  /usr/share/man/man1/perl5143delta.1
+  /usr/share/man/man1/perl5144delta.1
+  /usr/share/man/man1/perl5160delta.1
+  /usr/share/man/man1/perl5161delta.1
+  /usr/share/man/man1/perl5162delta.1
+  /usr/share/man/man1/perl5163delta.1
+  /usr/share/man/man1/perl5180delta.1
+  /usr/share/man/man1/perl5181delta.1
+  /usr/share/man/man1/perl5182delta.1
+  /usr/share/man/man1/perl5184delta.1
+  /usr/share/man/man1/perl5200delta.1
+  /usr/share/man/man1/perl5201delta.1
+  /usr/share/man/man1/perl5202delta.1
+  /usr/share/man/man1/perl5203delta.1
+  /usr/share/man/man1/perl5220delta.1
+  /usr/share/man/man1/perl5221delta.1
+  /usr/share/man/man1/perl5222delta.1
+  /usr/share/man/man1/perl5223delta.1
+  /usr/share/man/man1/perl5224delta.1
+  /usr/share/man/man1/perl5240delta.1
+  /usr/share/man/man1/perl5241delta.1
+  /usr/share/man/man1/perl5242delta.1
+  /usr/share/man/man1/perl5243delta.1
+  /usr/share/man/man1/perl5244delta.1
+  /usr/share/man/man1/perl5260delta.1
+  /usr/share/man/man1/perl5261delta.1
+  /usr/share/man/man1/perl5262delta.1
+  /usr/share/man/man1/perl5263delta.1
+  /usr/share/man/man1/perl5280delta.1
+  /usr/share/man/man1/perl5281delta.1
+  /usr/share/man/man1/perl5282delta.1
+  /usr/share/man/man1/perl5283delta.1
+  /usr/share/man/man1/perl5300delta.1
+  /usr/share/man/man1/perl5301delta.1
+  /usr/share/man/man1/perl5302delta.1
+  /usr/share/man/man1/perl5303delta.1
+  /usr/share/man/man1/perl5320delta.1
+  /usr/share/man/man1/perl5321delta.1
+  /usr/share/man/man1/perl5340delta.1
+  /usr/share/man/man1/perl5341delta.1
+  /usr/share/man/man1/perl5342delta.1
+  /usr/share/man/man1/perl5343delta.1
+  /usr/share/man/man1/perl5360delta.1
+  /usr/share/man/man1/perl5361delta.1
+  /usr/share/man/man1/perl5362delta.1
+  /usr/share/man/man1/perl5363delta.1
+  /usr/share/man/man1/perl5380delta.1
+  /usr/share/man/man1/perl5381delta.1
+  /usr/share/man/man1/perl5382delta.1
+  /usr/share/man/man1/perl5383delta.1
+  /usr/share/man/man1/perl5384delta.1
+  /usr/share/man/man1/perl5400delta.1
+  /usr/share/man/man1/perl5401delta.1
+  /usr/share/man/man1/perl5402delta.1
+  /usr/share/man/man1/perl5420delta.1
+  /usr/share/man/man1/perl561delta.1
+  /usr/share/man/man1/perl56delta.1
+  /usr/share/man/man1/perl581delta.1
+  /usr/share/man/man1/perl582delta.1
+  /usr/share/man/man1/perl583delta.1
+  /usr/share/man/man1/perl584delta.1
+  /usr/share/man/man1/perl585delta.1
+  /usr/share/man/man1/perl586delta.1
+  /usr/share/man/man1/perl587delta.1
+  /usr/share/man/man1/perl588delta.1
+  /usr/share/man/man1/perl589delta.1
+  /usr/share/man/man1/perl58delta.1
+  /usr/share/man/man1/perlaix.1
+  /usr/share/man/man1/perlamiga.1
+  /usr/share/man/man1/perlandroid.1
+  /usr/share/man/man1/perlapi.1
+  /usr/share/man/man1/perlapio.1
+  /usr/share/man/man1/perlartistic.1
+  /usr/share/man/man1/perlbook.1
+  /usr/share/man/man1/perlboot.1
+  /usr/share/man/man1/perlbot.1
+  /usr/share/man/man1/perlbs2000.1
+  /usr/share/man/man1/perlcall.1
+  /usr/share/man/man1/perlcheat.1
+  /usr/share/man/man1/perlclass.1
+  /usr/share/man/man1/perlclassguts.1
+  /usr/share/man/man1/perlclib.1
+  /usr/share/man/man1/perlcn.1
+  /usr/share/man/man1/perlcommunity.1
+  /usr/share/man/man1/perlcygwin.1
+  /usr/share/man/man1/perldata.1
+  /usr/share/man/man1/perldbmfilter.1
+  /usr/share/man/man1/perldebguts.1
+  /usr/share/man/man1/perldebtut.1
+  /usr/share/man/man1/perldebug.1
+  /usr/share/man/man1/perldelta.1
+  /usr/share/man/man1/perldeprecation.1
+  /usr/share/man/man1/perldiag.1
+  /usr/share/man/man1/perldoc.1
+  /usr/share/man/man1/perldocstyle.1
+  /usr/share/man/man1/perldsc.1
+  /usr/share/man/man1/perldtrace.1
+  /usr/share/man/man1/perlebcdic.1
+  /usr/share/man/man1/perlembed.1
+  /usr/share/man/man1/perlexperiment.1
+  /usr/share/man/man1/perlfaq.1
+  /usr/share/man/man1/perlfaq1.1
+  /usr/share/man/man1/perlfaq2.1
+  /usr/share/man/man1/perlfaq3.1
+  /usr/share/man/man1/perlfaq4.1
+  /usr/share/man/man1/perlfaq5.1
+  /usr/share/man/man1/perlfaq6.1
+  /usr/share/man/man1/perlfaq7.1
+  /usr/share/man/man1/perlfaq8.1
+  /usr/share/man/man1/perlfaq9.1
+  /usr/share/man/man1/perlfilter.1
+  /usr/share/man/man1/perlfork.1
+  /usr/share/man/man1/perlform.1
+  /usr/share/man/man1/perlfreebsd.1
+  /usr/share/man/man1/perlfunc.1
+  /usr/share/man/man1/perlgit.1
+  /usr/share/man/man1/perlglossary.1
+  /usr/share/man/man1/perlgov.1
+  /usr/share/man/man1/perlgpl.1
+  /usr/share/man/man1/perlguts.1
+  /usr/share/man/man1/perlhack.1
+  /usr/share/man/man1/perlhacktips.1
+  /usr/share/man/man1/perlhacktut.1
+  /usr/share/man/man1/perlhaiku.1
+  /usr/share/man/man1/perlhist.1
+  /usr/share/man/man1/perlhpux.1
+  /usr/share/man/man1/perlhurd.1
+  /usr/share/man/man1/perlintern.1
+  /usr/share/man/man1/perlinterp.1
+  /usr/share/man/man1/perlintro.1
+  /usr/share/man/man1/perliol.1
+  /usr/share/man/man1/perlipc.1
+  /usr/share/man/man1/perlirix.1
+  /usr/share/man/man1/perljp.1
+  /usr/share/man/man1/perlko.1
+  /usr/share/man/man1/perllexwarn.1
+  /usr/share/man/man1/perllinux.1
+  /usr/share/man/man1/perllocale.1
+  /usr/share/man/man1/perllol.1
+  /usr/share/man/man1/perlmacosx.1
+  /usr/share/man/man1/perlmod.1
+  /usr/share/man/man1/perlmodinstall.1
+  /usr/share/man/man1/perlmodlib.1
+  /usr/share/man/man1/perlmodstyle.1
+  /usr/share/man/man1/perlmroapi.1
+  /usr/share/man/man1/perlnewmod.1
+  /usr/share/man/man1/perlnumber.1
+  /usr/share/man/man1/perlobj.1
+  /usr/share/man/man1/perlootut.1
+  /usr/share/man/man1/perlop.1
+  /usr/share/man/man1/perlopenbsd.1
+  /usr/share/man/man1/perlopentut.1
+  /usr/share/man/man1/perlos2.1
+  /usr/share/man/man1/perlos390.1
+  /usr/share/man/man1/perlos400.1
+  /usr/share/man/man1/perlpacktut.1
+  /usr/share/man/man1/perlperf.1
+  /usr/share/man/man1/perlplan9.1
+  /usr/share/man/man1/perlpod.1
+  /usr/share/man/man1/perlpodspec.1
+  /usr/share/man/man1/perlpodstyle.1
+  /usr/share/man/man1/perlpolicy.1
+  /usr/share/man/man1/perlport.1
+  /usr/share/man/man1/perlpragma.1
+  /usr/share/man/man1/perlqnx.1
+  /usr/share/man/man1/perlre.1
+  /usr/share/man/man1/perlreapi.1
+  /usr/share/man/man1/perlrebackslash.1
+  /usr/share/man/man1/perlrecharclass.1
+  /usr/share/man/man1/perlref.1
+  /usr/share/man/man1/perlreftut.1
+  /usr/share/man/man1/perlreguts.1
+  /usr/share/man/man1/perlrepository.1
+  /usr/share/man/man1/perlrequick.1
+  /usr/share/man/man1/perlreref.1
+  /usr/share/man/man1/perlretut.1
+  /usr/share/man/man1/perlriscos.1
+  /usr/share/man/man1/perlrun.1
+  /usr/share/man/man1/perlsec.1
+  /usr/share/man/man1/perlsecpolicy.1
+  /usr/share/man/man1/perlsolaris.1
+  /usr/share/man/man1/perlsource.1
+  /usr/share/man/man1/perlstyle.1
+  /usr/share/man/man1/perlsub.1
+  /usr/share/man/man1/perlsyn.1
+  /usr/share/man/man1/perlsynology.1
+  /usr/share/man/man1/perlthrtut.1
+  /usr/share/man/man1/perltie.1
+  /usr/share/man/man1/perltoc.1
+  /usr/share/man/man1/perltodo.1
+  /usr/share/man/man1/perltooc.1
+  /usr/share/man/man1/perltoot.1
+  /usr/share/man/man1/perltrap.1
+  /usr/share/man/man1/perltru64.1
+  /usr/share/man/man1/perltw.1
+  /usr/share/man/man1/perlunicode.1
+  /usr/share/man/man1/perlunicook.1
+  /usr/share/man/man1/perlunifaq.1
+  /usr/share/man/man1/perluniintro.1
+  /usr/share/man/man1/perluniprops.1
+  /usr/share/man/man1/perlunitut.1
+  /usr/share/man/man1/perlutil.1
+  /usr/share/man/man1/perlvar.1
+  /usr/share/man/man1/perlvms.1
+  /usr/share/man/man1/perlvos.1
+  /usr/share/man/man1/perlwin32.1
+  /usr/share/man/man1/perlxs.1
+  /usr/share/man/man1/perlxstut.1
+  /usr/share/man/man1/perlxstypemap.1
+  /usr/share/man/man3/AnyDBM_File.3
+  /usr/share/man/man3/App::Cpan.3
+  /usr/share/man/man3/App::Prove.3
+  /usr/share/man/man3/App::Prove::State.3
+  /usr/share/man/man3/App::Prove::State::Result.3
+  /usr/share/man/man3/App::Prove::State::Result::Test.3
+  /usr/share/man/man3/Archive::Tar.3
+  /usr/share/man/man3/Archive::Tar::File.3
+  /usr/share/man/man3/Attribute::Handlers.3
+  /usr/share/man/man3/AutoLoader.3
+  /usr/share/man/man3/AutoSplit.3
+  /usr/share/man/man3/B.3
+  /usr/share/man/man3/B::Concise.3
+  /usr/share/man/man3/B::Deparse.3
+  /usr/share/man/man3/B::Op_private.3
+  /usr/share/man/man3/B::Showlex.3
+  /usr/share/man/man3/B::Terse.3
+  /usr/share/man/man3/B::Xref.3
+  /usr/share/man/man3/Benchmark.3
+  /usr/share/man/man3/CORE.3
+  /usr/share/man/man3/CPAN.3
+  /usr/share/man/man3/CPAN::API::HOWTO.3
+  /usr/share/man/man3/CPAN::Debug.3
+  /usr/share/man/man3/CPAN::Distroprefs.3
+  /usr/share/man/man3/CPAN::FirstTime.3
+  /usr/share/man/man3/CPAN::HandleConfig.3
+  /usr/share/man/man3/CPAN::Kwalify.3
+  /usr/share/man/man3/CPAN::Meta.3
+  /usr/share/man/man3/CPAN::Meta::Converter.3
+  /usr/share/man/man3/CPAN::Meta::Feature.3
+  /usr/share/man/man3/CPAN::Meta::History.3
+  /usr/share/man/man3/CPAN::Meta::History::Meta_1_0.3
+  /usr/share/man/man3/CPAN::Meta::History::Meta_1_1.3
+  /usr/share/man/man3/CPAN::Meta::History::Meta_1_2.3
+  /usr/share/man/man3/CPAN::Meta::History::Meta_1_3.3
+  /usr/share/man/man3/CPAN::Meta::History::Meta_1_4.3
+  /usr/share/man/man3/CPAN::Meta::Merge.3
+  /usr/share/man/man3/CPAN::Meta::Prereqs.3
+  /usr/share/man/man3/CPAN::Meta::Requirements.3
+  /usr/share/man/man3/CPAN::Meta::Requirements::Range.3
+  /usr/share/man/man3/CPAN::Meta::Spec.3
+  /usr/share/man/man3/CPAN::Meta::Validator.3
+  /usr/share/man/man3/CPAN::Meta::YAML.3
+  /usr/share/man/man3/CPAN::Mirrors.3
+  /usr/share/man/man3/CPAN::Nox.3
+  /usr/share/man/man3/CPAN::Plugin.3
+  /usr/share/man/man3/CPAN::Plugin::Specfile.3
+  /usr/share/man/man3/CPAN::Queue.3
+  /usr/share/man/man3/CPAN::Tarzip.3
+  /usr/share/man/man3/CPAN::Version.3
+  /usr/share/man/man3/Carp.3
+  /usr/share/man/man3/Class::Struct.3
+  /usr/share/man/man3/Compress::Raw::Bzip2.3
+  /usr/share/man/man3/Compress::Raw::Zlib.3
+  /usr/share/man/man3/Compress::Zlib.3
+  /usr/share/man/man3/Config.3
+  /usr/share/man/man3/Config::Extensions.3
+  /usr/share/man/man3/Config::Perl::V.3
+  /usr/share/man/man3/Cwd.3
+  /usr/share/man/man3/DB.3
+  /usr/share/man/man3/DBM_Filter.3
+  /usr/share/man/man3/DBM_Filter::compress.3
+  /usr/share/man/man3/DBM_Filter::encode.3
+  /usr/share/man/man3/DBM_Filter::int32.3
+  /usr/share/man/man3/DBM_Filter::null.3
+  /usr/share/man/man3/DBM_Filter::utf8.3
+  /usr/share/man/man3/Data::Dumper.3
+  /usr/share/man/man3/Devel::PPPort.3
+  /usr/share/man/man3/Devel::Peek.3
+  /usr/share/man/man3/Devel::SelfStubber.3
+  /usr/share/man/man3/Digest.3
+  /usr/share/man/man3/Digest::MD5.3
+  /usr/share/man/man3/Digest::SHA.3
+  /usr/share/man/man3/Digest::base.3
+  /usr/share/man/man3/Digest::file.3
+  /usr/share/man/man3/DirHandle.3
+  /usr/share/man/man3/Dumpvalue.3
+  /usr/share/man/man3/DynaLoader.3
+  /usr/share/man/man3/Encode.3
+  /usr/share/man/man3/Encode::Alias.3
+  /usr/share/man/man3/Encode::Byte.3
+  /usr/share/man/man3/Encode::CJKConstants.3
+  /usr/share/man/man3/Encode::CN.3
+  /usr/share/man/man3/Encode::CN::HZ.3
+  /usr/share/man/man3/Encode::Config.3
+  /usr/share/man/man3/Encode::EBCDIC.3
+  /usr/share/man/man3/Encode::Encoder.3
+  /usr/share/man/man3/Encode::Encoding.3
+  /usr/share/man/man3/Encode::GSM0338.3
+  /usr/share/man/man3/Encode::Guess.3
+  /usr/share/man/man3/Encode::JP.3
+  /usr/share/man/man3/Encode::JP::H2Z.3
+  /usr/share/man/man3/Encode::JP::JIS7.3
+  /usr/share/man/man3/Encode::KR.3
+  /usr/share/man/man3/Encode::KR::2022_KR.3
+  /usr/share/man/man3/Encode::MIME::Header.3
+  /usr/share/man/man3/Encode::MIME::Name.3
+  /usr/share/man/man3/Encode::PerlIO.3
+  /usr/share/man/man3/Encode::Supported.3
+  /usr/share/man/man3/Encode::Symbol.3
+  /usr/share/man/man3/Encode::TW.3
+  /usr/share/man/man3/Encode::Unicode.3
+  /usr/share/man/man3/Encode::Unicode::UTF7.3
+  /usr/share/man/man3/English.3
+  /usr/share/man/man3/Env.3
+  /usr/share/man/man3/Errno.3
+  /usr/share/man/man3/Exporter.3
+  /usr/share/man/man3/Exporter::Heavy.3
+  /usr/share/man/man3/ExtUtils::CBuilder.3
+  /usr/share/man/man3/ExtUtils::CBuilder::Platform::Windows.3
+  /usr/share/man/man3/ExtUtils::Command.3
+  /usr/share/man/man3/ExtUtils::Command::MM.3
+  /usr/share/man/man3/ExtUtils::Constant.3
+  /usr/share/man/man3/ExtUtils::Constant::Base.3
+  /usr/share/man/man3/ExtUtils::Constant::Utils.3
+  /usr/share/man/man3/ExtUtils::Constant::XS.3
+  /usr/share/man/man3/ExtUtils::Embed.3
+  /usr/share/man/man3/ExtUtils::Install.3
+  /usr/share/man/man3/ExtUtils::Installed.3
+  /usr/share/man/man3/ExtUtils::Liblist.3
+  /usr/share/man/man3/ExtUtils::MM.3
+  /usr/share/man/man3/ExtUtils::MM_AIX.3
+  /usr/share/man/man3/ExtUtils::MM_Any.3
+  /usr/share/man/man3/ExtUtils::MM_BeOS.3
+  /usr/share/man/man3/ExtUtils::MM_Cygwin.3
+  /usr/share/man/man3/ExtUtils::MM_DOS.3
+  /usr/share/man/man3/ExtUtils::MM_Darwin.3
+  /usr/share/man/man3/ExtUtils::MM_MacOS.3
+  /usr/share/man/man3/ExtUtils::MM_NW5.3
+  /usr/share/man/man3/ExtUtils::MM_OS2.3
+  /usr/share/man/man3/ExtUtils::MM_OS390.3
+  /usr/share/man/man3/ExtUtils::MM_QNX.3
+  /usr/share/man/man3/ExtUtils::MM_UWIN.3
+  /usr/share/man/man3/ExtUtils::MM_Unix.3
+  /usr/share/man/man3/ExtUtils::MM_VMS.3
+  /usr/share/man/man3/ExtUtils::MM_VOS.3
+  /usr/share/man/man3/ExtUtils::MM_Win32.3
+  /usr/share/man/man3/ExtUtils::MM_Win95.3
+  /usr/share/man/man3/ExtUtils::MY.3
+  /usr/share/man/man3/ExtUtils::MakeMaker.3
+  /usr/share/man/man3/ExtUtils::MakeMaker::Config.3
+  /usr/share/man/man3/ExtUtils::MakeMaker::FAQ.3
+  /usr/share/man/man3/ExtUtils::MakeMaker::Locale.3
+  /usr/share/man/man3/ExtUtils::MakeMaker::Tutorial.3
+  /usr/share/man/man3/ExtUtils::Manifest.3
+  /usr/share/man/man3/ExtUtils::Miniperl.3
+  /usr/share/man/man3/ExtUtils::Mkbootstrap.3
+  /usr/share/man/man3/ExtUtils::Mksymlists.3
+  /usr/share/man/man3/ExtUtils::PL2Bat.3
+  /usr/share/man/man3/ExtUtils::Packlist.3
+  /usr/share/man/man3/ExtUtils::ParseXS.3
+  /usr/share/man/man3/ExtUtils::ParseXS::Constants.3
+  /usr/share/man/man3/ExtUtils::ParseXS::Eval.3
+  /usr/share/man/man3/ExtUtils::ParseXS::Node.3
+  /usr/share/man/man3/ExtUtils::ParseXS::Utilities.3
+  /usr/share/man/man3/ExtUtils::Typemaps.3
+  /usr/share/man/man3/ExtUtils::Typemaps::Cmd.3
+  /usr/share/man/man3/ExtUtils::Typemaps::InputMap.3
+  /usr/share/man/man3/ExtUtils::Typemaps::OutputMap.3
+  /usr/share/man/man3/ExtUtils::Typemaps::Type.3
+  /usr/share/man/man3/ExtUtils::testlib.3
+  /usr/share/man/man3/Fatal.3
+  /usr/share/man/man3/Fcntl.3
+  /usr/share/man/man3/File::Basename.3
+  /usr/share/man/man3/File::Compare.3
+  /usr/share/man/man3/File::Copy.3
+  /usr/share/man/man3/File::DosGlob.3
+  /usr/share/man/man3/File::Fetch.3
+  /usr/share/man/man3/File::Find.3
+  /usr/share/man/man3/File::Glob.3
+  /usr/share/man/man3/File::GlobMapper.3
+  /usr/share/man/man3/File::Path.3
+  /usr/share/man/man3/File::Spec.3
+  /usr/share/man/man3/File::Spec::AmigaOS.3
+  /usr/share/man/man3/File::Spec::Cygwin.3
+  /usr/share/man/man3/File::Spec::Epoc.3
+  /usr/share/man/man3/File::Spec::Functions.3
+  /usr/share/man/man3/File::Spec::Mac.3
+  /usr/share/man/man3/File::Spec::OS2.3
+  /usr/share/man/man3/File::Spec::Unix.3
+  /usr/share/man/man3/File::Spec::VMS.3
+  /usr/share/man/man3/File::Spec::Win32.3
+  /usr/share/man/man3/File::Temp.3
+  /usr/share/man/man3/File::stat.3
+  /usr/share/man/man3/FileCache.3
+  /usr/share/man/man3/FileHandle.3
+  /usr/share/man/man3/Filter::Simple.3
+  /usr/share/man/man3/Filter::Util::Call.3
+  /usr/share/man/man3/FindBin.3
+  /usr/share/man/man3/GDBM_File.3
+  /usr/share/man/man3/Getopt::Long.3
+  /usr/share/man/man3/Getopt::Long::Parser.3
+  /usr/share/man/man3/Getopt::Std.3
+  /usr/share/man/man3/HTTP::Tiny.3
+  /usr/share/man/man3/Hash::Util.3
+  /usr/share/man/man3/Hash::Util::FieldHash.3
+  /usr/share/man/man3/I18N::Collate.3
+  /usr/share/man/man3/I18N::LangTags.3
+  /usr/share/man/man3/I18N::LangTags::Detect.3
+  /usr/share/man/man3/I18N::LangTags::List.3
+  /usr/share/man/man3/I18N::Langinfo.3
+  /usr/share/man/man3/IO.3
+  /usr/share/man/man3/IO::Compress.3
+  /usr/share/man/man3/IO::Compress::Base.3
+  /usr/share/man/man3/IO::Compress::Bzip2.3
+  /usr/share/man/man3/IO::Compress::Deflate.3
+  /usr/share/man/man3/IO::Compress::FAQ.3
+  /usr/share/man/man3/IO::Compress::Gzip.3
+  /usr/share/man/man3/IO::Compress::RawDeflate.3
+  /usr/share/man/man3/IO::Compress::Zip.3
+  /usr/share/man/man3/IO::Dir.3
+  /usr/share/man/man3/IO::File.3
+  /usr/share/man/man3/IO::Handle.3
+  /usr/share/man/man3/IO::Pipe.3
+  /usr/share/man/man3/IO::Poll.3
+  /usr/share/man/man3/IO::Seekable.3
+  /usr/share/man/man3/IO::Select.3
+  /usr/share/man/man3/IO::Socket.3
+  /usr/share/man/man3/IO::Socket::INET.3
+  /usr/share/man/man3/IO::Socket::IP.3
+  /usr/share/man/man3/IO::Socket::UNIX.3
+  /usr/share/man/man3/IO::Uncompress::AnyInflate.3
+  /usr/share/man/man3/IO::Uncompress::AnyUncompress.3
+  /usr/share/man/man3/IO::Uncompress::Base.3
+  /usr/share/man/man3/IO::Uncompress::Bunzip2.3
+  /usr/share/man/man3/IO::Uncompress::Gunzip.3
+  /usr/share/man/man3/IO::Uncompress::Inflate.3
+  /usr/share/man/man3/IO::Uncompress::RawInflate.3
+  /usr/share/man/man3/IO::Uncompress::Unzip.3
+  /usr/share/man/man3/IO::Zlib.3
+  /usr/share/man/man3/IPC::Cmd.3
+  /usr/share/man/man3/IPC::Msg.3
+  /usr/share/man/man3/IPC::Open2.3
+  /usr/share/man/man3/IPC::Open3.3
+  /usr/share/man/man3/IPC::Semaphore.3
+  /usr/share/man/man3/IPC::SharedMem.3
+  /usr/share/man/man3/IPC::SysV.3
+  /usr/share/man/man3/Internals.3
+  /usr/share/man/man3/JSON::PP.3
+  /usr/share/man/man3/JSON::PP::Boolean.3
+  /usr/share/man/man3/List::Util.3
+  /usr/share/man/man3/List::Util::XS.3
+  /usr/share/man/man3/Locale::Maketext.3
+  /usr/share/man/man3/Locale::Maketext::Cookbook.3
+  /usr/share/man/man3/Locale::Maketext::Guts.3
+  /usr/share/man/man3/Locale::Maketext::GutsLoader.3
+  /usr/share/man/man3/Locale::Maketext::Simple.3
+  /usr/share/man/man3/Locale::Maketext::TPJ13.3
+  /usr/share/man/man3/MIME::Base64.3
+  /usr/share/man/man3/MIME::QuotedPrint.3
+  /usr/share/man/man3/Math::BigFloat.3
+  /usr/share/man/man3/Math::BigInt.3
+  /usr/share/man/man3/Math::BigInt::Calc.3
+  /usr/share/man/man3/Math::BigInt::FastCalc.3
+  /usr/share/man/man3/Math::BigInt::Lib.3
+  /usr/share/man/man3/Math::BigRat.3
+  /usr/share/man/man3/Math::Complex.3
+  /usr/share/man/man3/Math::Trig.3
+  /usr/share/man/man3/Memoize.3
+  /usr/share/man/man3/Memoize::AnyDBM_File.3
+  /usr/share/man/man3/Memoize::Expire.3
+  /usr/share/man/man3/Memoize::NDBM_File.3
+  /usr/share/man/man3/Memoize::SDBM_File.3
+  /usr/share/man/man3/Memoize::Storable.3
+  /usr/share/man/man3/Module::CoreList.3
+  /usr/share/man/man3/Module::CoreList::Utils.3
+  /usr/share/man/man3/Module::Load.3
+  /usr/share/man/man3/Module::Load::Conditional.3
+  /usr/share/man/man3/Module::Loaded.3
+  /usr/share/man/man3/Module::Metadata.3
+  /usr/share/man/man3/NDBM_File.3
+  /usr/share/man/man3/NEXT.3
+  /usr/share/man/man3/Net::Cmd.3
+  /usr/share/man/man3/Net::Config.3
+  /usr/share/man/man3/Net::Domain.3
+  /usr/share/man/man3/Net::FTP.3
+  /usr/share/man/man3/Net::NNTP.3
+  /usr/share/man/man3/Net::Netrc.3
+  /usr/share/man/man3/Net::POP3.3
+  /usr/share/man/man3/Net::Ping.3
+  /usr/share/man/man3/Net::SMTP.3
+  /usr/share/man/man3/Net::Time.3
+  /usr/share/man/man3/Net::hostent.3
+  /usr/share/man/man3/Net::libnetFAQ.3
+  /usr/share/man/man3/Net::netent.3
+  /usr/share/man/man3/Net::protoent.3
+  /usr/share/man/man3/Net::servent.3
+  /usr/share/man/man3/O.3
+  /usr/share/man/man3/ODBM_File.3
+  /usr/share/man/man3/Opcode.3
+  /usr/share/man/man3/POSIX.3
+  /usr/share/man/man3/Params::Check.3
+  /usr/share/man/man3/Parse::CPAN::Meta.3
+  /usr/share/man/man3/Perl::OSType.3
+  /usr/share/man/man3/PerlIO.3
+  /usr/share/man/man3/PerlIO::encoding.3
+  /usr/share/man/man3/PerlIO::mmap.3
+  /usr/share/man/man3/PerlIO::scalar.3
+  /usr/share/man/man3/PerlIO::via.3
+  /usr/share/man/man3/PerlIO::via::QuotedPrint.3
+  /usr/share/man/man3/Pod::Checker.3
+  /usr/share/man/man3/Pod::Escapes.3
+  /usr/share/man/man3/Pod::Html.3
+  /usr/share/man/man3/Pod::Html::Util.3
+  /usr/share/man/man3/Pod::Man.3
+  /usr/share/man/man3/Pod::ParseLink.3
+  /usr/share/man/man3/Pod::Perldoc.3
+  /usr/share/man/man3/Pod::Perldoc::BaseTo.3
+  /usr/share/man/man3/Pod::Perldoc::GetOptsOO.3
+  /usr/share/man/man3/Pod::Perldoc::ToANSI.3
+  /usr/share/man/man3/Pod::Perldoc::ToChecker.3
+  /usr/share/man/man3/Pod::Perldoc::ToMan.3
+  /usr/share/man/man3/Pod::Perldoc::ToNroff.3
+  /usr/share/man/man3/Pod::Perldoc::ToPod.3
+  /usr/share/man/man3/Pod::Perldoc::ToRtf.3
+  /usr/share/man/man3/Pod::Perldoc::ToTerm.3
+  /usr/share/man/man3/Pod::Perldoc::ToText.3
+  /usr/share/man/man3/Pod::Perldoc::ToTk.3
+  /usr/share/man/man3/Pod::Perldoc::ToXml.3
+  /usr/share/man/man3/Pod::Simple.3
+  /usr/share/man/man3/Pod::Simple::Checker.3
+  /usr/share/man/man3/Pod::Simple::Debug.3
+  /usr/share/man/man3/Pod::Simple::DumpAsText.3
+  /usr/share/man/man3/Pod::Simple::DumpAsXML.3
+  /usr/share/man/man3/Pod::Simple::HTML.3
+  /usr/share/man/man3/Pod::Simple::HTMLBatch.3
+  /usr/share/man/man3/Pod::Simple::JustPod.3
+  /usr/share/man/man3/Pod::Simple::LinkSection.3
+  /usr/share/man/man3/Pod::Simple::Methody.3
+  /usr/share/man/man3/Pod::Simple::PullParser.3
+  /usr/share/man/man3/Pod::Simple::PullParserEndToken.3
+  /usr/share/man/man3/Pod::Simple::PullParserStartToken.3
+  /usr/share/man/man3/Pod::Simple::PullParserTextToken.3
+  /usr/share/man/man3/Pod::Simple::PullParserToken.3
+  /usr/share/man/man3/Pod::Simple::RTF.3
+  /usr/share/man/man3/Pod::Simple::Search.3
+  /usr/share/man/man3/Pod::Simple::SimpleTree.3
+  /usr/share/man/man3/Pod::Simple::Subclassing.3
+  /usr/share/man/man3/Pod::Simple::Text.3
+  /usr/share/man/man3/Pod::Simple::TextContent.3
+  /usr/share/man/man3/Pod::Simple::XHTML.3
+  /usr/share/man/man3/Pod::Simple::XMLOutStream.3
+  /usr/share/man/man3/Pod::Text.3
+  /usr/share/man/man3/Pod::Text::Color.3
+  /usr/share/man/man3/Pod::Text::Overstrike.3
+  /usr/share/man/man3/Pod::Text::Termcap.3
+  /usr/share/man/man3/Pod::Usage.3
+  /usr/share/man/man3/SDBM_File.3
+  /usr/share/man/man3/Safe.3
+  /usr/share/man/man3/Scalar::List::Utils.3
+  /usr/share/man/man3/Scalar::Util.3
+  /usr/share/man/man3/Search::Dict.3
+  /usr/share/man/man3/SelectSaver.3
+  /usr/share/man/man3/SelfLoader.3
+  /usr/share/man/man3/Socket.3
+  /usr/share/man/man3/Storable.3
+  /usr/share/man/man3/Sub::Util.3
+  /usr/share/man/man3/Symbol.3
+  /usr/share/man/man3/Sys::Hostname.3
+  /usr/share/man/man3/Sys::Syslog.3
+  /usr/share/man/man3/TAP::Base.3
+  /usr/share/man/man3/TAP::Formatter::Base.3
+  /usr/share/man/man3/TAP::Formatter::Color.3
+  /usr/share/man/man3/TAP::Formatter::Console.3
+  /usr/share/man/man3/TAP::Formatter::Console::ParallelSession.3
+  /usr/share/man/man3/TAP::Formatter::Console::Session.3
+  /usr/share/man/man3/TAP::Formatter::File.3
+  /usr/share/man/man3/TAP::Formatter::File::Session.3
+  /usr/share/man/man3/TAP::Formatter::Session.3
+  /usr/share/man/man3/TAP::Harness.3
+  /usr/share/man/man3/TAP::Harness::Beyond.3
+  /usr/share/man/man3/TAP::Harness::Env.3
+  /usr/share/man/man3/TAP::Object.3
+  /usr/share/man/man3/TAP::Parser.3
+  /usr/share/man/man3/TAP::Parser::Aggregator.3
+  /usr/share/man/man3/TAP::Parser::Grammar.3
+  /usr/share/man/man3/TAP::Parser::Iterator.3
+  /usr/share/man/man3/TAP::Parser::Iterator::Array.3
+  /usr/share/man/man3/TAP::Parser::Iterator::Process.3
+  /usr/share/man/man3/TAP::Parser::Iterator::Stream.3
+  /usr/share/man/man3/TAP::Parser::IteratorFactory.3
+  /usr/share/man/man3/TAP::Parser::Multiplexer.3
+  /usr/share/man/man3/TAP::Parser::Result.3
+  /usr/share/man/man3/TAP::Parser::Result::Bailout.3
+  /usr/share/man/man3/TAP::Parser::Result::Comment.3
+  /usr/share/man/man3/TAP::Parser::Result::Plan.3
+  /usr/share/man/man3/TAP::Parser::Result::Pragma.3
+  /usr/share/man/man3/TAP::Parser::Result::Test.3
+  /usr/share/man/man3/TAP::Parser::Result::Unknown.3
+  /usr/share/man/man3/TAP::Parser::Result::Version.3
+  /usr/share/man/man3/TAP::Parser::Result::YAML.3
+  /usr/share/man/man3/TAP::Parser::ResultFactory.3
+  /usr/share/man/man3/TAP::Parser::Scheduler.3
+  /usr/share/man/man3/TAP::Parser::Scheduler::Job.3
+  /usr/share/man/man3/TAP::Parser::Scheduler::Spinner.3
+  /usr/share/man/man3/TAP::Parser::Source.3
+  /usr/share/man/man3/TAP::Parser::SourceHandler.3
+  /usr/share/man/man3/TAP::Parser::SourceHandler::Executable.3
+  /usr/share/man/man3/TAP::Parser::SourceHandler::File.3
+  /usr/share/man/man3/TAP::Parser::SourceHandler::Handle.3
+  /usr/share/man/man3/TAP::Parser::SourceHandler::Perl.3
+  /usr/share/man/man3/TAP::Parser::SourceHandler::RawTAP.3
+  /usr/share/man/man3/TAP::Parser::YAMLish::Reader.3
+  /usr/share/man/man3/TAP::Parser::YAMLish::Writer.3
+  /usr/share/man/man3/Term::ANSIColor.3
+  /usr/share/man/man3/Term::Cap.3
+  /usr/share/man/man3/Term::Complete.3
+  /usr/share/man/man3/Term::ReadLine.3
+  /usr/share/man/man3/Term::Table.3
+  /usr/share/man/man3/Term::Table::Cell.3
+  /usr/share/man/man3/Term::Table::CellStack.3
+  /usr/share/man/man3/Term::Table::HashBase.3
+  /usr/share/man/man3/Term::Table::LineBreak.3
+  /usr/share/man/man3/Term::Table::Util.3
+  /usr/share/man/man3/Test.3
+  /usr/share/man/man3/Test2.3
+  /usr/share/man/man3/Test2::API.3
+  /usr/share/man/man3/Test2::API::Breakage.3
+  /usr/share/man/man3/Test2::API::Context.3
+  /usr/share/man/man3/Test2::API::Instance.3
+  /usr/share/man/man3/Test2::API::InterceptResult.3
+  /usr/share/man/man3/Test2::API::InterceptResult::Event.3
+  /usr/share/man/man3/Test2::API::InterceptResult::Hub.3
+  /usr/share/man/man3/Test2::API::InterceptResult::Squasher.3
+  /usr/share/man/man3/Test2::API::Stack.3
+  /usr/share/man/man3/Test2::AsyncSubtest.3
+  /usr/share/man/man3/Test2::AsyncSubtest::Event::Attach.3
+  /usr/share/man/man3/Test2::AsyncSubtest::Event::Detach.3
+  /usr/share/man/man3/Test2::AsyncSubtest::Hub.3
+  /usr/share/man/man3/Test2::Bundle.3
+  /usr/share/man/man3/Test2::Bundle::Extended.3
+  /usr/share/man/man3/Test2::Bundle::More.3
+  /usr/share/man/man3/Test2::Bundle::Simple.3
+  /usr/share/man/man3/Test2::Compare.3
+  /usr/share/man/man3/Test2::Compare::Array.3
+  /usr/share/man/man3/Test2::Compare::Bag.3
+  /usr/share/man/man3/Test2::Compare::Base.3
+  /usr/share/man/man3/Test2::Compare::Bool.3
+  /usr/share/man/man3/Test2::Compare::Custom.3
+  /usr/share/man/man3/Test2::Compare::DeepRef.3
+  /usr/share/man/man3/Test2::Compare::Delta.3
+  /usr/share/man/man3/Test2::Compare::Event.3
+  /usr/share/man/man3/Test2::Compare::EventMeta.3
+  /usr/share/man/man3/Test2::Compare::Float.3
+  /usr/share/man/man3/Test2::Compare::Hash.3
+  /usr/share/man/man3/Test2::Compare::Isa.3
+  /usr/share/man/man3/Test2::Compare::Meta.3
+  /usr/share/man/man3/Test2::Compare::Negatable.3
+  /usr/share/man/man3/Test2::Compare::Number.3
+  /usr/share/man/man3/Test2::Compare::Object.3
+  /usr/share/man/man3/Test2::Compare::OrderedSubset.3
+  /usr/share/man/man3/Test2::Compare::Pattern.3
+  /usr/share/man/man3/Test2::Compare::Ref.3
+  /usr/share/man/man3/Test2::Compare::Regex.3
+  /usr/share/man/man3/Test2::Compare::Scalar.3
+  /usr/share/man/man3/Test2::Compare::Set.3
+  /usr/share/man/man3/Test2::Compare::String.3
+  /usr/share/man/man3/Test2::Compare::Undef.3
+  /usr/share/man/man3/Test2::Compare::Wildcard.3
+  /usr/share/man/man3/Test2::Env.3
+  /usr/share/man/man3/Test2::Event.3
+  /usr/share/man/man3/Test2::Event::Bail.3
+  /usr/share/man/man3/Test2::Event::Diag.3
+  /usr/share/man/man3/Test2::Event::Encoding.3
+  /usr/share/man/man3/Test2::Event::Exception.3
+  /usr/share/man/man3/Test2::Event::Fail.3
+  /usr/share/man/man3/Test2::Event::Generic.3
+  /usr/share/man/man3/Test2::Event::Note.3
+  /usr/share/man/man3/Test2::Event::Ok.3
+  /usr/share/man/man3/Test2::Event::Pass.3
+  /usr/share/man/man3/Test2::Event::Plan.3
+  /usr/share/man/man3/Test2::Event::Skip.3
+  /usr/share/man/man3/Test2::Event::Subtest.3
+  /usr/share/man/man3/Test2::Event::TAP::Version.3
+  /usr/share/man/man3/Test2::Event::V2.3
+  /usr/share/man/man3/Test2::Event::Waiting.3
+  /usr/share/man/man3/Test2::EventFacet.3
+  /usr/share/man/man3/Test2::EventFacet::About.3
+  /usr/share/man/man3/Test2::EventFacet::Amnesty.3
+  /usr/share/man/man3/Test2::EventFacet::Assert.3
+  /usr/share/man/man3/Test2::EventFacet::Control.3
+  /usr/share/man/man3/Test2::EventFacet::Error.3
+  /usr/share/man/man3/Test2::EventFacet::Hub.3
+  /usr/share/man/man3/Test2::EventFacet::Info.3
+  /usr/share/man/man3/Test2::EventFacet::Info::Table.3
+  /usr/share/man/man3/Test2::EventFacet::Meta.3
+  /usr/share/man/man3/Test2::EventFacet::Parent.3
+  /usr/share/man/man3/Test2::EventFacet::Plan.3
+  /usr/share/man/man3/Test2::EventFacet::Render.3
+  /usr/share/man/man3/Test2::EventFacet::Trace.3
+  /usr/share/man/man3/Test2::Formatter.3
+  /usr/share/man/man3/Test2::Formatter::TAP.3
+  /usr/share/man/man3/Test2::Hub.3
+  /usr/share/man/man3/Test2::Hub::Interceptor.3
+  /usr/share/man/man3/Test2::Hub::Interceptor::Terminator.3
+  /usr/share/man/man3/Test2::Hub::Subtest.3
+  /usr/share/man/man3/Test2::IPC.3
+  /usr/share/man/man3/Test2::IPC::Driver.3
+  /usr/share/man/man3/Test2::IPC::Driver::Files.3
+  /usr/share/man/man3/Test2::Manual.3
+  /usr/share/man/man3/Test2::Manual::Anatomy.3
+  /usr/share/man/man3/Test2::Manual::Anatomy::API.3
+  /usr/share/man/man3/Test2::Manual::Anatomy::Context.3
+  /usr/share/man/man3/Test2::Manual::Anatomy::EndToEnd.3
+  /usr/share/man/man3/Test2::Manual::Anatomy::Event.3
+  /usr/share/man/man3/Test2::Manual::Anatomy::Hubs.3
+  /usr/share/man/man3/Test2::Manual::Anatomy::IPC.3
+  /usr/share/man/man3/Test2::Manual::Anatomy::Utilities.3
+  /usr/share/man/man3/Test2::Manual::Concurrency.3
+  /usr/share/man/man3/Test2::Manual::Contributing.3
+  /usr/share/man/man3/Test2::Manual::Testing.3
+  /usr/share/man/man3/Test2::Manual::Testing::Introduction.3
+  /usr/share/man/man3/Test2::Manual::Testing::Migrating.3
+  /usr/share/man/man3/Test2::Manual::Testing::Planning.3
+  /usr/share/man/man3/Test2::Manual::Testing::Todo.3
+  /usr/share/man/man3/Test2::Manual::Tooling.3
+  /usr/share/man/man3/Test2::Manual::Tooling::FirstTool.3
+  /usr/share/man/man3/Test2::Manual::Tooling::Formatter.3
+  /usr/share/man/man3/Test2::Manual::Tooling::Nesting.3
+  /usr/share/man/man3/Test2::Manual::Tooling::Plugin::TestExit.3
+  /usr/share/man/man3/Test2::Manual::Tooling::Plugin::TestingDone.3
+  /usr/share/man/man3/Test2::Manual::Tooling::Plugin::ToolCompletes.3
+  /usr/share/man/man3/Test2::Manual::Tooling::Plugin::ToolStarts.3
+  /usr/share/man/man3/Test2::Manual::Tooling::Subtest.3
+  /usr/share/man/man3/Test2::Manual::Tooling::TestBuilder.3
+  /usr/share/man/man3/Test2::Manual::Tooling::Testing.3
+  /usr/share/man/man3/Test2::Mock.3
+  /usr/share/man/man3/Test2::Plugin.3
+  /usr/share/man/man3/Test2::Plugin::BailOnFail.3
+  /usr/share/man/man3/Test2::Plugin::DieOnFail.3
+  /usr/share/man/man3/Test2::Plugin::ExitSummary.3
+  /usr/share/man/man3/Test2::Plugin::SRand.3
+  /usr/share/man/man3/Test2::Plugin::Times.3
+  /usr/share/man/man3/Test2::Plugin::UTF8.3
+  /usr/share/man/man3/Test2::Require.3
+  /usr/share/man/man3/Test2::Require::AuthorTesting.3
+  /usr/share/man/man3/Test2::Require::AutomatedTesting.3
+  /usr/share/man/man3/Test2::Require::EnvVar.3
+  /usr/share/man/man3/Test2::Require::ExtendedTesting.3
+  /usr/share/man/man3/Test2::Require::Fork.3
+  /usr/share/man/man3/Test2::Require::Module.3
+  /usr/share/man/man3/Test2::Require::NonInteractiveTesting.3
+  /usr/share/man/man3/Test2::Require::Perl.3
+  /usr/share/man/man3/Test2::Require::RealFork.3
+  /usr/share/man/man3/Test2::Require::ReleaseTesting.3
+  /usr/share/man/man3/Test2::Require::Threads.3
+  /usr/share/man/man3/Test2::Suite.3
+  /usr/share/man/man3/Test2::Todo.3
+  /usr/share/man/man3/Test2::Tools.3
+  /usr/share/man/man3/Test2::Tools::AsyncSubtest.3
+  /usr/share/man/man3/Test2::Tools::Basic.3
+  /usr/share/man/man3/Test2::Tools::Class.3
+  /usr/share/man/man3/Test2::Tools::ClassicCompare.3
+  /usr/share/man/man3/Test2::Tools::Compare.3
+  /usr/share/man/man3/Test2::Tools::Defer.3
+  /usr/share/man/man3/Test2::Tools::Encoding.3
+  /usr/share/man/man3/Test2::Tools::Event.3
+  /usr/share/man/man3/Test2::Tools::Exception.3
+  /usr/share/man/man3/Test2::Tools::Exports.3
+  /usr/share/man/man3/Test2::Tools::GenTemp.3
+  /usr/share/man/man3/Test2::Tools::Grab.3
+  /usr/share/man/man3/Test2::Tools::Mock.3
+  /usr/share/man/man3/Test2::Tools::Ref.3
+  /usr/share/man/man3/Test2::Tools::Refcount.3
+  /usr/share/man/man3/Test2::Tools::Spec.3
+  /usr/share/man/man3/Test2::Tools::Subtest.3
+  /usr/share/man/man3/Test2::Tools::Target.3
+  /usr/share/man/man3/Test2::Tools::Tester.3
+  /usr/share/man/man3/Test2::Tools::Tiny.3
+  /usr/share/man/man3/Test2::Tools::Warnings.3
+  /usr/share/man/man3/Test2::Transition.3
+  /usr/share/man/man3/Test2::Util.3
+  /usr/share/man/man3/Test2::Util::ExternalMeta.3
+  /usr/share/man/man3/Test2::Util::Facets2Legacy.3
+  /usr/share/man/man3/Test2::Util::Grabber.3
+  /usr/share/man/man3/Test2::Util::Guard.3
+  /usr/share/man/man3/Test2::Util::HashBase.3
+  /usr/share/man/man3/Test2::Util::Importer.3
+  /usr/share/man/man3/Test2::Util::Ref.3
+  /usr/share/man/man3/Test2::Util::Sig.3
+  /usr/share/man/man3/Test2::Util::Stash.3
+  /usr/share/man/man3/Test2::Util::Sub.3
+  /usr/share/man/man3/Test2::Util::Table.3
+  /usr/share/man/man3/Test2::Util::Table::LineBreak.3
+  /usr/share/man/man3/Test2::Util::Times.3
+  /usr/share/man/man3/Test2::Util::Trace.3
+  /usr/share/man/man3/Test2::V0.3
+  /usr/share/man/man3/Test2::Workflow.3
+  /usr/share/man/man3/Test2::Workflow::BlockBase.3
+  /usr/share/man/man3/Test2::Workflow::Build.3
+  /usr/share/man/man3/Test2::Workflow::Runner.3
+  /usr/share/man/man3/Test2::Workflow::Task.3
+  /usr/share/man/man3/Test2::Workflow::Task::Action.3
+  /usr/share/man/man3/Test2::Workflow::Task::Group.3
+  /usr/share/man/man3/Test::Builder.3
+  /usr/share/man/man3/Test::Builder::Formatter.3
+  /usr/share/man/man3/Test::Builder::Module.3
+  /usr/share/man/man3/Test::Builder::Tester.3
+  /usr/share/man/man3/Test::Builder::Tester::Color.3
+  /usr/share/man/man3/Test::Builder::TodoDiag.3
+  /usr/share/man/man3/Test::Harness.3
+  /usr/share/man/man3/Test::More.3
+  /usr/share/man/man3/Test::Simple.3
+  /usr/share/man/man3/Test::Tester.3
+  /usr/share/man/man3/Test::Tester::Capture.3
+  /usr/share/man/man3/Test::Tester::CaptureRunner.3
+  /usr/share/man/man3/Test::Tutorial.3
+  /usr/share/man/man3/Test::use::ok.3
+  /usr/share/man/man3/Text::Abbrev.3
+  /usr/share/man/man3/Text::Balanced.3
+  /usr/share/man/man3/Text::ParseWords.3
+  /usr/share/man/man3/Text::Tabs.3
+  /usr/share/man/man3/Text::Wrap.3
+  /usr/share/man/man3/Thread.3
+  /usr/share/man/man3/Thread::Queue.3
+  /usr/share/man/man3/Thread::Semaphore.3
+  /usr/share/man/man3/Tie::Array.3
+  /usr/share/man/man3/Tie::File.3
+  /usr/share/man/man3/Tie::Handle.3
+  /usr/share/man/man3/Tie::Hash.3
+  /usr/share/man/man3/Tie::Hash::NamedCapture.3
+  /usr/share/man/man3/Tie::Memoize.3
+  /usr/share/man/man3/Tie::RefHash.3
+  /usr/share/man/man3/Tie::Scalar.3
+  /usr/share/man/man3/Tie::StdHandle.3
+  /usr/share/man/man3/Tie::SubstrHash.3
+  /usr/share/man/man3/Time::HiRes.3
+  /usr/share/man/man3/Time::Local.3
+  /usr/share/man/man3/Time::Piece.3
+  /usr/share/man/man3/Time::Seconds.3
+  /usr/share/man/man3/Time::gmtime.3
+  /usr/share/man/man3/Time::localtime.3
+  /usr/share/man/man3/Time::tm.3
+  /usr/share/man/man3/UNIVERSAL.3
+  /usr/share/man/man3/Unicode::Collate.3
+  /usr/share/man/man3/Unicode::Collate::CJK::Big5.3
+  /usr/share/man/man3/Unicode::Collate::CJK::GB2312.3
+  /usr/share/man/man3/Unicode::Collate::CJK::JISX0208.3
+  /usr/share/man/man3/Unicode::Collate::CJK::Korean.3
+  /usr/share/man/man3/Unicode::Collate::CJK::Pinyin.3
+  /usr/share/man/man3/Unicode::Collate::CJK::Stroke.3
+  /usr/share/man/man3/Unicode::Collate::CJK::Zhuyin.3
+  /usr/share/man/man3/Unicode::Collate::Locale.3
+  /usr/share/man/man3/Unicode::Normalize.3
+  /usr/share/man/man3/Unicode::UCD.3
+  /usr/share/man/man3/User::grent.3
+  /usr/share/man/man3/User::pwent.3
+  /usr/share/man/man3/XSLoader.3
+  /usr/share/man/man3/attributes.3
+  /usr/share/man/man3/autodie.3
+  /usr/share/man/man3/autodie::Scope::Guard.3
+  /usr/share/man/man3/autodie::Scope::GuardStack.3
+  /usr/share/man/man3/autodie::Util.3
+  /usr/share/man/man3/autodie::exception.3
+  /usr/share/man/man3/autodie::exception::system.3
+  /usr/share/man/man3/autodie::hints.3
+  /usr/share/man/man3/autodie::skip.3
+  /usr/share/man/man3/autouse.3
+  /usr/share/man/man3/base.3
+  /usr/share/man/man3/bigfloat.3
+  /usr/share/man/man3/bigint.3
+  /usr/share/man/man3/bignum.3
+  /usr/share/man/man3/bigrat.3
+  /usr/share/man/man3/blib.3
+  /usr/share/man/man3/builtin.3
+  /usr/share/man/man3/bytes.3
+  /usr/share/man/man3/charnames.3
+  /usr/share/man/man3/constant.3
+  /usr/share/man/man3/deprecate.3
+  /usr/share/man/man3/diagnostics.3
+  /usr/share/man/man3/encoding.3
+  /usr/share/man/man3/encoding::warnings.3
+  /usr/share/man/man3/experimental.3
+  /usr/share/man/man3/feature.3
+  /usr/share/man/man3/fields.3
+  /usr/share/man/man3/filetest.3
+  /usr/share/man/man3/if.3
+  /usr/share/man/man3/integer.3
+  /usr/share/man/man3/less.3
+  /usr/share/man/man3/lib.3
+  /usr/share/man/man3/locale.3
+  /usr/share/man/man3/mro.3
+  /usr/share/man/man3/ok.3
+  /usr/share/man/man3/open.3
+  /usr/share/man/man3/ops.3
+  /usr/share/man/man3/overload.3
+  /usr/share/man/man3/overloading.3
+  /usr/share/man/man3/parent.3
+  /usr/share/man/man3/re.3
+  /usr/share/man/man3/sigtrap.3
+  /usr/share/man/man3/sort.3
+  /usr/share/man/man3/source::encoding.3
+  /usr/share/man/man3/stable.3
+  /usr/share/man/man3/strict.3
+  /usr/share/man/man3/subs.3
+  /usr/share/man/man3/threads.3
+  /usr/share/man/man3/threads::shared.3
+  /usr/share/man/man3/utf8.3
+  /usr/share/man/man3/vars.3
+  /usr/share/man/man3/version.3
+  /usr/share/man/man3/version::Internals.3
+  /usr/share/man/man3/vmsish.3
+  /usr/share/man/man3/warnings.3
+  /usr/share/man/man3/warnings::register.3
+  /usr/share/man/man1/pod2man.1
+  /usr/share/man/man1/pod2text.1
+  /usr/share/man/man1/pod2usage.1
+  /usr/share/man/man1/podchecker.1
+  /usr/share/man/man1/cpan.1
+  /usr/share/man/man1/corelist.1
+  /usr/share/man/man1/enc2xs.1
+  /usr/share/man/man1/encguess.1
+  /usr/share/man/man1/h2ph.1
+  /usr/share/man/man1/h2xs.1
+  /usr/share/man/man1/instmodsh.1
+  /usr/share/man/man1/json_pp.1
+  /usr/share/man/man1/libnetcfg.1
+  /usr/share/man/man1/perlbug.1
+  /usr/share/man/man1/perlthanks.1
+  /usr/share/man/man1/perlivp.1
+  /usr/share/man/man1/piconv.1
+  /usr/share/man/man1/pl2pm.1
+  /usr/share/man/man1/pod2html.1
+  /usr/share/man/man1/prove.1
+  /usr/share/man/man1/ptar.1
+  /usr/share/man/man1/ptardiff.1
+  /usr/share/man/man1/ptargrep.1
+  /usr/share/man/man1/shasum.1
+  /usr/share/man/man1/splain.1
+  /usr/share/man/man1/streamzip.1
+  /usr/share/man/man1/xsubpp.1
+  /usr/share/man/man1/zipdetails.1
