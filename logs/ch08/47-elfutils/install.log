@@ -1,0 +1,15 @@
+make: Entering directory '/sources/elfutils-0.193/libelf'
+make[1]: Entering directory '/sources/elfutils-0.193/libelf'
+ /usr/bin/mkdir -p '/usr/lib'
+ /usr/bin/mkdir -p '/usr/include'
+ /usr/bin/mkdir -p '/usr/include/elfutils'
+ /usr/bin/install -c -m 644  libelf.a '/usr/lib'
+ /usr/bin/install -c -m 644 libelf.h gelf.h nlist.h '/usr/include'
+ /usr/bin/install -c -m 644 elf-knowledge.h '/usr/include/elfutils'
+ ( cd '/usr/lib' && ranlib libelf.a )
+make[1]: Leaving directory '/sources/elfutils-0.193/libelf'
+/bin/sh /sources/elfutils-0.193/config/install-sh -d /usr/lib
+/usr/bin/install -c libelf.so /usr/lib/libelf-0.193.so
+ln -fs libelf-0.193.so /usr/lib/libelf.so.1
+ln -fs libelf.so.1 /usr/lib/libelf.so
+make: Leaving directory '/sources/elfutils-0.193/libelf'

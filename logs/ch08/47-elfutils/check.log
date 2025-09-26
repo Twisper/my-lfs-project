@@ -1,0 +1,45 @@
+Making check in config
+sed -i 's/{prefix}/prefix/g' profile.fish
+Making check in lib
+make[1]: Nothing to be done for 'check'.
+Making check in libelf
+make[1]: Nothing to be done for 'check'.
+Making check in libcpu
+make[1]: Nothing to be done for 'check'.
+Making check in backends
+make[1]: Nothing to be done for 'check'.
+Making check in libebl
+make[1]: Nothing to be done for 'check'.
+Making check in libdwelf
+make[1]: Nothing to be done for 'check'.
+Making check in libdwfl
+make[1]: Nothing to be done for 'check'.
+Making check in libdwfl_stacktrace
+make[1]: Nothing to be done for 'check'.
+Making check in libdw
+make  check-am
+make  dwarf_srclang_check
+  CC       dwarf_srclang_check
+make  check-TESTS
+FAIL: dwarf_srclang_check
+============================================================================
+Testsuite summary for elfutils 0.193
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See libdw/test-suite.log for debugging.
+Some test(s) failed.  Please report this to https://sourceware.org/bugzilla,
+together with the test-suite.log file (gzipped) and your system
+information.  Thanks.
+============================================================================
+make[4]: *** [Makefile:1245: test-suite.log] Error 1
+make[3]: *** [Makefile:1380: check-TESTS] Error 2
+make[2]: *** [Makefile:1452: check-am] Error 2
+make[1]: *** [Makefile:1454: check] Error 2
+make: *** [Makefile:608: check-recursive] Error 1
