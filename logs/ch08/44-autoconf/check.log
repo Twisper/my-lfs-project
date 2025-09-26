@@ -1,0 +1,677 @@
+if test -d ./.git				\
+	&& git --version >/dev/null 2>&1; then			\
+  cd . &&						\
+  git submodule --quiet foreach					\
+      'test "$(git rev-parse "$sha1")"			\
+	  = "$(git merge-base origin "$sha1")"'		\
+    || { echo 'maint.mk: found non-public submodule commit' >&2;	\
+	 exit 1; };						\
+else								\
+  : ;								\
+fi
+make  check-am
+make[1]: Entering directory '/sources/autoconf-2.72'
+if test 'no' != no; then \
+  am__dir=. am__subdir_includes=''; \
+  case lib/emacs/autoconf-mode.elc in */*) \
+    am__dir=`echo 'lib/emacs/autoconf-mode.elc' | sed 's,/[^/]*$,,'`; \
+    am__subdir_includes="-L $am__dir -L ./$am__dir"; \
+  esac; \
+  test -d "$am__dir" || /usr/bin/mkdir -p "$am__dir" || exit 1; \
+  no --batch \
+      \
+    $am__subdir_includes -L . -L . \
+    --eval '(if (boundp (quote byte-compile-dest-file-function)) (setq byte-compile-dest-file-function (lambda (_) "lib/emacs/autoconf-mode.elc")) (defun byte-compile-dest-file (_) "lib/emacs/autoconf-mode.elc") )' \
+    -f batch-byte-compile 'lib/emacs/autoconf-mode.el'; \
+else :; fi
+if test 'no' != no; then \
+  am__dir=. am__subdir_includes=''; \
+  case lib/emacs/autotest-mode.elc in */*) \
+    am__dir=`echo 'lib/emacs/autotest-mode.elc' | sed 's,/[^/]*$,,'`; \
+    am__subdir_includes="-L $am__dir -L ./$am__dir"; \
+  esac; \
+  test -d "$am__dir" || /usr/bin/mkdir -p "$am__dir" || exit 1; \
+  no --batch \
+      \
+    $am__subdir_includes -L . -L . \
+    --eval '(if (boundp (quote byte-compile-dest-file-function)) (setq byte-compile-dest-file-function (lambda (_) "lib/emacs/autotest-mode.elc")) (defun byte-compile-dest-file (_) "lib/emacs/autotest-mode.elc") )' \
+    -f batch-byte-compile 'lib/emacs/autotest-mode.el'; \
+else :; fi
+make  check-local
+make[2]: Entering directory '/sources/autoconf-2.72'
+:;{ \
+  echo '# Signature of the current package.' && \
+  echo 'm4_define([AT_PACKAGE_NAME],      [GNU Autoconf])' && \
+  echo 'm4_define([AT_PACKAGE_TARNAME],   [autoconf])' && \
+  echo 'm4_define([AT_PACKAGE_VERSION],   [2.72])' && \
+  echo 'm4_define([AT_PACKAGE_STRING],    [GNU Autoconf 2.72])' && \
+  echo 'm4_define([AT_PACKAGE_BUGREPORT], [bug-autoconf@gnu.org])' && \
+  echo 'm4_define([AT_PACKAGE_URL],       [https://www.gnu.org/software/autoconf/])'; \
+} > tests/package.m4-t
+mv tests/package.m4-t tests/package.m4
+/usr/bin/perl ./tests/mktests.pl tests ./lib/autoconf/general.m4 ./lib/autoconf/status.m4 ./lib/autoconf/autoheader.m4 ./lib/autoconf/autoupdate.m4 ./lib/autoconf/specific.m4 ./lib/autoconf/functions.m4 ./lib/autoconf/lang.m4 ./lib/autoconf/c.m4 ./lib/autoconf/erlang.m4 ./lib/autoconf/fortran.m4 ./lib/autoconf/go.m4 ./lib/autoconf/headers.m4 ./lib/autoconf/libs.m4 ./lib/autoconf/types.m4 ./lib/autoconf/programs.m4
+autom4te_perllibdir='.'/lib AUTOM4TE_CFG='lib/autom4te.cfg'         bin/autom4te -B ''lib -B '.'/lib         --language=autotest -I tests -I ./tests suite.at -o tests/testsuite.tmp
+mv tests/testsuite.tmp tests/testsuite
+/bin/sh tests/testsuite -C tests MAKE=make -j7
+## ----------------------------- ##
+## GNU Autoconf 2.72 test suite. ##
+## ----------------------------- ##
+
+  6: autom4te --trace and unusual macro names        ok
+  7: autom4te --trace and whitespace                 ok
+  4: autom4te --force                                ok
+  1: Syntax of the shell scripts                     ok
+  3: autom4te cache                                  ok
+  2: Syntax of the Perl scripts                      ok
+ 12: autoconf: forbidden tokens, exceptions          ok
+  9: autoconf --trace: builtins                      ok
+ 11: autoconf: forbidden tokens, basic               ok
+ 13: autoconf: automatically allowed tokens          ok
+ 14: autoconf: the empty token                       ok
+  8: autoconf --trace: user macros                   ok
+ 17: autoconf: AC_AUTOCONF_VERSION                   ok
+ 20: ifnames                                         ok
+ 16: autoconf: input from stdin                      ok
+ 15: autoconf: subdirectories                        ok
+ 18: autoconf: AC_PRESERVE_HELP_ORDER                ok
+  5: autom4te and whitespace in file names           ok
+ 22: autoheader and macros                           ok
+ 19: autoconf: timestamp changes                     ok
+ 23: autoheader with multiple headers                ok
+ 10: autoconf --trace: AC_CONFIG_MACRO_DIRS          ok
+ 21: autoheader                                      ok
+ 25: autoupdating AC_LINK_FILES                      ok
+ 29: autoupdating macros recursively                 expected failure (tools.at:1148)
+ 24: autoupdate                                      ok
+ 28: autoupdating OLD to NEW                         ok
+ 30: autoupdating AC_HELP_STRING                     ok
+ 32: autoupdating with m4_pushdef                    expected failure (tools.at:1231)
+ 33: autoupdating with AC_REQUIRE                    expected failure (tools.at:1257)
+ 26: autoupdating AC_PREREQ                          ok
+ 31: autoupdating with m4sugar                       ok
+ 34: autoupdating with complex quoting               expected failure (tools.at:1284)
+ 40: autoupdating with aclocal and m4_include        skipped (tools.at:1470)
+ 41: autom4te preselections                          skipped (tools.at:1499)
+ 42: autom4te cache creation                         skipped (tools.at:1579)
+ 27: autoupdating AU_ALIAS                           ok
+ 35: autoupdating AC_LANG_SAVE                       ok
+ 45: autotools and relative TMPDIR                   skipped (tools.at:1710)
+ 36: autoupdating AC_FOREACH                         ok
+ 43: autom4te cache locking                          ok
+ 46: m4_stack                                        ok
+ 39: autoupdating AC_FATAL                           ok
+ 38: autoupdating AC_DIAGNOSE and AC_WARNING         ok
+ 48: m4_dumpdef                                      ok
+ 49: m4_warn                                         ok
+ 50: m4_warn (bad categories)                        ok
+ 47: m4_defn                                         ok
+ 52: m4_expansion_stack                              ok
+ 53: m4_require: error message                       ok
+ 55: m4_require: circular dependencies               ok
+ 58: m4sugar shorthand conditionals                  ok
+ 56: m4_require: one-shot initialization             ok
+ 54: m4_require: warning message                     ok
+ 59: m4_cond                                         ok
+ 37: autoupdating AC_OBSOLETE                        ok
+ 51: m4_divert_stack                                 ok
+ 61: m4_split                                        ok
+ 60: m4 lists                                        ok
+ 62: m4_do                                           ok
+ 64: m4_join                                         ok
+ 65: m4_expand                                       ok
+ 66: m4_text_box                                     ok
+ 57: m4_require: nested                              ok
+ 67: m4_text_wrap                                    ok
+ 63: m4_append                                       ok
+ 68: m4_version_compare                              ok
+ 71: m4_toupper and m4_tolower                       ok
+ 70: m4_bmatch                                       ok
+ 72: m4_bpatsubsts                                   ok
+ 73: m4_esyscmd_s                                    ok
+ 75: m4_map                                          ok
+ 77: m4_combine                                      ok
+ 76: m4_map_args and m4_curry                        ok
+ 78: m4_max and m4_min                               ok
+ 81: __file__ and __line__                           ok
+ 82: No extra re-exec with CONFIG_SHELL              ok
+ 74: M4 loops                                        ok
+ 69: Standard regular expressions                    ok
+ 83: Forced re-exec with CONFIG_SHELL                ok
+ 87: LINENO stack                                    ok
+ 85: AS_WARN and AS_ERROR                            ok
+ 80: m4_set                                          ok
+ 88: AS_BOX                                          ok
+ 84: Configure re-execs self with CONFIG_SHELL       ok
+ 91: AS_SET_CATFILE                                  ok
+ 92: AS_ECHO and AS_ECHO_N                           ok
+ 89: AS_BASENAME                                     ok
+ 90: AS_DIRNAME                                      ok
+ 93: obsolete $as_echo and $as_echo_n                ok
+ 79: recursion                                       ok
+ 95: AS_EXECUTABLE_P                                 ok
+ 97: AS_MKDIR_P                                      ok
+ 86: LINENO                                          ok
+ 99: as_me                                           ok
+ 96: AS_EXIT                                         ok
+ 98: AS_VERSION_COMPARE                              ok
+100: Negated classes in globbing                     ok
+101: Null variable substitution                      ok
+102: Functions Support                               ok
+103: Functions and return Support                    ok
+104: Nested AS_REQUIRE_SHELL_FN                      ok
+105: Nested AS_REQUIRE                               ok
+106: AS_REQUIRE_SHELL_FN and m4_require              ok
+107: AS_HELP_STRING                                  ok
+109: AS_FOR                                          ok
+110: AS_LITERAL_IF                                   ok
+112: AS_VAR basics                                   ok
+113: AS_VAR_APPEND                                   ok
+114: AS_VAR_ARITH                                    ok
+111: AS_TR_SH and AS_TR_CPP                          ok
+108: AS_IF and AS_CASE                               ok
+115: AS_INIT cleanup                                 ok
+116: AS_INIT basename __file__                       ok
+118: AS_MESSAGE_FD                                   ok
+119: _AS_CLEAN_DIR                                   ok
+120: ECHO_C                                          ok
+121: AT_COPYRIGHT                                    ok
+ 94: Redefining AS_ECHO internals                    ok
+117: AS_INIT_GENERATED                               ok
+122: AT_DATA                                         ok
+124: AT_PREPARE_TESTS                                ok
+123: AT_DATA_UNQUOTED                                ok
+125: AT_PREPARE_EACH_TEST                            ok
+126: AT_TEST_HELPER_FN                               ok
+127: Empty test suite                                ok
+131: AT_SETUP without AT_INIT                        ok
+132: AT_BANNER without AT_INIT                       ok
+128: Banner-only test suite                          ok
+133: AT_CLEANUP without AT_INIT                      ok
+129: Empty test                                      ok
+130: Empty check                                     ok
+134: Missing AT_CLEANUP                              ok
+135: AT_FAIL_IF without AT_SETUP                     ok
+136: AT_SKIP_IF without AT_SETUP                     ok
+137: AT_CHECK without AT_SETUP                       ok
+138: AT_DATA without AT_SETUP                        ok
+139: AT_XFAIL_IF without AT_SETUP                    ok
+140: AT_KEYWORDS without AT_SETUP                    ok
+141: AT_CLEANUP without AT_SETUP                     ok
+142: AT_BANNER inside AT_SETUP                       ok
+143: AT_SETUP inside AT_SETUP                        ok
+144: Multiple AT_INIT                                ok
+145: Invalid AT_TEST_HELPER_FN (spaces)              ok
+146: Invalid AT_TEST_HELPER_FN (substitutions)       ok
+147: Multiple AT_TEST_HELPER_FN                      ok
+149: Startup error messages                          ok
+150: Truth                                           ok
+152: Skip                                            ok
+151: Fallacy                                         ok
+148: Tested programs                                 ok
+153: Hard fail                                       ok
+156: Syntax error                                    skipped (autotest.at:451)
+155: AT_SKIP_IF                                      ok
+154: AT_FAIL_IF                                      ok
+159: AT_CHECK execution environment                  ok
+160: unquoted output                                 ok
+161: Trace output                                    ok
+157: errexit                                         ok
+165: Literal multiline command                       ok
+158: at_status                                       ok
+166: Multiline parameter expansion                   ok
+162: Logging                                         ok
+167: Backquote command substitution                  ok
+168: Multiline backquote command substitution        ok
+163: Binary output                                   ok
+169: Parenthetical command substitution              ok
+170: Multiline parenthetical command substitution    ok
+173: Multiline command from M4 expansion             ok
+171: Shell comment in command                        ok
+164: Cleanup                                         ok
+172: Invalid brace-enclosed parameter expansion      ok
+174: Double-M4-quoted command                        ok
+175: Metacharacters in command from M4 expansion     ok
+176: BS-newline in command                           ok
+177: ^BS-newline in command                          ok
+179: BS-BS-newline in command                        ok
+178: BSx641-newline in command                       ok
+180: BSx640-newline in command                       ok
+181: Newline-CODE-BS-newline in command              ok
+182: Single-quote-BS-newline in command              ok
+183: Single-quote-newline-BS-newline in command      ok
+184: Input from stdin                                ok
+185: Backquote in a test title                       ok
+186: Single-quote in a test title                    ok
+187: Double-quote in a test title                    ok
+188: Backslash in a test title                       ok
+189: Brackets in a test title                        ok
+190: Left bracket in a test title                    ok
+ 44: autotools and whitespace in file names          ok
+191: Right bracket in a test title                   ok
+192: Quoted pound in a test title                    ok
+193: Pound in a test title                           ok
+194: Quoted comma in a test title                    ok
+195: Comma in a test title                           ok
+196: Parentheses in a test title                     ok
+197: Left paren in a test title                      ok
+198: Right paren in a test title                     ok
+199: Quoted Macro in a test title                    ok
+200: Macro in a test title                           ok
+202: Macro with single-quote in a test title         ok
+201: Macro with backquote in a test title            ok
+203: Macro with double-quote in a test title         ok
+204: Macro with backslash in a test title            ok
+205: Macro echoing macro in a test title             ok
+209: Long test source lines                          ok
+206: Macro echoing single-quote in a test title      ok
+207: Long test title in a test title                 ok
+208: Longer test title in a test title               ok
+210: Huge testsuite                                  ok
+211: Debugging a successful test                     ok
+213: Debugging a failed test                         ok
+212: Debugging script and environment                ok
+219: Keyword wrapping                                ok
+215: Choosing where testsuite is run                 ok
+214: Using atlocal                                   ok
+223: parallel truth                                  ok
+216: recheck                                         ok
+225: parallel skip                                   ok
+224: parallel fallacy                                ok
+226: parallel syntax error                           skipped (autotest.at:1580)
+220: AT_ARG_OPTION                                   ok
+221: AT_ARG_OPTION_ARG                               ok
+227: parallel errexit                                ok
+217: Banners                                         ok
+229: parallel args but non-working mkfifo            ok
+222: parallel test execution                         ok
+233: unusual file names                              ok
+232: whitespace in absolute testdir                  ok
+236: Erlang Eunit unit tests                         ok
+234: C unit tests                                    ok
+235: C unit tests (EXEEXT)                           ok
+237: AC_REQUIRE: topological sort                    ok
+238: AC_REQUIRE: error message                       ok
+230: colored test results                            ok
+239: AC_REQUIRE & AC_DEFUN_ONCE: Require, expand     ok
+240: AC_REQUIRE & AC_DEFUN_ONCE: Expand, require     ok
+241: AC_REQUIRE & AC_PROVIDE                         ok
+242: AC_INIT                                         ok
+245: AC_COPYRIGHT                                    ok
+243: AC_INIT (obsolete invocation)                   ok
+247: AC_CACHE_LOAD                                   ok
+231: srcdir propagation                              ok
+228: parallel autotest and signal handling           ok
+249: AC_TRY_COMMAND                                  ok
+248: AC_COMPUTE_INT                                  ok
+218: Keywords and ranges                             ok
+250: Input/Output                                    ok
+251: configure arguments                             ok
+253: configure directories                           ok
+252: AC_ARG_ENABLE and AC_ARG_WITH                   ok
+258: Multiple AC_CONFIG_FILES                        ok
+254: AC_SUBST                                        ok
+259: Parameterized AC_CONFIG_FILES                   ok
+256: AC_CONFIG_COMMANDS with empty commands          ok
+257: AC_CONFIG_COMMANDS with temporary directory     ok
+262: Macro calls in AC_CONFIG_COMMANDS tags          ok
+255: configure with closed standard fds              ok
+263: Missing templates                               ok
+265: --help and --version in unwritable directory    ok
+266: #define header templates                        ok
+246: AC_CACHE_CHECK                                  skipped (base.at:762)
+244: AC_INIT with unusual version strings            ok
+269: Define to a 2000-byte string                    ok
+268: Substitute a 2000-byte string                   ok
+267: Torturing config.status                         ok
+271: Substitute a newline                            ok
+270: Substitute and define special characters        ok
+260: AC_ARG_VAR                                      ok
+264: configure invocation                            ok
+277: Signal handling                                 ok
+272: Define a newline                                ok
+274: datarootdir workaround                          ok
+280: Configuring subdirectories                      skipped (torture.at:1473)
+281: Deep Package                                    skipped (torture.at:1591)
+282: Non-Autoconf AC_CONFIG_SUBDIRS                  skipped (torture.at:1725)
+275: srcdir                                          ok
+276: VPATH                                           ok
+261: AC_CONFIG_FILES, HEADERS, LINKS and COMMANDS    ok
+285: Empty directory                                 ok
+286: Unusual Automake input files                    skipped (torture.at:1859)
+287: Specific warnings options for autoreconf        skipped (torture.at:1891)
+284: Empty AC_CONFIG_SUBDIRS                         ok
+279: AC_CONFIG_LINKS and identical files             ok
+273: AC_SUBST: variable name validation              ok
+283: Non-literal AC_CONFIG_SUBDIRS                   ok
+293: AC_LANG, AC_LANG_PUSH & AC_LANG_POP             ok
+289: Missing auxiliary files (install-sh)            ok
+294: AC_REQUIRE & AC_LANG                            ok
+291: Missing auxiliary files (--force)               ok
+290: Missing auxiliary files (foreign)               ok
+288: Missing auxiliary files (config.*)              ok
+278: AC_CONFIG_LINKS                                 ok
+295: AC_LANG_SOURCE                                  ok
+297: AC_LANG_SOURCE example                          ok
+298: AC_LANG_PROGRAM example                         ok
+296: AC_LANG_SOURCE(C++)                             ok
+300: AC_RUN_IFELSE                                   ok
+301: Order of user actions and cleanup               ok
+292: Files clobbered by AC_OPENMP                    ok
+307: Broken/missing compilers                        ok
+304: AC_NO_EXECUTABLES                               ok
+306: Object file extensions                          ok
+299: AC_COMPILE_IFELSE                               ok
+308: C keywords                                      ok
+309: AC_PROG_CPP requires AC_PROG_CC                 ok
+303: Multiple languages                              ok
+310: AC_PROG_CPP with warnings                       ok
+311: AC_PROG_CPP without warnings                    ok
+312: AC_PROG_CPP via CC                              ok
+315: AC_NO_EXECUTABLES (broken linker)               ok
+313: AC_PROG_EGREP and AC_EGREP_HEADER               ok
+314: AC_NO_EXECUTABLES (working linker)              ok
+318: AC_OPENMP and C                                 ok
+317: AC_C_RESTRICT and C++                           ok
+319: AC_OPENMP and C++                               ok
+316: AC_USE_SYSTEM_EXTENSIONS                        ok
+302: AC_TRY_LINK_FUNC                                ok
+305: AC_REQUIRE_CPP                                  ok
+320: AC_C_BACKSLASH_A                                ok
+323: AC_C_FLEXIBLE_ARRAY_MEMBER                      ok
+324: AC_C_INLINE                                     ok
+325: AC_C_PROTOTYPES                                 ok
+322: AC_C_CHAR_UNSIGNED                              ok
+321: AC_C_BIGENDIAN                                  ok
+326: AC_C_RESTRICT                                   ok
+327: AC_C_STRINGIZE                                  ok
+328: AC_C_TYPEOF                                     ok
+334: AC_LANG_C                                       ok
+329: AC_C_VARARRAYS                                  ok
+330: AC_C__GENERIC                                   ok
+332: AC_PROG_CC_C_O                                  ok
+335: autoupdating AC_LANG_C                          ok
+333: AC_PROG_CPP_WERROR                              ok
+331: AC_OPENMP                                       ok
+336: AC_LANG_CPLUSPLUS                               ok
+340: GNU Fortran 77                                  skipped (fortran.at:31)
+341: GNU Fortran                                     skipped (fortran.at:61)
+342: AC_OPENMP and Fortran 77                        skipped (fortran.at:114)
+343: AC_OPENMP and Fortran                           skipped (fortran.at:154)
+337: autoupdating AC_LANG_CPLUSPLUS                  ok
+338: AC_LANG_OBJC                                    ok
+344: AC_F77_DUMMY_MAIN usage                         skipped (fortran.at:246)
+345: AC_FC_DUMMY_MAIN usage                          skipped (fortran.at:328)
+346: AC_F77_MAIN usage                               skipped (fortran.at:409)
+347: AC_FC_MAIN usage                                skipped (fortran.at:493)
+339: autoupdating AC_LANG_OBJC                       ok
+350: AC_FC_SRCEXT usage                              skipped (fortran.at:733)
+348: AC_F77_FUNC usage                               skipped (fortran.at:572)
+349: AC_FC_FUNC usage                                skipped (fortran.at:648)
+351: AC_FC_PP_SRCEXT usage                           skipped (fortran.at:832)
+352: AC_FC_FREEFORM                                  skipped (fortran.at:868)
+353: AC_FC_FREEFORM with AC_FC_SRCEXT                skipped (fortran.at:905)
+354: AC_FC_FIXEDFORM                                 skipped (fortran.at:942)
+355: AC_FC_FIXEDFORM with AC_FC_SRCEXT               skipped (fortran.at:980)
+356: AC_FC_LINE_LENGTH                               skipped (fortran.at:1048)
+357: AC_FC_CHECK_BOUNDS                              skipped (fortran.at:1109)
+358: AC_FC_MODULE_FLAG                               skipped (fortran.at:1176)
+359: AC_F77_CRAY_POINTERS                            skipped (fortran.at:1221)
+360: AC_FC_CRAY_POINTERS                             skipped (fortran.at:1264)
+361: AC_F77_CRAY_POINTERS                            skipped (acfortran.at:8)
+362: AC_F77_IMPLICIT_NONE                            skipped (acfortran.at:9)
+363: AC_F77_MAIN                                     skipped (acfortran.at:10)
+365: AC_FC_CHECK_BOUNDS                              skipped (acfortran.at:12)
+364: AC_F77_WRAPPERS                                 skipped (acfortran.at:11)
+366: AC_FC_CRAY_POINTERS                             skipped (acfortran.at:13)
+367: AC_FC_FIXEDFORM                                 skipped (acfortran.at:14)
+368: AC_FC_FREEFORM                                  skipped (acfortran.at:15)
+369: AC_FC_IMPLICIT_NONE                             skipped (acfortran.at:16)
+370: AC_FC_LINE_LENGTH                               skipped (acfortran.at:17)
+372: AC_FC_MODULE_EXTENSION                          skipped (acfortran.at:19)
+373: AC_FC_MODULE_FLAG                               skipped (acfortran.at:20)
+371: AC_FC_MAIN                                      skipped (acfortran.at:18)
+374: AC_FC_MODULE_OUTPUT_FLAG                        skipped (acfortran.at:21)
+375: AC_FC_PP_DEFINE                                 skipped (acfortran.at:22)
+376: AC_FC_WRAPPERS                                  skipped (acfortran.at:23)
+377: AC_PROG_F77_C_O                                 skipped (acfortran.at:24)
+378: AC_PROG_FC_C_O                                  skipped (acfortran.at:25)
+383: Erlang basic compilation                        skipped (erlang.at:36)
+384: AC_ERLANG_CHECK_LIB                             skipped (erlang.at:66)
+385: AC_ERLANG_SUBST_ROOT_DIR                        skipped (erlang.at:82)
+386: AC_ERLANG_SUBST_LIB_DIR                         skipped (erlang.at:95)
+379: AC_F77_NAME_MANGLING                            ok
+381: AC_LANG_FORTRAN77                               ok
+380: autoupdating AC_F77_NAME_MANGLING               ok
+382: autoupdating AC_LANG_FORTRAN77                  ok
+390: AC_ERLANG_SUBST_ERTS_VER                        skipped (acerlang.at:10)
+391: AC_ERLANG_SUBST_LIB_DIR                         skipped (acerlang.at:11)
+394: Go                                              skipped (go.at:30)
+388: AC_ERLANG_PATH_ERL                              ok
+387: AC_ERLANG_SUBST_INSTALL_LIB_SUBDIR              ok
+389: AC_ERLANG_PATH_ERLC                             ok
+392: AC_LANG_ERLANG                                  ok
+393: autoupdating AC_LANG_ERLANG                     ok
+395: AC_LANG_GO                                      ok
+396: autoupdating AC_LANG_GO                         ok
+402: AC_REPLACE_FUNCS                                ok
+403: AC_CHECK_HEADERS                                ok
+404: AC_CHECK_HEADERS (preprocessor test)            ok
+405: AC_CHECK_HEADERS (compiler test)                ok
+399: AC_SEARCH_LIBS (none needed)                    ok
+401: AC_CHECK_FUNCS                                  ok
+400: AC_CHECK_DECLS                                  ok
+397: AC_CHECK_LIB                                    ok
+406: AC_CHECK_MEMBER                                 ok
+407: AC_CHECK_MEMBERS                                ok
+413: AC_CHECK_TYPES: backward compatibility          ok
+414: AC_CHECK_FILES                                  ok
+415: AC_CHECK_PROG & AC_CHECK_PROGS                  ok
+398: AC_SEARCH_LIBS (needed)                         ok
+417: AC_PATH_PROG & AC_PATH_PROGS                    ok
+418: AC_PATH_PROGS_FEATURE_CHECK                     ok
+419: AC_PATH_XTRA                                    ok
+416: AC_C_BIGENDIAN                                  ok
+408: AC_CHECK_ALIGNOF                                ok
+409: AC_CHECK_ALIGNOF struct                         ok
+412: AC_CHECK_TYPES                                  ok
+410: AC_CHECK_SIZEOF                                 ok
+424: AC_FUNC_SETVBUF_REVERSED                        ok
+411: AC_CHECK_SIZEOF struct                          ok
+423: AC_SYS_RESTARTABLE_SYSCALLS                     ok
+420: AC_SYS_LARGEFILE                                ok
+421: AC_SYS_YEAR2038                                 ok
+425: AC_FUNC_WAIT3                                   ok
+422: AC_SYS_YEAR2038_RECOMMENDED                     ok
+427: autoupdating AC_TRY_CPP                         ok
+429: autoupdating AC_TRY_COMPILE                     ok
+426: AC_TRY_CPP                                      ok
+431: autoupdating AC_TRY_LINK                        ok
+433: autoupdating AC_COMPILE_CHECK                   ok
+428: AC_TRY_COMPILE                                  ok
+430: AC_TRY_LINK                                     ok
+435: autoupdating AC_TRY_RUN                         ok
+438: Macro expansion in AC_CHECK_FUNCS (literal)     ok
+437: autoupdating AC_HAVE_LIBRARY                    ok
+439: Macro expansion in AC_CHECK_FUNCS (variable)    ok
+440: Macro expansion in AC_CHECK_FUNCS_ONCE          ok
+432: AC_COMPILE_CHECK                                ok
+441: Macro expansion in AC_REPLACE_FUNCS (literal)   ok
+434: AC_TRY_RUN                                      ok
+447: Macro expansion in AC_CONFIG_MACRO_DIRS         ok
+442: Macro expansion in AC_REPLACE_FUNCS (variable)  ok
+446: Macro expansion in AC_CHECK_FILES               ok
+443: Macro expansion in AC_CHECK_HEADERS (literal)   ok
+444: Macro expansion in AC_CHECK_HEADERS (variable)  ok
+445: Macro expansion in AC_CHECK_HEADERS_ONCE        ok
+448: Macro expansion in AC_CONFIG_SUBDIRS            ok
+450: AC_PROG_LEX with yywrap                         skipped (semantics.at:1308)
+436: AC_HAVE_LIBRARY                                 ok
+452: Invalid arguments to AC_PROG_LEX                ok
+451: AC_PROG_LEX in legacy mode                      ok
+453: AC_ARG_ENABLE                                   ok
+454: AC_ARG_PROGRAM                                  ok
+455: AC_ARG_WITH                                     ok
+459: AC_LIBOBJ                                       ok
+460: AC_LIBSOURCES                                   ok
+461: AC_PREFIX_DEFAULT                               ok
+462: AC_REQUIRE_AUX_FILE                             ok
+463: AC_CHECKING                                     ok
+464: autoupdating AC_CHECKING                        ok
+465: AC_ENABLE                                       ok
+466: autoupdating AC_ENABLE                          ok
+467: AC_MSG_RESULT_UNQUOTED                          ok
+449: AC_PROG_LEX with noyywrap                       ok
+457: AC_EGREP_CPP                                    ok
+458: AC_EGREP_HEADER                                 ok
+468: autoupdating AC_MSG_RESULT_UNQUOTED             ok
+469: AC_VALIDATE_CACHED_SYSTEM_TUPLE                 ok
+456: AC_CHECK_DECLS_ONCE                             ok
+470: autoupdating AC_VALIDATE_CACHED_SYSTEM_TUPLE    ok
+471: AC_WITH                                         ok
+472: autoupdating AC_WITH                            ok
+475: AC_OUTPUT_COMMANDS                              ok
+476: autoupdating AC_OUTPUT_COMMANDS                 ok
+477: AC_SYS_INTERPRETER                              ok
+474: autoupdating _AC_COMPUTE_INT                    ok
+478: AC_SYS_LONG_FILE_NAMES                          ok
+482: AC_ARG_ARRAY                                    ok
+483: autoupdating AC_ARG_ARRAY                       ok
+473: _AC_COMPUTE_INT                                 ok
+481: autoupdating AC_AIX                             ok
+485: autoupdating AC_DECL_SYS_SIGLIST                ok
+479: AC_SYS_POSIX_TERMIOS                            ok
+488: AC_HAVE_POUNDBANG                               ok
+487: autoupdating AC_DYNIX_SEQ                       ok
+489: autoupdating AC_HAVE_POUNDBANG                  ok
+484: AC_DECL_SYS_SIGLIST                             ok
+491: autoupdating AC_IRIX_SUN                        ok
+480: AC_AIX                                          ok
+486: AC_DYNIX_SEQ                                    ok
+493: autoupdating AC_ISC_POSIX                       ok
+497: autoupdating AC_SCO_INTL                        ok
+490: AC_IRIX_SUN                                     ok
+495: autoupdating AC_MINIX                           ok
+492: AC_ISC_POSIX                                    ok
+500: AC_PROG_AR                                      ok
+501: AC_PROG_AWK                                     ok
+499: autoupdating AC_XENIX_DIR                       ok
+502: AC_PROG_EGREP                                   ok
+496: AC_SCO_INTL                                     ok
+503: AC_PROG_FGREP                                   ok
+494: AC_MINIX                                        ok
+504: AC_PROG_INSTALL                                 ok
+505: AC_PROG_LN_S                                    ok
+506: AC_PROG_MAKE_SET                                ok
+498: AC_XENIX_DIR                                    ok
+507: AC_PROG_MKDIR_P                                 ok
+508: AC_PROG_RANLIB                                  ok
+509: AC_PROG_SED                                     ok
+510: AC_PROG_YACC                                    ok
+511: AC_CHECK_TOOL_PREFIX                            ok
+512: autoupdating AC_CHECK_TOOL_PREFIX               ok
+515: AC_RSH                                          ok
+516: autoupdating AC_RSH                             ok
+519: AC_HEADER_ASSERT                                ok
+514: autoupdating AC_DECL_YYTEXT                     ok
+517: AC_CHECK_HEADERS_ONCE                           ok
+513: AC_DECL_YYTEXT                                  ok
+522: AC_HEADER_STAT                                  ok
+521: AC_HEADER_RESOLV                                ok
+518: AC_CHECK_HEADER_STDBOOL                         ok
+520: AC_HEADER_MAJOR                                 ok
+523: AC_HEADER_STDBOOL                               ok
+526: autoupdating AC_DIR_HEADER                      ok
+528: autoupdating AC_HEADER_STDC                     ok
+530: autoupdating AC_HEADER_TIME                     ok
+525: AC_DIR_HEADER                                   ok
+532: autoupdating AC_MEMORY_H                        ok
+524: AC_HEADER_TIOCGWINSZ                            ok
+527: AC_HEADER_STDC                                  ok
+529: AC_HEADER_TIME                                  ok
+534: autoupdating AC_UNISTD_H                        ok
+536: autoupdating AC_USG                             ok
+531: AC_MEMORY_H                                     ok
+538: autoupdating _AC_CHECK_HEADER_MONGREL           ok
+535: AC_USG                                          ok
+533: AC_UNISTD_H                                     ok
+537: _AC_CHECK_HEADER_MONGREL                        ok
+539: AC_STRUCT_DIRENT_D_INO                          ok
+540: AC_STRUCT_DIRENT_D_TYPE                         ok
+542: AC_STRUCT_TIMEZONE                              ok
+541: AC_STRUCT_ST_BLOCKS                             ok
+543: AC_TYPE_INT16_T                                 ok
+544: AC_TYPE_INT32_T                                 ok
+545: AC_TYPE_INT64_T                                 ok
+546: AC_TYPE_INT8_T                                  ok
+549: AC_TYPE_LONG_DOUBLE                             ok
+547: AC_TYPE_INTMAX_T                                ok
+548: AC_TYPE_INTPTR_T                                ok
+550: AC_TYPE_LONG_DOUBLE_WIDER                       ok
+551: AC_TYPE_MODE_T                                  ok
+552: AC_TYPE_OFF_T                                   ok
+554: AC_TYPE_UINT16_T                                ok
+553: AC_TYPE_SSIZE_T                                 ok
+555: AC_TYPE_UINT32_T                                ok
+556: AC_TYPE_UINT64_T                                ok
+561: autoupdating AC_C_LONG_DOUBLE                   ok
+557: AC_TYPE_UINT8_T                                 ok
+563: autoupdating AC_INT_16_BITS                     ok
+558: AC_TYPE_UINTMAX_T                               ok
+559: AC_TYPE_UINTPTR_T                               ok
+560: AC_C_LONG_DOUBLE                                ok
+565: autoupdating AC_LONG_64_BITS                    ok
+562: AC_INT_16_BITS                                  ok
+567: autoupdating AC_STRUCT_ST_BLKSIZE               ok
+569: autoupdating AC_STRUCT_ST_RDEV                  ok
+564: AC_LONG_64_BITS                                 ok
+571: autoupdating AC_TYPE_SIGNAL                     ok
+570: AC_TYPE_SIGNAL                                  ok
+573: autoupdating AM_TYPE_PTRDIFF_T                  ok
+566: AC_STRUCT_ST_BLKSIZE                            ok
+574: AC_CHECK_FUNCS_ONCE                             ok
+568: AC_STRUCT_ST_RDEV                               ok
+579: AC_FUNC_FNMATCH                                 ok
+572: AM_TYPE_PTRDIFF_T                               ok
+576: AC_FUNC_CHOWN                                   ok
+580: AC_FUNC_FORK                                    ok
+578: AC_FUNC_ERROR_AT_LINE                           ok
+577: AC_FUNC_CLOSEDIR_VOID                           ok
+575: AC_FUNC_ALLOCA                                  ok
+582: AC_FUNC_GETGROUPS                               ok
+581: AC_FUNC_FSEEKO                                  ok
+586: AC_FUNC_MALLOC                                  ok
+583: AC_FUNC_GETMNTENT                               ok
+585: AC_FUNC_LSTAT                                   ok
+588: AC_FUNC_MEMCMP                                  ok
+587: AC_FUNC_MBRTOWC                                 ok
+584: AC_FUNC_GETPGRP                                 ok
+592: AC_FUNC_REALLOC                                 ok
+589: AC_FUNC_MKTIME                                  ok
+590: AC_FUNC_MMAP                                    ok
+595: AC_FUNC_STAT                                    ok
+596: AC_FUNC_STRCOLL                                 ok
+591: AC_FUNC_OBSTACK                                 ok
+598: AC_FUNC_STRFTIME                                ok
+594: AC_FUNC_SETPGRP                                 ok
+593: AC_FUNC_SELECT_ARGTYPES                         ok
+597: AC_FUNC_STRERROR_R                              ok
+600: AC_FUNC_STRTOD                                  ok
+599: AC_FUNC_STRNLEN                                 ok
+605: shtool                                          skipped (foreign.at:130)
+606: AX_PROG_CC_FOR_BUILD                            ok
+604: Libtool                                         ok
+609: autoscan                                        ok
+607: AX_PROG_CXX_FOR_BUILD                           ok
+601: AC_FUNC_STRTOLD                                 ok
+603: AC_FUNC_VPRINTF                                 ok
+602: AC_FUNC_UTIME_NULL                              ok
+608: gnulib-std-gnu11.m4                             ok
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+549 tests behaved as expected.
+60 tests were skipped.
+make[2]: Leaving directory '/sources/autoconf-2.72'
+make[1]: Leaving directory '/sources/autoconf-2.72'

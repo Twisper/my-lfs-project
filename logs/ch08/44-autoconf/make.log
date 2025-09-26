@@ -1,0 +1,177 @@
+make  all-am
+make[1]: Entering directory '/sources/autoconf-2.72'
+rm -f bin/autoconf bin/autoconf.tmp
+rm -f bin/autoheader bin/autoheader.tmp
+rm -f bin/autom4te bin/autom4te.tmp
+rm -f bin/autoreconf bin/autoreconf.tmp
+/usr/bin/mkdir -p bin
+/usr/bin/mkdir -p bin
+/usr/bin/mkdir -p bin
+rm -f bin/autoscan bin/autoscan.tmp
+/usr/bin/mkdir -p bin
+srcdir=''; \
+  test -f ./bin/autoconf.in || srcdir=./; \
+  sed -e 's|@SHELL[@]|/bin/sh|g' -e 's|@PERL[@]|/usr/bin/perl|g' -e 's|@PERL_FLOCK[@]|yes|g' -e 's|@bindir[@]|/usr/bin|g' -e 's|@pkgdatadir[@]|/usr/share/autoconf|g' -e 's|@prefix[@]|/usr|g' -e 's|@autoconf-name[@]|'`echo autoconf | sed 's,x,x,'`'|g' -e 's|@autoheader-name[@]|'`echo autoheader | sed 's,x,x,'`'|g' -e 's|@autom4te-name[@]|'`echo autom4te | sed 's,x,x,'`'|g' -e 's|@M4[@]|/usr/bin/m4|g' -e 's|@M4_DEBUGFILE[@]|--debugfile|g' -e 's|@M4_GNU[@]|--gnu|g' -e 's|@AWK[@]|gawk|g' -e 's|@RELEASE_YEAR[@]|2023|g' -e 's|@VERSION[@]|2.72|g' -e 's|@PACKAGE_NAME[@]|GNU Autoconf|g' -e 's|@configure_input[@]|Generated from bin/autoconf.in; do not edit by hand.|g' ${srcdir}bin/autoconf.in >bin/autoconf.tmp
+srcdir=''; \
+  test -f ./bin/autoheader.in || srcdir=./; \
+  sed -e 's|@SHELL[@]|/bin/sh|g' -e 's|@PERL[@]|/usr/bin/perl|g' -e 's|@PERL_FLOCK[@]|yes|g' -e 's|@bindir[@]|/usr/bin|g' -e 's|@pkgdatadir[@]|/usr/share/autoconf|g' -e 's|@prefix[@]|/usr|g' -e 's|@autoconf-name[@]|'`echo autoconf | sed 's,x,x,'`'|g' -e 's|@autoheader-name[@]|'`echo autoheader | sed 's,x,x,'`'|g' -e 's|@autom4te-name[@]|'`echo autom4te | sed 's,x,x,'`'|g' -e 's|@M4[@]|/usr/bin/m4|g' -e 's|@M4_DEBUGFILE[@]|--debugfile|g' -e 's|@M4_GNU[@]|--gnu|g' -e 's|@AWK[@]|gawk|g' -e 's|@RELEASE_YEAR[@]|2023|g' -e 's|@VERSION[@]|2.72|g' -e 's|@PACKAGE_NAME[@]|GNU Autoconf|g' -e 's|@configure_input[@]|Generated from bin/autoheader.in; do not edit by hand.|g' ${srcdir}bin/autoheader.in >bin/autoheader.tmp
+srcdir=''; \
+  test -f ./bin/autom4te.in || srcdir=./; \
+  sed -e 's|@SHELL[@]|/bin/sh|g' -e 's|@PERL[@]|/usr/bin/perl|g' -e 's|@PERL_FLOCK[@]|yes|g' -e 's|@bindir[@]|/usr/bin|g' -e 's|@pkgdatadir[@]|/usr/share/autoconf|g' -e 's|@prefix[@]|/usr|g' -e 's|@autoconf-name[@]|'`echo autoconf | sed 's,x,x,'`'|g' -e 's|@autoheader-name[@]|'`echo autoheader | sed 's,x,x,'`'|g' -e 's|@autom4te-name[@]|'`echo autom4te | sed 's,x,x,'`'|g' -e 's|@M4[@]|/usr/bin/m4|g' -e 's|@M4_DEBUGFILE[@]|--debugfile|g' -e 's|@M4_GNU[@]|--gnu|g' -e 's|@AWK[@]|gawk|g' -e 's|@RELEASE_YEAR[@]|2023|g' -e 's|@VERSION[@]|2.72|g' -e 's|@PACKAGE_NAME[@]|GNU Autoconf|g' -e 's|@configure_input[@]|Generated from bin/autom4te.in; do not edit by hand.|g' ${srcdir}bin/autom4te.in >bin/autom4te.tmp
+rm -f bin/autoupdate bin/autoupdate.tmp
+rm -f bin/ifnames bin/ifnames.tmp
+srcdir=''; \
+  test -f ./bin/autoreconf.in || srcdir=./; \
+  sed -e 's|@SHELL[@]|/bin/sh|g' -e 's|@PERL[@]|/usr/bin/perl|g' -e 's|@PERL_FLOCK[@]|yes|g' -e 's|@bindir[@]|/usr/bin|g' -e 's|@pkgdatadir[@]|/usr/share/autoconf|g' -e 's|@prefix[@]|/usr|g' -e 's|@autoconf-name[@]|'`echo autoconf | sed 's,x,x,'`'|g' -e 's|@autoheader-name[@]|'`echo autoheader | sed 's,x,x,'`'|g' -e 's|@autom4te-name[@]|'`echo autom4te | sed 's,x,x,'`'|g' -e 's|@M4[@]|/usr/bin/m4|g' -e 's|@M4_DEBUGFILE[@]|--debugfile|g' -e 's|@M4_GNU[@]|--gnu|g' -e 's|@AWK[@]|gawk|g' -e 's|@RELEASE_YEAR[@]|2023|g' -e 's|@VERSION[@]|2.72|g' -e 's|@PACKAGE_NAME[@]|GNU Autoconf|g' -e 's|@configure_input[@]|Generated from bin/autoreconf.in; do not edit by hand.|g' ${srcdir}bin/autoreconf.in >bin/autoreconf.tmp
+/usr/bin/mkdir -p bin
+/usr/bin/mkdir -p bin
+/usr/bin/mkdir -p bin
+srcdir=''; \
+  test -f ./bin/autoscan.in || srcdir=./; \
+  sed -e 's|@SHELL[@]|/bin/sh|g' -e 's|@PERL[@]|/usr/bin/perl|g' -e 's|@PERL_FLOCK[@]|yes|g' -e 's|@bindir[@]|/usr/bin|g' -e 's|@pkgdatadir[@]|/usr/share/autoconf|g' -e 's|@prefix[@]|/usr|g' -e 's|@autoconf-name[@]|'`echo autoconf | sed 's,x,x,'`'|g' -e 's|@autoheader-name[@]|'`echo autoheader | sed 's,x,x,'`'|g' -e 's|@autom4te-name[@]|'`echo autom4te | sed 's,x,x,'`'|g' -e 's|@M4[@]|/usr/bin/m4|g' -e 's|@M4_DEBUGFILE[@]|--debugfile|g' -e 's|@M4_GNU[@]|--gnu|g' -e 's|@AWK[@]|gawk|g' -e 's|@RELEASE_YEAR[@]|2023|g' -e 's|@VERSION[@]|2.72|g' -e 's|@PACKAGE_NAME[@]|GNU Autoconf|g' -e 's|@configure_input[@]|Generated from bin/autoscan.in; do not edit by hand.|g' ${srcdir}bin/autoscan.in >bin/autoscan.tmp
+srcdir=''; \
+  test -f ./bin/autoupdate.in || srcdir=./; \
+  sed -e 's|@SHELL[@]|/bin/sh|g' -e 's|@PERL[@]|/usr/bin/perl|g' -e 's|@PERL_FLOCK[@]|yes|g' -e 's|@bindir[@]|/usr/bin|g' -e 's|@pkgdatadir[@]|/usr/share/autoconf|g' -e 's|@prefix[@]|/usr|g' -e 's|@autoconf-name[@]|'`echo autoconf | sed 's,x,x,'`'|g' -e 's|@autoheader-name[@]|'`echo autoheader | sed 's,x,x,'`'|g' -e 's|@autom4te-name[@]|'`echo autom4te | sed 's,x,x,'`'|g' -e 's|@M4[@]|/usr/bin/m4|g' -e 's|@M4_DEBUGFILE[@]|--debugfile|g' -e 's|@M4_GNU[@]|--gnu|g' -e 's|@AWK[@]|gawk|g' -e 's|@RELEASE_YEAR[@]|2023|g' -e 's|@VERSION[@]|2.72|g' -e 's|@PACKAGE_NAME[@]|GNU Autoconf|g' -e 's|@configure_input[@]|Generated from bin/autoupdate.in; do not edit by hand.|g' ${srcdir}bin/autoupdate.in >bin/autoupdate.tmp
+srcdir=''; \
+  test -f ./bin/ifnames.in || srcdir=./; \
+  sed -e 's|@SHELL[@]|/bin/sh|g' -e 's|@PERL[@]|/usr/bin/perl|g' -e 's|@PERL_FLOCK[@]|yes|g' -e 's|@bindir[@]|/usr/bin|g' -e 's|@pkgdatadir[@]|/usr/share/autoconf|g' -e 's|@prefix[@]|/usr|g' -e 's|@autoconf-name[@]|'`echo autoconf | sed 's,x,x,'`'|g' -e 's|@autoheader-name[@]|'`echo autoheader | sed 's,x,x,'`'|g' -e 's|@autom4te-name[@]|'`echo autom4te | sed 's,x,x,'`'|g' -e 's|@M4[@]|/usr/bin/m4|g' -e 's|@M4_DEBUGFILE[@]|--debugfile|g' -e 's|@M4_GNU[@]|--gnu|g' -e 's|@AWK[@]|gawk|g' -e 's|@RELEASE_YEAR[@]|2023|g' -e 's|@VERSION[@]|2.72|g' -e 's|@PACKAGE_NAME[@]|GNU Autoconf|g' -e 's|@configure_input[@]|Generated from bin/ifnames.in; do not edit by hand.|g' ${srcdir}bin/ifnames.in >bin/ifnames.tmp
+chmod +x bin/autoconf.tmp
+chmod +x bin/ifnames.tmp
+chmod +x bin/autom4te.tmp
+chmod a-w bin/ifnames.tmp
+chmod +x bin/autoreconf.tmp
+chmod a-w bin/autoconf.tmp
+chmod a-w bin/autom4te.tmp
+chmod +x bin/autoheader.tmp
+chmod a-w bin/autoreconf.tmp
+mv bin/autoconf.tmp bin/autoconf
+chmod +x bin/autoupdate.tmp
+mv bin/ifnames.tmp bin/ifnames
+mv bin/autom4te.tmp bin/autom4te
+chmod a-w bin/autoheader.tmp
+chmod +x bin/autoscan.tmp
+mv bin/autoreconf.tmp bin/autoreconf
+chmod a-w bin/autoupdate.tmp
+rm -f lib/autom4te.cfg lib/autom4te.cfg-t
+if test 'no' != no; then \
+  am__dir=. am__subdir_includes=''; \
+  case lib/emacs/autoconf-mode.elc in */*) \
+    am__dir=`echo 'lib/emacs/autoconf-mode.elc' | sed 's,/[^/]*$,,'`; \
+    am__subdir_includes="-L $am__dir -L ./$am__dir"; \
+  esac; \
+  test -d "$am__dir" || /usr/bin/mkdir -p "$am__dir" || exit 1; \
+  no --batch \
+      \
+    $am__subdir_includes -L . -L . \
+    --eval '(if (boundp (quote byte-compile-dest-file-function)) (setq byte-compile-dest-file-function (lambda (_) "lib/emacs/autoconf-mode.elc")) (defun byte-compile-dest-file (_) "lib/emacs/autoconf-mode.elc") )' \
+    -f batch-byte-compile 'lib/emacs/autoconf-mode.el'; \
+else :; fi
+chmod a-w bin/autoscan.tmp
+if test 'no' != no; then \
+  am__dir=. am__subdir_includes=''; \
+  case lib/emacs/autotest-mode.elc in */*) \
+    am__dir=`echo 'lib/emacs/autotest-mode.elc' | sed 's,/[^/]*$,,'`; \
+    am__subdir_includes="-L $am__dir -L ./$am__dir"; \
+  esac; \
+  test -d "$am__dir" || /usr/bin/mkdir -p "$am__dir" || exit 1; \
+  no --batch \
+      \
+    $am__subdir_includes -L . -L . \
+    --eval '(if (boundp (quote byte-compile-dest-file-function)) (setq byte-compile-dest-file-function (lambda (_) "lib/emacs/autotest-mode.elc")) (defun byte-compile-dest-file (_) "lib/emacs/autotest-mode.elc") )' \
+    -f batch-byte-compile 'lib/emacs/autotest-mode.el'; \
+else :; fi
+mv bin/autoheader.tmp bin/autoheader
+mv bin/autoupdate.tmp bin/autoupdate
+/usr/bin/mkdir -p lib
+mv bin/autoscan.tmp bin/autoscan
+sed -e 's|@SHELL[@]|/bin/sh|g' -e 's|@PERL[@]|/usr/bin/perl|g' -e 's|@PERL_FLOCK[@]|yes|g' -e 's|@bindir[@]|/usr/bin|g' -e 's|@pkgdatadir[@]|/usr/share/autoconf|g' -e 's|@prefix[@]|/usr|g' -e 's|@autoconf-name[@]|'`echo autoconf | sed 's,x,x,'`'|g' -e 's|@autoheader-name[@]|'`echo autoheader | sed 's,x,x,'`'|g' -e 's|@autom4te-name[@]|'`echo autom4te | sed 's,x,x,'`'|g' -e 's|@M4[@]|/usr/bin/m4|g' -e 's|@M4_DEBUGFILE[@]|--debugfile|g' -e 's|@M4_GNU[@]|--gnu|g' -e 's|@AWK[@]|gawk|g' -e 's|@RELEASE_YEAR[@]|2023|g' -e 's|@VERSION[@]|2.72|g' -e 's|@PACKAGE_NAME[@]|GNU Autoconf|g' -e 's|@configure_input[@]|Generated from lib/autom4te.cfg.in; do not edit by hand.|g' ./lib/autom4te.in >lib/autom4te.cfg-t
+chmod a-w lib/autom4te.cfg-t
+mv -f lib/autom4te.cfg-t lib/autom4te.cfg
+autom4te_perllibdir='.'/lib AUTOM4TE_CFG='lib/autom4te.cfg'         bin/autom4te -B ''lib -B '.'/lib         --language=M4sh ./tests/wrapper.as -o tests/wrapper.in
+/usr/bin/mkdir -p lib/autoconf
+/usr/bin/mkdir -p lib/autoscan
+/usr/bin/mkdir -p lib/autotest
+/usr/bin/mkdir -p lib/m4sugar
+/usr/bin/mkdir -p lib/m4sugar
+lang=`echo 'lib/autoconf/autoconf' | sed 's,.*/,,'` \
+  && if test $lang = autoconf; then \
+       lang=autoconf-without-aclocal-m4; \
+     else :; fi \
+  && autom4te_perllibdir='.'/lib AUTOM4TE_CFG='lib/autom4te.cfg'         bin/autom4te -B ''lib -B '.'/lib         \
+	--language=$lang \
+	--freeze \
+	--output=lib/autoconf/autoconf.m4f
+echo '# Automatically Generated: do not edit this file' >lib/autoscan/autoscan.list
+lang=`echo 'lib/autotest/autotest' | sed 's,.*/,,'` \
+  && if test $lang = autoconf; then \
+       lang=autoconf-without-aclocal-m4; \
+     else :; fi \
+  && autom4te_perllibdir='.'/lib AUTOM4TE_CFG='lib/autom4te.cfg'         bin/autom4te -B ''lib -B '.'/lib         \
+	--language=$lang \
+	--freeze \
+	--output=lib/autotest/autotest.m4f
+lang=`echo 'lib/m4sugar/m4sugar' | sed 's,.*/,,'` \
+  && if test $lang = autoconf; then \
+       lang=autoconf-without-aclocal-m4; \
+     else :; fi \
+  && autom4te_perllibdir='.'/lib AUTOM4TE_CFG='lib/autom4te.cfg'         bin/autom4te -B ''lib -B '.'/lib         \
+	--language=$lang \
+	--freeze \
+	--output=lib/m4sugar/m4sugar.m4f
+lang=`echo 'lib/m4sugar/m4sh' | sed 's,.*/,,'` \
+  && if test $lang = autoconf; then \
+       lang=autoconf-without-aclocal-m4; \
+     else :; fi \
+  && autom4te_perllibdir='.'/lib AUTOM4TE_CFG='lib/autom4te.cfg'         bin/autom4te -B ''lib -B '.'/lib         \
+	--language=$lang \
+	--freeze \
+	--output=lib/m4sugar/m4sh.m4f
+sed '/^[#]/!q' ./lib/autoscan/autoscan.pre >>lib/autoscan/autoscan.list
+( \
+  sed -n '/^[^#]/p' ./lib/autoscan/autoscan.pre; \
+  autom4te_perllibdir='.'/lib AUTOM4TE_CFG='lib/autom4te.cfg'         bin/autom4te -B ''lib -B '.'/lib         --cache '' -M -l autoconf-without-aclocal-m4 \
+    -t'AN_OUTPUT:$1: $2		$3' \
+) | LC_ALL=C sort >>lib/autoscan/autoscan.list
+rm -f tests/autoconf tests/autoconf.tmp
+rm -f tests/autoheader tests/autoheader.tmp
+rm -f tests/autom4te tests/autom4te.tmp
+rm -f tests/autoreconf tests/autoreconf.tmp
+input=tests/wrapper.in \
+  && sed -e 's|@wrap_program[@]|autoheader|g' -e 's|@abs_top_srcdir[@]|/sources/autoconf-2.72|g' -e 's|@abs_top_builddir[@]|/sources/autoconf-2.72|g' -e "s|@configure_input[@]|Generated from $input.|g" tests/wrapper.in >tests/autoheader.tmp
+input=tests/wrapper.in \
+  && sed -e 's|@wrap_program[@]|autoconf|g' -e 's|@abs_top_srcdir[@]|/sources/autoconf-2.72|g' -e 's|@abs_top_builddir[@]|/sources/autoconf-2.72|g' -e "s|@configure_input[@]|Generated from $input.|g" tests/wrapper.in >tests/autoconf.tmp
+input=tests/wrapper.in \
+  && sed -e 's|@wrap_program[@]|autom4te|g' -e 's|@abs_top_srcdir[@]|/sources/autoconf-2.72|g' -e 's|@abs_top_builddir[@]|/sources/autoconf-2.72|g' -e "s|@configure_input[@]|Generated from $input.|g" tests/wrapper.in >tests/autom4te.tmp
+input=tests/wrapper.in \
+  && sed -e 's|@wrap_program[@]|autoreconf|g' -e 's|@abs_top_srcdir[@]|/sources/autoconf-2.72|g' -e 's|@abs_top_builddir[@]|/sources/autoconf-2.72|g' -e "s|@configure_input[@]|Generated from $input.|g" tests/wrapper.in >tests/autoreconf.tmp
+chmod +x tests/autom4te.tmp
+chmod +x tests/autoheader.tmp
+chmod +x tests/autoconf.tmp
+chmod +x tests/autoreconf.tmp
+rm -f tests/autoscan tests/autoscan.tmp
+chmod a-w tests/autom4te.tmp
+chmod a-w tests/autoheader.tmp
+chmod a-w tests/autoconf.tmp
+chmod a-w tests/autoreconf.tmp
+input=tests/wrapper.in \
+  && sed -e 's|@wrap_program[@]|autoscan|g' -e 's|@abs_top_srcdir[@]|/sources/autoconf-2.72|g' -e 's|@abs_top_builddir[@]|/sources/autoconf-2.72|g' -e "s|@configure_input[@]|Generated from $input.|g" tests/wrapper.in >tests/autoscan.tmp
+mv -f tests/autom4te.tmp tests/autom4te
+mv -f tests/autoreconf.tmp tests/autoreconf
+mv -f tests/autoheader.tmp tests/autoheader
+mv -f tests/autoconf.tmp tests/autoconf
+rm -f tests/autoupdate tests/autoupdate.tmp
+rm -f tests/ifnames tests/ifnames.tmp
+input=tests/wrapper.in \
+  && sed -e 's|@wrap_program[@]|autoupdate|g' -e 's|@abs_top_srcdir[@]|/sources/autoconf-2.72|g' -e 's|@abs_top_builddir[@]|/sources/autoconf-2.72|g' -e "s|@configure_input[@]|Generated from $input.|g" tests/wrapper.in >tests/autoupdate.tmp
+input=tests/wrapper.in \
+  && sed -e 's|@wrap_program[@]|ifnames|g' -e 's|@abs_top_srcdir[@]|/sources/autoconf-2.72|g' -e 's|@abs_top_builddir[@]|/sources/autoconf-2.72|g' -e "s|@configure_input[@]|Generated from $input.|g" tests/wrapper.in >tests/ifnames.tmp
+chmod +x tests/autoscan.tmp
+chmod +x tests/autoupdate.tmp
+chmod +x tests/ifnames.tmp
+chmod a-w tests/autoscan.tmp
+chmod a-w tests/autoupdate.tmp
+chmod a-w tests/ifnames.tmp
+mv -f tests/autoscan.tmp tests/autoscan
+mv -f tests/autoupdate.tmp tests/autoupdate
+mv -f tests/ifnames.tmp tests/ifnames
+make[1]: Leaving directory '/sources/autoconf-2.72'
