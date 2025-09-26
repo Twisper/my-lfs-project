@@ -1,0 +1,197 @@
+Making check in po
+make[1]: Entering directory '/sources/gdbm-1.26/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/gdbm-1.26/po'
+Making check in src
+make[1]: Entering directory '/sources/gdbm-1.26/src'
+make  check-am
+make[2]: Entering directory '/sources/gdbm-1.26/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/gdbm-1.26/src'
+make[1]: Leaving directory '/sources/gdbm-1.26/src'
+Making check in tools
+make[1]: Entering directory '/sources/gdbm-1.26/tools'
+make  check-am
+make[2]: Entering directory '/sources/gdbm-1.26/tools'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/gdbm-1.26/tools'
+make[1]: Leaving directory '/sources/gdbm-1.26/tools'
+Making check in doc
+make[1]: Entering directory '/sources/gdbm-1.26/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/gdbm-1.26/doc'
+Making check in compat
+make[1]: Entering directory '/sources/gdbm-1.26/compat'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/gdbm-1.26/compat'
+Making check in tests
+make[1]: Entering directory '/sources/gdbm-1.26/tests'
+Making check in dejagnu
+make[2]: Entering directory '/sources/gdbm-1.26/tests/dejagnu'
+make  check-DEJAGNU
+make[3]: Entering directory '/sources/gdbm-1.26/tests/dejagnu'
+Making a new site.exp file...
+srcdir='.'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='gdbmtool'; for tool in $l; do \
+    if runtest --tool $tool --srcdir $srcdir  ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find 'runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+WARNING: Couldn't find the global config file.
+WARNING: Couldn't find tool init file
+Test run by root on Fri Sep 26 14:45:03 2025
+Native configuration is x86_64-pc-linux-gnu
+
+		=== gdbmtool tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ./testsuite/../config/default.exp as tool-and-target-specific interface file.
+Running ./testsuite/gdbmtool/base.exp ...
+
+		=== gdbmtool Summary ===
+
+# of expected passes		2
+make[3]: Leaving directory '/sources/gdbm-1.26/tests/dejagnu'
+make[2]: Leaving directory '/sources/gdbm-1.26/tests/dejagnu'
+make[2]: Entering directory '/sources/gdbm-1.26/tests'
+make  closerr fdop g_open_ce g_reorg_ce gtcacheopt gtconv gtdel gtdump gtfetch gtload gtopt gtrecover gtver num2word t_dumpload t_lockwait t_wordwrap dtload dtdump dtfetch dtdel d_creat_ce
+make[3]: Entering directory '/sources/gdbm-1.26/tests'
+  CC       closerr.o
+  CC       fdop.o
+  CC       g_open_ce.o
+  CC       g_reorg_ce.o
+  CC       gtconv.o
+  CC       gtdel.o
+  CC       gtcacheopt.o
+  CC       gtdump.o
+  CC       gtfetch.o
+  CC       gtload.o
+  CC       gtopt.o
+  CC       gtrecover.o
+  CC       gtver.o
+  CC       num2word.o
+  CC       t_dumpload.o
+  CC       t_lockwait.o
+  CC       t_wordwrap.o
+  CC       dtload.o
+  CC       dtdump.o
+  CC       dtfetch.o
+  CC       dtdel.o
+  CC       d_creat_ce.o
+  CCLD     closerr
+  CCLD     fdop
+  CCLD     g_open_ce
+  CCLD     g_reorg_ce
+  CCLD     gtcacheopt
+  CCLD     gtconv
+  CCLD     gtdel
+  CCLD     gtdump
+  CCLD     gtfetch
+  CCLD     gtload
+  CCLD     gtopt
+  CCLD     gtrecover
+  CCLD     gtver
+  CCLD     num2word
+  CCLD     t_dumpload
+  CCLD     t_lockwait
+  CCLD     t_wordwrap
+  CCLD     dtload
+  CCLD     dtdump
+  CCLD     dtfetch
+  CCLD     dtdel
+  CCLD     d_creat_ce
+make[3]: Leaving directory '/sources/gdbm-1.26/tests'
+make  check-local
+make[3]: Entering directory '/sources/gdbm-1.26/tests'
+/bin/sh ./testsuite
+## --------------------- ##
+## gdbm 1.26 test suite. ##
+## --------------------- ##
+  1: gdbm version                                    ok
+
+GDBM interface
+
+  2: create database                                 ok
+  3: fetch a record                                  ok
+  4: fetch: nonexisting record                       ok
+  5: delete a record                                 ok
+  6: delete: non existing record                     ok
+  7: delete: all records                             ok
+  8: gdbm_close error                                ok
+  9: dump/load                                       ok
+
+GDBM locking
+
+ 10: lock_wait=retry                                 ok
+ 11: lock_wait=signal                                ok
+
+Block size selection
+
+ 12: block size adjustment                           ok
+ 13: exact blocksize                                 ok
+ 14: incorrect blocksize                             ok
+
+Compatibility library (dbm/ndbm)
+
+ 15: create database                                 ok
+ 16: converting a 1.8-style database                 ok
+ 17: fetch a record                                  ok
+ 18: fetch: nonexisting record                       ok
+ 19: fetch from a read-only database                 ok
+ 20: fetch from a read-only 1.8-style database       ok
+ 21: delete a record                                 ok
+ 22: delete: non existing record                     ok
+ 23: delete: all records                             ok
+
+DB options
+
+ 24: setopt                                          ok
+ 25: setopt: mmap options                            ok
+ 26: GDBM_GETCACHESIZE/GDBM_SETCACHESIZE             ok
+
+Cloexec
+
+ 27: cloexec: gdbm_open                              ok
+ 28: cloexec: gdbm_reorganize                        ok
+ 29: cloexec: dbm_open                               ok
+ 30: cloexec: dbm_open -creat                        ok
+
+Wordwrap
+
+ 31: wordwrap                                        ok
+
+gdbmtool
+
+ 32: Input from file                                 ok
+ 33: Input from stdin                                ok
+ 34: Input from command line                         ok
+ 35: Initialization file                             ok
+ 36: Pipe                                            ok
+
+Database formats
+
+ 37: Database format conversion                      ok
+
+Free space management
+
+ 38: Coalesce                                        ok
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+All 38 tests were successful.
+make[3]: Leaving directory '/sources/gdbm-1.26/tests'
+make[2]: Leaving directory '/sources/gdbm-1.26/tests'
+make[1]: Leaving directory '/sources/gdbm-1.26/tests'
+make[1]: Entering directory '/sources/gdbm-1.26'
+make[1]: Leaving directory '/sources/gdbm-1.26'

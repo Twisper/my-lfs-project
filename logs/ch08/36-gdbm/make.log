@@ -1,0 +1,109 @@
+make  all-recursive
+make[1]: Entering directory '/sources/gdbm-1.26'
+Making all in po
+make[2]: Entering directory '/sources/gdbm-1.26/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/gdbm-1.26/po'
+Making all in src
+make[2]: Entering directory '/sources/gdbm-1.26/src'
+make  all-am
+make[3]: Entering directory '/sources/gdbm-1.26/src'
+  CC       gdbmclose.lo
+  CC       gdbmcount.lo
+  CC       gdbmdump.lo
+  CC       gdbmdelete.lo
+  CC       gdbmerrno.lo
+  CC       gdbmexp.lo
+  CC       gdbmexists.lo
+  CC       gdbmfdesc.lo
+  CC       gdbmfetch.lo
+  CC       gdbmload.lo
+  CC       gdbmopen.lo
+  CC       gdbmimp.lo
+  CC       gdbmreorg.lo
+  CC       gdbmseq.lo
+  CC       gdbmsetopt.lo
+  CC       gdbmstore.lo
+  CC       gdbmsync.lo
+  CC       avail.lo
+  CC       base64.lo
+  CC       bucket.lo
+  CC       falloc.lo
+  CC       findkey.lo
+  CC       fullio.lo
+  CC       hash.lo
+  CC       lock.lo
+  CC       mmap.lo
+  CC       recover.lo
+  CC       update.lo
+  CC       version.lo
+  CCLD     libgdbm.la
+make[3]: Leaving directory '/sources/gdbm-1.26/src'
+make[2]: Leaving directory '/sources/gdbm-1.26/src'
+Making all in tools
+make[2]: Entering directory '/sources/gdbm-1.26/tools'
+make  all-am
+make[3]: Entering directory '/sources/gdbm-1.26/tools'
+  CC       err.o
+  CC       gdbmtool.o
+  CC       pagerfile.o
+  CC       mem.o
+  CC       parseopt.o
+  CC       progname.o
+  CC       datconv.o
+  CC       gram.o
+  CC       input-argv.o
+  CC       input-file.o
+  CC       input-null.o
+  CC       input-std.o
+  CC       lex.o
+  CC       gdbmshell.o
+  CC       var.o
+  CC       util.o
+  CC       wordwrap.o
+  CC       input-rl.o
+  CC       gdbm_load.o
+  CC       gdbm_dump.o
+  AR       libgdbmapp.a
+  CCLD     gdbmtool
+  CCLD     gdbm_load
+  CCLD     gdbm_dump
+make[3]: Leaving directory '/sources/gdbm-1.26/tools'
+make[2]: Leaving directory '/sources/gdbm-1.26/tools'
+Making all in doc
+make[2]: Entering directory '/sources/gdbm-1.26/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/gdbm-1.26/doc'
+Making all in compat
+make[2]: Entering directory '/sources/gdbm-1.26/compat'
+  CC       dbminit.lo
+  CC       delete.lo
+  CC       fetch.lo
+  CC       store.lo
+  CC       seq.lo
+  CC       close.lo
+  CC       dbmopen.lo
+  CC       dbmdelete.lo
+  CC       dbmerr.lo
+  CC       dbmfetch.lo
+  CC       dbmstore.lo
+  CC       dbmseq.lo
+  CC       dbmclose.lo
+  CC       dbmdirfno.lo
+  CC       dbmpagfno.lo
+  CC       dbmrdonly.lo
+  CCLD     libgdbm_compat.la
+make[2]: Leaving directory '/sources/gdbm-1.26/compat'
+Making all in tests
+make[2]: Entering directory '/sources/gdbm-1.26/tests'
+Making all in dejagnu
+make[3]: Entering directory '/sources/gdbm-1.26/tests/dejagnu'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/gdbm-1.26/tests/dejagnu'
+make[3]: Entering directory '/sources/gdbm-1.26/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/gdbm-1.26/tests'
+make[2]: Leaving directory '/sources/gdbm-1.26/tests'
+make[2]: Entering directory '/sources/gdbm-1.26'
+make[2]: Leaving directory '/sources/gdbm-1.26'
+make[1]: Leaving directory '/sources/gdbm-1.26'
