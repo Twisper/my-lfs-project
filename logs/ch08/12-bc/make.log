@@ -1,43 +1,120 @@
-mkdir -p bin
-gcc -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -I./include/ -std=c99 -o ./gen/strgen ./gen/strgen.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/args.o -c ./src/args.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/bc.o -c ./src/bc.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/bc_lex.o -c ./src/bc_lex.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/bc_parse.o -c ./src/bc_parse.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/data.o -c ./src/data.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/dc.o -c ./src/dc.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/dc_lex.o -c ./src/dc_lex.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/dc_parse.o -c ./src/dc_parse.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/file.o -c ./src/file.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/history.o -c ./src/history.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/lang.o -c ./src/lang.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/lex.o -c ./src/lex.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/main.o -c ./src/main.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/num.o -c ./src/num.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/opt.o -c ./src/opt.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/parse.o -c ./src/parse.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/program.o -c ./src/program.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/rand.o -c ./src/rand.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/read.o -c ./src/read.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/vector.o -c ./src/vector.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o src/vm.o -c ./src/vm.c
-./gen/strgen ./gen/dc_help.txt ./gen/dc_help.c 0 dc_help "" DC_ENABLED 0
-./gen/strgen ./gen/bc_help.txt ./gen/bc_help.c 0 bc_help "" BC_ENABLED 0
-./gen/strgen ./gen/lib.bc ./gen/lib.c 0 bc_lib bc_lib_name BC_ENABLED 1 "" "" 1
-./gen/strgen ./gen/lib2.bc ./gen/lib2.c 0 bc_lib2 bc_lib2_name "BC_ENABLED && BC_ENABLE_EXTRA_MATH" 1 "" "" 1
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o gen/dc_help.o -c gen/dc_help.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o gen/bc_help.o -c gen/bc_help.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o gen/lib.o -c gen/lib.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 -o gen/lib2.o -c gen/lib2.c
-gcc -DBC_ENABLED=1 -DDC_ENABLED=1 -I./include/ -DBUILD_TYPE=A  -DEXECPREFIX= -DMAINEXEC=bc   -DBC_NUM_KARATSUBA_LEN=32 -DBC_ENABLE_NLS=1 -DBC_ENABLE_EXTRA_MATH=1 -DBC_ENABLE_HISTORY=1 -DBC_ENABLE_LIBRARY=0 -DBC_ENABLE_MEMCHECK=0 -DBC_ENABLE_AFL=0 -DBC_ENABLE_OSSFUZZ=0 -DBC_DEFAULT_BANNER=0 -DBC_DEFAULT_SIGINT_RESET=1 -DBC_DEFAULT_TTY_MODE=1 -DBC_DEFAULT_PROMPT=1 -DBC_DEFAULT_EXPR_EXIT=1 -DBC_DEFAULT_DIGIT_CLAMP=0 -DDC_DEFAULT_SIGINT_RESET=1 -DDC_DEFAULT_TTY_MODE=0 -DDC_DEFAULT_PROMPT=0 -DDC_DEFAULT_EXPR_EXIT=1 -DDC_DEFAULT_DIGIT_CLAMP=0 -DNDEBUG  -DBC_ENABLE_EDITLINE=0 -DBC_ENABLE_READLINE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -O3  -std=c99 ./gen/dc_help.o ./gen/bc_help.o ./gen/lib.o ./gen/lib2.o src/args.o src/bc.o src/bc_lex.o src/bc_parse.o src/data.o src/dc.o src/dc_lex.o src/dc_parse.o src/file.o src/history.o src/lang.o src/lex.o src/main.o src/num.o src/opt.o src/parse.o src/program.o src/rand.o src/read.o src/vector.o src/vm.o -s  -lreadline -o bin/bc
-/usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld: /usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../lib/libreadline.so: undefined reference to `tputs'
-/usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld: /usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../lib/libreadline.so: undefined reference to `tgoto'
-/usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld: /usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../lib/libreadline.so: undefined reference to `tgetflag'
-/usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld: /usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../lib/libreadline.so: undefined reference to `UP'
-/usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld: /usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../lib/libreadline.so: undefined reference to `tgetent'
-/usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld: /usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../lib/libreadline.so: undefined reference to `tgetnum'
-/usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld: /usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../lib/libreadline.so: undefined reference to `PC'
-/usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld: /usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../lib/libreadline.so: undefined reference to `tgetstr'
-/usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld: /usr/lib/gcc/x86_64-lfs-linux-gnu/15.2.0/../../../../lib/libreadline.so: undefined reference to `BC'
-collect2: error: ld returned 1 exit status
-make: *** [Makefile:241: bin/bc] Error 1
+make  all-recursive
+make[1]: Entering directory '/sources/bc-1.07.1'
+Making all in lib
+make[2]: Entering directory '/sources/bc-1.07.1/lib'
+gcc -DHAVE_CONFIG_H  -I. -I..  -I. -I.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT getopt.o -MD -MP -MF .deps/getopt.Tpo -c -o getopt.o getopt.c
+gcc -DHAVE_CONFIG_H  -I. -I..  -I. -I.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT getopt1.o -MD -MP -MF .deps/getopt1.Tpo -c -o getopt1.o getopt1.c
+gcc -DHAVE_CONFIG_H  -I. -I..  -I. -I.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT vfprintf.o -MD -MP -MF .deps/vfprintf.Tpo -c -o vfprintf.o vfprintf.c
+gcc -DHAVE_CONFIG_H  -I. -I..  -I. -I.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT number.o -MD -MP -MF .deps/number.Tpo -c -o number.o number.c
+mv -f .deps/vfprintf.Tpo .deps/vfprintf.Po
+mv -f .deps/getopt.Tpo .deps/getopt.Po
+mv -f .deps/getopt1.Tpo .deps/getopt1.Po
+mv -f .deps/number.Tpo .deps/number.Po
+rm -f libbc.a
+ar cru libbc.a getopt.o getopt1.o vfprintf.o number.o 
+ranlib libbc.a
+make[2]: Leaving directory '/sources/bc-1.07.1/lib'
+Making all in bc
+make[2]: Entering directory '/sources/bc-1.07.1/bc'
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT bc.o -MD -MP -MF .deps/bc.Tpo -c -o bc.o bc.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT scan.o -MD -MP -MF .deps/scan.Tpo -c -o scan.o scan.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT execute.o -MD -MP -MF .deps/execute.Tpo -c -o execute.o execute.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT load.o -MD -MP -MF .deps/load.Tpo -c -o load.o load.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT storage.o -MD -MP -MF .deps/storage.Tpo -c -o storage.o storage.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT util.o -MD -MP -MF .deps/util.Tpo -c -o util.o util.c
+mv -f .deps/main.Tpo .deps/main.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT warranty.o -MD -MP -MF .deps/warranty.Tpo -c -o warranty.o warranty.c
+mv -f .deps/load.Tpo .deps/load.Po
+warranty.c: In function 'warranty':
+warranty.c:56:1: warning: old-style function definition [-Wold-style-definition]
+   56 | warranty(prefix)
+      | ^~~~~~~~
+mv -f .deps/util.Tpo .deps/util.Po
+mv -f .deps/warranty.Tpo .deps/warranty.Po
+mv -f .deps/execute.Tpo .deps/execute.Po
+mv -f .deps/storage.Tpo .deps/storage.Po
+mv -f .deps/scan.Tpo .deps/scan.Po
+mv -f .deps/bc.Tpo .deps/bc.Po
+echo '{0}' > libmath.h
+make global.o
+make[3]: Entering directory '/sources/bc-1.07.1/bc'
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT global.o -MD -MP -MF .deps/global.Tpo -c -o global.o global.c
+mv -f .deps/global.Tpo .deps/global.Po
+make[3]: Leaving directory '/sources/bc-1.07.1/bc'
+gcc -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char   -o libmath.h -o fbc main.o bc.o scan.o execute.o load.o storage.o util.o warranty.o global.o ../lib/libbc.a -lfl -lreadline -lncurses 
+./fbc -c ./libmath.b </dev/null >libmath.h
+./fix-libmath_h
+rm -f ./fbc ./global.o
+gcc -DHAVE_CONFIG_H -I. -I..  -I. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT global.o -MD -MP -MF .deps/global.Tpo -c -o global.o global.c
+mv -f .deps/global.Tpo .deps/global.Po
+gcc -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char   -o bc main.o bc.o scan.o execute.o load.o storage.o util.o global.o warranty.o ../lib/libbc.a -lfl -lreadline -lncurses 
+make[2]: Leaving directory '/sources/bc-1.07.1/bc'
+Making all in dc
+make[2]: Entering directory '/sources/bc-1.07.1/dc'
+gcc -DHAVE_CONFIG_H -I. -I..  -I./.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT dc.o -MD -MP -MF .deps/dc.Tpo -c -o dc.o dc.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I./.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I./.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT eval.o -MD -MP -MF .deps/eval.Tpo -c -o eval.o eval.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I./.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT stack.o -MD -MP -MF .deps/stack.Tpo -c -o stack.o stack.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I./.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT array.o -MD -MP -MF .deps/array.Tpo -c -o array.o array.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I./.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT numeric.o -MD -MP -MF .deps/numeric.Tpo -c -o numeric.o numeric.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I./.. -I./../h  -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char -MT string.o -MD -MP -MF .deps/string.Tpo -c -o string.o string.c
+numeric.c: In function 'out_char':
+numeric.c:576:1: warning: old-style function definition [-Wold-style-definition]
+  576 | out_char (ch)
+      | ^~~~~~~~
+mv -f .deps/array.Tpo .deps/array.Po
+mv -f .deps/misc.Tpo .deps/misc.Po
+mv -f .deps/string.Tpo .deps/string.Po
+mv -f .deps/dc.Tpo .deps/dc.Po
+mv -f .deps/stack.Tpo .deps/stack.Po
+mv -f .deps/numeric.Tpo .deps/numeric.Po
+mv -f .deps/eval.Tpo .deps/eval.Po
+gcc -g -O2 -Wall -funsigned-char -g -O2 -Wall -funsigned-char   -o dc dc.o misc.o eval.o stack.o array.o numeric.o string.o ../lib/libbc.a 
+make[2]: Leaving directory '/sources/bc-1.07.1/dc'
+Making all in doc
+make[2]: Entering directory '/sources/bc-1.07.1/doc'
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && CDPATH="${ZSH_VERSION+.}:" && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (makeinfo --no-split --version) >/dev/null 2>&1; then \
+  for f in bc.info bc.info-[0-9] bc.info-[0-9][0-9] bc.i[0-9] bc.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if makeinfo --no-split   -I . \
+ -o bc.info bc.texi; \
+then \
+  rc=0; \
+  CDPATH="${ZSH_VERSION+.}:" && cd .; \
+else \
+  rc=$?; \
+  CDPATH="${ZSH_VERSION+.}:" && cd . && \
+  $restore $backupdir/* `echo "./bc.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && CDPATH="${ZSH_VERSION+.}:" && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (makeinfo --no-split --version) >/dev/null 2>&1; then \
+  for f in dc.info dc.info-[0-9] dc.info-[0-9][0-9] dc.i[0-9] dc.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if makeinfo --no-split   -I . \
+ -o dc.info dc.texi; \
+then \
+  rc=0; \
+  CDPATH="${ZSH_VERSION+.}:" && cd .; \
+else \
+  rc=$?; \
+  CDPATH="${ZSH_VERSION+.}:" && cd . && \
+  $restore $backupdir/* `echo "./dc.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+make[2]: Leaving directory '/sources/bc-1.07.1/doc'
+make[2]: Entering directory '/sources/bc-1.07.1'
+make[2]: Leaving directory '/sources/bc-1.07.1'
+make[1]: Leaving directory '/sources/bc-1.07.1'

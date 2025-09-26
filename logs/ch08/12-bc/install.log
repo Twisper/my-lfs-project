@@ -1,13 +1,41 @@
-./scripts/locale_install.sh /usr/share/locale/%L/%N bc 
-./scripts/safe-install.sh -Dm644 manuals/bc.1 /usr/share/man/man1/bc.1
-./scripts/safe-install.sh -Dm644 manuals/dc.1 /usr/share/man/man1/dc.1
-./scripts/exec-install.sh /usr/bin "" "/sources/bc-7.0.3/bin"
-./scripts/safe-install.sh: line 56: /sources/bc-7.0.3/bin/*: No such file or directory
-make: *** [Makefile:619: install_execs] Error 1
-make: *** Waiting for unfinished jobs....
-Installing en_US...done
-Linking de_DE.utf8...done
-Linking en_GB.utf8...done
-Linking en_US.utf8...done
-Linking fr_FR.utf8...done
-Linking ru_RU.utf8...done
+Making install in lib
+make[1]: Entering directory '/sources/bc-1.07.1/lib'
+make[2]: Entering directory '/sources/bc-1.07.1/lib'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/bc-1.07.1/lib'
+make[1]: Leaving directory '/sources/bc-1.07.1/lib'
+Making install in bc
+make[1]: Entering directory '/sources/bc-1.07.1/bc'
+make[2]: Entering directory '/sources/bc-1.07.1/bc'
+make[2]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c bc '/usr/bin'
+make[2]: Leaving directory '/sources/bc-1.07.1/bc'
+make[1]: Leaving directory '/sources/bc-1.07.1/bc'
+Making install in dc
+make[1]: Entering directory '/sources/bc-1.07.1/dc'
+make[2]: Entering directory '/sources/bc-1.07.1/dc'
+make[2]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c dc '/usr/bin'
+make[2]: Leaving directory '/sources/bc-1.07.1/dc'
+make[1]: Leaving directory '/sources/bc-1.07.1/dc'
+Making install in doc
+make[1]: Entering directory '/sources/bc-1.07.1/doc'
+make[2]: Entering directory '/sources/bc-1.07.1/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 bc.1 dc.1 '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ./bc.info ./dc.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/bc.info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/dc.info'
+make[2]: Leaving directory '/sources/bc-1.07.1/doc'
+make[1]: Leaving directory '/sources/bc-1.07.1/doc'
+make[1]: Entering directory '/sources/bc-1.07.1'
+make[2]: Entering directory '/sources/bc-1.07.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/bc-1.07.1'
+make[1]: Leaving directory '/sources/bc-1.07.1'
