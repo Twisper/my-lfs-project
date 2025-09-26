@@ -1,0 +1,30 @@
+  GEN      libtoolize
+make  all-recursive
+make[1]: Entering directory '/sources/libtool-2.5.4'
+Making all in .
+make[2]: Entering directory '/sources/libtool-2.5.4'
+  CC       libltdl/loaders/libltdl_la-preopen.lo
+  CC       libltdl/loaders/dlopen.lo
+  CC       libltdl/libltdl_la-lt__alloc.lo
+  CC       libltdl/libltdl_la-lt_dlloader.lo
+  CC       libltdl/libltdl_la-lt_error.lo
+  CC       libltdl/libltdl_la-ltdl.lo
+  CC       libltdl/libltdl_la-slist.lo
+  CCLD     libltdl/dlopen.la
+  CCLD     libltdl/libltdl.la
+make[2]: Leaving directory '/sources/libtool-2.5.4'
+Making all in gnulib-tests
+make[2]: Entering directory '/sources/libtool-2.5.4/gnulib-tests'
+## ---------------------------------------------------- ##
+## ------------------- Gnulib tests ------------------- ##
+## You can ignore compiler warnings in this directory.  ##
+## ---------------------------------------------------- ##
+make  all-recursive
+make[3]: Entering directory '/sources/libtool-2.5.4/gnulib-tests'
+Making all in .
+make[4]: Entering directory '/sources/libtool-2.5.4/gnulib-tests'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/libtool-2.5.4/gnulib-tests'
+make[3]: Leaving directory '/sources/libtool-2.5.4/gnulib-tests'
+make[2]: Leaving directory '/sources/libtool-2.5.4/gnulib-tests'
+make[1]: Leaving directory '/sources/libtool-2.5.4'
