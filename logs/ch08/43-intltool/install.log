@@ -1,0 +1,41 @@
+Making install in tests
+make[1]: Entering directory '/sources/intltool-0.51.0/tests'
+Making install in cases
+make[2]: Entering directory '/sources/intltool-0.51.0/tests/cases'
+make[3]: Entering directory '/sources/intltool-0.51.0/tests/cases'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/intltool-0.51.0/tests/cases'
+make[2]: Leaving directory '/sources/intltool-0.51.0/tests/cases'
+Making install in results
+make[2]: Entering directory '/sources/intltool-0.51.0/tests/results'
+make[3]: Entering directory '/sources/intltool-0.51.0/tests/results'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/intltool-0.51.0/tests/results'
+make[2]: Leaving directory '/sources/intltool-0.51.0/tests/results'
+make[2]: Entering directory '/sources/intltool-0.51.0/tests'
+make[3]: Entering directory '/sources/intltool-0.51.0/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/intltool-0.51.0/tests'
+make[2]: Leaving directory '/sources/intltool-0.51.0/tests'
+make[1]: Leaving directory '/sources/intltool-0.51.0/tests'
+Making install in doc
+make[1]: Entering directory '/sources/intltool-0.51.0/doc'
+make[2]: Entering directory '/sources/intltool-0.51.0/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 intltoolize.8 intltool-extract.8 intltool-merge.8 intltool-prepare.8 intltool-update.8 '/usr/share/man/man8'
+make[2]: Leaving directory '/sources/intltool-0.51.0/doc'
+make[1]: Leaving directory '/sources/intltool-0.51.0/doc'
+make[1]: Entering directory '/sources/intltool-0.51.0'
+make[2]: Entering directory '/sources/intltool-0.51.0'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/mkdir -p '/usr/share/intltool'
+ /usr/bin/install -c -m 644 intltool.m4 '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 Makefile.in.in '/usr/share/intltool'
+ /usr/bin/install -c intltool-extract intltool-merge intltool-update intltoolize intltool-prepare '/usr/bin'
+make[2]: Leaving directory '/sources/intltool-0.51.0'
+make[1]: Leaving directory '/sources/intltool-0.51.0'

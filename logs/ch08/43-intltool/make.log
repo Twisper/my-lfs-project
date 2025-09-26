@@ -1,0 +1,28 @@
+Making all in tests
+make[1]: Entering directory '/sources/intltool-0.51.0/tests'
+Making all in cases
+make[2]: Entering directory '/sources/intltool-0.51.0/tests/cases'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/intltool-0.51.0/tests/cases'
+Making all in results
+make[2]: Entering directory '/sources/intltool-0.51.0/tests/results'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/intltool-0.51.0/tests/results'
+make[2]: Entering directory '/sources/intltool-0.51.0/tests'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/intltool-0.51.0/tests'
+make[1]: Leaving directory '/sources/intltool-0.51.0/tests'
+Making all in doc
+make[1]: Entering directory '/sources/intltool-0.51.0/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/intltool-0.51.0/doc'
+make[1]: Entering directory '/sources/intltool-0.51.0'
+sed -e 's|[@]PACKAGE@|intltool|g' -e 's|[@]VERSION@|0.51.0|g' -e "s|[@]INTLTOOL_PERL@|/usr/bin/perl|g" -e "s|[@]INTLTOOL_LIBDIR@|/usr/lib|g" < intltool-extract.in > intltool-extract
+sed -e 's|[@]PACKAGE@|intltool|g' -e 's|[@]VERSION@|0.51.0|g' -e "s|[@]INTLTOOL_PERL@|/usr/bin/perl|g" -e "s|[@]INTLTOOL_LIBDIR@|/usr/lib|g" < intltool-merge.in > intltool-merge
+sed -e 's|[@]PACKAGE@|intltool|g' -e 's|[@]VERSION@|0.51.0|g' -e "s|[@]INTLTOOL_PERL@|/usr/bin/perl|g" -e "s|[@]INTLTOOL_LIBDIR@|/usr/lib|g" < intltool-update.in > intltool-update
+sed -e 's|[@]PACKAGE@|intltool|g' -e 's|[@]VERSION@|0.51.0|g' -e "s|[@]INTLTOOL_PERL@|/usr/bin/perl|g" -e "s|[@]INTLTOOL_LIBDIR@|/usr/lib|g" < intltool-prepare.in > intltool-prepare
+chmod +x intltool-prepare
+chmod +x intltool-update
+chmod +x intltool-extract
+chmod +x intltool-merge
+make[1]: Leaving directory '/sources/intltool-0.51.0'
