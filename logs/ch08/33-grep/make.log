@@ -1,0 +1,252 @@
+make  all-recursive
+make[1]: Entering directory '/sources/grep-3.12'
+Making all in po
+make[2]: Entering directory '/sources/grep-3.12/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/grep-3.12/po'
+Making all in lib
+make[2]: Entering directory '/sources/grep-3.12/lib'
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      ctype.h
+  GEN      error.h
+  GEN      fcntl.h
+  GEN      dirent.h
+  GEN      malloc/dynarray.gl.h
+  GEN      malloc/dynarray-skeleton.gl.h
+  GEN      inttypes.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      obstack.h
+  GEN      pthread.h
+  GEN      sched.h
+  GEN      signal.h
+  GEN      sigsegv.h
+  GEN      stddef.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/stat.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      uchar.h
+  GEN      unicase.h
+  GEN      unictype.h
+  GEN      uninorm.h
+  GEN      unistd.h
+  GEN      unistr.h
+  GEN      unitypes.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-am
+make[3]: Entering directory '/sources/grep-3.12/lib'
+  CC       libgreputils_a-argmatch.o
+  CC       libgreputils_a-openat-proc.o
+  CC       libgreputils_a-basename-lgpl.o
+  CC       libgreputils_a-binary-io.o
+  CC       libgreputils_a-btoc32.o
+  CC       libgreputils_a-bitrotate.o
+  CC       libgreputils_a-btowc.o
+  CC       libgreputils_a-c-ctype.o
+  CC       libgreputils_a-c-stack.o
+  CC       libgreputils_a-c-strcasecmp.o
+  CC       libgreputils_a-c32_apply_type_test.o
+  CC       libgreputils_a-c32_get_type_test.o
+  CC       libgreputils_a-c32isalnum.o
+  CC       libgreputils_a-c32isalpha.o
+  CC       libgreputils_a-c32isblank.o
+  CC       libgreputils_a-c32iscntrl.o
+  CC       libgreputils_a-c32isdigit.o
+  CC       libgreputils_a-c32isgraph.o
+  CC       libgreputils_a-c32islower.o
+  CC       libgreputils_a-c32isprint.o
+  CC       libgreputils_a-c32ispunct.o
+  CC       libgreputils_a-c32isspace.o
+  CC       libgreputils_a-c32isupper.o
+  CC       libgreputils_a-c32isxdigit.o
+  CC       libgreputils_a-c32tob.o
+  CC       libgreputils_a-c32tolower.o
+  CC       libgreputils_a-c32toupper.o
+  CC       libgreputils_a-chdir-long.o
+  CC       libgreputils_a-cloexec.o
+  CC       libgreputils_a-close-stream.o
+  CC       libgreputils_a-closeout.o
+  CC       libgreputils_a-cycle-check.o
+  CC       libgreputils_a-dfa.o
+  CC       libgreputils_a-localeinfo.o
+  CC       libgreputils_a-dirname-lgpl.o
+  CC       libgreputils_a-stripslash.o
+  CC       libgreputils_a-exclude.o
+  CC       libgreputils_a-exitfail.o
+  CC       libgreputils_a-fcntl.o
+  CC       libgreputils_a-creat-safer.o
+  CC       libgreputils_a-open-safer.o
+  CC       libgreputils_a-fd-hook.o
+  CC       libgreputils_a-filenamecat-lgpl.o
+  CC       libgreputils_a-fts.o
+  CC       libgreputils_a-getprogname.o
+  CC       libgreputils_a-hard-locale.o
+  CC       libgreputils_a-hash.o
+  CC       libgreputils_a-i-ring.o
+  CC       libgreputils_a-ialloc.o
+  CC       libgreputils_a-localcharset.o
+  CC       libgreputils_a-malloca.o
+  CC       libgreputils_a-mbrlen.o
+  CC       libgreputils_a-mbrtoc32.o
+  CC       libgreputils_a-mbrtowc.o
+  CC       libgreputils_a-mbscasecmp.o
+  CC       libgreputils_a-mbsrtoc32s.o
+  CC       libgreputils_a-mbsrtowcs.o
+  CC       libgreputils_a-mbszero.o
+  CC       libgreputils_a-mcel.o
+  CC       libgreputils_a-memchr2.o
+  CC       libgreputils_a-nl_langinfo.o
+  CC       libgreputils_a-obstack.o
+  CC       glthread/libgreputils_a-once.o
+  CC       libgreputils_a-openat-die.o
+  CC       libgreputils_a-openat-safer.o
+  CC       libgreputils_a-opendirat.o
+  CC       libgreputils_a-quotearg.o
+  CC       libgreputils_a-realloc.o
+  CC       libgreputils_a-reallocarray.o
+  CC       libgreputils_a-safe-read.o
+  CC       libgreputils_a-same-inode.o
+  CC       libgreputils_a-save-cwd.o
+  CC       libgreputils_a-setlocale_null.o
+  CC       libgreputils_a-setlocale_null-unlocked.o
+  CC       libgreputils_a-sigsegv.o
+  CC       libgreputils_a-stackvma.o
+  CC       libgreputils_a-stat-time.o
+  CC       libgreputils_a-stdlib.o
+  CC       libgreputils_a-str_endswith.o
+  CC       libgreputils_a-strnlen1.o
+  CC       glthread/libgreputils_a-threadlib.o
+  CC       libgreputils_a-unistd.o
+  CC       libgreputils_a-dup-safer.o
+  CC       libgreputils_a-fd-safer.o
+  CC       libgreputils_a-pipe-safer.o
+  CC       libgreputils_a-version-etc.o
+  CC       libgreputils_a-version-etc-fsf.o
+  CC       libgreputils_a-wctype-h.o
+  CC       libgreputils_a-xmalloc.o
+  CC       libgreputils_a-xalloc-die.o
+  CC       libgreputils_a-xbinary-io.o
+  CC       libgreputils_a-xstrtoimax.o
+  CC       libgreputils_a-xstrtol.o
+  CC       libgreputils_a-xstrtoul.o
+  CC       libgreputils_a-mbsrtoc32s-state.o
+  CC       libgreputils_a-mbsrtowcs-state.o
+  CC       malloc/libgreputils_a-dynarray_at_failure.o
+  CC       malloc/libgreputils_a-dynarray_emplace_enlarge.o
+  CC       malloc/libgreputils_a-dynarray_finalize.o
+  CC       malloc/libgreputils_a-dynarray_resize.o
+  CC       malloc/libgreputils_a-dynarray_resize_clear.o
+  CC       glthread/libgreputils_a-lock.o
+  CC       unicase/libgreputils_a-tolower.o
+  CC       unicase/libgreputils_a-toupper.o
+  CC       unictype/libgreputils_a-ctype_alnum.o
+  CC       unictype/libgreputils_a-ctype_alpha.o
+  CC       unictype/libgreputils_a-ctype_blank.o
+  CC       unictype/libgreputils_a-ctype_cntrl.o
+  CC       unictype/libgreputils_a-ctype_digit.o
+  CC       unictype/libgreputils_a-ctype_graph.o
+  CC       unictype/libgreputils_a-ctype_lower.o
+  CC       unictype/libgreputils_a-ctype_print.o
+  CC       unictype/libgreputils_a-ctype_punct.o
+  CC       unictype/libgreputils_a-ctype_space.o
+  CC       unictype/libgreputils_a-ctype_upper.o
+  CC       unictype/libgreputils_a-ctype_xdigit.o
+  CC       unistr/libgreputils_a-u32-chr.o
+  CC       unistr/libgreputils_a-u32-cpy.o
+  CC       unistr/libgreputils_a-u32-pcpy.o
+  CC       unistr/libgreputils_a-u32-strcat.o
+  CC       libgreputils_a-colorize.o
+  CC       unistr/libgreputils_a-u32-strlen.o
+  AR       libgreputils.a
+make[3]: Leaving directory '/sources/grep-3.12/lib'
+make[2]: Leaving directory '/sources/grep-3.12/lib'
+Making all in doc
+make[2]: Entering directory '/sources/grep-3.12/doc'
+  GEN      grep.1
+make[2]: Leaving directory '/sources/grep-3.12/doc'
+Making all in src
+make[2]: Entering directory '/sources/grep-3.12/src'
+  CC       dfasearch.o
+  CC       grep.o
+  CC       kwsearch.o
+  CC       kwset.o
+  CC       searchutils.o
+  GEN      egrep
+  GEN      fgrep
+  CCLD     grep
+make[2]: Leaving directory '/sources/grep-3.12/src'
+Making all in tests
+make[2]: Entering directory '/sources/grep-3.12/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/grep-3.12/tests'
+Making all in gnulib-tests
+make[2]: Entering directory '/sources/grep-3.12/gnulib-tests'
+  GEN      arpa/inet.h
+  GEN      math.h
+  GEN      sys/ioctl.h
+  GEN      sys/select.h
+  GEN      sys/socket.h
+  GEN      sys/uio.h
+  GEN      sys/time.h
+## ---------------------------------------------------- ##
+## ------------------- Gnulib tests ------------------- ##
+## You can ignore compiler warnings in this directory.  ##
+## ---------------------------------------------------- ##
+make  all-recursive
+make[3]: Entering directory '/sources/grep-3.12/gnulib-tests'
+Making all in .
+make[4]: Entering directory '/sources/grep-3.12/gnulib-tests'
+  CC       locale.o
+  CC       arpa_inet.o
+  CC       c-strcasestr.o
+  CC       c-strncasecmp.o
+  CC       concat-filename.o
+  CC       dup-safer-flag.o
+  CC       fd-safer-flag.o
+  CC       getlocalename_l-unsafe.o
+  CC       localename-table.o
+  CC       hash-pjw.o
+  CC       imaxtostr.o
+  CC       inttostr.o
+  CC       offtostr.o
+  CC       uinttostr.o
+  CC       umaxtostr.o
+  CC       ioctl.o
+  CC       localename.o
+  CC       localename-environ.o
+  CC       localename-unsafe.o
+  CC       math.o
+  CC       nanosleep.o
+  CC       pthread-rwlock.o
+  CC       sockets.o
+  CC       str_startswith.o
+  CC       sys_socket.o
+  CC       time.o
+  CC       vsnzprintf.o
+  CC       xconcat-filename.o
+  CC       xgetcwd.o
+  CC       xsize.o
+  CC       xstrtol-error.o
+  CC       asnprintf.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       strerror_r.o
+  CC       vasnprintf.o
+  CC       test-localcharset.o
+  CC       glthread/thread.o
+  CC       unistr/u32-set.o
+  AR       libtests.a
+  CCLD     current-locale
+  CCLD     test-localcharset
+make[4]: Leaving directory '/sources/grep-3.12/gnulib-tests'
+make[3]: Leaving directory '/sources/grep-3.12/gnulib-tests'
+make[2]: Leaving directory '/sources/grep-3.12/gnulib-tests'
+make[2]: Entering directory '/sources/grep-3.12'
+make[2]: Leaving directory '/sources/grep-3.12'
+make[1]: Leaving directory '/sources/grep-3.12'
