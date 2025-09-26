@@ -36,7 +36,7 @@ echo "Unpacking done"
 (
     ./configure --prefix=/usr    \
             --disable-static \
-            --with-gcc-arch=x86-64
+            --with-gcc-arch=native
 ) 2>&1 | tee "$LOG_DIR/configure.log"
 
 echo "Compiling and testing ${PKT_NAME}"
