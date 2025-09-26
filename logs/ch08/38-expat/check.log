@@ -1,0 +1,109 @@
+Making check in lib
+make[1]: Entering directory '/sources/expat-2.7.1/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/expat-2.7.1/lib'
+Making check in examples
+make[1]: Entering directory '/sources/expat-2.7.1/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/expat-2.7.1/examples'
+Making check in tests
+make[1]: Entering directory '/sources/expat-2.7.1/tests'
+Making check in .
+make[2]: Entering directory '/sources/expat-2.7.1/tests'
+make  runtests runtests_cxx
+make[3]: Entering directory '/sources/expat-2.7.1/tests'
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT acc_tests.o -MD -MP -MF .deps/acc_tests.Tpo -c -o acc_tests.o acc_tests.c
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT alloc_tests.o -MD -MP -MF .deps/alloc_tests.Tpo -c -o alloc_tests.o alloc_tests.c
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT basic_tests.o -MD -MP -MF .deps/basic_tests.Tpo -c -o basic_tests.o basic_tests.c
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT chardata.o -MD -MP -MF .deps/chardata.Tpo -c -o chardata.o chardata.c
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT common.o -MD -MP -MF .deps/common.Tpo -c -o common.o common.c
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT dummy.o -MD -MP -MF .deps/dummy.Tpo -c -o dummy.o dummy.c
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT handlers.o -MD -MP -MF .deps/handlers.Tpo -c -o handlers.o handlers.c
+mv -f .deps/chardata.Tpo .deps/chardata.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT memcheck.o -MD -MP -MF .deps/memcheck.Tpo -c -o memcheck.o memcheck.c
+mv -f .deps/dummy.Tpo .deps/dummy.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT minicheck.o -MD -MP -MF .deps/minicheck.Tpo -c -o minicheck.o minicheck.c
+mv -f .deps/common.Tpo .deps/common.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT misc_tests.o -MD -MP -MF .deps/misc_tests.Tpo -c -o misc_tests.o misc_tests.c
+mv -f .deps/acc_tests.Tpo .deps/acc_tests.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT ns_tests.o -MD -MP -MF .deps/ns_tests.Tpo -c -o ns_tests.o ns_tests.c
+mv -f .deps/memcheck.Tpo .deps/memcheck.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT nsalloc_tests.o -MD -MP -MF .deps/nsalloc_tests.Tpo -c -o nsalloc_tests.o nsalloc_tests.c
+mv -f .deps/minicheck.Tpo .deps/minicheck.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT runtests.o -MD -MP -MF .deps/runtests.Tpo -c -o runtests.o runtests.c
+mv -f .deps/runtests.Tpo .deps/runtests.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT structdata.o -MD -MP -MF .deps/structdata.Tpo -c -o structdata.o structdata.c
+mv -f .deps/misc_tests.Tpo .deps/misc_tests.Po
+mv -f .deps/ns_tests.Tpo .deps/ns_tests.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT acc_tests_cxx.o -MD -MP -MF .deps/acc_tests_cxx.Tpo -c -o acc_tests_cxx.o acc_tests_cxx.cpp
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT alloc_tests_cxx.o -MD -MP -MF .deps/alloc_tests_cxx.Tpo -c -o alloc_tests_cxx.o alloc_tests_cxx.cpp
+mv -f .deps/nsalloc_tests.Tpo .deps/nsalloc_tests.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT basic_tests_cxx.o -MD -MP -MF .deps/basic_tests_cxx.Tpo -c -o basic_tests_cxx.o basic_tests_cxx.cpp
+mv -f .deps/structdata.Tpo .deps/structdata.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT chardata_cxx.o -MD -MP -MF .deps/chardata_cxx.Tpo -c -o chardata_cxx.o chardata_cxx.cpp
+mv -f .deps/alloc_tests.Tpo .deps/alloc_tests.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT common_cxx.o -MD -MP -MF .deps/common_cxx.Tpo -c -o common_cxx.o common_cxx.cpp
+mv -f .deps/handlers.Tpo .deps/handlers.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT dummy_cxx.o -MD -MP -MF .deps/dummy_cxx.Tpo -c -o dummy_cxx.o dummy_cxx.cpp
+mv -f .deps/chardata_cxx.Tpo .deps/chardata_cxx.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT handlers_cxx.o -MD -MP -MF .deps/handlers_cxx.Tpo -c -o handlers_cxx.o handlers_cxx.cpp
+mv -f .deps/acc_tests_cxx.Tpo .deps/acc_tests_cxx.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT memcheck_cxx.o -MD -MP -MF .deps/memcheck_cxx.Tpo -c -o memcheck_cxx.o memcheck_cxx.cpp
+mv -f .deps/dummy_cxx.Tpo .deps/dummy_cxx.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT minicheck_cxx.o -MD -MP -MF .deps/minicheck_cxx.Tpo -c -o minicheck_cxx.o minicheck_cxx.cpp
+mv -f .deps/common_cxx.Tpo .deps/common_cxx.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT misc_tests_cxx.o -MD -MP -MF .deps/misc_tests_cxx.Tpo -c -o misc_tests_cxx.o misc_tests_cxx.cpp
+mv -f .deps/memcheck_cxx.Tpo .deps/memcheck_cxx.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT nsalloc_tests_cxx.o -MD -MP -MF .deps/nsalloc_tests_cxx.Tpo -c -o nsalloc_tests_cxx.o nsalloc_tests_cxx.cpp
+mv -f .deps/minicheck_cxx.Tpo .deps/minicheck_cxx.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT ns_tests_cxx.o -MD -MP -MF .deps/ns_tests_cxx.Tpo -c -o ns_tests_cxx.o ns_tests_cxx.cpp
+mv -f .deps/alloc_tests_cxx.Tpo .deps/alloc_tests_cxx.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT runtests_cxx.o -MD -MP -MF .deps/runtests_cxx.Tpo -c -o runtests_cxx.o runtests_cxx.cpp
+mv -f .deps/misc_tests_cxx.Tpo .deps/misc_tests_cxx.Po
+g++ -std=c++11 -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib -DXML_TESTING  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT structdata_cxx.o -MD -MP -MF .deps/structdata_cxx.Tpo -c -o structdata_cxx.o structdata_cxx.cpp
+mv -f .deps/nsalloc_tests_cxx.Tpo .deps/nsalloc_tests_cxx.Po
+mv -f .deps/runtests_cxx.Tpo .deps/runtests_cxx.Po
+mv -f .deps/ns_tests_cxx.Tpo .deps/ns_tests_cxx.Po
+mv -f .deps/structdata_cxx.Tpo .deps/structdata_cxx.Po
+mv -f .deps/handlers_cxx.Tpo .deps/handlers_cxx.Po
+mv -f .deps/basic_tests.Tpo .deps/basic_tests.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -fno-strict-aliasing -lm  -o runtests acc_tests.o alloc_tests.o basic_tests.o chardata.o common.o dummy.o handlers.o memcheck.o minicheck.o misc_tests.o ns_tests.o nsalloc_tests.o runtests.o structdata.o ../lib/libtestpat.la 
+libtool: link: gcc -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -fno-strict-aliasing -o runtests acc_tests.o alloc_tests.o basic_tests.o chardata.o common.o dummy.o handlers.o memcheck.o minicheck.o misc_tests.o ns_tests.o nsalloc_tests.o runtests.o structdata.o  -lm ../lib/.libs/libtestpat.a
+mv -f .deps/basic_tests_cxx.Tpo .deps/basic_tests_cxx.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -std=c++11 -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -fno-strict-aliasing -lm  -o runtests_cxx acc_tests_cxx.o alloc_tests_cxx.o basic_tests_cxx.o chardata_cxx.o common_cxx.o dummy_cxx.o handlers_cxx.o memcheck_cxx.o minicheck_cxx.o misc_tests_cxx.o nsalloc_tests_cxx.o ns_tests_cxx.o runtests_cxx.o structdata_cxx.o ../lib/libtestpat.la 
+libtool: link: g++ -std=c++11 -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -fno-strict-aliasing -o runtests_cxx acc_tests_cxx.o alloc_tests_cxx.o basic_tests_cxx.o chardata_cxx.o common_cxx.o dummy_cxx.o handlers_cxx.o memcheck_cxx.o minicheck_cxx.o misc_tests_cxx.o nsalloc_tests_cxx.o ns_tests_cxx.o runtests_cxx.o structdata_cxx.o  -lm ../lib/.libs/libtestpat.a
+make[3]: Leaving directory '/sources/expat-2.7.1/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/expat-2.7.1/tests'
+make[4]: Entering directory '/sources/expat-2.7.1/tests'
+PASS: runtests_cxx
+PASS: runtests
+============================================================================
+Testsuite summary for expat 2.7.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/expat-2.7.1/tests'
+make[3]: Leaving directory '/sources/expat-2.7.1/tests'
+make[2]: Leaving directory '/sources/expat-2.7.1/tests'
+Making check in benchmark
+make[2]: Entering directory '/sources/expat-2.7.1/tests/benchmark'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/expat-2.7.1/tests/benchmark'
+make[1]: Leaving directory '/sources/expat-2.7.1/tests'
+Making check in xmlwf
+make[1]: Entering directory '/sources/expat-2.7.1/xmlwf'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/expat-2.7.1/xmlwf'
+Making check in doc
+make[1]: Entering directory '/sources/expat-2.7.1/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/expat-2.7.1/doc'
+make[1]: Entering directory '/sources/expat-2.7.1'
+make[1]: Leaving directory '/sources/expat-2.7.1'
