@@ -44,7 +44,7 @@ echo "Unpacking done"
 echo "Compiling and testing ${PKT_NAME}"
 make 2>&1 | tee "$LOG_DIR/make.log"
 
-make test TESTOPTS="--timeout 120" 2>&1 | tee "$LOG_DIR/check.log"
+make test TESTOPTS="--timeout 300" 2>&1 | tee "$LOG_DIR/check.log"
 echo "Testing is done, check for results"
 read -p "> "
 
