@@ -1,0 +1,391 @@
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether the compiler is clang... no
+checking for compiler option needed when checking for declarations... none
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for features.h... yes
+checking for limits.h... yes
+checking for math.h... yes
+checking for sys/mman.h... yes
+checking for crtdefs.h... no
+checking for wctype.h... yes
+checking for sys/param.h... yes
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports the include directive... yes (GNU style)
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking whether make supports nested variables... (cached) yes
+checking for gcc... (cached) gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to enable C11 features... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking whether the compiler is clang... (cached) no
+checking for compiler option needed when checking for declarations... (cached) none
+checking for g++... g++
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+checking dependency style of g++... gcc3
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking for ranlib... ranlib
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether the preprocessor supports include_next... yes
+checking whether source code line length is unlimited... yes
+checking for complete errno.h... yes
+checking whether ctype.h defines __header_inline... no
+checking for stdint.h... yes
+checking for inttypes.h... yes
+checking whether printf supports size specifiers as in C99... yes
+checking whether printf supports 'long double' arguments... yes
+checking whether printf supports infinite 'double' arguments... yes
+checking whether byte ordering is bigendian... no
+checking whether long double and double are the same... no
+checking whether printf supports infinite 'long double' arguments... yes
+checking whether printf supports the 'a' and 'A' directives... yes
+checking whether printf supports the 'F' directive... yes
+checking whether printf supports the 'n' directive... yes
+checking whether printf supports the 'ls' directive... yes
+checking whether printf supports POSIX/XSI format strings with positions... yes
+checking whether printf supports the grouping flag... yes
+checking whether printf supports the left-adjust flag correctly... yes
+checking whether printf supports the zero flag correctly... yes
+checking whether printf supports large precisions... yes
+checking whether the compiler produces multi-arch binaries... no
+checking whether printf survives out-of-memory conditions... yes
+checking for gcc options needed to detect all undeclared functions... none needed
+checking for vasnprintf... no
+checking for snprintf... yes
+checking for symlink... yes
+checking for mprotect... yes
+checking for iswcntrl... yes
+checking for wcwidth... yes
+checking for getpagesize... yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking whether wint_t is large enough... yes
+checking for intmax_t... yes
+checking where to find the exponent in a 'double'... word 1 bit 20
+checking whether snprintf returns a byte count as in C99... yes
+checking whether snprintf truncates the result as in C99... yes
+checking for snprintf... (cached) yes
+checking for strnlen... yes
+checking for wcslen... yes
+checking for wcsnlen... yes
+checking for mbrtowc... yes
+checking for wcrtomb... yes
+checking whether _snprintf is declared... no
+checking whether frexp() can be used without linking with libm... yes
+checking whether alarm is declared... yes
+checking whether limits.h has WORD_BIT, BOOL_WIDTH etc.... yes
+checking whether stdint.h conforms to C99... yes
+checking whether stdint.h works without ISO C predefines... yes
+checking whether stdint.h has UINTMAX_WIDTH etc.... yes
+checking for C/C++ restrict keyword... __restrict__
+checking where to find the exponent in a 'float'... word 0 bit 23
+checking for nl_langinfo and CODESET... yes
+checking for working fcntl.h... yes
+checking whether getc_unlocked is declared... yes
+checking whether we are using the GNU C Library >= 2.1 or uClibc... yes
+checking whether NAN macro works... yes
+checking whether HUGE_VAL works... yes
+checking for mmap... yes
+checking for MAP_ANONYMOUS... yes
+checking whether memchr works... yes
+checking whether snprintf is declared... yes
+checking for _Bool... yes
+checking for stdbool.h that conforms to C99 or later... yes
+checking for good max_align_t... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking whether fcloseall is declared... yes
+checking whether getw is declared... yes
+checking whether putw is declared... yes
+checking which flavor of printf attribute matches inttypes macros... system
+checking whether ecvt is declared... yes
+checking whether fcvt is declared... yes
+checking whether gcvt is declared... yes
+checking for pid_t... yes
+checking for mode_t... yes
+checking whether execvpe is declared... yes
+checking whether vsnprintf is declared... yes
+checking whether <wchar.h> uses 'inline' correctly... yes
+checking whether wcsdup is declared... yes
+checking whether iswcntrl works... yes
+checking for towlower... yes
+checking for wctype_t... yes
+checking for wctrans_t... yes
+checking for inline... inline
+checking for C compiler option to allow warnings... -Wno-error
+checking for alloca as a compiler built-in... yes
+checking for static_assert... yes, a keyword
+checking whether conversion from 'int' to 'long double' works... yes
+checking whether free is known to preserve errno... yes
+checking whether frexp works... yes
+checking whether frexpl is declared... yes
+checking whether frexpl() can be used without linking with libm... yes
+checking whether frexpl works... yes
+checking for __fseterr... no
+checking whether isnan(double) can be used without linking with libm... yes
+checking whether isnan(float) can be used without linking with libm... yes
+checking whether isnan(float) works... yes
+checking whether isnan(long double) can be used without linking with libm... yes
+checking whether isnanl works... yes
+checking whether frexp works... (cached) yes
+checking whether ldexp can be used without linking with libm... yes
+checking whether frexpl() can be used without linking with libm... (cached) yes
+checking whether frexpl works... (cached) yes
+checking whether frexpl is declared... (cached) yes
+checking whether ldexpl() can be used without linking with libm... yes
+checking whether ldexpl works... yes
+checking whether ldexpl is declared... yes
+checking for signbit macro... yes
+checking for signbit compiler built-ins... yes
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking for snprintf... (cached) yes
+checking whether snprintf respects a size of 1... yes
+checking whether printf supports POSIX/XSI format strings with positions... (cached) yes
+checking for ssize_t... yes
+checking for ptrdiff_t... yes
+checking for vsnprintf... yes
+checking whether snprintf respects a size of 1... (cached) yes
+checking whether printf supports POSIX/XSI format strings with positions... (cached) yes
+checking whether wcwidth is declared... yes
+checking whether wcwidth works reasonably in UTF-8 locales... yes
+checking for stdint.h... (cached) yes
+checking that C++ compiler can compile simple program... yes
+checking that C++ static constructors and destructors are called... yes
+checking that header files support C++... yes
+checking whether character set is EBCDIC... no
+checking whether to install .cmd wrapper scripts for Windows... no
+checking for X... no
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for perl... /usr/bin/perl
+checking for perl version... 5.42.0
+checking for lpr... no
+checking for lp... no
+checking for egrep... (cached) /usr/bin/grep -E
+checking for byacc... no
+checking for bison... bison -y
+checking for m4... m4
+checking for makeinfo... makeinfo
+checking for makeinfo version... 7.2
+checking for texi2dvi... texi2dvi
+checking for tex... missing
+checking for ranlib... (cached) ranlib
+checking for install-info... install-info
+checking whether ln -s works... yes
+checking for xpmtoppm... missing
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for UCHARDET... no
+checking for csh hash hack... no
+checking for stdbool.h... (cached) yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for dirent.h... yes
+checking for limits.h... (cached) yes
+checking for sys/dir.h... yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for math.h... (cached) yes
+checking for sys/time.h... yes
+checking for direct.h... no
+checking for process.h... no
+checking for ISC 3.x or 4.x... no
+checking whether -D_POSIX_SOURCE is necessary... no
+checking for return type of srand... void
+checking whether gettimeofday must be declared... no
+checking whether popen must be declared... no
+checking whether pclose must be declared... no
+checking whether putenv must be declared... no
+checking whether rand must be declared... no
+checking whether srand must be declared... no
+checking whether strcasecmp must be declared... no
+checking whether strncasecmp must be declared... no
+checking whether vfprintf must be declared... no
+checking for sys_nerr in <errno.h>, <stdio.h>, or <stdlib.h>... no
+checking for sys_errlist in <errno.h>, <stdio.h>, or <stdlib.h>... no
+checking C++ <osfcn.h>... no
+checking C++ <limits.h>... yes
+checking C++ <inttypes.h>... yes
+checking for unsigned long long... yes
+checking for declaration of time_t... yes
+checking for return type of signal handlers... void
+checking struct exception... no
+checking whether byte ordering is bigendian... (cached) no
+checking for main in -lc... yes
+checking for sin in -lm... yes
+checking for ld used by gcc... /usr/x86_64-pc-linux-gnu/bin/ld
+checking if the linker (/usr/x86_64-pc-linux-gnu/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking how to run the C++ preprocessor... g++ -E
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for working mmap... yes
+checking for fmod... yes
+checking for getcwd... yes
+checking for putenv... yes
+checking for strcasecmp... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strtol... yes
+checking for gettimeofday... yes
+checking for isatty... yes
+checking for kill... yes
+checking for rename... yes
+checking for setlocale... yes
+checking for strdup... yes
+checking for strsep... yes
+checking for mkstemp... yes
+checking whether strsignal is declared... yes
+checking whether getc_unlocked is declared... (cached) yes
+checking whether sys_siglist is declared... no
+checking whether getc_unlocked is declared... (cached) yes
+checking for nl_langinfo and CODESET... (cached) yes
+checking whether ISO C++98 array deletion syntax is supported... yes
+checking whether C preprocessor uses pre-ISO C90 syntax... no
+checking w_coredump... no
+checking default value for grops -b option... 0
+checking default paper format... A4
+checking for existing troff installation... no
+checking for prefix of system macro packages... none
+checking which system macro packages should be made available... none found
+checking separator character to use in groff search paths... :
+checking for gs... no
+checking for gswin32c... no
+checking for gsos2... no
+checking for pnmcrop... missing
+checking for pnmcut... missing
+checking for pnmtopng... missing
+checking for pnmtops... missing
+checking for psselect... missing
+checking for URW fonts in Type 1/PFB format... none found
+checking whether pnmtops accepts the '-nosetpage' option... no
+checking whether make defines 'RM'... yes
+checking for a diff program that supports option -D... yes
+checking whether test supports option -ef... yes
+checking for bash... /usr/bin/bash
+checking whether we are using the GNU C Library >= 2.1 or uClibc... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating test-groff
+config.status: creating src/include/config.h
+config.status: executing depfiles commands
+
+GNU roff version 1.23.0
+----------------------------------------------------------------------
+ installation directory prefix    : /usr
+ C++ compiler and options         : g++ -g -O2 
+ use libgroff's memory allocator  : no
+ C compiler and options           : gcc -g -O2 
+ Perl interpreter version         : 5.42.0
+ X11 support                      : disabled
+ 'groff -l' uses print spooler    : no
+ use URW fonts for PDF output     : no
+ preconv can use uchardet library : no
+ can build groff.dvi, groff.pdf   : no
+----------------------------------------------------------------------
+configure: No Ghostscript program was found in $PATH.
+
+  It was sought under the name(s) "gs gswin32c gsos2".
+
+  groff documentation will not be available in HTML.
+
+  'grohtml' will have reduced function, being unable to produce
+  documents using the 'tbl' preprocessor.
+    
+configure: URW fonts in Type 1/PFB format were not found.
+
+  groff font description files for the URW fonts, used by the 'gropdf'
+  output driver, will not be available.  Use and embedding of fonts from
+  the 'U' foundry in PDF documents generated by groff will not be
+  possible.
+
+  You can obtain the URW base 35 fonts from their GitHub project.  As of
+  this writing (2023-02-15), you can find them in the 'fonts' directory
+  of the following archives (choose one).
+
+    https://github.com/ArtifexSoftware/urw-base35-fonts/archive/refs/
+      tags/20200910.zip
+    https://github.com/ArtifexSoftware/urw-base35-fonts/archive/refs/
+      tags/20200910.tar.gz
+
+  You may wish to check for a newer release.
+
+    https://github.com/ArtifexSoftware/urw-base35-fonts/releases
+
+  'gropdf' looks for these fonts in several directories specified in
+  font/devpdf/Foundry.in.
+
+  You will need to "make distclean" and re-run the 'configure' script
+  after installing the URW fonts.
+
+  Alternatively, you can pass the option '--with-urw-fonts-dir=DIR'
+  to 'configure' to look for them in the directory DIR you specify.
+  If found, the 'U' foundry will be available via the '-y' option to
+  'gropdf' (accessed via the 'groff' command with the option '-P -y').
+    
+configure: The uchardet library was not found.
+
+  The 'preconv' preprocessor program will be unable to attempt automatic
+  inference of an input file's character encoding.  See the preconv(1)
+  man page.
+  
+configure: The programs 'gs', 'pnmcrop', 'pnmcut', 'pnmtopng', 'pnmtops', and 'psselect' were not found in $PATH.
+
+  Consequently, groff's HTML output driver, 'grohtml', will not work
+  properly.  It will not be possible to prepare or install
+  groff-generated documentation in HTML format.
+
+configure: 'pdfroff' will not be functional.
+
+  Because Ghostscript is missing, 'pdfroff' will not operate
+  and the 'pdfmark.pdf' document will not be available.
+
+configure: 'gropdf' will have reduced function.
+
+  Neither Ghostscript nor URW fonts are available; groff documentation
+  thus will not be available in PDF.
+
+  'gropdf' will be able to handle only documents using the standard PDF
+  base 14 fonts, plus the 'EURO' font groff supplies, and font embedding
+  with its '-e' option (accessed via the 'groff' command with the option
+  '-P -e') will not be possible.
+

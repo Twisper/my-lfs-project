@@ -1,0 +1,215 @@
+make  install-am
+make[1]: Entering directory '/sources/groff-1.23.0'
+make[2]: Entering directory '/sources/groff-1.23.0'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c eqn2graph gdiffmk glilypond gperl gpinyin grap2graph mmroff pdfroff pic2graph gropdf pdfmom afmtodit grog '/usr/bin'
+test -d /usr/share/doc/groff-1.23.0/examples/chem/122 \
+          || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/share/doc/groff-1.23.0/examples/chem/122;
+test -d /usr/share/groff/1.23.0/tmac || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/share/groff/1.23.0/tmac
+test -d /usr/share/doc/groff-1.23.0 \
+  || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/share/doc/groff-1.23.0
+test -d /usr/share/info \
+  || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/share/info
+test yes != no || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/lib
+ /usr/bin/mkdir -p '/usr/bin'
+Installing devpdf files
+rm -f /doc/groff.info*
+if test -f /usr/lib/charset.alias; then \
+  sed -f ref-add.sed /usr/lib/charset.alias \
+    > /usr/lib/t-charset.alias; \
+  /usr/bin/install -c -m 644 /usr/lib/t-charset.alias \
+    /usr/lib/charset.alias; \
+  rm -f /usr/lib/t-charset.alias; \
+else \
+  if test yes = no; then \
+    sed -f ref-add.sed charset.alias \
+      > /usr/lib/t-charset.alias; \
+    /usr/bin/install -c -m 644 /usr/lib/t-charset.alias \
+      /usr/lib/charset.alias; \
+    rm -f /usr/lib/t-charset.alias; \
+  fi; \
+fi
+for d in /sources/groff-1.23.0/doc /sources/groff-1.23.0/doc; do \
+  if [ -f "$d"/groff.info ]; then \
+    cp "$d"/groff.info* /usr/share/info; \
+    install-info --info-file="$d"/groff.info \
+      --info-dir=/usr/share/info; \
+    break; \
+  fi; \
+done
+test -d /usr/share \
+  || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/share
+ /usr/bin/install -c chem neqn nroff '/usr/bin'
+test -d /usr/share/groff \
+  || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/share/groff
+/usr/bin/mkdir -p /usr/lib/groff/site-tmac;
+if test "no" != "no"; then \
+  if test -n ""; then \
+    for m in ""; do \
+      /usr/bin/install -c -m 644 ./tmac/$m-wrap \
+        /usr/lib/groff/site-tmac/$m`if test no = manual; then echo "-os"; fi`.tmac; \
+    done; \
+  fi; \
+fi
+cp ./doc/groff.txt /usr/share/doc/groff-1.23.0
+test -d /usr/share/groff/1.23.0/tmac/mm || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/share/groff/1.23.0/tmac/mm
+for i in ./contrib/chem/examples/122/*.chem; do \
+  n=`echo $i | sed 's|./contrib/chem/examples/122/||g'`; \
+  /usr/bin/install -c -m 644 $i /usr/share/doc/groff-1.23.0/examples/chem/122/$n; \
+done
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devascii'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devcp1047'
+ /usr/bin/install -c -m 644 font/devascii/R font/devascii/I font/devascii/B font/devascii/BI font/devascii/DESC '/usr/share/groff/1.23.0/font/devascii'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devdvi'
+test -d /usr/share/groff/1.23.0 \
+  || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/share/groff/1.23.0
+if test -f /usr/lib/eign; then \
+  rm -f /usr/share/groff/1.23.0/eign; \
+  ln -s /usr/lib/eign /usr/share/groff/1.23.0/eign 2>/dev/null \
+    || ln /usr/lib/eign /usr/share/groff/1.23.0/eign 2>/dev/null \
+    || cp /usr/lib/eign /usr/share/groff/1.23.0/eign; \
+else \
+  rm -f /usr/share/groff/1.23.0/eign; \
+  /usr/bin/install -c -m 644 ./src/utils/indxbib/eign /usr/share/groff/1.23.0/eign; \
+fi
+ /usr/bin/install -c -m 644 font/devcp1047/R font/devcp1047/I font/devcp1047/B font/devcp1047/BI font/devcp1047/DESC '/usr/share/groff/1.23.0/font/devcp1047'
+ /usr/bin/install -c -m 644 font/devdvi/TR font/devdvi/TI font/devdvi/TB font/devdvi/TBI font/devdvi/CW font/devdvi/CWI font/devdvi/HR font/devdvi/HI font/devdvi/HB font/devdvi/HBI font/devdvi/TREC font/devdvi/TIEC font/devdvi/TBEC font/devdvi/TBIEC font/devdvi/CWEC font/devdvi/CWIEC font/devdvi/HREC font/devdvi/HIEC font/devdvi/HBEC font/devdvi/HBIEC font/devdvi/TRTC font/devdvi/TITC font/devdvi/TBTC font/devdvi/TBITC font/devdvi/CWTC font/devdvi/CWITC font/devdvi/HRTC font/devdvi/HITC font/devdvi/HBTC font/devdvi/HBITC font/devdvi/MI font/devdvi/S font/devdvi/EX font/devdvi/SA font/devdvi/SB font/devdvi/SC font/devdvi/DESC '/usr/share/groff/1.23.0/font/devdvi'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devdvi/generate'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devhtml'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devlatin1'
+ /usr/bin/install -c -m 644 font/devdvi/generate/Makefile font/devdvi/generate/msam.map font/devdvi/generate/msbm.map font/devdvi/generate/texb.map font/devdvi/generate/texex.map font/devdvi/generate/texi.map font/devdvi/generate/texmi.map font/devdvi/generate/texr.map font/devdvi/generate/texsy.map font/devdvi/generate/textt.map font/devdvi/generate/textex.map font/devdvi/generate/ec.map font/devdvi/generate/tc.map font/devdvi/generate/CompileFonts '/usr/share/groff/1.23.0/font/devdvi/generate'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devlbp'
+rm -f /usr/share/groff/1.23.0/tmac/tmac.`if test no = yes; then for i in  ""; do case "$i" in m) echo g;; esac; done; fi`m
+ /usr/bin/install -c -m 644 font/devlatin1/R font/devlatin1/I font/devlatin1/B font/devlatin1/BI font/devlatin1/DESC '/usr/share/groff/1.23.0/font/devlatin1'
+ /usr/bin/install -c -m 644 font/devhtml/R font/devhtml/I font/devhtml/B font/devhtml/BI font/devhtml/CR font/devhtml/CI font/devhtml/CB font/devhtml/CBI font/devhtml/S font/devhtml/DESC '/usr/share/groff/1.23.0/font/devhtml'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devpdf'
+ /usr/bin/install -c -m 644 font/devlbp/HB font/devlbp/HBI font/devlbp/HI font/devlbp/HR font/devlbp/HNB font/devlbp/HNBI font/devlbp/HNI font/devlbp/HNR font/devlbp/TB font/devlbp/TBI font/devlbp/TI font/devlbp/TR font/devlbp/CR font/devlbp/CB font/devlbp/CI font/devlbp/ER font/devlbp/EB font/devlbp/EI font/devlbp/DESC '/usr/share/groff/1.23.0/font/devlbp'
+rm -f /usr/share/groff/1.23.0/tmac/`if test no = yes; then for i in  ""; do case "$i" in m) echo g;; esac; done; fi`m.tmac
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devpdf/enc'
+ /usr/bin/install -c -m 644 font/devpdf/DESC font/devpdf/Foundry '/usr/share/groff/1.23.0/font/devpdf'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devpdf/map'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devutf8'
+/usr/bin/install -c -m 644 ./contrib/mm/m.tmac \
+  /usr/share/groff/1.23.0/tmac/`if test no = yes; then for i in  ""; do case "$i" in m) echo g;; esac; done; fi`m.tmac
+ /usr/bin/install -c -m 644 font/devpdf/enc/text.enc '/usr/share/groff/1.23.0/font/devpdf/enc'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0/examples/chem'
+ /usr/bin/install -c -m 644 font/devpdf/map/dingbats.map font/devpdf/map/symbol.map font/devpdf/map/symbolchars font/devpdf/map/text.map '/usr/share/groff/1.23.0/font/devpdf/map'
+ /usr/bin/install -c -m 644 font/devutf8/R font/devutf8/I font/devutf8/B font/devutf8/BI font/devutf8/DESC '/usr/share/groff/1.23.0/font/devutf8'
+ /usr/bin/install -c -m 644 contrib/chem/examples/atp.chem contrib/chem/examples/cholesterin.chem contrib/chem/examples/ethamivan.chem contrib/chem/examples/lsd.chem contrib/chem/examples/morphine.chem contrib/chem/examples/penicillin.chem contrib/chem/examples/reserpine.chem '/usr/share/doc/groff-1.23.0/examples/chem'
+LANG=C LC_ALL=C sed -e "s;^.mso m.tmac;.mso `if test no = yes; then for i in  ""; do case "$i" in m) echo g;; esac; done; fi`m.tmac;g" \
+  ./contrib/mm/mse.tmac > /usr/share/groff/1.23.0/tmac/`if test no = yes; then for i in  ""; do case "$i" in m) echo g;; esac; done; fi`mse.tmac
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/pic'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devlj4'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devlj4/generate'
+ /usr/bin/install -c -m 644 contrib/chem/chem.pic '/usr/share/groff/1.23.0/pic'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devps'
+ /usr/bin/install -c -m 644 font/devlj4/generate/Makefile font/devlj4/generate/special.map font/devlj4/generate/symbol.map font/devlj4/generate/text.map font/devlj4/generate/wingdings.map font/devlj4/generate/special.awk '/usr/share/groff/1.23.0/font/devlj4/generate'
+ /usr/bin/install -c -m 644 font/devlj4/AB font/devlj4/ABI font/devlj4/AI font/devlj4/AR font/devlj4/ALBB font/devlj4/ALBR font/devlj4/AOB font/devlj4/AOI font/devlj4/AOR font/devlj4/CB font/devlj4/CBI font/devlj4/CI font/devlj4/CR font/devlj4/GB font/devlj4/GBI font/devlj4/GI font/devlj4/GR font/devlj4/LGB font/devlj4/LGI font/devlj4/LGR font/devlj4/OB font/devlj4/OBI font/devlj4/OI font/devlj4/OR font/devlj4/TB font/devlj4/TBI font/devlj4/TI font/devlj4/TR font/devlj4/TNRB font/devlj4/TNRBI font/devlj4/TNRI font/devlj4/TNRR font/devlj4/UB font/devlj4/UBI font/devlj4/UI font/devlj4/UR font/devlj4/UCB font/devlj4/UCBI font/devlj4/UCI font/devlj4/UCR '/usr/share/groff/1.23.0/font/devlj4'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devps/generate'
+ /usr/bin/install -c -m 644 font/devps/S font/devps/SS font/devps/ZD font/devps/ZDR font/devps/ZCMI font/devps/AB font/devps/ABI font/devps/AI font/devps/AR font/devps/BMB font/devps/BMBI font/devps/BMI font/devps/BMR font/devps/CB font/devps/CBI font/devps/CI font/devps/CR font/devps/HB font/devps/HBI font/devps/HI font/devps/HR font/devps/HNB font/devps/HNBI font/devps/HNI font/devps/HNR font/devps/NB font/devps/NBI font/devps/NI font/devps/NR font/devps/PB font/devps/PBI font/devps/PI font/devps/PR font/devps/TB font/devps/TBI font/devps/TI font/devps/TR font/devps/EURO font/devps/freeeuro.afm font/devps/symbolsl.afm '/usr/share/groff/1.23.0/font/devps'
+ /usr/bin/install -c -m 644 font/devlj4/CLARENDON font/devlj4/CORONET font/devlj4/MARIGOLD font/devlj4/S font/devlj4/SYMBOL font/devlj4/WINGDINGS '/usr/share/groff/1.23.0/font/devlj4'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0/examples'
+ /usr/bin/install -c -m 644 font/devps/text.enc font/devps/zapfdr.afm font/devps/download '/usr/share/groff/1.23.0/font/devps'
+ /usr/bin/install -c -m 644 font/devps/generate/Makefile font/devps/generate/dingbats.map font/devps/generate/dingbats-reversed.map font/devps/generate/slanted-symbol.map font/devps/generate/symbol.map font/devps/generate/symbolchars font/devps/generate/text.map font/devps/generate/afmname font/devps/generate/symbol.sed '/usr/share/groff/1.23.0/font/devps/generate'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0/examples/hdtbl'
+ /usr/bin/install -c -m 644 doc/webpage.ms doc/groff.css doc/grnexmpl.g doc/grnexmpl.me '/usr/share/doc/groff-1.23.0/examples'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/tmac/mdoc'
+ /usr/bin/mkdir -p '/usr/share/groff/site-tmac'
+ /usr/bin/install -c -m 644 contrib/hdtbl/examples/common.roff contrib/hdtbl/examples/chess_board.roff contrib/hdtbl/examples/color_boxes.roff contrib/hdtbl/examples/color_nested_tables.roff contrib/hdtbl/examples/color_table_cells.roff contrib/hdtbl/examples/color_transitions.roff contrib/hdtbl/examples/col_rowspan_colors.roff contrib/hdtbl/examples/mixed_pickles.roff contrib/hdtbl/examples/rainbow.roff contrib/hdtbl/examples/short_reference.roff '/usr/share/doc/groff-1.23.0/examples/hdtbl'
+/usr/bin/install -c -m 644 ./font/devpdf/download \
+  /usr/share/groff/1.23.0/font/devpdf/
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/tmac/mm'
+ /usr/bin/install -c -m 644 contrib/hdtbl/hdtbl.tmac contrib/hdtbl/hdmisc.tmac '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/install -c -m 644 tmac/mdoc/doc-common tmac/mdoc/doc-ditroff tmac/mdoc/doc-nroff tmac/mdoc/doc-syms '/usr/share/groff/1.23.0/tmac/mdoc'
+ /usr/bin/install -c -m 644 tmac/man.local tmac/mdoc.local '/usr/share/groff/site-tmac'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0/examples/mm'
+ /usr/bin/install -c -m 644 contrib/mm/mm/0.MT contrib/mm/mm/5.MT contrib/mm/mm/4.MT contrib/mm/mm/ms.cov contrib/mm/mm/se_ms.cov '/usr/share/groff/1.23.0/tmac/mm'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0/examples/mom'
+ /usr/bin/install -c -m 644 contrib/mm/examples/letter.mm '/usr/share/doc/groff-1.23.0/examples/mm'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/oldfont/devps'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/install -c -m 644 contrib/mom/mom.tmac contrib/mom/om.tmac '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/install -c -m 644 contrib/mom/examples/letter.mom contrib/mom/examples/mom-pdf.mom contrib/mom/examples/mon_premier_doc.mom contrib/mom/examples/sample_docs.mom contrib/mom/examples/typesetting.mom contrib/mom/examples/README.txt contrib/mom/examples/README-fr.txt contrib/mom/examples/elvis_syntax contrib/mom/examples/elvis_syntax.new contrib/mom/examples/penguin.ps contrib/mom/examples/penguin.pdf contrib/mom/examples/mom.vim contrib/mom/examples/slide-demo.mom contrib/mom/examples/copyright-default.mom contrib/mom/examples/copyright-chapter.mom '/usr/share/doc/groff-1.23.0/examples/mom'
+ /usr/bin/install -c -m 644 font/devps/old/S font/devps/old/SS font/devps/old/CB font/devps/old/CBI font/devps/old/CI font/devps/old/CR font/devps/old/HB font/devps/old/HBI font/devps/old/HI font/devps/old/HR font/devps/old/HNB font/devps/old/HNBI font/devps/old/HNI font/devps/old/HNR font/devps/old/NB font/devps/old/NBI font/devps/old/NI font/devps/old/NR font/devps/old/PB font/devps/old/PBI font/devps/old/PI font/devps/old/PR font/devps/old/TB font/devps/old/TBI font/devps/old/TI font/devps/old/TR font/devps/old/symbol.afm font/devps/old/symbolsl.afm font/devps/old/zapfdr.afm font/devps/old/zapfdr.ps '/usr/share/groff/1.23.0/oldfont/devps'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/install -c -m 644 doc/me-revisions doc/ms.ms doc/pic.ms '/usr/share/doc/groff-1.23.0'
+ /usr/bin/install -c -m 644 contrib/pdfmark/pdfmark.tmac contrib/pdfmark/sanitize.tmac contrib/pdfmark/spdf.tmac '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/install -c -m 644 contrib/rfc1345/rfc1345.tmac '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/install -c -m 644 contrib/sboxes/sboxes.tmac '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 contrib/mm/refer-mm.tmac '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/install -c -m 644 tmac/man.tmac tmac/mandoc.tmac tmac/andoc.tmac tmac/an-ext.tmac tmac/ms.tmac tmac/e.tmac tmac/me.tmac tmac/doc-old.tmac tmac/doc.tmac tmac/mdoc.tmac tmac/pic.tmac tmac/papersize.tmac tmac/62bit.tmac tmac/ec.tmac tmac/trace.tmac tmac/ps.tmac tmac/psold.tmac tmac/pdfpic.tmac tmac/pspic.tmac tmac/psatk.tmac tmac/ptx.tmac tmac/pdf.tmac tmac/dvi.tmac tmac/tty.tmac tmac/tty-char.tmac tmac/latin1.tmac tmac/latin2.tmac tmac/latin5.tmac tmac/latin9.tmac tmac/cp1047.tmac tmac/X.tmac tmac/Xps.tmac tmac/lj4.tmac tmac/lbp.tmac tmac/html.tmac tmac/html-end.tmac tmac/devtag.tmac tmac/europs.tmac tmac/composite.tmac tmac/fallbacks.tmac '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/mkdir -p '/usr/share/man/man7'
+ /usr/bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0/html/mom'
+ /usr/bin/install -c -m 644 tmac/eqnrc tmac/refer.tmac tmac/refer-me.tmac tmac/refer-ms.tmac tmac/troffrc tmac/troffrc-end tmac/trans.tmac tmac/en.tmac tmac/hyphen.en tmac/hyphenex.en tmac/fr.tmac tmac/hyphen.fr tmac/it.tmac tmac/hyphen.it tmac/sv.tmac tmac/hyphen.sv tmac/de.tmac tmac/den.tmac tmac/hyphen.det tmac/hyphen.den tmac/cs.tmac tmac/hyphen.cs tmac/hyphenex.cs tmac/ja.tmac tmac/zh.tmac tmac/an.tmac tmac/s.tmac '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0/examples/chem/122'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0/examples/chem'
+ /usr/bin/install -c -m 644 contrib/mom/momdoc/stylesheet.css contrib/mom/momdoc/appendices.html contrib/mom/momdoc/color.html contrib/mom/momdoc/cover.html contrib/mom/momdoc/definitions.html contrib/mom/momdoc/docelement.html contrib/mom/momdoc/docprocessing.html contrib/mom/momdoc/goodies.html contrib/mom/momdoc/graphical.html contrib/mom/momdoc/headfootpage.html contrib/mom/momdoc/images.html contrib/mom/momdoc/inlines.html contrib/mom/momdoc/intro.html contrib/mom/momdoc/letters.html contrib/mom/momdoc/macrolist.html contrib/mom/momdoc/rectoverso.html contrib/mom/momdoc/refer.html contrib/mom/momdoc/reserved.html contrib/mom/momdoc/tables-of-contents.html contrib/mom/momdoc/toc.html contrib/mom/momdoc/typesetting.html contrib/mom/momdoc/using.html contrib/mom/momdoc/version-2.html '/usr/share/doc/groff-1.23.0/html/mom'
+ /usr/bin/install -c -m 644 contrib/chem/chem.1 contrib/eqn2graph/eqn2graph.1 contrib/gdiffmk/gdiffmk.1 contrib/glilypond/glilypond.1 contrib/gperl/gperl.1 contrib/gpinyin/gpinyin.1 contrib/grap2graph/grap2graph.1 contrib/mm/mmroff.1 contrib/pdfmark/pdfroff.1 contrib/pic2graph/pic2graph.1 src/devices/grodvi/grodvi.1 src/devices/grohtml/grohtml.1 src/devices/grolbp/grolbp.1 src/devices/grolj4/grolj4.1 src/devices/gropdf/gropdf.1 src/devices/gropdf/pdfmom.1 src/devices/grops/grops.1 src/devices/grotty/grotty.1 src/preproc/preconv/preconv.1 src/roff/groff/groff.1 src/utils/addftinfo/addftinfo.1 src/utils/afmtodit/afmtodit.1 src/utils/grog/grog.1 src/utils/hpftodit/hpftodit.1 src/utils/lkbib/lkbib.1 src/utils/pfbtops/pfbtops.1 src/utils/tfmtodit/tfmtodit.1 src/preproc/eqn/eqn.1 src/preproc/eqn/neqn.1 src/preproc/grn/grn.1 src/preproc/pic/pic.1 src/preproc/refer/refer.1 src/preproc/soelim/soelim.1 src/preproc/tbl/tbl.1 src/roff/nroff/nroff.1 src/roff/troff/troff.1 src/utils/indxbib/indxbib.1 src/utils/lookbib/lookbib.1 '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 contrib/hdtbl/groff_hdtbl.7 contrib/mm/groff_mm.7 contrib/mm/groff_mmse.7 contrib/mom/groff_mom.7 contrib/rfc1345/groff_rfc1345.7 man/groff_char.7 man/groff_diff.7 man/groff.7 man/roff.7 tmac/groff_ms.7 tmac/groff_man.7 tmac/groff_man_style.7 tmac/groff_me.7 tmac/groff_mdoc.7 tmac/groff_trace.7 tmac/groff_www.7 '/usr/share/man/man7'
+ /usr/bin/install -c -m 644 man/groff_font.5 man/groff_out.5 man/groff_tmac.5 '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 contrib/chem/examples/122/README '/usr/share/doc/groff-1.23.0/examples/chem/122'
+ /usr/bin/install -c -m 644 contrib/chem/examples/README '/usr/share/doc/groff-1.23.0/examples/chem'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devlj4'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/font/devps'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0'
+ /usr/bin/install -c -m 644 font/devlj4/DESC '/usr/share/groff/1.23.0/font/devlj4'
+ /usr/bin/install -c -m 644 font/devps/DESC font/devps/prologue font/devps/freeeuro.pfa font/devps/zapfdr.pfa font/devps/symbolsl.pfa '/usr/share/groff/1.23.0/font/devps'
+ /usr/bin/mkdir -p '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/install -c -m 644 ./contrib/sboxes/msboxes.ms '/usr/share/doc/groff-1.23.0'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c -m 644 tmac/www.tmac '/usr/share/groff/1.23.0/tmac'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0/examples/hdtbl'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0/examples'
+ /usr/bin/mkdir -p '/usr/share/doc/groff-1.23.0'
+  /usr/bin/install -c grodvi post-grohtml grolbp grolj4 grops grotty pre-grohtml preconv groff addftinfo hpftodit lkbib pfbtops tfmtodit '/usr/bin'
+  /usr/bin/install -c eqn grn pic refer soelim tbl troff indxbib lookbib '/usr/bin'
+ /usr/bin/install -c -m 644 contrib/hdtbl/examples/fonts_n.roff contrib/hdtbl/examples/fonts_x.roff contrib/hdtbl/examples/chess_board.ps contrib/hdtbl/examples/color_boxes.ps contrib/hdtbl/examples/color_nested_tables.ps contrib/hdtbl/examples/color_table_cells.ps contrib/hdtbl/examples/color_transitions.ps contrib/hdtbl/examples/col_rowspan_colors.ps contrib/hdtbl/examples/fonts_n.ps contrib/hdtbl/examples/fonts_x.ps contrib/hdtbl/examples/mixed_pickles.ps contrib/hdtbl/examples/rainbow.ps contrib/hdtbl/examples/short_reference.ps doc/gnu.eps '/usr/share/doc/groff-1.23.0/examples/hdtbl'
+ /usr/bin/install -c -m 644 doc/webpage.ps doc/grnexmpl.ps '/usr/share/doc/groff-1.23.0/examples'
+make  install-exec-hook
+ /usr/bin/install -c -m 644 doc/meref.ps doc/meintro.ps doc/meintro_fr.ps doc/ms.ps doc/pic.ps doc/groff-man-pages.utf8.txt doc/meintro.me doc/meintro_fr.me doc/meref.me '/usr/share/doc/groff-1.23.0'
+make[3]: Entering directory '/sources/groff-1.23.0'
+make[3]: Nothing to be done for 'install-exec-hook'.
+make[3]: Leaving directory '/sources/groff-1.23.0'
+make  install-data-hook
+make[3]: Entering directory '/sources/groff-1.23.0'
+for d in /sources/groff-1.23.0/doc /sources/groff-1.23.0/doc; do \
+  if test -f "$d/gnu.eps"; then \
+    rm -f /usr/share/doc/groff-1.23.0/examples/gnu.eps; \
+    /usr/bin/install -c -m 644 \
+      $d/gnu.eps /usr/share/doc/groff-1.23.0/examples/gnu.eps; \
+    break; \
+  fi; \
+done
+if test "no" = "yes"; then \
+  if test -n ""; then \
+    if test -f /usr/share/groff/1.23.0/tmac/s.tmac -a -n "`if test no = yes; then for i in  ""; do case "$i" in s) echo g;; esac; done; fi`"; \
+    then \
+      mv /usr/share/groff/1.23.0/tmac/s.tmac \
+         /usr/share/groff/1.23.0/tmac/`if test no = yes; then for i in  ""; do case "$i" in s) echo g;; esac; done; fi`s.tmac; \
+    fi; \
+    if test -f /usr/share/groff/1.23.0/tmac/an.tmac -a -n "`if test no = yes; then for i in  ""; do case "$i" in an) echo g;; esac; done; fi`"; \
+    then \
+      mv /usr/share/groff/1.23.0/tmac/an.tmac \
+         /usr/share/groff/1.23.0/tmac/`if test no = yes; then for i in  ""; do case "$i" in an) echo g;; esac; done; fi`an.tmac; \
+    fi; \
+  fi; \
+fi
+cd /usr/share/groff; \
+  rm -f current; \
+  ln -s 1.23.0 current
+test -d /usr/share/groff/site-font \
+  || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/share/groff/site-font
+test -d /usr/lib/groff/site-tmac \
+  || /bin/sh /sources/groff-1.23.0/build-aux/install-sh -d /usr/lib/groff/site-tmac
+make[3]: Leaving directory '/sources/groff-1.23.0'
+make[2]: Leaving directory '/sources/groff-1.23.0'
+make[1]: Leaving directory '/sources/groff-1.23.0'
