@@ -1,0 +1,53 @@
+make VERSION=3.14 -C man all
+make[1]: Entering directory '/sources/sysvinit-3.14/man'
+sed --in-place=.orig --separate 's/\@VERSION\@/3.14/g' bootlogd.8 fstab-decode.8 halt.8 init.8 initctl.5 initscript.5 inittab.5 killall5.8 last.1 lastb.1 logsave.8 mesg.1 mountpoint.1 pidof.8 poweroff.8 readbootlog.1 reboot.8 runlevel.8 shutdown.8 sulogin.8 telinit.8 utmpdump.1 wall.1
+Install po4a to build translated manpages
+make[1]: Leaving directory '/sources/sysvinit-3.14/man'
+make VERSION=3.14 -C src all
+make[1]: Entering directory '/sources/sysvinit-3.14/src'
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o init.o init.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"  -DINIT_MAIN -c -o init_utmp.o utmp.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o runlevellog.o runlevellog.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o halt.o halt.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o ifdown.o ifdown.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o hddown.o hddown.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o utmp.o utmp.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o shutdown.o shutdown.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o dowall.o dowall.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o runlevel.o runlevel.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"     killall5.c   -o killall5
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o fstab-decode.o fstab-decode.c
+cc -O2 -ansi -fomit-frame-pointer -fstack-protector-strong -W -Wall -Wunreachable-code -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -D_XOPEN_SOURCE -D_GNU_SOURCE -DVERSION=\"3.14\"    -c -o bootlogd.o bootlogd.c
+cc   halt.o ifdown.o hddown.o utmp.o runlevellog.o   -o halt
+cc   runlevel.o runlevellog.o   -o runlevel
+In file included from /usr/include/string.h:548,
+                 from dowall.c:30:
+In function 'strncat',
+    inlined from 'wall' at dowall.c:229:4:
+/usr/include/bits/string_fortified.h:149:10: warning: '__builtin___strncat_chk' argument 2 declared attribute 'nonstring' [-Wstringop-overread]
+  149 |   return __builtin___strncat_chk (__dest, __src, __len,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  150 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/utmp.h:29,
+                 from dowall.c:34:
+/usr/include/bits/utmp.h: In function 'wall':
+/usr/include/bits/utmp.h:62:8: note: argument 'ut_line' declared here
+   62 |   char ut_line[UT_LINESIZE]
+      |        ^~~~~~~
+cc   fstab-decode.o   -o fstab-decode
+killall5.c: In function 'check4nfs':
+killall5.c:442:12: warning: '__builtin_strncpy' output may be truncated copying 4096 bytes from a string of length 4096 [-Wstringop-truncation]
+  442 |            strncpy(real, curr, PATH_MAX);
+      |            ^
+cc   shutdown.o dowall.o utmp.o   -o shutdown
+init.c: In function 'read_inittab':
+init.c:1406:41: warning: '__builtin_strncpy' output may be truncated copying 8 bytes from a string of length 31 [-Wstringop-truncation]
+ 1406 |                                         strncpy(id, dev, sizeof(id));
+      |                                         ^
+init.c:1404:41: warning: '__builtin_strncpy' output may be truncated copying 8 bytes from a string of length 28 [-Wstringop-truncation]
+ 1404 |                                         strncpy(id, dev+3, sizeof(id));
+      |                                         ^
+cc   bootlogd.o  -lutil  -o bootlogd
+cc   init.o init_utmp.o runlevellog.o    -o init
+make[1]: Leaving directory '/sources/sysvinit-3.14/src'

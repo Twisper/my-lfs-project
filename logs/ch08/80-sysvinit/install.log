@@ -1,0 +1,58 @@
+make VERSION=3.14 -C man install
+make[1]: Entering directory '/sources/sysvinit-3.14/man'
+sed --in-place=.orig --separate 's/\@VERSION\@/3.14/g' bootlogd.8 fstab-decode.8 halt.8 init.8 initctl.5 initscript.5 inittab.5 killall5.8 last.1 lastb.1 logsave.8 mesg.1 mountpoint.1 pidof.8 poweroff.8 readbootlog.1 reboot.8 runlevel.8 shutdown.8 sulogin.8 telinit.8 utmpdump.1 wall.1
+Install po4a to build translated manpages
+make[1]: Leaving directory '/sources/sysvinit-3.14/man'
+make VERSION=3.14 -C src install
+make[1]: Entering directory '/sources/sysvinit-3.14/src'
+install -m 755 -d  /bin/ /sbin/
+install -m 755 -d  //usr/bin/
+for i in ; do \
+		install -o root -g root -m 755 $i /bin/ ; \
+	done
+for i in init halt shutdown runlevel killall5 fstab-decode bootlogd; do \
+		install -o root -g root -m 755 $i /sbin/ ; \
+	done
+for i in ; do \
+		install -o root -g root -m 755 $i //usr/bin/ ; \
+	done
+# install -m 755 -d  //etc/
+install -m 755 -d  //etc/inittab.d
+# install -o root -g root -m 755 ../doc/initscript.sample //etc/
+ln -sf halt /sbin/reboot
+ln -sf halt /sbin/poweroff
+ln -sf init /sbin/telinit
+#ln -sf /sbin/killall5 /bin/pidof
+#if [ ! -f //usr/bin/lastb ]; then \
+	#	ln -sf last //usr/bin/lastb; \
+	#fi
+install -m 755 -d  //usr/include/
+install -o root -g root -m 644 initreq.h //usr/include/
+for lang in  '' de es fi fr hu id pl pt; do \
+		install -m 755 -d  //usr/share/man/$lang/man1; \
+		install -m 755 -d  //usr/share/man/$lang/man5; \
+		install -m 755 -d  //usr/share/man/$lang/man8; \
+	done
+for man in  ; do \
+		install_target=//usr/share/man/${man%${man##*/}}man1/${man##*/} ; \
+		install -o root -g root -m 644 ../man/$man $install_target ; \
+		sed -i "1{ s@^\('\\\\\"\)[^\*-]*-\*- coding: [^[:blank:]]\+ -\*-@\1@; }" $install_target ; \
+	done
+for man in initscript.5 inittab.5 initctl.5   ; do \
+		install_target=//usr/share/man/${man%${man##*/}}man5/${man##*/} ; \
+		install -o root -g root -m 644 ../man/$man $install_target ; \
+		sed -i "1{ s@^\('\\\\\"\)[^\*-]*-\*- coding: [^[:blank:]]\+ -\*-@\1@; }" $install_target ; \
+	done
+for man in halt.8 init.8 killall5.8         poweroff.8 reboot.8 runlevel.8 shutdown.8 telinit.8 fstab-decode.8 bootlogd.8          ; do \
+		install_target=//usr/share/man/${man%${man##*/}}man8/${man##*/} ; \
+		install -o root -g root -m 644 ../man/$man $install_target ; \
+		sed -i "1{ s@^\('\\\\\"\)[^\*-]*-\*- coding: [^[:blank:]]\+ -\*-@\1@; }" $install_target ; \
+	done
+#
+# This part is skipped on Debian systems, the
+# debian.preinst script takes care of it.
+#@if [ ! -p /run/initctl ]; then \
+	# echo "Creating /run/initctl"; \
+	# rm -f /run/initctl; \
+	# mknod -m 600 /run/initctl p; fi
+make[1]: Leaving directory '/sources/sysvinit-3.14/src'
