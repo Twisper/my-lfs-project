@@ -1,0 +1,274 @@
+Making all in lib
+make[1]: Entering directory '/sources/diffutils-3.12/lib'
+  GEN      alloca.h
+  GEN      ctype.h
+  GEN      dirent.h
+  GEN      error.h
+  GEN      fcntl.h
+  GEN      malloc/dynarray-skeleton.gl.h
+  GEN      malloc/dynarray.gl.h
+  GEN      inttypes.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      pthread.h
+  GEN      sched.h
+  GEN      signal.h
+  GEN      sigsegv.h
+  GEN      stddef.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      strings.h
+  GEN      sys/random.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      sys/wait.h
+  GEN      time.h
+  GEN      uchar.h
+  GEN      unicase.h
+  GEN      unictype.h
+  GEN      uninorm.h
+  GEN      unistd.h
+  GEN      unistr.h
+  GEN      uniwidth.h
+  GEN      unitypes.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-am
+make[2]: Entering directory '/sources/diffutils-3.12/lib'
+  CC       libdiffutils_a-allocator.o
+  CC       libdiffutils_a-argmatch.o
+  CC       libdiffutils_a-openat-proc.o
+  CC       libdiffutils_a-basename-lgpl.o
+  CC       libdiffutils_a-bitrotate.o
+  CC       libdiffutils_a-binary-io.o
+  CC       libdiffutils_a-btoc32.o
+  CC       libdiffutils_a-btowc.o
+  CC       libdiffutils_a-c-ctype.o
+  CC       libdiffutils_a-c-file-type.o
+  CC       libdiffutils_a-c-stack.o
+  CC       libdiffutils_a-c-strcasecmp.o
+  CC       libdiffutils_a-c32_apply_type_test.o
+  CC       libdiffutils_a-c32_get_type_test.o
+  CC       libdiffutils_a-c32isalnum.o
+  CC       libdiffutils_a-c32isalpha.o
+  CC       libdiffutils_a-c32isblank.o
+  CC       libdiffutils_a-c32iscntrl.o
+  CC       libdiffutils_a-c32isdigit.o
+  CC       libdiffutils_a-c32isgraph.o
+  CC       libdiffutils_a-c32islower.o
+  CC       libdiffutils_a-c32isprint.o
+  CC       libdiffutils_a-c32ispunct.o
+  CC       libdiffutils_a-c32isspace.o
+  CC       libdiffutils_a-c32isupper.o
+  CC       libdiffutils_a-c32isxdigit.o
+  CC       libdiffutils_a-c32tolower.o
+  CC       libdiffutils_a-c32width.o
+  CC       libdiffutils_a-careadlinkat.o
+  CC       libdiffutils_a-chdir-long.o
+  CC       libdiffutils_a-cloexec.o
+  CC       libdiffutils_a-dirname.o
+  CC       libdiffutils_a-basename.o
+  CC       libdiffutils_a-dirname-lgpl.o
+  CC       libdiffutils_a-stripslash.o
+  CC       libdiffutils_a-exclude.o
+  CC       libdiffutils_a-exitfail.o
+  CC       libdiffutils_a-fcntl.o
+  CC       libdiffutils_a-fd-hook.o
+  CC       libdiffutils_a-filenamecat.o
+  CC       libdiffutils_a-filenamecat-lgpl.o
+  CC       libdiffutils_a-getprogname.o
+  CC       libdiffutils_a-gettime.o
+  CC       libdiffutils_a-hard-locale.o
+  CC       libdiffutils_a-hash.o
+  CC       libdiffutils_a-ialloc.o
+  CC       libdiffutils_a-localcharset.o
+  CC       libdiffutils_a-malloca.o
+  CC       libdiffutils_a-mbrtoc32.o
+  CC       libdiffutils_a-mbrtowc.o
+  CC       libdiffutils_a-mbscasecmp.o
+  CC       libdiffutils_a-mbsrtoc32s.o
+  CC       libdiffutils_a-mbsrtowcs.o
+  CC       libdiffutils_a-mbszero.o
+  CC       libdiffutils_a-mcel.o
+  CC       libdiffutils_a-nl_langinfo.o
+  CC       libdiffutils_a-nstrftime.o
+  CC       glthread/libdiffutils_a-once.o
+  CC       libdiffutils_a-openat-die.o
+  CC       libdiffutils_a-progname.o
+  CC       libdiffutils_a-propername-lite.o
+  CC       libdiffutils_a-quotearg.o
+  CC       libdiffutils_a-realloc.o
+  CC       libdiffutils_a-reallocarray.o
+  CC       libdiffutils_a-same-inode.o
+  CC       libdiffutils_a-save-cwd.o
+  CC       libdiffutils_a-setlocale_null.o
+  CC       libdiffutils_a-setlocale_null-unlocked.o
+  CC       libdiffutils_a-sh-quote.o
+  CC       libdiffutils_a-sig-handler.o
+  CC       libdiffutils_a-sigsegv.o
+  CC       libdiffutils_a-stackvma.o
+  CC       libdiffutils_a-stat-time.o
+  CC       libdiffutils_a-stdlib.o
+  CC       libdiffutils_a-stdopen.o
+  CC       libdiffutils_a-strnlen1.o
+  CC       libdiffutils_a-system-quote.o
+  CC       libdiffutils_a-tempname.o
+  CC       glthread/libdiffutils_a-threadlib.o
+  CC       libdiffutils_a-time_rz.o
+  CC       libdiffutils_a-timespec.o
+  CC       libdiffutils_a-unistd.o
+  CC       libdiffutils_a-version-etc.o
+  CC       libdiffutils_a-version-etc-fsf.o
+  CC       libdiffutils_a-wctype-h.o
+  CC       libdiffutils_a-xmalloc.o
+  CC       libdiffutils_a-xalloc-die.o
+  CC       libdiffutils_a-xfreopen.o
+  CC       libdiffutils_a-xmalloca.o
+  CC       libdiffutils_a-xstdopen.o
+  CC       libdiffutils_a-xstrtoimax.o
+  CC       libdiffutils_a-xstrtol.o
+  CC       libdiffutils_a-xstrtoul.o
+  CC       libdiffutils_a-cmpbuf.o
+  CC       libdiffutils_a-diagnose.o
+  CC       libdiffutils_a-mbsrtoc32s-state.o
+  CC       libdiffutils_a-mbsrtowcs-state.o
+  CC       libdiffutils_a-mktime.o
+  CC       malloc/libdiffutils_a-dynarray_at_failure.o
+  CC       malloc/libdiffutils_a-dynarray_emplace_enlarge.o
+  CC       malloc/libdiffutils_a-dynarray_finalize.o
+  CC       malloc/libdiffutils_a-dynarray_resize.o
+  CC       malloc/libdiffutils_a-dynarray_resize_clear.o
+  CC       glthread/libdiffutils_a-lock.o
+  CC       unicase/libdiffutils_a-tolower.o
+  CC       unictype/libdiffutils_a-ctype_alnum.o
+  CC       unictype/libdiffutils_a-ctype_alpha.o
+  CC       unictype/libdiffutils_a-ctype_blank.o
+  CC       unictype/libdiffutils_a-ctype_cntrl.o
+  CC       unictype/libdiffutils_a-ctype_digit.o
+  CC       unictype/libdiffutils_a-ctype_graph.o
+  CC       unictype/libdiffutils_a-ctype_lower.o
+  CC       unictype/libdiffutils_a-ctype_print.o
+  CC       unictype/libdiffutils_a-ctype_punct.o
+  CC       unictype/libdiffutils_a-ctype_space.o
+  CC       unictype/libdiffutils_a-ctype_upper.o
+  CC       unictype/libdiffutils_a-ctype_xdigit.o
+  CC       unistr/libdiffutils_a-u32-chr.o
+  CC       unistr/libdiffutils_a-u32-cpy.o
+  CC       unistr/libdiffutils_a-u32-pcpy.o
+  CC       unistr/libdiffutils_a-u32-strcat.o
+  CC       unistr/libdiffutils_a-u32-strlen.o
+  CC       uniwidth/libdiffutils_a-width.o
+  AR       libdiffutils.a
+make[2]: Leaving directory '/sources/diffutils-3.12/lib'
+make[1]: Leaving directory '/sources/diffutils-3.12/lib'
+Making all in src
+make[1]: Entering directory '/sources/diffutils-3.12/src'
+  GEN      paths.h
+  GEN      version.c
+  GEN      version.h
+make  all-am
+make[2]: Entering directory '/sources/diffutils-3.12/src'
+  CC       cmp.o
+  CC       system.o
+  CC       version.o
+  CC       analyze.o
+  CC       context.o
+  CC       diff.o
+  CC       dir.o
+  CC       ed.o
+  CC       ifdef.o
+  CC       io.o
+  CC       normal.o
+  CC       side.o
+  CC       util.o
+  CC       diff3.o
+  CC       sdiff.o
+  AR       libver.a
+  CCLD     cmp
+  CCLD     sdiff
+  CCLD     diff3
+  CCLD     diff
+make[2]: Leaving directory '/sources/diffutils-3.12/src'
+make[1]: Leaving directory '/sources/diffutils-3.12/src'
+Making all in tests
+make[1]: Entering directory '/sources/diffutils-3.12/tests'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/diffutils-3.12/tests'
+Making all in doc
+make[1]: Entering directory '/sources/diffutils-3.12/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/diffutils-3.12/doc'
+Making all in man
+make[1]: Entering directory '/sources/diffutils-3.12/man'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/diffutils-3.12/man'
+Making all in po
+make[1]: Entering directory '/sources/diffutils-3.12/po'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/diffutils-3.12/po'
+Making all in gnulib-tests
+make[1]: Entering directory '/sources/diffutils-3.12/gnulib-tests'
+  GEN      arpa/inet.h
+  GEN      math.h
+## ---------------------------------------------------- ##
+  GEN      sys/ioctl.h
+  GEN      sys/select.h
+  GEN      sys/socket.h
+  GEN      sys/uio.h
+## ------------------- Gnulib tests ------------------- ##
+## You can ignore compiler warnings in this directory.  ##
+## ---------------------------------------------------- ##
+make  all-recursive
+make[2]: Entering directory '/sources/diffutils-3.12/gnulib-tests'
+Making all in .
+make[3]: Entering directory '/sources/diffutils-3.12/gnulib-tests'
+  CC       locale.o
+  CC       arpa_inet.o
+  CC       c-strcasestr.o
+  CC       c-strncasecmp.o
+  CC       c32tob.o
+  CC       concat-filename.o
+  CC       dtotimespec.o
+  CC       hash-pjw.o
+  CC       imaxtostr.o
+  CC       inttostr.o
+  CC       offtostr.o
+  CC       uinttostr.o
+  CC       umaxtostr.o
+  CC       ioctl.o
+  CC       math.o
+  CC       nanosleep.o
+  CC       priv-set.o
+  CC       pthread-rwlock.o
+  CC       sockets.o
+  CC       str_startswith.o
+  CC       sys_socket.o
+  CC       time.o
+  CC       timespec-add.o
+  CC       timespec-sub.o
+  CC       unlinkdir.o
+  CC       vsnzprintf.o
+  CC       xconcat-filename.o
+  CC       xgetcwd.o
+  CC       xsize.o
+  CC       xstrtol-error.o
+  CC       asnprintf.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       strerror_r.o
+  CC       vasnprintf.o
+  CC       test-localcharset.o
+  CC       glthread/thread.o
+  CC       unistr/u32-set.o
+  AR       libtests.a
+  CCLD     current-locale
+  CCLD     test-localcharset
+make[3]: Leaving directory '/sources/diffutils-3.12/gnulib-tests'
+make[2]: Leaving directory '/sources/diffutils-3.12/gnulib-tests'
+make[1]: Leaving directory '/sources/diffutils-3.12/gnulib-tests'
+make[1]: Entering directory '/sources/diffutils-3.12'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/sources/diffutils-3.12'

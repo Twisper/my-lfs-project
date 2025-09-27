@@ -1,0 +1,1001 @@
+  GEN      public-submodule-commit
+Making check in lib
+make[1]: Entering directory '/sources/diffutils-3.12/lib'
+make  check-am
+make[2]: Entering directory '/sources/diffutils-3.12/lib'
+make[2]: Leaving directory '/sources/diffutils-3.12/lib'
+make[1]: Leaving directory '/sources/diffutils-3.12/lib'
+Making check in src
+make[1]: Entering directory '/sources/diffutils-3.12/src'
+make  check-am
+make[2]: Entering directory '/sources/diffutils-3.12/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/diffutils-3.12/src'
+make[1]: Leaving directory '/sources/diffutils-3.12/src'
+Making check in tests
+make[1]: Entering directory '/sources/diffutils-3.12/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/diffutils-3.12/tests'
+make[3]: Entering directory '/sources/diffutils-3.12/tests'
+brief-vs-stat-zero-kernel-lies: skipped test: /proc/cmdline has nonzero size
+SKIP: brief-vs-stat-zero-kernel-lies
+PASS: binary
+PASS: bug-64316
+PASS: bignum
+PASS: colliding-file-names
+PASS: basic
+PASS: excess-slash
+PASS: empty-file
+PASS: expand-tabs
+PASS: diff3
+PASS: ifdef
+PASS: invalid-re
+PASS: function-line-vs-leading-space
+PASS: ignore-matching-lines
+PASS: ignore-case
+PASS: cmp
+PASS: ignore-tab-expansion
+PASS: label-vs-func
+PASS: help-version
+PASS: new-file
+XFAIL: large-subopt
+PASS: no-newline-at-eof
+PASS: side-by-side
+PASS: side-by-side-seq
+PASS: starting-file
+PASS: strcoll-0-names
+PASS: stdin
+PASS: no-dereference
+PASS: timezone
+strip-trailing-cr: skipped test: requires a working valgrind
+SKIP: strip-trailing-cr
+PASS: filename-quoting
+PASS: y2038-vs-32bit
+PASS: colors
+============================================================================
+Testsuite summary for GNU diffutils 3.12
+============================================================================
+# TOTAL: 33
+# PASS:  30
+# SKIP:  2
+# XFAIL: 1
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/diffutils-3.12/tests'
+make[2]: Leaving directory '/sources/diffutils-3.12/tests'
+make[1]: Leaving directory '/sources/diffutils-3.12/tests'
+Making check in doc
+make[1]: Entering directory '/sources/diffutils-3.12/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/diffutils-3.12/doc'
+Making check in man
+make[1]: Entering directory '/sources/diffutils-3.12/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/diffutils-3.12/man'
+Making check in po
+make[1]: Entering directory '/sources/diffutils-3.12/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/diffutils-3.12/po'
+Making check in gnulib-tests
+make[1]: Entering directory '/sources/diffutils-3.12/gnulib-tests'
+make  check-recursive
+make[2]: Entering directory '/sources/diffutils-3.12/gnulib-tests'
+Making check in .
+make[3]: Entering directory '/sources/diffutils-3.12/gnulib-tests'
+## ---------------------------------------------------------------------- ##
+## ---------------------------- Gnulib tests ---------------------------- ##
+## Please report test failures in this directory to <bug-gnulib@gnu.org>. ##
+## ---------------------------------------------------------------------- ##
+make  test-accept test-alignasof test-alloca-opt test-argmatch test-arpa_inet-h test-assert test-binary-io test-bind test-bitrotate test-bool test-btoc32 test-btowc test-c-ctype test-c-stack test-c-strcasecmp test-c-strcasestr test-c-strncasecmp test-c32_apply_type_test test-c32_get_type_test test-c32isalnum test-c32isalpha test-c32isblank test-c32iscntrl test-c32isdigit test-c32isgraph test-c32islower test-c32isprint test-c32ispunct test-c32isspace test-c32isupper test-c32isxdigit test-c32rtomb test-c32rtomb-w32 test-c32tolower test-c32width test-calloc-gnu test-calloc-posix test-chdir test-cloexec test-close test-connect test-ctype-h test-dirent-h test-dirfd test-dirname test-dup test-dup2 test-environ test-errno-h test-error test-exclude test-fchdir test-fcntl-h test-fcntl test-fdopen test-fdopendir test-fgetc test-filenamecat test-float-h test-fnmatch-h test-fnmatch test-fnmatch-w32 test-fopen-gnu test-fopen test-fputc test-fread test-free test-freopen test-fstat test-fstatat test-ftruncate test-fwrite test-getcwd-lgpl test-getdtablesize test-getopt-gnu test-getopt-posix test-getprogname test-getrandom test-gettext-h test-gettimeofday test-dynarray test-hard-locale test-hash test-ignore-value test-inet_pton test-intprops test-inttostr test-inttypes-h test-ioctl test-isblank test-isnand-nolibm test-isnanf-nolibm test-isnanl-nolibm test-iswblank test-iswctype test-iswdigit test-iswpunct test-iswxdigit test-langinfo-h test-largefile test-limits-h test-listen test-locale-h test-localeconv test-lstat test-malloc-gnu test-malloc-posix test-malloca test-math-h test-mbrtoc32 test-mbrtoc32-w32 test-mbrtowc test-mbrtowc-w32 test-mbscasecmp test-mbsinit test-mbsrtoc32s test-mbsrtowcs test-mcel test-memchr test-memrchr test-mkdir test-nanosleep test-netinet_in-h test-nl_langinfo1 test-nl_langinfo2 test-nl_langinfo-mt test-nstrftime test-nullptr test-once1 test-once2 test-open test-openat test-pathmax test-perror test-perror2 test-pipe test-popen test-priv-set test-pselect test-pthread-cond test-pthread test-pthread-mutex test-pthread-mutex-type test-pthread-once1 test-pthread-once2 test-pthread-rwlock test-pthread-thread test-pthread_sigmask1 test-pthread_sigmask2 test-putenv test-quotearg-simple test-raise test-random test-random-mt test-random_r test-rawmemchr test-readlink test-readlinkat test-realloc-posix test-reallocarray test-regex test-rmdir test-sched-h test-select test-select-fd test-select-stdin test-setenv test-setlocale_null test-setlocale_null-mt-one test-setlocale_null-mt-all test-setlocale_null-unlocked test-setsockopt test-sh-quote test-sigaction test-signal-h test-signbit test-sigprocmask test-sigsegv-catch-segv1 test-sigsegv-catch-segv2 test-sigsegv-catch-stackoverflow1 test-sigsegv-catch-stackoverflow2 test-sleep test-snprintf test-sockets test-stat test-stat-time test-stdbit-h test-stdc_bit_width test-stdc_leading_zeros test-stdckdint-h test-stddef-h test-stdint-h test-stdio-h test-stdlib-h test-str_startswith test-strcasecmp test-strerror test-strerror_r test-string-h test-strings-h test-strncasecmp test-strnlen test-strtoimax test-strtoll test-symlink test-symlinkat test-sys_ioctl-h test-sys_random-h test-sys_select-h test-sys_socket-h test-sys_stat-h test-sys_time-h test-sys_types-h test-sys_uio-h test-sys_wait-h test-thread_self test-thread_create test-time-h test-time test-gmtime_r test-gmtime_r-mt test-localtime_r test-localtime_r-mt test-timespec test-timespec_get test-uchar-h test-uc_tolower test-ctype_alnum test-ctype_alpha test-ctype_blank test-ctype_cntrl test-ctype_digit test-ctype_graph test-ctype_lower test-ctype_print test-ctype_punct test-ctype_space test-ctype_upper test-ctype_xdigit test-unistd-h test-u32-chr test-u32-cpy test-u32-pcpy test-u32-set test-u32-strcat test-u32-strlen test-uc_width test-uc_width2 test-unlink test-unlinkat test-unsetenv test-vasnprintf test-verify test-version-etc test-wchar-h test-wcrtomb test-wcrtomb-w32 test-wctype-h test-wctype test-wcwidth test-windows-mutex-type test-windows-recmutex-type test-windows-timedmutex-type test-windows-timedrecmutex-type test-wmemchr test-xalloc-die test-xstdopen test-xstrtoimax test-xstrtol test-xstrtoul test-year2038 libtests.a
+make[4]: Entering directory '/sources/diffutils-3.12/gnulib-tests'
+  CC       test-accept.o
+  CC       test-alignasof.o
+  CC       test-alloca-opt.o
+  CC       test-argmatch.o
+  CC       test-arpa_inet-h.o
+  CC       test-binary-io.o
+  CC       test-assert.o
+  CC       test-bind.o
+  CC       test-bitrotate.o
+  CC       test-bool.o
+  CC       test-btoc32.o
+  CC       test-btowc.o
+  CC       test-c-ctype.o
+  CC       test-c-stack.o
+  CC       test-c-strcasecmp.o
+  CC       test-c-strcasestr.o
+  CC       test-c-strncasecmp.o
+  CC       test-c32_apply_type_test.o
+  CC       test-c32_get_type_test.o
+  CC       test-c32isalnum.o
+  CC       test-c32isalpha.o
+  CC       test-c32isblank.o
+  CC       test-c32iscntrl.o
+  CC       test-c32isdigit.o
+  CC       test-c32isgraph.o
+  CC       test-c32islower.o
+  CC       test-c32isprint.o
+  CC       test-c32ispunct.o
+  CC       test-c32isspace.o
+  CC       test-c32isupper.o
+  CC       test-c32isxdigit.o
+  CC       test-c32rtomb.o
+  CC       test-c32rtomb-w32.o
+  CC       test-c32tolower.o
+  CC       test-c32width.o
+  CC       test-calloc-gnu.o
+  CC       test-calloc-posix.o
+  CC       test-chdir.o
+  CC       test-cloexec.o
+  CC       test-close.o
+  CC       test-connect.o
+  CC       test-ctype-h.o
+  CC       test-dirent-h.o
+  CC       test-dirfd.o
+  CC       test-dirname.o
+  CC       test-dup.o
+  CC       test-dup2.o
+  CC       test-environ.o
+  CC       test-errno-h.o
+  CC       test-error.o
+  CC       test-exclude.o
+  CC       test-fchdir.o
+  CC       test-fcntl-h.o
+  CC       test-fcntl.o
+  CC       test-fdopen.o
+  CC       test-fdopendir.o
+  CC       test-fgetc.o
+  CC       test-filenamecat.o
+  CC       test-float-h.o
+  CC       test-fnmatch-h.o
+  CC       test-fnmatch.o
+  CC       test-fnmatch-w32.o
+  CC       test-fopen-gnu.o
+  CC       test-fopen.o
+  CC       test-fputc.o
+  CC       test-fread.o
+  CC       test-free.o
+  CC       test-freopen.o
+  CC       test-fstat.o
+  CC       test-fstatat.o
+  CC       test-ftruncate.o
+  CC       test-fwrite.o
+  CC       test-getcwd-lgpl.o
+  CC       test-getdtablesize.o
+  CC       test-getopt-gnu.o
+  CC       test-getopt-posix.o
+  CC       test-getprogname.o
+  CC       test-getrandom.o
+  CC       test-gettext-h.o
+  CC       test-gettimeofday.o
+  CC       test-dynarray.o
+  CC       test-hard-locale.o
+  CC       test-hash.o
+  CC       test-ignore-value.o
+  CC       test-inet_pton.o
+  CC       test-intprops.o
+  CC       test-inttostr.o
+  CC       test-inttypes-h.o
+  CC       test-ioctl.o
+  CC       test-isblank.o
+  CC       test-isnand-nolibm.o
+  CC       test-isnanf-nolibm.o
+  CC       test-isnanl-nolibm.o
+  CC       test-iswblank.o
+  CC       test-iswctype.o
+  CC       test-iswdigit.o
+  CC       test-iswpunct.o
+  CC       test-iswxdigit.o
+  CC       test-langinfo-h.o
+  CC       test-largefile.o
+  CC       test-limits-h.o
+  CC       test-listen.o
+  CC       test-locale-h.o
+  CC       test-localeconv.o
+  CC       test-lstat.o
+  CC       test-malloc-gnu.o
+  CC       test-malloc-posix.o
+  CC       test-malloca.o
+  CC       test-math-h.o
+  CC       test-mbrtoc32.o
+  CC       test-mbrtoc32-w32.o
+  CC       test-mbrtowc.o
+  CC       test-mbrtowc-w32.o
+  CC       test-mbscasecmp.o
+  CC       test-mbsinit.o
+  CC       test-mbsrtoc32s.o
+  CC       test-mbsrtowcs.o
+  CC       test-mcel.o
+  CC       test-memchr.o
+  CC       test-memrchr.o
+  CC       test-mkdir.o
+  CC       test-nanosleep.o
+  CC       test-netinet_in-h.o
+  CC       test-nl_langinfo1.o
+  CC       test-nl_langinfo2.o
+  CC       test-nl_langinfo-mt.o
+  CC       test-nstrftime.o
+  CC       test-nullptr.o
+  CC       test-once.o
+  CC       test-open.o
+  CC       test-openat.o
+  CC       test-pathmax.o
+  CC       test-perror.o
+  CC       test-perror2.o
+  CC       test-pipe.o
+  CC       test-popen.o
+  CC       test-priv-set.o
+  CC       test-pselect.o
+  CC       test-pthread-cond.o
+  CC       test-pthread.o
+  CC       test-pthread-mutex.o
+  CC       test-pthread-mutex-type.o
+  CC       test-pthread-once1.o
+  CC       test-pthread-once2.o
+  CC       test-pthread-rwlock.o
+  CC       test-pthread-thread.o
+  CC       test-pthread_sigmask1.o
+  CC       test-pthread_sigmask2.o
+  CC       test-putenv.o
+  CC       test-quotearg-simple.o
+  CC       test-raise.o
+  CC       test-random.o
+  CC       test-random-mt.o
+  CC       test-random_r.o
+  CC       test-rawmemchr.o
+  CC       test-readlink.o
+  CC       test-readlinkat.o
+  CC       test-realloc-posix.o
+  CC       test-reallocarray.o
+  CC       test-regex.o
+  CC       test-rmdir.o
+  CC       test-sched-h.o
+  CC       test-select.o
+  CC       test-select-fd.o
+  CC       test-select-stdin.o
+  CC       test-setenv.o
+  CC       test-setlocale_null.o
+  CC       test-setlocale_null-mt-one.o
+  CC       test-setlocale_null-mt-all.o
+  CC       test-setlocale_null-unlocked.o
+  CC       test-setsockopt.o
+  CC       test-sh-quote.o
+  CC       test-sigaction.o
+  CC       test-signal-h.o
+  CC       test-signbit.o
+  CC       test-sigprocmask.o
+  CC       test-sigsegv-catch-segv1.o
+  CC       test-sigsegv-catch-segv2.o
+  CC       test-sigsegv-catch-stackoverflow1.o
+  CC       test-sigsegv-catch-stackoverflow2.o
+  CC       test-sleep.o
+  CC       test-snprintf.o
+  CC       test-sockets.o
+  CC       test-stat.o
+  CC       test-stat-time.o
+  CC       test-stdbit-h.o
+  CC       test-stdckdint-h.o
+  CC       test-stddef-h.o
+  CC       test-stdint-h.o
+  CC       test-stdio-h.o
+  CC       test-stdlib-h.o
+  CC       test-str_startswith.o
+  CC       test-strcasecmp.o
+  CC       test-strerror.o
+  CC       test-strerror_r.o
+  CC       test-string-h.o
+  CC       test-strings-h.o
+  CC       test-strncasecmp.o
+  CC       test-strnlen.o
+  CC       test-strtoimax.o
+  CC       test-strtoll.o
+  CC       test-symlink.o
+  CC       test-symlinkat.o
+  CC       test-sys_ioctl-h.o
+  CC       test-sys_random-h.o
+  CC       test-sys_select-h.o
+  CC       test-sys_socket-h.o
+  CC       test-sys_stat-h.o
+  CC       test-sys_time-h.o
+  CC       test-sys_types-h.o
+  CC       test-sys_uio-h.o
+  CC       test-sys_wait-h.o
+  CC       test-thread_self.o
+  CC       test-thread_create.o
+  CC       test-time-h.o
+  CC       test-time.o
+  CC       test-gmtime_r.o
+  CC       test-gmtime_r-mt.o
+  CC       test-localtime_r.o
+  CC       test-localtime_r-mt.o
+  CC       test-timespec.o
+  CC       test-timespec_get.o
+  CC       test-uchar-h.o
+  CC       test-unistd-h.o
+  CC       unistr/test-u32-chr.o
+  CC       unistr/test-u32-cpy.o
+  CC       unistr/test-u32-pcpy.o
+  CC       unistr/test-u32-set.o
+  CC       unistr/test-u32-strcat.o
+  CC       unistr/test-u32-strlen.o
+  CC       test-unlink.o
+  CC       test-unlinkat.o
+  CC       test-unsetenv.o
+  CC       test-vasnprintf.o
+  CC       test-verify.o
+  CC       test-version-etc.o
+  CC       test-wchar-h.o
+  CC       test-wcrtomb.o
+  CC       test-wcrtomb-w32.o
+  CC       test-wctype-h.o
+  CC       test-wctype.o
+  CC       test-wcwidth.o
+  CC       test-windows-mutex-type.o
+  CC       test-windows-recmutex-type.o
+  CC       test-windows-timedmutex-type.o
+  CC       test-windows-timedrecmutex-type.o
+  CC       test-wmemchr.o
+  CC       test-xalloc-die.o
+  CC       test-xstdopen.o
+  CC       test-xstrtoimax.o
+  CC       test-xstrtol.o
+  CC       test-xstrtoul.o
+make[4]: 'libtests.a' is up to date.
+  CC       test-year2038.o
+  CCLD     test-accept
+  CCLD     test-alignasof
+  CCLD     test-alloca-opt
+  CCLD     test-argmatch
+  CCLD     test-arpa_inet-h
+  CCLD     test-assert
+  CCLD     test-binary-io
+  CCLD     test-bind
+  CCLD     test-bitrotate
+  CCLD     test-bool
+  CCLD     test-btoc32
+  CCLD     test-c-ctype
+  CCLD     test-btowc
+  CCLD     test-c-stack
+  CCLD     test-c-strcasecmp
+  CCLD     test-c-strcasestr
+  CCLD     test-c-strncasecmp
+  CCLD     test-c32_apply_type_test
+  CCLD     test-c32_get_type_test
+  CCLD     test-c32isalnum
+  CCLD     test-c32isalpha
+  CCLD     test-c32isblank
+  CCLD     test-c32iscntrl
+  CCLD     test-c32isdigit
+  CCLD     test-c32isgraph
+  CCLD     test-c32isprint
+  CCLD     test-c32islower
+  CCLD     test-c32ispunct
+  CCLD     test-c32isspace
+  CCLD     test-c32isupper
+  CCLD     test-c32isxdigit
+  CCLD     test-c32rtomb
+  CCLD     test-c32tolower
+  CCLD     test-c32rtomb-w32
+  CCLD     test-c32width
+  CCLD     test-calloc-gnu
+  CCLD     test-calloc-posix
+  CCLD     test-chdir
+  CCLD     test-cloexec
+  CCLD     test-close
+  CCLD     test-connect
+  CCLD     test-ctype-h
+  CCLD     test-dirent-h
+  CCLD     test-dirfd
+  CCLD     test-dirname
+  CCLD     test-dup
+  CCLD     test-dup2
+  CCLD     test-environ
+  CCLD     test-errno-h
+  CCLD     test-error
+  CCLD     test-exclude
+  CCLD     test-fchdir
+  CCLD     test-fcntl
+  CCLD     test-fcntl-h
+  CCLD     test-fdopen
+  CCLD     test-fdopendir
+  CCLD     test-fgetc
+  CCLD     test-filenamecat
+  CCLD     test-float-h
+  CCLD     test-fnmatch-h
+  CCLD     test-fnmatch
+  CCLD     test-fnmatch-w32
+  CCLD     test-fopen-gnu
+  CCLD     test-fopen
+  CCLD     test-fputc
+  CCLD     test-fread
+  CCLD     test-free
+  CCLD     test-freopen
+  CCLD     test-fstat
+  CCLD     test-fstatat
+  CCLD     test-ftruncate
+  CCLD     test-fwrite
+  CCLD     test-getcwd-lgpl
+  CCLD     test-getdtablesize
+  CCLD     test-getopt-gnu
+  CCLD     test-getopt-posix
+  CCLD     test-getprogname
+  CCLD     test-getrandom
+  CCLD     test-gettext-h
+  CCLD     test-gettimeofday
+  CCLD     test-dynarray
+  CCLD     test-hard-locale
+  CCLD     test-hash
+  CCLD     test-ignore-value
+  CCLD     test-inet_pton
+  CCLD     test-intprops
+  CCLD     test-inttostr
+  CCLD     test-inttypes-h
+  CCLD     test-ioctl
+  CCLD     test-isblank
+  CCLD     test-isnand-nolibm
+  CCLD     test-isnanf-nolibm
+  CCLD     test-isnanl-nolibm
+  CCLD     test-iswblank
+  CCLD     test-iswctype
+  CCLD     test-iswdigit
+  CCLD     test-iswpunct
+  CCLD     test-iswxdigit
+  CCLD     test-langinfo-h
+  CCLD     test-largefile
+  CCLD     test-listen
+  CCLD     test-limits-h
+  CCLD     test-locale-h
+  CCLD     test-localeconv
+  CCLD     test-lstat
+  CCLD     test-malloc-gnu
+  CCLD     test-malloc-posix
+  CCLD     test-malloca
+  CCLD     test-math-h
+  CCLD     test-mbrtoc32
+  CCLD     test-mbrtoc32-w32
+  CCLD     test-mbrtowc
+  CCLD     test-mbrtowc-w32
+  CCLD     test-mbscasecmp
+  CCLD     test-mbsinit
+  CCLD     test-mbsrtoc32s
+  CCLD     test-mbsrtowcs
+  CCLD     test-mcel
+  CCLD     test-memchr
+  CCLD     test-memrchr
+  CCLD     test-mkdir
+  CCLD     test-nanosleep
+  CCLD     test-netinet_in-h
+  CCLD     test-nl_langinfo1
+  CCLD     test-nl_langinfo2
+  CCLD     test-nl_langinfo-mt
+  CCLD     test-nstrftime
+  CCLD     test-nullptr
+  CCLD     test-once1
+  CCLD     test-once2
+  CCLD     test-open
+  CCLD     test-openat
+  CCLD     test-pathmax
+  CCLD     test-perror
+  CCLD     test-pipe
+  CCLD     test-perror2
+  CCLD     test-popen
+  CCLD     test-priv-set
+  CCLD     test-pselect
+  CCLD     test-pthread-cond
+  CCLD     test-pthread
+  CCLD     test-pthread-mutex
+  CCLD     test-pthread-mutex-type
+  CCLD     test-pthread-once1
+  CCLD     test-pthread-once2
+  CCLD     test-pthread-rwlock
+  CCLD     test-pthread-thread
+  CCLD     test-pthread_sigmask1
+  CCLD     test-pthread_sigmask2
+  CCLD     test-putenv
+  CCLD     test-quotearg-simple
+  CCLD     test-raise
+  CCLD     test-random
+  CCLD     test-random-mt
+  CCLD     test-random_r
+  CCLD     test-rawmemchr
+  CCLD     test-readlink
+  CCLD     test-realloc-posix
+  CCLD     test-readlinkat
+  CCLD     test-reallocarray
+  CCLD     test-regex
+  CCLD     test-rmdir
+  CCLD     test-sched-h
+  CCLD     test-select
+  CCLD     test-select-fd
+  CCLD     test-select-stdin
+  CCLD     test-setenv
+  CCLD     test-setlocale_null
+  CCLD     test-setlocale_null-mt-one
+  CCLD     test-setlocale_null-mt-all
+  CCLD     test-setlocale_null-unlocked
+  CCLD     test-setsockopt
+  CCLD     test-sigaction
+  CCLD     test-sh-quote
+  CCLD     test-signal-h
+  CCLD     test-signbit
+  CCLD     test-sigsegv-catch-segv1
+  CCLD     test-sigprocmask
+  CCLD     test-sigsegv-catch-segv2
+  CCLD     test-sigsegv-catch-stackoverflow1
+  CCLD     test-sigsegv-catch-stackoverflow2
+  CCLD     test-sleep
+  CCLD     test-snprintf
+  CCLD     test-sockets
+  CCLD     test-stat
+  CCLD     test-stat-time
+  CC       from-glibc/test_stdc_bit_width-tst-stdc_bit_width.o
+  CCLD     test-stdbit-h
+  CC       from-glibc/test_stdc_leading_zeros-tst-stdc_leading_zeros.o
+  CCLD     test-stdckdint-h
+  CCLD     test-stddef-h
+  CCLD     test-stdint-h
+  CCLD     test-stdio-h
+  CCLD     test-stdlib-h
+  CCLD     test-str_startswith
+  CCLD     test-strcasecmp
+  CCLD     test-strerror
+  CCLD     test-string-h
+  CCLD     test-strerror_r
+  CCLD     test-strings-h
+  CCLD     test-strncasecmp
+  CCLD     test-strnlen
+  CCLD     test-strtoll
+  CCLD     test-strtoimax
+  CCLD     test-symlink
+  CCLD     test-symlinkat
+  CCLD     test-sys_ioctl-h
+  CCLD     test-sys_random-h
+  CCLD     test-sys_select-h
+  CCLD     test-sys_stat-h
+  CCLD     test-sys_socket-h
+  CCLD     test-sys_time-h
+  CCLD     test-sys_types-h
+  CCLD     test-sys_uio-h
+  CCLD     test-sys_wait-h
+  CCLD     test-thread_self
+  CCLD     test-time-h
+  CCLD     test-thread_create
+  CCLD     test-time
+  CCLD     test-gmtime_r
+  CCLD     test-gmtime_r-mt
+  CCLD     test-localtime_r
+  CCLD     test-timespec
+  CCLD     test-localtime_r-mt
+  CCLD     test-timespec_get
+  CCLD     test-uchar-h
+  CC       unicase/test-uc_tolower.o
+  CC       unictype/test-ctype_alpha.o
+  CC       unictype/test-ctype_alnum.o
+  CC       unictype/test-ctype_cntrl.o
+  CC       unictype/test-ctype_blank.o
+  CC       unictype/test-ctype_digit.o
+  CC       unictype/test-ctype_graph.o
+  CC       unictype/test-ctype_lower.o
+  CC       unictype/test-ctype_print.o
+  CC       unictype/test-ctype_punct.o
+  CC       unictype/test-ctype_space.o
+  CC       unictype/test-ctype_upper.o
+  CC       unictype/test-ctype_xdigit.o
+  CCLD     test-unistd-h
+  CCLD     test-u32-chr
+  CCLD     test-u32-cpy
+  CCLD     test-u32-pcpy
+  CCLD     test-u32-set
+  CCLD     test-u32-strcat
+  CC       uniwidth/test-uc_width.o
+  CCLD     test-u32-strlen
+  CC       uniwidth/test-uc_width2.o
+  CCLD     test-unlink
+  CCLD     test-unlinkat
+  CCLD     test-unsetenv
+  CCLD     test-vasnprintf
+  CCLD     test-verify
+  CCLD     test-version-etc
+  CCLD     test-wchar-h
+  CCLD     test-wcrtomb
+  CCLD     test-wcrtomb-w32
+  CCLD     test-wctype-h
+  CCLD     test-wctype
+  CCLD     test-wcwidth
+  CCLD     test-windows-mutex-type
+  CCLD     test-windows-recmutex-type
+  CCLD     test-windows-timedmutex-type
+  CCLD     test-windows-timedrecmutex-type
+  CCLD     test-wmemchr
+  CCLD     test-xalloc-die
+  CCLD     test-xstdopen
+  CCLD     test-xstrtoimax
+  CCLD     test-xstrtol
+  CCLD     test-xstrtoul
+  CCLD     test-year2038
+  CCLD     test-stdc_bit_width
+  CCLD     test-stdc_leading_zeros
+  CCLD     test-uc_tolower
+  CCLD     test-ctype_alnum
+  CCLD     test-ctype_alpha
+  CCLD     test-ctype_blank
+  CCLD     test-ctype_digit
+  CCLD     test-ctype_cntrl
+  CCLD     test-ctype_graph
+  CCLD     test-ctype_lower
+  CCLD     test-ctype_print
+  CCLD     test-ctype_punct
+  CCLD     test-ctype_space
+  CCLD     test-ctype_upper
+  CCLD     test-ctype_xdigit
+  CCLD     test-uc_width
+  CCLD     test-uc_width2
+make[4]: Leaving directory '/sources/diffutils-3.12/gnulib-tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/diffutils-3.12/gnulib-tests'
+make[5]: Entering directory '/sources/diffutils-3.12/gnulib-tests'
+PASS: test-accept
+PASS: test-alignasof
+PASS: test-argmatch
+PASS: test-arpa_inet-h
+PASS: test-alloca-opt
+PASS: test-assert
+PASS: test-bind
+PASS: test-binary-io.sh
+PASS: test-bitrotate
+PASS: test-bool
+PASS: test-btoc32-1.sh
+PASS: test-btoc32-3.sh
+PASS: test-btoc32-2.sh
+PASS: test-c-ctype
+PASS: test-btowc-2.sh
+PASS: test-btowc-1.sh
+PASS: test-btowc-3.sh
+PASS: test-c-strcasecmp.sh
+PASS: test-c32_apply_type_test
+PASS: test-c-stack2.sh
+PASS: test-c32_get_type_test
+PASS: test-c-stack.sh
+PASS: test-c-strncasecmp.sh
+PASS: test-c-strcasestr
+PASS: test-c32isalnum.sh
+PASS: test-c32iscntrl.sh
+PASS: test-c32isblank.sh
+PASS: test-c32isdigit.sh
+PASS: test-c32isalpha.sh
+PASS: test-c32isgraph.sh
+PASS: test-c32islower.sh
+PASS: test-c32isprint.sh
+PASS: test-c32isspace.sh
+PASS: test-c32ispunct.sh
+PASS: test-c32isxdigit.sh
+PASS: test-c32isupper.sh
+SKIP: test-c32rtomb-w32-2.sh
+PASS: test-c32rtomb.sh
+SKIP: test-c32rtomb-w32-3.sh
+SKIP: test-c32rtomb-w32-4.sh
+SKIP: test-c32rtomb-w32-5.sh
+SKIP: test-c32rtomb-w32-7.sh
+SKIP: test-c32rtomb-w32-6.sh
+SKIP: test-c32rtomb-w32-8.sh
+PASS: test-c32width
+PASS: test-calloc-gnu
+PASS: test-calloc-posix
+PASS: test-chdir
+PASS: test-cloexec
+PASS: test-c32tolower.sh
+PASS: test-close
+PASS: test-connect
+PASS: test-ctype-h
+PASS: test-dirfd
+PASS: test-dirent-h
+PASS: test-dirname
+PASS: test-dup
+PASS: test-dup2
+PASS: test-environ
+PASS: test-errno-h
+PASS: test-error.sh
+PASS: test-exclude2.sh
+PASS: test-exclude1.sh
+PASS: test-exclude4.sh
+PASS: test-exclude3.sh
+PASS: test-exclude5.sh
+PASS: test-exclude6.sh
+PASS: test-fchdir
+PASS: test-fcntl-h
+PASS: test-fdopendir
+PASS: test-fcntl
+PASS: test-fdopen
+PASS: test-fgetc
+PASS: test-filenamecat
+PASS: test-float-h
+PASS: test-fnmatch-h
+PASS: test-fnmatch-2.sh
+PASS: test-fnmatch-1.sh
+PASS: test-fnmatch-3.sh
+SKIP: test-fnmatch-4.sh
+SKIP: test-fnmatch-5.sh
+SKIP: test-fnmatch-w32-3.sh
+SKIP: test-fnmatch-w32-2.sh
+SKIP: test-fnmatch-w32-4.sh
+SKIP: test-fnmatch-w32-5.sh
+SKIP: test-fnmatch-w32-6.sh
+SKIP: test-fnmatch-w32-7.sh
+PASS: test-fopen-gnu
+SKIP: test-fnmatch-w32-8.sh
+PASS: test-fopen
+PASS: test-fputc
+PASS: test-fread
+PASS: test-exclude7.sh
+PASS: test-freopen
+PASS: test-fstat
+PASS: test-exclude8.sh
+PASS: test-fstatat
+PASS: test-ftruncate.sh
+PASS: test-fwrite
+PASS: test-getcwd-lgpl
+PASS: test-getdtablesize
+PASS: test-getopt-gnu
+PASS: test-getopt-posix
+PASS: test-getprogname
+PASS: test-gettimeofday
+PASS: test-getrandom
+PASS: test-gettext-h
+PASS: test-hard-locale
+PASS: test-dynarray
+PASS: test-ignore-value
+PASS: test-inet_pton
+PASS: test-intprops
+PASS: test-inttypes-h
+PASS: test-inttostr
+PASS: test-ioctl
+PASS: test-isnand-nolibm
+PASS: test-isblank
+PASS: test-isnanf-nolibm
+PASS: test-isnanl-nolibm
+PASS: test-iswblank
+PASS: test-iswctype
+PASS: test-langinfo-h
+PASS: test-iswpunct.sh
+PASS: test-largefile
+PASS: test-iswdigit.sh
+PASS: test-iswxdigit.sh
+PASS: test-locale-h
+PASS: test-limits-h
+PASS: test-listen
+PASS: test-localeconv
+PASS: test-malloc-gnu
+PASS: test-malloc-posix
+PASS: test-math-h
+PASS: test-lstat
+PASS: test-hash
+PASS: test-malloca
+PASS: test-mbrtoc32-2.sh
+PASS: test-mbrtoc32-1.sh
+SKIP: test-mbrtoc32-4.sh
+PASS: test-mbrtoc32-3.sh
+SKIP: test-mbrtoc32-5.sh
+SKIP: test-mbrtoc32-w32-2.sh
+SKIP: test-mbrtoc32-w32-3.sh
+SKIP: test-mbrtoc32-w32-4.sh
+SKIP: test-mbrtoc32-w32-5.sh
+SKIP: test-mbrtoc32-w32-6.sh
+SKIP: test-mbrtoc32-w32-8.sh
+SKIP: test-mbrtoc32-w32-7.sh
+PASS: test-mbrtowc-2.sh
+PASS: test-mbrtowc-1.sh
+PASS: test-mbrtowc-3.sh
+SKIP: test-mbrtowc-4.sh
+SKIP: test-mbrtowc-5.sh
+SKIP: test-mbrtowc-w32-2.sh
+SKIP: test-mbrtowc-w32-4.sh
+SKIP: test-mbrtowc-w32-5.sh
+SKIP: test-mbrtowc-w32-3.sh
+SKIP: test-mbrtowc-w32-6.sh
+SKIP: test-mbrtowc-w32-7.sh
+SKIP: test-mbrtowc-w32-8.sh
+SKIP: test-mbscasecmp.sh
+PASS: test-mbsinit.sh
+PASS: test-mbsrtoc32s-1.sh
+SKIP: test-mbsrtoc32s-4.sh
+PASS: test-mbsrtoc32s-2.sh
+PASS: test-mbsrtoc32s-3.sh
+SKIP: test-mbsrtoc32s-5.sh
+PASS: test-mbsrtowcs-1.sh
+SKIP: test-mbsrtowcs-4.sh
+SKIP: test-mbsrtowcs-5.sh
+PASS: test-mbsrtowcs-2.sh
+PASS: test-mbsrtowcs-3.sh
+SKIP: test-mcel-5.sh
+SKIP: test-mcel-4.sh
+PASS: test-memrchr
+PASS: test-mkdir
+PASS: test-netinet_in-h
+PASS: test-nl_langinfo1.sh
+PASS: test-nl_langinfo2.sh
+PASS: test-free
+PASS: test-nstrftime-1.sh
+PASS: test-nstrftime-2.sh
+PASS: test-nanosleep
+PASS: test-nullptr
+PASS: test-once1
+PASS: test-nl_langinfo-mt
+PASS: test-memchr
+PASS: test-open
+PASS: test-once2
+PASS: test-pathmax
+PASS: test-openat
+PASS: test-perror2
+PASS: test-pipe
+PASS: test-priv-set
+PASS: test-popen
+PASS: test-pselect
+PASS: test-pthread
+PASS: test-pthread-mutex-type
+PASS: test-pthread-once1
+PASS: test-perror.sh
+PASS: test-pthread-cond
+PASS: test-pthread-thread
+PASS: test-pthread_sigmask1
+PASS: test-pthread_sigmask2
+PASS: test-putenv
+PASS: test-quotearg-simple
+PASS: test-raise
+PASS: test-random
+PASS: test-pthread-mutex
+PASS: test-random_r
+PASS: test-rawmemchr
+PASS: test-readlink
+PASS: test-random-mt
+PASS: test-realloc-posix
+PASS: test-readlinkat
+PASS: test-reallocarray
+PASS: test-mcel-2.sh
+PASS: test-sched-h
+PASS: test-rmdir
+PASS: test-select
+PASS: test-select-out.sh
+PASS: test-setenv
+PASS: test-setlocale_null
+PASS: test-select-in.sh
+PASS: test-mcel-3.sh
+PASS: test-setlocale_null-unlocked
+PASS: test-setsockopt
+PASS: test-setlocale_null-mt-one
+PASS: test-sh-quote
+PASS: test-sigaction
+PASS: test-signal-h
+PASS: test-signbit
+PASS: test-sigsegv-catch-segv1
+PASS: test-sigsegv-catch-segv2
+PASS: test-sigsegv-catch-stackoverflow1
+PASS: test-sigsegv-catch-stackoverflow2
+PASS: test-sigprocmask
+PASS: test-snprintf
+PASS: test-setlocale_null-mt-all
+PASS: test-sockets
+PASS: test-sleep
+PASS: test-stat
+PASS: test-stat-time
+PASS: test-stdbit-h
+PASS: test-stdc_bit_width
+PASS: test-stdc_leading_zeros
+PASS: test-stdckdint-h
+PASS: test-stddef-h
+PASS: test-stdint-h
+PASS: test-stdlib-h
+PASS: test-stdio-h
+PASS: test-str_startswith
+PASS: test-strcasecmp-2.sh
+PASS: test-strcasecmp-1.sh
+PASS: test-pthread-rwlock
+PASS: test-strerror
+PASS: test-strerror_r
+PASS: test-strings-h
+PASS: test-string-h
+PASS: test-strncasecmp-1.sh
+PASS: test-strncasecmp-2.sh
+PASS: test-strtoimax
+PASS: test-strnlen
+PASS: test-strtoll
+PASS: test-symlink
+PASS: test-symlinkat
+PASS: test-sys_ioctl-h
+PASS: test-sys_random-h
+PASS: test-sys_select-h
+PASS: test-sys_stat-h
+PASS: test-sys_socket-h
+PASS: test-sys_time-h
+PASS: test-sys_types-h
+PASS: test-sys_uio-h
+PASS: test-sys_wait-h
+PASS: test-thread_self
+PASS: test-thread_create
+PASS: test-time-h
+PASS: test-gmtime_r
+PASS: test-time
+PASS: test-localtime_r
+PASS: test-timespec
+PASS: test-timespec_get
+PASS: test-uchar-h
+PASS: test-uc_tolower
+PASS: test-gmtime_r-mt
+PASS: test-init.sh
+PASS: test-localtime_r-mt
+PASS: test-ctype_alnum
+PASS: test-ctype_alpha
+PASS: test-ctype_blank
+PASS: test-ctype_cntrl
+PASS: test-ctype_lower
+PASS: test-ctype_graph
+PASS: test-ctype_digit
+PASS: test-ctype_print
+PASS: test-ctype_space
+PASS: test-ctype_punct
+PASS: test-ctype_upper
+PASS: test-ctype_xdigit
+PASS: test-unistd-h
+PASS: test-u32-cpy
+PASS: test-u32-pcpy
+PASS: test-u32-chr
+PASS: test-u32-set
+PASS: test-u32-strcat
+PASS: test-u32-strlen
+PASS: test-uc_width
+PASS: test-unlink
+PASS: test-unsetenv
+PASS: test-unlinkat
+PASS: uniwidth/test-uc_width2.sh
+PASS: test-vasnprintf
+PASS: test-verify
+SKIP: test-vc-list-files-git.sh
+SKIP: test-vc-list-files-cvs.sh
+PASS: test-wchar-h
+PASS: test-wcrtomb.sh
+SKIP: test-wcrtomb-w32-2.sh
+SKIP: test-wcrtomb-w32-3.sh
+PASS: test-mcel-1.sh
+SKIP: test-wcrtomb-w32-4.sh
+PASS: test-version-etc.sh
+SKIP: test-wcrtomb-w32-5.sh
+SKIP: test-wcrtomb-w32-6.sh
+SKIP: test-wcrtomb-w32-7.sh
+SKIP: test-wcrtomb-w32-8.sh
+PASS: test-wctype-h
+PASS: test-wctype
+PASS: test-wcwidth
+SKIP: test-windows-mutex-type
+SKIP: test-windows-recmutex-type
+SKIP: test-windows-timedmutex-type
+SKIP: test-windows-timedrecmutex-type
+PASS: test-wmemchr
+PASS: test-xstdopen.sh
+PASS: test-xalloc-die.sh
+PASS: test-year2038
+PASS: test-xstrtoimax.sh
+PASS: test-xstrtol.sh
+PASS: test-update-copyright.sh
+PASS: test-verify.sh
+PASS: test-pthread-once2
+PASS: test-regex
+============================================================================
+Testsuite summary for GNU diffutils 3.12
+============================================================================
+# TOTAL: 344
+# PASS:  290
+# SKIP:  54
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/diffutils-3.12/gnulib-tests'
+make[4]: Leaving directory '/sources/diffutils-3.12/gnulib-tests'
+make[3]: Leaving directory '/sources/diffutils-3.12/gnulib-tests'
+make[2]: Leaving directory '/sources/diffutils-3.12/gnulib-tests'
+make[1]: Leaving directory '/sources/diffutils-3.12/gnulib-tests'
+make[1]: Entering directory '/sources/diffutils-3.12'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/diffutils-3.12'
