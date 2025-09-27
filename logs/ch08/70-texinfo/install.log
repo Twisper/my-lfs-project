@@ -1,0 +1,391 @@
+make  install-recursive
+make[1]: Entering directory '/sources/texinfo-7.2'
+Making install in gnulib/lib
+make[2]: Entering directory '/sources/texinfo-7.2/gnulib/lib'
+make  install-recursive
+make[3]: Entering directory '/sources/texinfo-7.2/gnulib/lib'
+make[4]: Entering directory '/sources/texinfo-7.2/gnulib/lib'
+make[5]: Entering directory '/sources/texinfo-7.2/gnulib/lib'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Leaving directory '/sources/texinfo-7.2/gnulib/lib'
+make[4]: Leaving directory '/sources/texinfo-7.2/gnulib/lib'
+make[3]: Leaving directory '/sources/texinfo-7.2/gnulib/lib'
+make[2]: Leaving directory '/sources/texinfo-7.2/gnulib/lib'
+Making install in info
+make[2]: Entering directory '/sources/texinfo-7.2/info'
+make  install-am
+make[3]: Entering directory '/sources/texinfo-7.2/info'
+make[4]: Entering directory '/sources/texinfo-7.2/info'
+make[4]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c ginfo '/usr/bin/./info'
+make[4]: Leaving directory '/sources/texinfo-7.2/info'
+make[3]: Leaving directory '/sources/texinfo-7.2/info'
+make[2]: Leaving directory '/sources/texinfo-7.2/info'
+Making install in install-info
+make[2]: Entering directory '/sources/texinfo-7.2/install-info'
+Making install in .
+make[3]: Entering directory '/sources/texinfo-7.2/install-info'
+make[4]: Entering directory '/sources/texinfo-7.2/install-info'
+make[4]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c ginstall-info '/usr/bin/./install-info'
+make[4]: Leaving directory '/sources/texinfo-7.2/install-info'
+make[3]: Leaving directory '/sources/texinfo-7.2/install-info'
+Making install in tests
+make[3]: Entering directory '/sources/texinfo-7.2/install-info/tests'
+make[4]: Entering directory '/sources/texinfo-7.2/install-info/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/texinfo-7.2/install-info/tests'
+make[3]: Leaving directory '/sources/texinfo-7.2/install-info/tests'
+make[2]: Leaving directory '/sources/texinfo-7.2/install-info'
+Making install in po
+make[2]: Entering directory '/sources/texinfo-7.2/po'
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/texinfo.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/texinfo.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/texinfo.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/texinfo.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/texinfo.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/texinfo.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/texinfo.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/texinfo.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/texinfo.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/texinfo.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/texinfo.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/texinfo.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/texinfo.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/texinfo.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/texinfo.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/texinfo.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/texinfo.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/texinfo.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/texinfo.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/texinfo.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/texinfo.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/texinfo.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/texinfo.mo
+installing rw.gmo as /usr/share/locale/rw/LC_MESSAGES/texinfo.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/texinfo.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/texinfo.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/texinfo.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/texinfo.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/texinfo.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/texinfo.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/texinfo.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/texinfo.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/texinfo.mo
+if test "texinfo" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/sources/texinfo-7.2/po'
+Making install in po_document
+make[2]: Entering directory '/sources/texinfo-7.2/po_document'
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/texinfo_document.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/texinfo_document.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/texinfo_document.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/texinfo_document.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/texinfo_document.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/texinfo_document.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/texinfo_document.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/texinfo_document.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/texinfo_document.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/texinfo_document.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/texinfo_document.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/texinfo_document.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/texinfo_document.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/texinfo_document.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/texinfo_document.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/texinfo_document.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/texinfo_document.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/texinfo_document.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/texinfo_document.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/texinfo_document.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/texinfo_document.mo
+if test "texinfo" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/sources/texinfo-7.2/po_document'
+Making install in tp
+make[2]: Entering directory '/sources/texinfo-7.2/tp'
+Making install in Texinfo/XS
+make[3]: Entering directory '/sources/texinfo-7.2/tp/Texinfo/XS'
+make  install-recursive
+make[4]: Entering directory '/sources/texinfo-7.2/tp/Texinfo/XS'
+Making install in gnulib/lib
+make[5]: Entering directory '/sources/texinfo-7.2/tp/Texinfo/XS/gnulib/lib'
+make  install-recursive
+make[6]: Entering directory '/sources/texinfo-7.2/tp/Texinfo/XS/gnulib/lib'
+make[7]: Entering directory '/sources/texinfo-7.2/tp/Texinfo/XS/gnulib/lib'
+make[8]: Entering directory '/sources/texinfo-7.2/tp/Texinfo/XS/gnulib/lib'
+make[8]: Nothing to be done for 'install-exec-am'.
+make[8]: Leaving directory '/sources/texinfo-7.2/tp/Texinfo/XS/gnulib/lib'
+make[7]: Leaving directory '/sources/texinfo-7.2/tp/Texinfo/XS/gnulib/lib'
+make[6]: Leaving directory '/sources/texinfo-7.2/tp/Texinfo/XS/gnulib/lib'
+make[5]: Leaving directory '/sources/texinfo-7.2/tp/Texinfo/XS/gnulib/lib'
+make[5]: Entering directory '/sources/texinfo-7.2/tp/Texinfo/XS'
+make[6]: Entering directory '/sources/texinfo-7.2/tp/Texinfo/XS'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/texi2any/Texinfo/XS/parsetexi'
+ /usr/bin/install -c -m 644 parsetexi/Parsetexi.pm '/usr/share/texi2any/Texinfo/XS/parsetexi'
+ /usr/bin/mkdir -p '/usr/lib/texi2any'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   TestXS.la MiscXS.la XSParagraph.la libtexinfo.la libtexinfoxs.la Parsetexi.la DocumentXS.la StructuringTransfoXS.la libtexinfo-convert.la libtexinfo-convertxs.la IndicesXS.la ConvertXS.la '/usr/lib/texi2any'
+libtool: install: /usr/bin/install -c .libs/TestXS.so /usr/lib/texi2any/TestXS.so
+libtool: install: /usr/bin/install -c .libs/TestXS.lai /usr/lib/texi2any/TestXS.la
+libtool: install: /usr/bin/install -c .libs/MiscXS.so /usr/lib/texi2any/MiscXS.so
+libtool: install: /usr/bin/install -c .libs/MiscXS.lai /usr/lib/texi2any/MiscXS.la
+libtool: install: /usr/bin/install -c .libs/XSParagraph.so /usr/lib/texi2any/XSParagraph.so
+libtool: install: /usr/bin/install -c .libs/XSParagraph.lai /usr/lib/texi2any/XSParagraph.la
+libtool: install: /usr/bin/install -c .libs/libtexinfo.so.0.0.0 /usr/lib/texi2any/libtexinfo.so.0.0.0
+libtool: install: (cd /usr/lib/texi2any && { ln -s -f libtexinfo.so.0.0.0 libtexinfo.so.0 || { rm -f libtexinfo.so.0 && ln -s libtexinfo.so.0.0.0 libtexinfo.so.0; }; })
+libtool: install: (cd /usr/lib/texi2any && { ln -s -f libtexinfo.so.0.0.0 libtexinfo.so || { rm -f libtexinfo.so && ln -s libtexinfo.so.0.0.0 libtexinfo.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtexinfo.lai /usr/lib/texi2any/libtexinfo.la
+libtool: warning: relinking 'libtexinfoxs.la'
+libtool: install: (cd /sources/texinfo-7.2/tp/Texinfo/XS; /bin/sh "/sources/texinfo-7.2/tp/Texinfo/XS/libtool"  --tag CC --mode=relink cc -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2 -fPIC -version-info 0:0:0 -Wl,-E -Wl,-rpath,/usr/lib/perl5/5.42/core_perl/CORE -o libtexinfoxs.la -rpath /usr/lib/texi2any main/libtexinfoxs_la-build_perl_info.lo main/libtexinfoxs_la-get_perl_info.lo main/libtexinfoxs_la-options_get_perl.lo libtexinfo.la libperlcall_utils.la )
+libtool: relink: cc -shared  -fPIC -DPIC  main/.libs/libtexinfoxs_la-build_perl_info.o main/.libs/libtexinfoxs_la-get_perl_info.o main/.libs/libtexinfoxs_la-options_get_perl.o  -Wl,--whole-archive ./.libs/libperlcall_utils.a -Wl,--no-whole-archive  -Wl,-rpath -Wl,/usr/lib/texi2any -L/usr/lib/texi2any -ltexinfo  -fstack-protector-strong -O2 -Wl,-E -Wl,-rpath -Wl,/usr/lib/perl5/5.42/core_perl/CORE   -Wl,-soname -Wl,libtexinfoxs.so.0 -o .libs/libtexinfoxs.so.0.0.0
+libtool: install: /usr/bin/install -c .libs/libtexinfoxs.so.0.0.0T /usr/lib/texi2any/libtexinfoxs.so.0.0.0
+libtool: install: (cd /usr/lib/texi2any && { ln -s -f libtexinfoxs.so.0.0.0 libtexinfoxs.so.0 || { rm -f libtexinfoxs.so.0 && ln -s libtexinfoxs.so.0.0.0 libtexinfoxs.so.0; }; })
+libtool: install: (cd /usr/lib/texi2any && { ln -s -f libtexinfoxs.so.0.0.0 libtexinfoxs.so || { rm -f libtexinfoxs.so && ln -s libtexinfoxs.so.0.0.0 libtexinfoxs.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtexinfoxs.lai /usr/lib/texi2any/libtexinfoxs.la
+libtool: warning: relinking 'Parsetexi.la'
+libtool: install: (cd /sources/texinfo-7.2/tp/Texinfo/XS; /bin/sh "/sources/texinfo-7.2/tp/Texinfo/XS/libtool"  --tag CC --mode=relink cc -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2 -fPIC -avoid-version -module -Wl,-E -Wl,-rpath,/usr/lib/perl5/5.42/core_perl/CORE -o Parsetexi.la -rpath /usr/lib/texi2any parsetexi/Parsetexi_la-Parsetexi.lo libtexinfoxs.la libtexinfo.la )
+libtool: relink: cc -shared  -fPIC -DPIC  parsetexi/.libs/Parsetexi_la-Parsetexi.o   -Wl,-rpath -Wl,/usr/lib/texi2any -L/sources/texinfo-7.2/tp/Texinfo/XS/.libs -L/usr/lib/texi2any -ltexinfoxs -ltexinfo  -fstack-protector-strong -O2 -Wl,-E -Wl,-rpath -Wl,/usr/lib/perl5/5.42/core_perl/CORE   -Wl,-soname -Wl,Parsetexi.so -o .libs/Parsetexi.so
+libtool: install: /usr/bin/install -c .libs/Parsetexi.soT /usr/lib/texi2any/Parsetexi.so
+libtool: install: /usr/bin/install -c .libs/Parsetexi.lai /usr/lib/texi2any/Parsetexi.la
+libtool: warning: relinking 'DocumentXS.la'
+libtool: install: (cd /sources/texinfo-7.2/tp/Texinfo/XS; /bin/sh "/sources/texinfo-7.2/tp/Texinfo/XS/libtool"  --tag CC --mode=relink cc -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2 -fPIC -avoid-version -module -Wl,-E -Wl,-rpath,/usr/lib/perl5/5.42/core_perl/CORE -o DocumentXS.la -rpath /usr/lib/texi2any main/DocumentXS_la-DocumentXS.lo libtexinfoxs.la libtexinfo.la )
+libtool: relink: cc -shared  -fPIC -DPIC  main/.libs/DocumentXS_la-DocumentXS.o   -Wl,-rpath -Wl,/usr/lib/texi2any -L/sources/texinfo-7.2/tp/Texinfo/XS/.libs -L/usr/lib/texi2any -ltexinfoxs -ltexinfo  -fstack-protector-strong -O2 -Wl,-E -Wl,-rpath -Wl,/usr/lib/perl5/5.42/core_perl/CORE   -Wl,-soname -Wl,DocumentXS.so -o .libs/DocumentXS.so
+libtool: install: /usr/bin/install -c .libs/DocumentXS.soT /usr/lib/texi2any/DocumentXS.so
+libtool: install: /usr/bin/install -c .libs/DocumentXS.lai /usr/lib/texi2any/DocumentXS.la
+libtool: warning: relinking 'StructuringTransfoXS.la'
+libtool: install: (cd /sources/texinfo-7.2/tp/Texinfo/XS; /bin/sh "/sources/texinfo-7.2/tp/Texinfo/XS/libtool"  --tag CC --mode=relink cc -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2 -fPIC -avoid-version -module -Wl,-E -Wl,-rpath,/usr/lib/perl5/5.42/core_perl/CORE -o StructuringTransfoXS.la -rpath /usr/lib/texi2any structuring_transfo/StructuringTransfoXS_la-StructuringTransfoXS.lo libtexinfoxs.la libtexinfo.la )
+libtool: relink: cc -shared  -fPIC -DPIC  structuring_transfo/.libs/StructuringTransfoXS_la-StructuringTransfoXS.o   -Wl,-rpath -Wl,/usr/lib/texi2any -L/sources/texinfo-7.2/tp/Texinfo/XS/.libs -L/usr/lib/texi2any -ltexinfoxs -ltexinfo  -fstack-protector-strong -O2 -Wl,-E -Wl,-rpath -Wl,/usr/lib/perl5/5.42/core_perl/CORE   -Wl,-soname -Wl,StructuringTransfoXS.so -o .libs/StructuringTransfoXS.so
+libtool: install: /usr/bin/install -c .libs/StructuringTransfoXS.soT /usr/lib/texi2any/StructuringTransfoXS.so
+libtool: install: /usr/bin/install -c .libs/StructuringTransfoXS.lai /usr/lib/texi2any/StructuringTransfoXS.la
+libtool: warning: relinking 'libtexinfo-convert.la'
+libtool: install: (cd /sources/texinfo-7.2/tp/Texinfo/XS; /bin/sh "/sources/texinfo-7.2/tp/Texinfo/XS/libtool"  --tag CC --mode=relink cc -version-info 0:0:0 -Wl,-E -Wl,-rpath,/usr/lib/perl5/5.42/core_perl/CORE -o libtexinfo-convert.la -rpath /usr/lib/texi2any convert/libtexinfo_convert_la-converter.lo convert/libtexinfo_convert_la-cmd_converter.lo convert/libtexinfo_convert_la-converters_options.lo convert/libtexinfo_convert_la-convert_html.lo convert/libtexinfo_convert_la-format_html.lo convert/libtexinfo_convert_la-hashmap.lo convert/libtexinfo_convert_la-html_converter_init_options.lo convert/libtexinfo_convert_la-html_converter_finish.lo convert/libtexinfo_convert_la-html_conversion_state.lo convert/libtexinfo_convert_la-html_prepare_converter.lo convert/libtexinfo_convert_la-html_converter_api.lo convert/libtexinfo_convert_la-texinfo.lo libtexinfoxs.la libtexinfo.la libcallperl_libtexinfo_convert.la ./gnulib/lib/libgnu.la )
+libtool: relink: cc -shared  -fPIC -DPIC  convert/.libs/libtexinfo_convert_la-converter.o convert/.libs/libtexinfo_convert_la-cmd_converter.o convert/.libs/libtexinfo_convert_la-converters_options.o convert/.libs/libtexinfo_convert_la-convert_html.o convert/.libs/libtexinfo_convert_la-format_html.o convert/.libs/libtexinfo_convert_la-hashmap.o convert/.libs/libtexinfo_convert_la-html_converter_init_options.o convert/.libs/libtexinfo_convert_la-html_converter_finish.o convert/.libs/libtexinfo_convert_la-html_conversion_state.o convert/.libs/libtexinfo_convert_la-html_prepare_converter.o convert/.libs/libtexinfo_convert_la-html_converter_api.o convert/.libs/libtexinfo_convert_la-texinfo.o  -Wl,--whole-archive ./.libs/libcallperl_libtexinfo_convert.a ./gnulib/lib/.libs/libgnu.a -Wl,--no-whole-archive  -Wl,-rpath -Wl,/usr/lib/texi2any -L/sources/texinfo-7.2/tp/Texinfo/XS/.libs -L/usr/lib/texi2any -ltexinfoxs -ltexinfo  -Wl,-E -Wl,-rpath -Wl,/usr/lib/perl5/5.42/core_perl/CORE   -Wl,-soname -Wl,libtexinfo-convert.so.0 -o .libs/libtexinfo-convert.so.0.0.0
+libtool: install: /usr/bin/install -c .libs/libtexinfo-convert.so.0.0.0T /usr/lib/texi2any/libtexinfo-convert.so.0.0.0
+libtool: install: (cd /usr/lib/texi2any && { ln -s -f libtexinfo-convert.so.0.0.0 libtexinfo-convert.so.0 || { rm -f libtexinfo-convert.so.0 && ln -s libtexinfo-convert.so.0.0.0 libtexinfo-convert.so.0; }; })
+libtool: install: (cd /usr/lib/texi2any && { ln -s -f libtexinfo-convert.so.0.0.0 libtexinfo-convert.so || { rm -f libtexinfo-convert.so && ln -s libtexinfo-convert.so.0.0.0 libtexinfo-convert.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtexinfo-convert.lai /usr/lib/texi2any/libtexinfo-convert.la
+libtool: warning: relinking 'libtexinfo-convertxs.la'
+libtool: install: (cd /sources/texinfo-7.2/tp/Texinfo/XS; /bin/sh "/sources/texinfo-7.2/tp/Texinfo/XS/libtool"  --tag CC --mode=relink cc -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2 -fPIC -version-info 0:0:0 -Wl,-E -Wl,-rpath,/usr/lib/perl5/5.42/core_perl/CORE -o libtexinfo-convertxs.la -rpath /usr/lib/texi2any convert/libtexinfo_convertxs_la-build_html_perl_info.lo convert/libtexinfo_convertxs_la-get_converter_perl_info.lo libtexinfo-convert.la libtexinfoxs.la libtexinfo.la )
+libtool: relink: cc -shared  -fPIC -DPIC  convert/.libs/libtexinfo_convertxs_la-build_html_perl_info.o convert/.libs/libtexinfo_convertxs_la-get_converter_perl_info.o   -Wl,-rpath -Wl,/usr/lib/texi2any -L/sources/texinfo-7.2/tp/Texinfo/XS/.libs -L/usr/lib/texi2any -ltexinfo-convert -ltexinfoxs -ltexinfo  -fstack-protector-strong -O2 -Wl,-E -Wl,-rpath -Wl,/usr/lib/perl5/5.42/core_perl/CORE   -Wl,-soname -Wl,libtexinfo-convertxs.so.0 -o .libs/libtexinfo-convertxs.so.0.0.0
+libtool: install: /usr/bin/install -c .libs/libtexinfo-convertxs.so.0.0.0T /usr/lib/texi2any/libtexinfo-convertxs.so.0.0.0
+libtool: install: (cd /usr/lib/texi2any && { ln -s -f libtexinfo-convertxs.so.0.0.0 libtexinfo-convertxs.so.0 || { rm -f libtexinfo-convertxs.so.0 && ln -s libtexinfo-convertxs.so.0.0.0 libtexinfo-convertxs.so.0; }; })
+libtool: install: (cd /usr/lib/texi2any && { ln -s -f libtexinfo-convertxs.so.0.0.0 libtexinfo-convertxs.so || { rm -f libtexinfo-convertxs.so && ln -s libtexinfo-convertxs.so.0.0.0 libtexinfo-convertxs.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtexinfo-convertxs.lai /usr/lib/texi2any/libtexinfo-convertxs.la
+libtool: warning: relinking 'IndicesXS.la'
+libtool: install: (cd /sources/texinfo-7.2/tp/Texinfo/XS; /bin/sh "/sources/texinfo-7.2/tp/Texinfo/XS/libtool"  --tag CC --mode=relink cc -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2 -fPIC -avoid-version -module -Wl,-E -Wl,-rpath,/usr/lib/perl5/5.42/core_perl/CORE -o IndicesXS.la -rpath /usr/lib/texi2any main/IndicesXS_la-IndicesXS.lo libtexinfo-convertxs.la libtexinfoxs.la libtexinfo-convert.la libtexinfo.la )
+libtool: relink: cc -shared  -fPIC -DPIC  main/.libs/IndicesXS_la-IndicesXS.o   -Wl,-rpath -Wl,/usr/lib/texi2any -L/sources/texinfo-7.2/tp/Texinfo/XS/.libs -L/usr/lib/texi2any -ltexinfo-convertxs -ltexinfo-convert -ltexinfoxs -ltexinfo  -fstack-protector-strong -O2 -Wl,-E -Wl,-rpath -Wl,/usr/lib/perl5/5.42/core_perl/CORE   -Wl,-soname -Wl,IndicesXS.so -o .libs/IndicesXS.so
+libtool: install: /usr/bin/install -c .libs/IndicesXS.soT /usr/lib/texi2any/IndicesXS.so
+libtool: install: /usr/bin/install -c .libs/IndicesXS.lai /usr/lib/texi2any/IndicesXS.la
+libtool: warning: relinking 'ConvertXS.la'
+libtool: install: (cd /sources/texinfo-7.2/tp/Texinfo/XS; /bin/sh "/sources/texinfo-7.2/tp/Texinfo/XS/libtool"  --tag CC --mode=relink cc -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2 -fPIC -avoid-version -module -Wl,-E -Wl,-rpath,/usr/lib/perl5/5.42/core_perl/CORE -o ConvertXS.la -rpath /usr/lib/texi2any convert/ConvertXS_la-get_html_perl_info.lo convert/ConvertXS_la-ConvertXS.lo libtexinfo-convertxs.la libtexinfoxs.la libtexinfo-convert.la libtexinfo.la )
+libtool: relink: cc -shared  -fPIC -DPIC  convert/.libs/ConvertXS_la-get_html_perl_info.o convert/.libs/ConvertXS_la-ConvertXS.o   -Wl,-rpath -Wl,/usr/lib/texi2any -L/sources/texinfo-7.2/tp/Texinfo/XS/.libs -L/usr/lib/texi2any -ltexinfo-convertxs -ltexinfo-convert -ltexinfoxs -ltexinfo  -fstack-protector-strong -O2 -Wl,-E -Wl,-rpath -Wl,/usr/lib/perl5/5.42/core_perl/CORE   -Wl,-soname -Wl,ConvertXS.so -o .libs/ConvertXS.so
+libtool: install: /usr/bin/install -c .libs/ConvertXS.soT /usr/lib/texi2any/ConvertXS.so
+libtool: install: /usr/bin/install -c .libs/ConvertXS.lai /usr/lib/texi2any/ConvertXS.la
+libtool: finish: PATH="/usr/bin:/usr/sbin:/sbin" ldconfig -n /usr/lib/texi2any
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/texi2any
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-data-hook
+make[7]: Entering directory '/sources/texinfo-7.2/tp/Texinfo/XS'
+rm -f /usr/lib/texi2any/TestXS*
+make[7]: Leaving directory '/sources/texinfo-7.2/tp/Texinfo/XS'
+make[6]: Leaving directory '/sources/texinfo-7.2/tp/Texinfo/XS'
+make[5]: Leaving directory '/sources/texinfo-7.2/tp/Texinfo/XS'
+make[4]: Leaving directory '/sources/texinfo-7.2/tp/Texinfo/XS'
+make[3]: Leaving directory '/sources/texinfo-7.2/tp/Texinfo/XS'
+Making install in .
+make[3]: Entering directory '/sources/texinfo-7.2/tp'
+make[4]: Entering directory '/sources/texinfo-7.2/tp'
+if test no != 'yes' ; then \
+  /usr/bin/mkdir -p /usr/share/texi2any/lib/libintl-perl/lib/Locale/Recode \
+    /usr/share/texi2any/lib/libintl-perl/lib/Locale/RecodeData; \
+  /usr/bin/install -c -m 644 ./maintain/lib/libintl-perl/lib/Locale/*.pm \
+    /usr/share/texi2any/lib/libintl-perl/lib/Locale; \
+  /usr/bin/install -c -m 644 ./maintain/lib/libintl-perl/lib/Locale/Recode/*.pm \
+    /usr/share/texi2any/lib/libintl-perl/lib/Locale/Recode; \
+  /usr/bin/install -c -m 644 ./maintain/lib/libintl-perl/lib/Locale/RecodeData/*.pm \
+    /usr/share/texi2any/lib/libintl-perl/lib/Locale/RecodeData; \
+fi
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/mkdir -p '/usr/share/texi2any/ext'
+ /usr/bin/mkdir -p '/usr/share/texi2any/Texinfo/Convert'
+ /usr/bin/mkdir -p '/usr/share/texi2any/init'
+ /usr/bin/mkdir -p '/usr/share/texi2any/Texinfo'
+ /usr/bin/mkdir -p '/usr/share/texi2any/Texinfo'
+ /usr/bin/install -c -m 644 ext/epub3.pm ext/highlight_syntax.pm ext/tex4ht.pm ext/latex2html.pm '/usr/share/texi2any/ext'
+ /usr/bin/install -c -m 644 init/book.pm init/chm.pm init/documentation_examples.pm init/html32.pm init/sc_formatting_with_css.pm '/usr/share/texi2any/init'
+ /usr/bin/install -c -m 644 Texinfo/Convert/Converter.pm Texinfo/Convert/ConvertXS.pm Texinfo/Convert/DocBook.pm Texinfo/Convert/HTML.pm Texinfo/Convert/IXIN.pm Texinfo/Convert/IXINSXML.pm Texinfo/Convert/Info.pm Texinfo/Convert/LaTeX.pm Texinfo/Convert/NodeNameNormalization.pm Texinfo/Convert/Paragraph.pm Texinfo/Convert/ParagraphNonXS.pm Texinfo/Convert/PlainTexinfo.pm Texinfo/Convert/Plaintext.pm Texinfo/Convert/Texinfo.pm Texinfo/Convert/TexinfoMarkup.pm Texinfo/Convert/TexinfoSXML.pm Texinfo/Convert/TexinfoXML.pm Texinfo/Convert/Text.pm Texinfo/Convert/TextContent.pm Texinfo/Convert/Unicode.pm Texinfo/Convert/Utils.pm '/usr/share/texi2any/Texinfo/Convert'
+ /usr/bin/install -c -m 644 Texinfo/ModulePath.pm '/usr/share/texi2any/Texinfo'
+ /usr/bin/install -c texi2any '/usr/bin'
+ /usr/bin/install -c -m 644 Texinfo/Config.pm Texinfo/Common.pm Texinfo/Commands.pod Texinfo/Commands.pm Texinfo/HTMLData.pm Texinfo/DebugTree.pm Texinfo/Document.pm Texinfo/DocumentXS.pm Texinfo/Documentlanguages.pm Texinfo/Indices.pm Texinfo/IndicesXS.pm Texinfo/ManipulateTree.pm Texinfo/MiscXS.pm Texinfo/Options.pm Texinfo/OutputUnits.pm Texinfo/Parser.pm Texinfo/ParserNonXS.pm Texinfo/Report.pm Texinfo/StructTransfXS.pm Texinfo/Structuring.pm Texinfo/Tests.pm Texinfo/Transformations.pm Texinfo/Translations.pm Texinfo/XSLoader.pm '/usr/share/texi2any/Texinfo'
+make  install-exec-hook
+make[5]: Entering directory '/sources/texinfo-7.2/tp'
+makeinfo_f=`echo makeinfo | sed -e 's,x,x,'`; rm -f /usr/bin/$makeinfo_f
+makeinfo_f=`echo makeinfo | sed -e 's,x,x,'`; texi2any_f=`echo texi2any| sed -e 's,x,x,'`; ln -s $texi2any_f /usr/bin/$makeinfo_f
+if test no != 'yes' ; then \
+  /usr/bin/mkdir -p /usr/share/texi2any/lib/Unicode-EastAsianWidth/lib/Unicode; \
+  /usr/bin/install -c -m 644 ./maintain/lib/Unicode-EastAsianWidth/lib/Unicode/EastAsianWidth.pm \
+   /usr/share/texi2any/lib/Unicode-EastAsianWidth/lib/Unicode; \
+fi
+make[5]: Leaving directory '/sources/texinfo-7.2/tp'
+if test no != 'yes' ; then \
+  /usr/bin/mkdir -p /usr/share/texi2any/lib/Text-Unidecode/lib/Text/Unidecode; \
+  /usr/bin/install -c -m 644 ./maintain/lib/Text-Unidecode/lib/Text/Unidecode.pm \
+    /usr/share/texi2any/lib/Text-Unidecode/lib/Text; \
+  /usr/bin/install -c -m 644 ./maintain/lib/Text-Unidecode/lib/Text/Unidecode/*.pm \
+    /usr/share/texi2any/lib/Text-Unidecode/lib/Text/Unidecode; \
+fi
+make[4]: Leaving directory '/sources/texinfo-7.2/tp'
+make[3]: Leaving directory '/sources/texinfo-7.2/tp'
+Making install in tests
+make[3]: Entering directory '/sources/texinfo-7.2/tp/tests'
+Making install in .
+make[4]: Entering directory '/sources/texinfo-7.2/tp/tests'
+make[5]: Entering directory '/sources/texinfo-7.2/tp/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/texinfo-7.2/tp/tests'
+make[4]: Leaving directory '/sources/texinfo-7.2/tp/tests'
+Making install in many_input_files
+make[4]: Entering directory '/sources/texinfo-7.2/tp/tests/many_input_files'
+make[5]: Entering directory '/sources/texinfo-7.2/tp/tests/many_input_files'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/texinfo-7.2/tp/tests/many_input_files'
+make[4]: Leaving directory '/sources/texinfo-7.2/tp/tests/many_input_files'
+make[3]: Leaving directory '/sources/texinfo-7.2/tp/tests'
+make[2]: Leaving directory '/sources/texinfo-7.2/tp'
+Making install in Pod-Simple-Texinfo
+make[2]: Entering directory '/sources/texinfo-7.2/Pod-Simple-Texinfo'
+make[3]: Entering directory '/sources/texinfo-7.2/Pod-Simple-Texinfo'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/mkdir -p '/usr/share/texi2any/Pod-Simple-Texinfo/Pod/Simple/'
+ /usr/bin/install -c -m 644 lib/Pod/Simple/Texinfo.pm '/usr/share/texi2any/Pod-Simple-Texinfo/Pod/Simple/'
+ /usr/bin/install -c pod2texi '/usr/bin'
+make[3]: Leaving directory '/sources/texinfo-7.2/Pod-Simple-Texinfo'
+make[2]: Leaving directory '/sources/texinfo-7.2/Pod-Simple-Texinfo'
+Making install in texindex
+make[2]: Entering directory '/sources/texinfo-7.2/texindex'
+make[3]: Entering directory '/sources/texinfo-7.2/texindex'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/mkdir -p '/usr/share/texinfo'
+ /usr/bin/install -c texindex '/usr/bin'
+ /usr/bin/install -c texindex.awk '/usr/share/texinfo'
+make[3]: Leaving directory '/sources/texinfo-7.2/texindex'
+make[2]: Leaving directory '/sources/texinfo-7.2/texindex'
+Making install in util
+make[2]: Entering directory '/sources/texinfo-7.2/util'
+make[3]: Entering directory '/sources/texinfo-7.2/util'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/mkdir -p '/usr/share/texinfo'
+ /usr/bin/install -c -m 644 htmlxref.cnf texinfo.dtd '/usr/share/texinfo'
+ /usr/bin/install -c texi2dvi texi2pdf pdftexi2dvi '/usr/bin'
+make[3]: Leaving directory '/sources/texinfo-7.2/util'
+make[2]: Leaving directory '/sources/texinfo-7.2/util'
+Making install in doc
+make[2]: Entering directory '/sources/texinfo-7.2/doc'
+Making install in tp_api
+make[3]: Entering directory '/sources/texinfo-7.2/doc/tp_api'
+make  install-am
+make[4]: Entering directory '/sources/texinfo-7.2/doc/tp_api'
+make[5]: Entering directory '/sources/texinfo-7.2/doc/tp_api'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./texi2any_internals.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/texi2any_internals.info'
+make[5]: Leaving directory '/sources/texinfo-7.2/doc/tp_api'
+make[4]: Leaving directory '/sources/texinfo-7.2/doc/tp_api'
+make[3]: Leaving directory '/sources/texinfo-7.2/doc/tp_api'
+Making install in refcard
+make[3]: Entering directory '/sources/texinfo-7.2/doc/refcard'
+make[4]: Entering directory '/sources/texinfo-7.2/doc/refcard'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/texinfo-7.2/doc/refcard'
+make[3]: Leaving directory '/sources/texinfo-7.2/doc/refcard'
+make[3]: Entering directory '/sources/texinfo-7.2/doc'
+make[4]: Entering directory '/sources/texinfo-7.2/doc'
+make[4]: Nothing to be done for 'install-exec-am'.
+
+WARNING: If your texmf tree does not already contain
+         up-to-date versions, you must install
+ /usr/bin/mkdir -p '/usr/share/info'
+             texinfo.tex and txi-??.tex manually,
+         perhaps in TEXMF/tex/texinfo/,
+         where TEXMF is a root of your TeX tree.
+         See INSTALL for some considerations.
+         You can run make TEXMF=/your/texmf install-tex to do this.
+
+ /usr/bin/install -c -m 644 ./texinfo.info ./texinfo.info-1 ./texinfo.info-2 ./texinfo.info-3 ./texinfo.info-4 ./info-stnd.info ./texi2any_api.info '/usr/share/info'
+         You may also need to install epsf.tex in
+         TEXMF/tex/generic/dvips, if your TeX
+         installation did not include it.
+ install-info --info-dir='/usr/share/info' '/usr/share/info/texinfo.info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/info-stnd.info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/texi2any_api.info'
+make[4]: Leaving directory '/sources/texinfo-7.2/doc'
+make[3]: Leaving directory '/sources/texinfo-7.2/doc'
+make[2]: Leaving directory '/sources/texinfo-7.2/doc'
+Making install in man
+make[2]: Entering directory '/sources/texinfo-7.2/man'
+make[3]: Entering directory '/sources/texinfo-7.2/man'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 info.5 texinfo.5 '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 texi2any.1 texi2pdf.1 pdftexi2dvi.1 install-info.1 makeinfo.1 texindex.1 texi2dvi.1 info.1 pod2texi.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/texinfo-7.2/man'
+make[2]: Leaving directory '/sources/texinfo-7.2/man'
+Making install in js
+make[2]: Entering directory '/sources/texinfo-7.2/js'
+make[3]: Entering directory '/sources/texinfo-7.2/js'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/texi2any/js'
+ /usr/bin/install -c -m 644 modernizr.js info.js info.css '/usr/share/texi2any/js'
+make[3]: Leaving directory '/sources/texinfo-7.2/js'
+make[2]: Leaving directory '/sources/texinfo-7.2/js'
+make[2]: Entering directory '/sources/texinfo-7.2'
+make[3]: Entering directory '/sources/texinfo-7.2'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/texinfo-7.2'
+make[2]: Leaving directory '/sources/texinfo-7.2'
+make[1]: Leaving directory '/sources/texinfo-7.2'
