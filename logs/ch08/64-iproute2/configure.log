@@ -1,0 +1,14 @@
+TC schedulers
+
+lib directory: /usr/lib
+libc has setns: yes
+libc has name_to_handle_at: yes
+SELinux support: no
+libtirpc support: no
+libbpf support: no
+ELF support: yes
+libmnl support: no
+Berkeley DB: no
+need for strlcpy: no
+libcap support: yes
+color output: never

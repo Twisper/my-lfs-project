@@ -1,0 +1,64 @@
+
+lib
+make[1]: Nothing to be done for 'all'.
+
+ip
+make[1]: Nothing to be done for 'all'.
+
+tc
+make[1]: Nothing to be done for 'all'.
+
+bridge
+make[1]: Nothing to be done for 'all'.
+
+misc
+make[1]: Nothing to be done for 'all'.
+
+netem
+make[1]: Nothing to be done for 'all'.
+
+genl
+make[1]: Nothing to be done for 'all'.
+
+man
+make[2]: Nothing to be done for 'all'.
+make[2]: Nothing to be done for 'all'.
+make[2]: Nothing to be done for 'all'.
+install -m 0755 -d /usr/sbin
+install -m 0755 -d /usr/share/iproute2
+install -m 0755 -d /usr/include/iproute2
+make[1]: Nothing to be done for 'install'.
+install -m 0755 ip rtmon /usr/sbin
+install -m 0755 routel /usr/sbin
+mkdir -p /usr/lib/tc
+install -m 0755 tc /usr/sbin
+for i in ; \
+do install -m 755 $i /usr/lib/tc; \
+done
+if [ ! -f /usr/lib/tc/m_ipt.so ]; then \
+if [ -f /usr/lib/tc/m_xt.so ]; \
+	then ln -s m_xt.so /usr/lib/tc/m_ipt.so ; \
+elif [ -f /usr/lib/tc/m_xt_old.so ]; \
+	then ln -s m_xt_old.so /usr/lib/tc/m_ipt.so ; \
+fi; \
+fi
+install -m 0755 bridge /usr/sbin
+install -m 0755 ss nstat ifstat rtacct lnstat /usr/sbin
+ln -sf lnstat /usr/sbin/rtstat
+ln -sf lnstat /usr/sbin/ctstat
+mkdir -p /usr/lib/tc
+for i in normal.dist pareto.dist paretonormal.dist experimental.dist; \
+do install -m 644 $i /usr/lib/tc; \
+done
+install -m 0755 genl /usr/sbin
+install -m 0755 -d /usr/share/man/man3
+install -m 0644 libnetlink.3 /usr/share/man/man3
+install -m 0755 -d /usr/share/man/man7
+install -m 0644 tc-hfsc.7 /usr/share/man/man7
+install -m 0755 -d /usr/share/man/man8
+install -m 0644 ip-address.8 ip-link.8 ip-netns.8 ip-route.8 ip-rule.8 bridge.8 ctstat.8 dcb-app.8 dcb-apptrust.8 dcb-buffer.8 dcb-dcbx.8 dcb-ets.8 dcb-maxrate.8 dcb-pfc.8 dcb-rewr.8 dcb.8 devlink-dev.8 devlink-dpipe.8 devlink-health.8 devlink-lc.8 devlink-monitor.8 devlink-port.8 devlink-rate.8 devlink-region.8 devlink-resource.8 devlink-sb.8 devlink-trap.8 devlink.8 genl.8 ifstat.8 ip-addrlabel.8 ip-fou.8 ip-gue.8 ip-ioam.8 ip-l2tp.8 ip-macsec.8 ip-maddress.8 ip-monitor.8 ip-mptcp.8 ip-mroute.8 ip-neighbour.8 ip-netconf.8 ip-nexthop.8 ip-ntable.8 ip-sr.8 ip-stats.8 ip-tcp_metrics.8 ip-token.8 ip-tunnel.8 ip-vrf.8 ip-xfrm.8 ip.8 lnstat.8 nstat.8 rdma-dev.8 rdma-link.8 rdma-monitor.8 rdma-resource.8 rdma-statistic.8 rdma-system.8 rdma.8 routel.8 rtacct.8 rtmon.8 rtstat.8 ss.8 tc-actions.8 tc-basic.8 tc-bfifo.8 tc-bpf.8 tc-cake.8 tc-cbs.8 tc-cgroup.8 tc-choke.8 tc-codel.8 tc-connmark.8 tc-csum.8 tc-ct.8 tc-ctinfo.8 tc-drr.8 tc-ematch.8 tc-etf.8 tc-ets.8 tc-flow.8 tc-flower.8 tc-fq.8 tc-fq_codel.8 tc-fq_pie.8 tc-fw.8 tc-gact.8 tc-gate.8 tc-hfsc.8 tc-htb.8 tc-ife.8 tc-matchall.8 tc-mirred.8 tc-mpls.8 tc-mqprio.8 tc-nat.8 tc-netem.8 tc-pedit.8 tc-pfifo.8 tc-pfifo_fast.8 tc-pie.8 tc-police.8 tc-prio.8 tc-red.8 tc-route.8 tc-sample.8 tc-sfb.8 tc-sfq.8 tc-simple.8 tc-skbedit.8 tc-skbmod.8 tc-skbprio.8 tc-stab.8 tc-taprio.8 tc-tbf.8 tc-tunnel_key.8 tc-u32.8 tc-vlan.8 tc.8 tipc-bearer.8 tipc-link.8 tipc-media.8 tipc-nametable.8 tipc-node.8 tipc-peer.8 tipc-socket.8 tipc.8 vdpa-dev.8 vdpa-mgmtdev.8 vdpa.8 /usr/share/man/man8
+install -m 0644 etc/iproute2/rt_dsfield etc/iproute2/rt_protos etc/iproute2/rt_scopes etc/iproute2/nl_protos etc/iproute2/group etc/iproute2/rt_realms etc/iproute2/ematch_map etc/iproute2/bpf_pinning etc/iproute2/rt_tables /usr/share/iproute2
+install -m 0755 -d /usr/share/bash-completion/completions
+install -m 0644 bash-completion/tc /usr/share/bash-completion/completions
+install -m 0644 bash-completion/devlink /usr/share/bash-completion/completions
+install -m 0644 include/bpf_elf.h /usr/include/iproute2
