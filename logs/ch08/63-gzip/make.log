@@ -1,0 +1,120 @@
+  GEN      version.c
+  GEN      version.h
+make  all-recursive
+make[1]: Entering directory '/sources/gzip-1.14'
+Making all in lib
+make[2]: Entering directory '/sources/gzip-1.14/lib'
+  GEN      alloca.h
+  GEN      dirent.h
+  GEN      endian.h
+  GEN      error.h
+  GEN      fcntl.h
+  GEN      inttypes.h
+  GEN      limits.h
+  GEN      math.h
+  GEN      signal.h
+  GEN      stddef.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/time.h
+  GEN      sys/stat.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      utime.h
+  GEN      wchar.h
+make  all-am
+make[3]: Entering directory '/sources/gzip-1.14/lib'
+  CC       libgzip_a-openat-proc.o
+  CC       libgzip_a-basename-lgpl.o
+  CC       libgzip_a-chdir-long.o
+  CC       libgzip_a-cloexec.o
+  CC       libgzip_a-crc.o
+  CC       libgzip_a-crc-x86_64-pclmul.o
+  CC       libgzip_a-dirname-lgpl.o
+  CC       libgzip_a-stripslash.o
+  CC       libgzip_a-endian.o
+  CC       libgzip_a-exitfail.o
+  CC       libgzip_a-creat-safer.o
+  CC       libgzip_a-fcntl.o
+  CC       libgzip_a-open-safer.o
+  CC       libgzip_a-fd-hook.o
+  CC       libgzip_a-filenamecat-lgpl.o
+  CC       libgzip_a-fpurge.o
+  CC       libgzip_a-freading.o
+  CC       libgzip_a-fseterr.o
+  CC       libgzip_a-getprogname.o
+  CC       libgzip_a-gettime.o
+  CC       libgzip_a-ialloc.o
+  CC       libgzip_a-malloca.o
+  CC       libgzip_a-math.o
+  CC       libgzip_a-mbszero.o
+  CC       libgzip_a-openat-die.o
+  CC       libgzip_a-openat-safer.o
+  CC       libgzip_a-printf-frexp.o
+  CC       libgzip_a-realloc.o
+  CC       libgzip_a-printf-frexpl.o
+  CC       libgzip_a-reallocarray.o
+  CC       libgzip_a-save-cwd.o
+  CC       libgzip_a-savedir.o
+  CC       libgzip_a-sig-handler.o
+  CC       libgzip_a-stat-time.o
+  CC       libgzip_a-stdlib.o
+  CC       libgzip_a-time.o
+  CC       libgzip_a-timespec.o
+  CC       libgzip_a-unistd.o
+  CC       libgzip_a-dup-safer.o
+  CC       libgzip_a-fd-safer.o
+  CC       libgzip_a-pipe-safer.o
+  CC       libgzip_a-utimens.o
+  CC       libgzip_a-vfzprintf.o
+  CC       libgzip_a-xmalloc.o
+  CC       libgzip_a-xalloc-die.o
+  CC       libgzip_a-xsize.o
+  CC       libgzip_a-yesno.o
+  CC       asnprintf.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       vasnprintf.o
+  AR       libgzip.a
+make[3]: Leaving directory '/sources/gzip-1.14/lib'
+make[2]: Leaving directory '/sources/gzip-1.14/lib'
+Making all in doc
+make[2]: Entering directory '/sources/gzip-1.14/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/gzip-1.14/doc'
+Making all in .
+make[2]: Entering directory '/sources/gzip-1.14'
+  CC       bits.o
+  CC       deflate.o
+  CC       gzip.o
+  CC       inflate.o
+  CC       trees.o
+  CC       unlzh.o
+  CC       unlzw.o
+  CC       unpack.o
+  CC       unzip.o
+  CC       util.o
+  CC       zip.o
+  CC       version.o
+  GEN      gunzip
+  GEN      gzexe
+  GEN      zcat
+  GEN      zcmp
+  GEN      zdiff
+  GEN      zegrep
+  GEN      zfgrep
+  GEN      zforce
+  GEN      zgrep
+  GEN      zless
+  GEN      zmore
+  GEN      znew
+  AR       libver.a
+  CCLD     gzip
+make[2]: Leaving directory '/sources/gzip-1.14'
+Making all in tests
+make[2]: Entering directory '/sources/gzip-1.14/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/gzip-1.14/tests'
+make[1]: Leaving directory '/sources/gzip-1.14'

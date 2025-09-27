@@ -1,0 +1,71 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/sources/gzip-1.14'
+Making check in lib
+make[2]: Entering directory '/sources/gzip-1.14/lib'
+make  check-am
+make[3]: Entering directory '/sources/gzip-1.14/lib'
+make[3]: Leaving directory '/sources/gzip-1.14/lib'
+make[2]: Leaving directory '/sources/gzip-1.14/lib'
+Making check in doc
+make[2]: Entering directory '/sources/gzip-1.14/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/gzip-1.14/doc'
+Making check in .
+make[2]: Entering directory '/sources/gzip-1.14'
+make  check-local
+make[3]: Entering directory '/sources/gzip-1.14'
+  GEN      gzip.doc.gz
+  GEN      check-local
+make[3]: Leaving directory '/sources/gzip-1.14'
+make[2]: Leaving directory '/sources/gzip-1.14'
+Making check in tests
+make[2]: Entering directory '/sources/gzip-1.14/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/gzip-1.14/tests'
+make[4]: Entering directory '/sources/gzip-1.14/tests'
+PASS: helin-segv
+PASS: hufts
+PASS: keep
+PASS: reference
+PASS: list
+PASS: memcpy-abuse
+PASS: null-suffix-clobber
+PASS: stdin
+PASS: reproducible
+PASS: synchronous
+PASS: gzip-env
+PASS: pipe-output
+PASS: trailing-nul
+PASS: timestamp
+PASS: two-files
+PASS: unpack-invalid
+PASS: unpack-valid
+PASS: upper-suffix
+SKIP: write-error
+PASS: z-suffix
+PASS: zgrep-abuse
+PASS: zdiff
+PASS: zgrep-f
+PASS: zgrep-binary
+PASS: help-version
+PASS: zgrep-context
+PASS: znew-k
+PASS: zgrep-signal
+PASS: mixed
+PASS: list-big
+============================================================================
+Testsuite summary for gzip 1.14
+============================================================================
+# TOTAL: 30
+# PASS:  29
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/gzip-1.14/tests'
+make[3]: Leaving directory '/sources/gzip-1.14/tests'
+make[2]: Leaving directory '/sources/gzip-1.14/tests'
+make[1]: Leaving directory '/sources/gzip-1.14'

@@ -1,0 +1,50 @@
+make  install-recursive
+make[1]: Entering directory '/sources/gzip-1.14'
+Making install in lib
+make[2]: Entering directory '/sources/gzip-1.14/lib'
+make  install-am
+make[3]: Entering directory '/sources/gzip-1.14/lib'
+make[4]: Entering directory '/sources/gzip-1.14/lib'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/gzip-1.14/lib'
+make[3]: Leaving directory '/sources/gzip-1.14/lib'
+make[2]: Leaving directory '/sources/gzip-1.14/lib'
+Making install in doc
+make[2]: Entering directory '/sources/gzip-1.14/doc'
+make[3]: Entering directory '/sources/gzip-1.14/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./gzip.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/gzip.info'
+make[3]: Leaving directory '/sources/gzip-1.14/doc'
+make[2]: Leaving directory '/sources/gzip-1.14/doc'
+Making install in .
+make[2]: Entering directory '/sources/gzip-1.14'
+make[3]: Entering directory '/sources/gzip-1.14'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c gunzip gzexe zcat zcmp zdiff zegrep zfgrep zforce zgrep zless zmore znew '/usr/bin'
+  /usr/bin/install -c gzip '/usr/bin'
+make  install-exec-hook
+ /usr/bin/install -c -m 644 gunzip.1 gzexe.1 gzip.1 zcat.1 zcmp.1 zdiff.1 zforce.1 zgrep.1 zless.1 zmore.1 znew.1 '/usr/share/man/man1'
+make[4]: Entering directory '/sources/gzip-1.14'
++ cd /usr/bin
++ rm -f uncompress
++ case remove-installed-links in
++ cd /usr/bin
++ rm -f uncompress
++ case install-exec-hook in
++ ln gunzip uncompress
+make[4]: Leaving directory '/sources/gzip-1.14'
+make[3]: Leaving directory '/sources/gzip-1.14'
+make[2]: Leaving directory '/sources/gzip-1.14'
+Making install in tests
+make[2]: Entering directory '/sources/gzip-1.14/tests'
+make[3]: Entering directory '/sources/gzip-1.14/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/gzip-1.14/tests'
+make[2]: Leaving directory '/sources/gzip-1.14/tests'
+make[1]: Leaving directory '/sources/gzip-1.14'
