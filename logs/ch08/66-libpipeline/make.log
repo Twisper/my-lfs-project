@@ -1,0 +1,84 @@
+make  all-recursive
+make[1]: Entering directory '/sources/libpipeline-1.5.8'
+Making all in gl/lib
+make[2]: Entering directory '/sources/libpipeline-1.5.8/gl/lib'
+  GEN      alloca.h
+  GEN      error.h
+  GEN      fcntl.h
+  GEN      inttypes.h
+  GEN      limits.h
+  GEN      pthread.h
+  GEN      sched.h
+  GEN      signal.h
+  GEN      stddef.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/random.h
+  GEN      sys/select.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      sys/wait.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      wchar.h
+make  all-recursive
+make[3]: Entering directory '/sources/libpipeline-1.5.8/gl/lib'
+make[4]: Entering directory '/sources/libpipeline-1.5.8/gl/lib'
+  CC       libgnu_la-basename-lgpl.lo
+  CC       libgnu_la-cloexec.lo
+  CC       libgnu_la-dirname.lo
+  CC       libgnu_la-basename.lo
+  CC       libgnu_la-stripslash.lo
+  CC       libgnu_la-dirname-lgpl.lo
+  CC       libgnu_la-exitfail.lo
+  CC       libgnu_la-fcntl.lo
+  CC       libgnu_la-fd-hook.lo
+  CC       libgnu_la-full-write.lo
+  CC       libgnu_la-getprogname.lo
+  CC       libgnu_la-ialloc.lo
+  CC       libgnu_la-malloca.lo
+  CC       libgnu_la-mbszero.lo
+  CC       libgnu_la-safe-read.lo
+  CC       libgnu_la-safe-write.lo
+  CC       libgnu_la-sig-handler.lo
+  CC       libgnu_la-stat-time.lo
+  CC       libgnu_la-tempname.lo
+  CC       glthread/libgnu_la-threadlib.lo
+  CC       glthread/libgnu_la-tls.lo
+  CC       libgnu_la-unistd.lo
+  CC       libgnu_la-vaszprintf.lo
+  CC       libgnu_la-aszprintf.lo
+  CC       libgnu_la-verror.lo
+  CC       libgnu_la-vsnzprintf.lo
+  CC       libgnu_la-xmalloc.lo
+  CC       libgnu_la-xalloc-die.lo
+  CC       libgnu_la-xsize.lo
+  CC       libgnu_la-xstrndup.lo
+  CC       libgnu_la-xvasprintf.lo
+  CC       libgnu_la-xasprintf.lo
+  CC       asnprintf.lo
+  CC       printf-args.lo
+  CC       printf-parse.lo
+  CC       vasnprintf.lo
+  CC       glthread/libgnu_la-lock.lo
+  CCLD     libgnu.la
+make[4]: Leaving directory '/sources/libpipeline-1.5.8/gl/lib'
+make[3]: Leaving directory '/sources/libpipeline-1.5.8/gl/lib'
+make[2]: Leaving directory '/sources/libpipeline-1.5.8/gl/lib'
+Making all in lib
+make[2]: Entering directory '/sources/libpipeline-1.5.8/lib'
+  CC       libpipeline_la-appendstr.lo
+  CC       libpipeline_la-debug.lo
+  CC       libpipeline_la-fatal.lo
+  CC       libpipeline_la-pipeline.lo
+  CCLD     libpipeline.la
+make[2]: Leaving directory '/sources/libpipeline-1.5.8/lib'
+Making all in man
+make[2]: Entering directory '/sources/libpipeline-1.5.8/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/libpipeline-1.5.8/man'
+make[2]: Entering directory '/sources/libpipeline-1.5.8'
+make[2]: Leaving directory '/sources/libpipeline-1.5.8'
+make[1]: Leaving directory '/sources/libpipeline-1.5.8'
