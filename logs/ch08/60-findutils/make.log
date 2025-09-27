@@ -1,0 +1,386 @@
+make  all-recursive
+make[1]: Entering directory '/sources/findutils-4.10.0'
+Making all in gl
+make[2]: Entering directory '/sources/findutils-4.10.0/gl'
+Making all in lib
+make[3]: Entering directory '/sources/findutils-4.10.0/gl/lib'
+  GEN      alloca.h
+  GEN      ctype.h
+  GEN      dirent.h
+  GEN      error.h
+  GEN      malloc/dynarray.gl.h
+  GEN      fcntl.h
+  GEN      malloc/dynarray-skeleton.gl.h
+  GEN      malloc/scratch_buffer.gl.h
+  GEN      inttypes.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      math.h
+  GEN      selinux/selinux.h
+  GEN      selinux/context.h
+  GEN      selinux/label.h
+  GEN      stddef.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      strings.h
+  GEN      sys/socket.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      sys/uio.h
+  GEN      sys/utsname.h
+  GEN      sys/wait.h
+  GEN      time.h
+  GEN      uchar.h
+  GEN      unicase.h
+  GEN      unictype.h
+  GEN      uninorm.h
+  GEN      unistd.h
+  GEN      unistr.h
+  GEN      unitypes.h
+  GEN      uniwidth.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-recursive
+make[4]: Entering directory '/sources/findutils-4.10.0/gl/lib'
+make[5]: Entering directory '/sources/findutils-4.10.0/gl/lib'
+  CC       libgnulib_a-allocator.o
+  CC       libgnulib_a-areadlink.o
+  CC       libgnulib_a-areadlinkat.o
+  CC       libgnulib_a-argmatch.o
+  CC       libgnulib_a-basename-lgpl.o
+  CC       libgnulib_a-argv-iter.o
+  CC       libgnulib_a-openat-proc.o
+  CC       libgnulib_a-bitrotate.o
+  CC       libgnulib_a-btoc32.o
+  CC       libgnulib_a-btowc.o
+  CC       libgnulib_a-c-ctype.o
+  CC       libgnulib_a-c-strcasecmp.o
+  CC       libgnulib_a-c-strncasecmp.o
+  CC       libgnulib_a-c-strcasestr.o
+  CC       libgnulib_a-c-strstr.o
+  CC       libgnulib_a-c32_apply_type_test.o
+  CC       libgnulib_a-c32_get_type_test.o
+  CC       libgnulib_a-c32isalnum.o
+  CC       libgnulib_a-c32isalpha.o
+  CC       libgnulib_a-c32isblank.o
+  CC       libgnulib_a-c32iscntrl.o
+  CC       libgnulib_a-c32isdigit.o
+  CC       libgnulib_a-c32isgraph.o
+  CC       libgnulib_a-c32islower.o
+  CC       libgnulib_a-c32isprint.o
+  CC       libgnulib_a-c32ispunct.o
+  CC       libgnulib_a-c32isspace.o
+  CC       libgnulib_a-c32isupper.o
+  CC       libgnulib_a-c32isxdigit.o
+  CC       libgnulib_a-c32tolower.o
+  CC       libgnulib_a-c32width.o
+  CC       libgnulib_a-canonicalize.o
+  CC       libgnulib_a-careadlinkat.o
+  CC       libgnulib_a-chdir-long.o
+  CC       libgnulib_a-cloexec.o
+  CC       libgnulib_a-close-stream.o
+  CC       libgnulib_a-closein.o
+  CC       libgnulib_a-closeout.o
+  CC       libgnulib_a-cycle-check.o
+  CC       libgnulib_a-opendir-safer.o
+  CC       libgnulib_a-dirname.o
+  CC       libgnulib_a-basename.o
+  CC       libgnulib_a-dirname-lgpl.o
+  CC       libgnulib_a-stripslash.o
+  CC       libgnulib_a-exitfail.o
+  CC       libgnulib_a-fcntl.o
+  CC       libgnulib_a-creat-safer.o
+  CC       libgnulib_a-open-safer.o
+  CC       libgnulib_a-fd-hook.o
+  CC       libgnulib_a-fd-safer-flag.o
+  CC       libgnulib_a-dup-safer-flag.o
+  CC       libgnulib_a-file-set.o
+  CC       libgnulib_a-filemode.o
+  CC       libgnulib_a-filenamecat-lgpl.o
+  CC       libgnulib_a-fopen-safer.o
+  CC       libgnulib_a-fpurge.o
+  CC       libgnulib_a-freadahead.o
+  CC       libgnulib_a-freading.o
+  CC       libgnulib_a-fts.o
+  CC       libgnulib_a-getprogname.o
+  CC       libgnulib_a-gettime.o
+  CC       libgnulib_a-hard-locale.o
+  CC       libgnulib_a-hash.o
+  CC       libgnulib_a-hash-pjw.o
+  CC       libgnulib_a-hash-triple-simple.o
+  CC       libgnulib_a-human.o
+  CC       libgnulib_a-i-ring.o
+  CC       libgnulib_a-ialloc.o
+  CC       libgnulib_a-idcache.o
+  CC       libgnulib_a-localcharset.o
+  CC       libgnulib_a-malloca.o
+  CC       libgnulib_a-math.o
+  CC       libgnulib_a-mbchar.o
+  CC       libgnulib_a-mbrtoc32.o
+  CC       libgnulib_a-mbrtowc.o
+  CC       libgnulib_a-mbscasestr.o
+  CC       libgnulib_a-mbslen.o
+  CC       libgnulib_a-mbsrtoc32s.o
+  CC       libgnulib_a-mbsrtowcs.o
+  CC       libgnulib_a-mbsstr.o
+  CC       libgnulib_a-mbswidth.o
+  CC       libgnulib_a-mbszero.o
+  CC       libgnulib_a-mbuiter.o
+  CC       libgnulib_a-mbuiterf.o
+  CC       libgnulib_a-modechange.o
+  CC       libgnulib_a-mountlist.o
+  CC       libgnulib_a-nstrftime.o
+  CC       libgnulib_a-openat-die.o
+  CC       libgnulib_a-openat-safer.o
+  CC       libgnulib_a-opendirat.o
+  CC       libgnulib_a-parse-datetime.o
+  CC       libgnulib_a-progname.o
+  CC       libgnulib_a-quotearg.o
+  CC       libgnulib_a-safe-read.o
+  CC       libgnulib_a-same-inode.o
+  CC       libgnulib_a-save-cwd.o
+  CC       libgnulib_a-savedir.o
+  CC       libgnulib_a-selinux-at.o
+  CC       libgnulib_a-se-context.o
+  CC       libgnulib_a-se-label.o
+  CC       libgnulib_a-se-selinux.o
+  CC       libgnulib_a-setlocale_null.o
+  CC       libgnulib_a-setlocale_null-unlocked.o
+  CC       libgnulib_a-sockets.o
+  CC       libgnulib_a-stat-time.o
+  CC       libgnulib_a-strnlen1.o
+  CC       libgnulib_a-sys_socket.o
+  CC       glthread/libgnulib_a-threadlib.o
+  CC       libgnulib_a-time_rz.o
+  CC       libgnulib_a-timespec.o
+  CC       libgnulib_a-unistd.o
+  CC       libgnulib_a-dup-safer.o
+  CC       libgnulib_a-fd-safer.o
+  CC       libgnulib_a-pipe-safer.o
+  CC       libgnulib_a-version-etc.o
+  CC       libgnulib_a-version-etc-fsf.o
+  CC       libgnulib_a-wctype-h.o
+  CC       libgnulib_a-xmalloc.o
+  CC       libgnulib_a-xalloc-die.o
+  CC       libgnulib_a-xgetcwd.o
+  CC       libgnulib_a-xsize.o
+  CC       libgnulib_a-xstrtod.o
+  CC       libgnulib_a-xstrtol.o
+  CC       libgnulib_a-xstrtoul.o
+  CC       libgnulib_a-xstrtol-error.o
+  CC       libgnulib_a-xstrtoumax.o
+  CC       libgnulib_a-yesno.o
+  CC       asnprintf.o
+  CC       mbsrtoc32s-state.o
+  CC       mbsrtowcs-state.o
+  CC       mktime.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       strerror_r.o
+  CC       vasnprintf.o
+  CC       malloc/libgnulib_a-dynarray_at_failure.o
+  CC       malloc/libgnulib_a-dynarray_emplace_enlarge.o
+  CC       malloc/libgnulib_a-dynarray_finalize.o
+  CC       malloc/libgnulib_a-dynarray_resize.o
+  CC       malloc/libgnulib_a-dynarray_resize_clear.o
+  CC       malloc/libgnulib_a-scratch_buffer_grow.o
+  CC       malloc/libgnulib_a-scratch_buffer_grow_preserve.o
+  CC       malloc/libgnulib_a-scratch_buffer_set_array_size.o
+  CC       glthread/libgnulib_a-lock.o
+  CC       unicase/libgnulib_a-tolower.o
+  CC       unictype/libgnulib_a-ctype_alnum.o
+  CC       unictype/libgnulib_a-ctype_alpha.o
+  CC       unictype/libgnulib_a-ctype_blank.o
+  CC       unictype/libgnulib_a-ctype_cntrl.o
+  CC       unictype/libgnulib_a-ctype_digit.o
+  CC       unictype/libgnulib_a-ctype_graph.o
+  CC       unictype/libgnulib_a-ctype_lower.o
+  CC       unictype/libgnulib_a-ctype_print.o
+  CC       unictype/libgnulib_a-ctype_punct.o
+  CC       unictype/libgnulib_a-ctype_space.o
+  CC       unictype/libgnulib_a-ctype_upper.o
+  CC       unictype/libgnulib_a-ctype_xdigit.o
+  CC       unistr/libgnulib_a-u32-chr.o
+  CC       unistr/libgnulib_a-u32-cpy.o
+  CC       unistr/libgnulib_a-u32-pcpy.o
+  CC       unistr/libgnulib_a-u32-strcat.o
+  CC       unistr/libgnulib_a-u32-strlen.o
+  CC       uniwidth/libgnulib_a-width.o
+  AR       libgnulib.a
+make[5]: Leaving directory '/sources/findutils-4.10.0/gl/lib'
+make[4]: Leaving directory '/sources/findutils-4.10.0/gl/lib'
+make[3]: Leaving directory '/sources/findutils-4.10.0/gl/lib'
+make[3]: Entering directory '/sources/findutils-4.10.0/gl'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/findutils-4.10.0/gl'
+make[2]: Leaving directory '/sources/findutils-4.10.0/gl'
+Making all in build-aux
+make[2]: Entering directory '/sources/findutils-4.10.0/build-aux'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/findutils-4.10.0/build-aux'
+Making all in lib
+make[2]: Entering directory '/sources/findutils-4.10.0/lib'
+  CC       buildcmd.o
+  CC       dircallback.o
+  CC       extendbuf.o
+  CC       fdleak.o
+  CC       findutils-version.o
+  CC       listfile.o
+  CC       printquoted.o
+  CC       qmark.o
+  CC       regextype.o
+  CC       safe-atoi.o
+  CC       splitstring.o
+  CC       bugreports.o
+  AR       libfind.a
+make[2]: Leaving directory '/sources/findutils-4.10.0/lib'
+Making all in find
+make[2]: Entering directory '/sources/findutils-4.10.0/find'
+Making all in .
+make[3]: Entering directory '/sources/findutils-4.10.0/find'
+  CC       ftsfind.o
+  CC       finddata.o
+  CC       fstype.o
+  CC       parser.o
+  CC       pred.o
+  CC       exec.o
+  CC       tree.o
+  CC       util.o
+  CC       sharefile.o
+  CC       print.o
+  CC       getlimits.o
+  AR       libfindtools.a
+  CCLD     find
+  CCLD     getlimits
+make[3]: Leaving directory '/sources/findutils-4.10.0/find'
+Making all in testsuite
+make[3]: Entering directory '/sources/findutils-4.10.0/find/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/findutils-4.10.0/find/testsuite'
+make[2]: Leaving directory '/sources/findutils-4.10.0/find'
+Making all in xargs
+make[2]: Entering directory '/sources/findutils-4.10.0/xargs'
+Making all in .
+make[3]: Entering directory '/sources/findutils-4.10.0/xargs'
+  CC       xargs.o
+  CCLD     xargs
+make[3]: Leaving directory '/sources/findutils-4.10.0/xargs'
+Making all in testsuite
+make[3]: Entering directory '/sources/findutils-4.10.0/xargs/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/findutils-4.10.0/xargs/testsuite'
+make[2]: Leaving directory '/sources/findutils-4.10.0/xargs'
+Making all in locate
+make[2]: Entering directory '/sources/findutils-4.10.0/locate'
+echo '@set LOCATE_DB /var/lib/locate/locatedb' > dblocation.texi.tmp
+if test -f dblocation.texi && cmp dblocation.texi.tmp dblocation.texi >/dev/null ; then \
+    rm dblocation.texi.tmp ; \
+else \
+    mv dblocation.texi.tmp dblocation.texi ; \
+fi
+make  all-recursive
+make[3]: Entering directory '/sources/findutils-4.10.0/locate'
+Making all in .
+make[4]: Entering directory '/sources/findutils-4.10.0/locate'
+rm -f updatedb
+  CC       locate.o
+  CC       word_io.o
+find=`echo find|sed 's,x,x,'`; \
+frcode=`echo frcode|sed 's,x,x,'`; \
+copyright=`sed -n '/^# Copyright /{s/^..//;p;q;}' ./updatedb.sh \
+  grep .` || exit 1; \
+sed \
+-e "s,@""bindir""@,/usr/bin," \
+-e "s,@""libexecdir""@,/usr/libexec," \
+-e "s,@""LOCATE_DB""@,/var/lib/locate/locatedb," \
+-e "s,@""VERSION""@,4.10.0," \
+-e "s,@""PACKAGE_NAME""@,GNU findutils," \
+-e "s,@""PACKAGE_BUGREPORT""@,bug-findutils@gnu.org," \
+-e "s,@""PACKAGE_BUGREPORT_URL""@,https://savannah.gnu.org/bugs/?group=findutils," \
+-e "s,@""PACKAGE_URL""@,https://www.gnu.org/software/findutils/," \
+-e "s,@""find""@,${find}," \
+-e "s,@""frcode""@,${frcode}," \
+-e "s,@""SORT""@,/usr/bin/sort," \
+-e "s,@""SORT_SUPPORTS_Z""@,true," \
+-e "s/@""COPYRIGHT""@/${copyright}/" \
+./updatedb.sh > updatedb
+  CC       frcode.o
+chmod +x updatedb
+  CCLD     frcode
+  CCLD     locate
+make[4]: Leaving directory '/sources/findutils-4.10.0/locate'
+Making all in testsuite
+make[4]: Entering directory '/sources/findutils-4.10.0/locate/testsuite'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/findutils-4.10.0/locate/testsuite'
+make[3]: Leaving directory '/sources/findutils-4.10.0/locate'
+make[2]: Leaving directory '/sources/findutils-4.10.0/locate'
+Making all in doc
+make[2]: Entering directory '/sources/findutils-4.10.0/doc'
+ln -s ../locate/dblocation.texi dblocation.texi
+make  all-am
+make[3]: Entering directory '/sources/findutils-4.10.0/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/findutils-4.10.0/doc'
+make[2]: Leaving directory '/sources/findutils-4.10.0/doc'
+Making all in po
+make[2]: Entering directory '/sources/findutils-4.10.0/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/findutils-4.10.0/po'
+Making all in m4
+make[2]: Entering directory '/sources/findutils-4.10.0/m4'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/findutils-4.10.0/m4'
+Making all in gnulib-tests
+make[2]: Entering directory '/sources/findutils-4.10.0/gnulib-tests'
+  GEN      arpa/inet.h
+  GEN      pthread.h
+  GEN      sched.h
+  GEN      signal.h
+  GEN      sys/ioctl.h
+  GEN      sys/random.h
+  GEN      sys/select.h
+## ---------------------------------------------------- ##
+## ------------------- Gnulib tests ------------------- ##
+## You can ignore compiler warnings in this directory.  ##
+## ---------------------------------------------------- ##
+make  all-recursive
+make[3]: Entering directory '/sources/findutils-4.10.0/gnulib-tests'
+Making all in .
+make[4]: Entering directory '/sources/findutils-4.10.0/gnulib-tests'
+  CC       locale.o
+  CC       binary-io.o
+  CC       c32tob.o
+  CC       dtotimespec.o
+  CC       imaxtostr.o
+  CC       offtostr.o
+  CC       inttostr.o
+  CC       uinttostr.o
+  CC       umaxtostr.o
+  CC       ioctl.o
+  CC       localename.o
+  CC       localename-unsafe.o
+  CC       localename-table.o
+  CC       nanosleep.o
+  CC       priv-set.o
+  CC       tempname.o
+  CC       time.o
+  CC       timespec-add.o
+  CC       timespec-sub.o
+  CC       tmpdir.o
+  CC       unlinkdir.o
+  CC       test-localcharset.o
+  CC       glthread/thread.o
+  CC       unistr/u32-set.o
+  AR       libtests.a
+  CCLD     current-locale
+  CCLD     test-localcharset
+make[4]: Leaving directory '/sources/findutils-4.10.0/gnulib-tests'
+make[3]: Leaving directory '/sources/findutils-4.10.0/gnulib-tests'
+make[2]: Leaving directory '/sources/findutils-4.10.0/gnulib-tests'
+make[2]: Entering directory '/sources/findutils-4.10.0'
+make[2]: Leaving directory '/sources/findutils-4.10.0'
+make[1]: Leaving directory '/sources/findutils-4.10.0'
