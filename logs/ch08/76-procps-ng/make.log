@@ -1,0 +1,102 @@
+make  all-recursive
+make[1]: Entering directory '/sources/procps-ng-4.0.5'
+Making all in local
+make[2]: Entering directory '/sources/procps-ng-4.0.5/local'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/procps-ng-4.0.5/local'
+Making all in po-man
+make[2]: Entering directory '/sources/procps-ng-4.0.5/po-man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/procps-ng-4.0.5/po-man'
+Making all in po
+make[2]: Entering directory '/sources/procps-ng-4.0.5/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/procps-ng-4.0.5/po'
+Making all in testsuite
+make[2]: Entering directory '/sources/procps-ng-4.0.5/testsuite'
+  CC       ps.test/test-schedbatch.o
+  CC       ps.test/test-hugetlb.o
+  CC       ps.test/test-zombie.o
+  CCLD     test-zombie
+  CCLD     test-schedbatch
+  CCLD     test-hugetlb
+make[2]: Leaving directory '/sources/procps-ng-4.0.5/testsuite'
+make[2]: Entering directory '/sources/procps-ng-4.0.5'
+  CC       local/src_top_top-fileutils.o
+  CC       local/src_top_top-signals.o
+  CC       local/src_top_top-strutils.o
+  CC       local/src_slabtop-strutils.o
+  CC       local/src_slabtop-fileutils.o
+  CC       local/src_slabtop-units.o
+  CC       src/slabtop-slabtop.o
+  CC       src/hugetop-hugetop.o
+  CC       local/src_hugetop-strutils.o
+  CC       local/src_hugetop-fileutils.o
+  CC       local/src_hugetop-units.o
+  CC       src/sysctl.o
+  CC       local/procio.o
+  CC       src/ps/display.o
+  CC       src/ps/global.o
+  CC       src/ps/output.o
+  CC       src/ps/help.o
+  CC       src/ps/parser.o
+  CC       src/ps/select.o
+  CC       src/ps/sortformat.o
+  CC       src/ps/stacktrace.o
+  CC       local/fileutils.o
+  CC       local/signals.o
+  CC       local/strutils.o
+  CC       library/capname.lo
+  CC       library/devname.lo
+  CC       library/diskstats.lo
+  CC       library/escape.lo
+  CC       library/meminfo.lo
+  CC       library/namespace.lo
+  CC       library/numa.lo
+  CC       library/pids.lo
+  CC       library/pwcache.lo
+  CC       library/readproc.lo
+  CC       library/slabinfo.lo
+  CC       library/signames.lo
+  CC       library/stat.lo
+  CC       library/sysinfo.lo
+  CC       library/version.lo
+  CC       library/vmstat.lo
+  CC       library/wchan.lo
+  CC       library/uptime.lo
+  CC       src/free.o
+  CC       local/units.o
+  CC       src/pgrep.o
+  CC       src/pmap.o
+  CC       src/pwdx.o
+  CC       src/tload.o
+  CC       src/uptime.o
+  CC       src/vmstat.o
+  CC       src/pidof.o
+  CC       src/w.o
+  CC       src/watch-watch.o
+  CC       local/src_watch-strutils.o
+  CC       local/src_watch-fileutils.o
+  CC       local/src_watch-signals.o
+  CC       src/top/top-top.o
+  CC       src/top/top-top_nls.o
+  CCLD     src/sysctl
+  CCLD     src/pwdx
+  CCLD     library/libproc2.la
+  CCLD     src/watch
+  CCLD     src/ps/pscommand
+  CCLD     src/free
+  CCLD     src/pgrep
+  CCLD     src/pkill
+  CCLD     src/pmap
+  CCLD     src/tload
+  CCLD     src/uptime
+  CCLD     src/vmstat
+  CCLD     src/pidwait
+  CCLD     src/pidof
+  CCLD     src/w
+  CCLD     src/slabtop
+  CCLD     src/hugetop
+  CCLD     src/top/top
+make[2]: Leaving directory '/sources/procps-ng-4.0.5'
+make[1]: Leaving directory '/sources/procps-ng-4.0.5'
