@@ -37,21 +37,18 @@ echo "Unpacking done"
 
 echo depends bli part_gpt > grub-core/extra_deps.lst
 
-{
-./configure --prefix=/usr        \
-            --sysconfdir=/etc    \
-            --disable-efiemu     \
-            --with-platform=efi  \
-            --target=x86_64      \
-            --disable-werror     && \
-make 
-} 2>&1 | tee "$LOG_DIR/configure-and-make.log"
+(
+./configure --prefix=/usr     \
+            --sysconfdir=/etc \
+            --disable-efiemu  \
+            --disable-werror
+) 2>&1 | tee "$LOG_DIR/configure.log"
+
+make 2>&1 | tee "$LOG_DIR/make.log"
 
 echo "Installing ${PKT_NAME}"
-{
-    make install &&
-    mv -v /etc/bash_completion.d/grub /usr/share/bash-completion/completions
-} 2>&1 | tee "$LOG_DIR/install.log"
+make install 2>&1 | tee "$LOG_DIR/install.log"
+mv -v /etc/bash_completion.d/grub /usr/share/bash-completion/completions
 
 echo "Installing done. Cleaning up"
 cd "/sources"
