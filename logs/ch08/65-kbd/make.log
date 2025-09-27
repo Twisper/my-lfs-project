@@ -1,0 +1,252 @@
+make  all-recursive
+make[1]: Entering directory '/sources/kbd-2.8.0'
+Making all in src
+make[2]: Entering directory '/sources/kbd-2.8.0/src'
+Making all in libcommon
+make[3]: Entering directory '/sources/kbd-2.8.0/src/libcommon'
+  CC       getfd.o
+  CC       error.o
+  CC       version.o
+  AR       libcommon.a
+make[3]: Leaving directory '/sources/kbd-2.8.0/src/libcommon'
+Making all in libkbdfile
+make[3]: Entering directory '/sources/kbd-2.8.0/src/libkbdfile'
+  CC       init.lo
+  CC       kbdfile.lo
+  CCLD     libkbdfile.la
+make[3]: Leaving directory '/sources/kbd-2.8.0/src/libkbdfile'
+Making all in libkfont
+make[3]: Entering directory '/sources/kbd-2.8.0/src/libkfont'
+  CC       psffontop.lo
+  CC       psfxtable.lo
+  CC       context.lo
+  CC       unicode.lo
+  CC       kdmapop.lo
+  CC       utf8.lo
+  CC       loadunimap.lo
+  CC       mapscrn.lo
+  CC       setfont.lo
+  CC       kdfontop.lo
+  CCLD     libkfont.la
+make[3]: Leaving directory '/sources/kbd-2.8.0/src/libkfont'
+Making all in libkeymap
+make[3]: Entering directory '/sources/kbd-2.8.0/src/libkeymap'
+make  all-am
+make[4]: Entering directory '/sources/kbd-2.8.0/src/libkeymap'
+  CC       array.lo
+  CC       common.lo
+  CC       kernel.lo
+  CC       dump.lo
+  CC       kmap.lo
+  CC       diacr.lo
+  CC       func.lo
+  CC       summary.lo
+  CC       loadkeys.lo
+  CC       parser.lo
+  CC       analyze.lo
+  CC       modifiers.lo
+  CC       ksyms.lo
+  CCLD     libkeymap.la
+make[4]: Leaving directory '/sources/kbd-2.8.0/src/libkeymap'
+make[3]: Leaving directory '/sources/kbd-2.8.0/src/libkeymap'
+Making all in vlock
+make[3]: Entering directory '/sources/kbd-2.8.0/src/vlock'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/kbd-2.8.0/src/vlock'
+make[3]: Entering directory '/sources/kbd-2.8.0/src'
+  CC       mapscrn.o
+  CC       loadunimap.o
+  CC       dumpkeys.o
+  CC       loadkeys.o
+  CC       showkey.o
+  CC       setfont.o
+  CC       showconsolefont.o
+  CC       setleds.o
+  CC       setmetamode.o
+  CC       kbd_mode.o
+  CC       psfxtable.o
+  CC       fgconsole.o
+  CC       kbdrate.o
+  CC       chvt.o
+  CC       deallocvt.o
+  CC       openvt.o
+  CC       kbdinfo.o
+  CC       setvtrgb.o
+  CC       getkeycodes.o
+  CC       setkeycodes.o
+  CCLD     mapscrn
+  CCLD     loadunimap
+  CCLD     dumpkeys
+  CCLD     loadkeys
+  CCLD     showkey
+  CCLD     setfont
+  CCLD     showconsolefont
+  CCLD     setleds
+  CCLD     setmetamode
+  CCLD     kbd_mode
+  CCLD     psfxtable
+  CCLD     kbdrate
+  CCLD     fgconsole
+  CCLD     chvt
+  CCLD     deallocvt
+  CCLD     openvt
+  CCLD     kbdinfo
+  CCLD     setvtrgb
+  CCLD     getkeycodes
+  CCLD     setkeycodes
+make[3]: Leaving directory '/sources/kbd-2.8.0/src'
+make[2]: Leaving directory '/sources/kbd-2.8.0/src'
+Making all in data
+make[2]: Entering directory '/sources/kbd-2.8.0/data'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/kbd-2.8.0/data'
+Making all in po
+make[2]: Entering directory '/sources/kbd-2.8.0/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/kbd-2.8.0/po'
+Making all in docs
+make[2]: Entering directory '/sources/kbd-2.8.0/docs'
+Making all in man
+make[3]: Entering directory '/sources/kbd-2.8.0/docs/man'
+Making all in man1
+make[4]: Entering directory '/sources/kbd-2.8.0/docs/man/man1'
+  SED      dumpkeys.1
+  SED      loadkeys.1
+make[4]: Leaving directory '/sources/kbd-2.8.0/docs/man/man1'
+Making all in man5
+make[4]: Entering directory '/sources/kbd-2.8.0/docs/man/man5'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/kbd-2.8.0/docs/man/man5'
+Making all in man8
+make[4]: Entering directory '/sources/kbd-2.8.0/docs/man/man8'
+  SED      loadunimap.8
+  SED      mapscrn.8
+  SED      setfont.8
+make[4]: Leaving directory '/sources/kbd-2.8.0/docs/man/man8'
+make[4]: Entering directory '/sources/kbd-2.8.0/docs/man'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/kbd-2.8.0/docs/man'
+make[3]: Leaving directory '/sources/kbd-2.8.0/docs/man'
+Making all in reference
+make[3]: Entering directory '/sources/kbd-2.8.0/docs/reference'
+make[4]: Entering directory '/sources/kbd-2.8.0/docs/reference'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/kbd-2.8.0/docs/reference'
+make[3]: Leaving directory '/sources/kbd-2.8.0/docs/reference'
+make[3]: Entering directory '/sources/kbd-2.8.0/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/kbd-2.8.0/docs'
+make[2]: Leaving directory '/sources/kbd-2.8.0/docs'
+Making all in tests
+make[2]: Entering directory '/sources/kbd-2.8.0/tests'
+:;{ \
+    echo '# Signature of the current package.';                       \
+    echo 'm4_define([AT_PACKAGE_NAME],      [kbd])';      \
+    echo 'm4_define([AT_PACKAGE_TARNAME],   [kbd])';   \
+    echo 'm4_define([AT_PACKAGE_VERSION],   [2.8.0])';   \
+    echo 'm4_define([AT_PACKAGE_STRING],    [kbd 2.8.0])';    \
+    echo 'm4_define([AT_PACKAGE_BUGREPORT], [gladkov.alexey@gmail.com])'; \
+    echo 'm4_define([AT_PACKAGE_URL],       [https://kbd-project.org/])';       \
+} >'/sources/kbd-2.8.0/tests/atpackage'
+/bin/sh ../config/missing --run autom4te --language=autotest -I '.' -o - testsuite.at > /sources/kbd-2.8.0/tests/testsuite
+Making all in helpers
+make[3]: Entering directory '/sources/kbd-2.8.0/tests/helpers'
+  CC       libkeymap-dumpkeys.o
+  CC       libkeymap-bkeymap.o
+  CC       libkeymap-mktable.o
+  CC       libkeymap-showmaps.o
+  CCLD     libkeymap-mktable
+  CCLD     libkeymap-bkeymap
+  CCLD     libkeymap-dumpkeys
+  CCLD     libkeymap-showmaps
+make[3]: Leaving directory '/sources/kbd-2.8.0/tests/helpers'
+Making all in libcommon
+make[3]: Entering directory '/sources/kbd-2.8.0/tests/libcommon'
+  CC       libcommon-test01.o
+  CC       libcommon-test02.o
+  CC       libcommon-test03.o
+  CCLD     libcommon-test02
+  CCLD     libcommon-test01
+  CCLD     libcommon-test03
+make[3]: Leaving directory '/sources/kbd-2.8.0/tests/libcommon'
+Making all in libkbdfile
+make[3]: Entering directory '/sources/kbd-2.8.0/tests/libkbdfile'
+  CC       libkbdfile-test01.o
+  CC       libkbdfile-test02.o
+  CC       libkbdfile-test03.o
+  CC       libkbdfile-test04.o
+  CC       libkbdfile-test05.o
+  CC       libkbdfile-test06.o
+  CC       libkbdfile-test07.o
+  CC       libkbdfile-test08.o
+  CC       libkbdfile-test09.o
+  CC       libkbdfile-test10.o
+  CC       libkbdfile-test11.o
+  CC       libkbdfile-test12.o
+  CC       libkbdfile-test13.o
+  CC       libkbdfile-test14.o
+  CCLD     libkbdfile-test01
+  CCLD     libkbdfile-test02
+  CCLD     libkbdfile-test03
+  CCLD     libkbdfile-test04
+  CCLD     libkbdfile-test05
+  CCLD     libkbdfile-test06
+  CCLD     libkbdfile-test07
+  CCLD     libkbdfile-test08
+  CCLD     libkbdfile-test09
+  CCLD     libkbdfile-test10
+  CCLD     libkbdfile-test11
+  CCLD     libkbdfile-test12
+  CCLD     libkbdfile-test13
+  CCLD     libkbdfile-test14
+make[3]: Leaving directory '/sources/kbd-2.8.0/tests/libkbdfile'
+Making all in libkeymap
+make[3]: Entering directory '/sources/kbd-2.8.0/tests/libkeymap'
+  CC       libkeymap-test01.o
+  CC       libkeymap-test02.o
+  CC       libkeymap-test03.o
+  CC       libkeymap-test04.o
+  CC       libkeymap-test05.o
+  CC       libkeymap-test06.o
+  CC       libkeymap-test07.o
+  CC       libkeymap-test08.o
+  CC       libkeymap-test09.o
+  CC       libkeymap-test10.o
+  CC       libkeymap-test11.o
+  CC       libkeymap-test12.o
+  CC       libkeymap-test13.o
+  CC       libkeymap-test14.o
+  CC       libkeymap-test15.o
+  CC       libkeymap-test16.o
+  CC       libkeymap-test17.o
+  CC       libkeymap-test18.o
+  CC       libkeymap-test19.o
+  CC       libkeymap-test20.o
+  CCLD     libkeymap-test01
+  CCLD     libkeymap-test02
+  CCLD     libkeymap-test03
+  CCLD     libkeymap-test04
+  CCLD     libkeymap-test05
+  CCLD     libkeymap-test06
+  CCLD     libkeymap-test07
+  CCLD     libkeymap-test08
+  CCLD     libkeymap-test09
+  CCLD     libkeymap-test10
+  CCLD     libkeymap-test11
+  CCLD     libkeymap-test12
+  CCLD     libkeymap-test13
+  CCLD     libkeymap-test14
+  CCLD     libkeymap-test15
+  CCLD     libkeymap-test16
+  CCLD     libkeymap-test17
+  CCLD     libkeymap-test18
+  CCLD     libkeymap-test19
+  CCLD     libkeymap-test20
+make[3]: Leaving directory '/sources/kbd-2.8.0/tests/libkeymap'
+make[3]: Entering directory '/sources/kbd-2.8.0/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/kbd-2.8.0/tests'
+make[2]: Leaving directory '/sources/kbd-2.8.0/tests'
+make[2]: Entering directory '/sources/kbd-2.8.0'
+make[2]: Leaving directory '/sources/kbd-2.8.0'
+make[1]: Leaving directory '/sources/kbd-2.8.0'
