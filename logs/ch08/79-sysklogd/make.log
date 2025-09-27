@@ -1,0 +1,28 @@
+make  all-recursive
+make[1]: Entering directory '/sources/sysklogd-2.7.2'
+Making all in example
+make[2]: Entering directory '/sources/sysklogd-2.7.2/example'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/sysklogd-2.7.2/example'
+Making all in man
+make[2]: Entering directory '/sources/sysklogd-2.7.2/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/sysklogd-2.7.2/man'
+Making all in src
+make[2]: Entering directory '/sources/sysklogd-2.7.2/src'
+  CC       syslogd-syslogd.o
+  CC       syslogd-socket.o
+  CC       syslogd-timer.o
+  CC       libsyslog_la-syslog.lo
+  CC       ../lib/pidfile.lo
+  CCLD     libsyslog.la
+  CC       ../lib/pidfile.o
+  CCLD     syslogd
+make[2]: Leaving directory '/sources/sysklogd-2.7.2/src'
+Making all in test
+make[2]: Entering directory '/sources/sysklogd-2.7.2/test'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/sysklogd-2.7.2/test'
+make[2]: Entering directory '/sources/sysklogd-2.7.2'
+make[2]: Leaving directory '/sources/sysklogd-2.7.2'
+make[1]: Leaving directory '/sources/sysklogd-2.7.2'
