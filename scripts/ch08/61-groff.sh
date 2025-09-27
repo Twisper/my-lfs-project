@@ -34,7 +34,7 @@ cd "$FLD_NAME"
 echo "Unpacking done"
 
 (
-    PAGE=<paper_size> ./configure --prefix=/usr
+    PAGE=A4 ./configure --prefix=/usr
 ) 2>&1 | tee "$LOG_DIR/configure.log"
 
 echo "Compiling and testing ${PKT_NAME}"
