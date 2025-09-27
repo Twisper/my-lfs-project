@@ -1,0 +1,87 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/sources/patch-2.8'
+Making check in lib
+make[2]: Entering directory '/sources/patch-2.8/lib'
+make  check-recursive
+make[3]: Entering directory '/sources/patch-2.8/lib'
+make[4]: Entering directory '/sources/patch-2.8/lib'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/patch-2.8/lib'
+make[3]: Leaving directory '/sources/patch-2.8/lib'
+make[2]: Leaving directory '/sources/patch-2.8/lib'
+Making check in src
+make[2]: Entering directory '/sources/patch-2.8/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/patch-2.8/src'
+Making check in tests
+make[2]: Entering directory '/sources/patch-2.8/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/patch-2.8/tests'
+make[4]: Entering directory '/sources/patch-2.8/tests'
+PASS: bad-usage
+PASS: asymmetric-hunks
+PASS: concat-git-diff
+PASS: corrupt-patch
+PASS: corrupt-reject-files
+XFAIL: context-format
+PASS: create-directory
+PASS: bad-filenames
+PASS: copy-rename
+PASS: backup-prefix-suffix
+XFAIL: dash-o-append
+SKIP: ed-style
+PASS: deep-directories
+PASS: criss-cross
+PASS: false-match
+PASS: empty-files
+PASS: fifo
+PASS: file-create-modes
+PASS: filename-choice
+PASS: git-binary-diff
+PASS: file-modes
+PASS: create-delete
+PASS: garbage
+PASS: git-cleanup
+PASS: global-reject-files
+PASS: inname
+PASS: hardlinks
+PASS: crlf-handling
+PASS: line-numbers
+PASS: mangled-numbers-abort
+PASS: mixed-patch-types
+PASS: munged-context-format
+PASS: no-newline-triggers-assert
+PASS: no-backup
+PASS: preserve-c-function-names
+PASS: no-mode-change-git-diff
+SKIP: read-only-files
+PASS: quoted-filenames
+PASS: need-filename
+PASS: regression-abe92e8010ab
+PASS: remember-reject-files
+PASS: remove-directories
+PASS: remember-backup-files
+PASS: preserve-mode-and-timestamp
+PASS: reject-format
+PASS: unusual-blanks
+PASS: unmodified-files
+PASS: symlinks
+PASS: merge
+============================================================================
+Testsuite summary for GNU patch 2.8
+============================================================================
+# TOTAL: 49
+# PASS:  45
+# SKIP:  2
+# XFAIL: 2
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/patch-2.8/tests'
+make[3]: Leaving directory '/sources/patch-2.8/tests'
+make[2]: Leaving directory '/sources/patch-2.8/tests'
+make[2]: Entering directory '/sources/patch-2.8'
+make[2]: Leaving directory '/sources/patch-2.8'
+make[1]: Leaving directory '/sources/patch-2.8'

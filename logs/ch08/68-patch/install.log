@@ -1,0 +1,36 @@
+make  install-recursive
+make[1]: Entering directory '/sources/patch-2.8'
+Making install in lib
+make[2]: Entering directory '/sources/patch-2.8/lib'
+make  install-recursive
+make[3]: Entering directory '/sources/patch-2.8/lib'
+make[4]: Entering directory '/sources/patch-2.8/lib'
+make[5]: Entering directory '/sources/patch-2.8/lib'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Leaving directory '/sources/patch-2.8/lib'
+make[4]: Leaving directory '/sources/patch-2.8/lib'
+make[3]: Leaving directory '/sources/patch-2.8/lib'
+make[2]: Leaving directory '/sources/patch-2.8/lib'
+Making install in src
+make[2]: Entering directory '/sources/patch-2.8/src'
+make[3]: Entering directory '/sources/patch-2.8/src'
+make[3]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c patch '/usr/bin'
+make[3]: Leaving directory '/sources/patch-2.8/src'
+make[2]: Leaving directory '/sources/patch-2.8/src'
+Making install in tests
+make[2]: Entering directory '/sources/patch-2.8/tests'
+make[3]: Entering directory '/sources/patch-2.8/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/patch-2.8/tests'
+make[2]: Leaving directory '/sources/patch-2.8/tests'
+make[2]: Entering directory '/sources/patch-2.8'
+make[3]: Entering directory '/sources/patch-2.8'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 'patch.man' '/usr/share/man/man1/patch.1'
+make[3]: Leaving directory '/sources/patch-2.8'
+make[2]: Leaving directory '/sources/patch-2.8'
+make[1]: Leaving directory '/sources/patch-2.8'

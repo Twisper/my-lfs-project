@@ -1,0 +1,114 @@
+make  all-recursive
+make[1]: Entering directory '/sources/patch-2.8'
+Making all in lib
+make[2]: Entering directory '/sources/patch-2.8/lib'
+  GEN      alloca.h
+  GEN      dirent.h
+  GEN      error.h
+  GEN      fcntl.h
+  GEN      malloc/scratch_buffer.gl.h
+  GEN      inttypes.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      signal.h
+  GEN      stddef.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/random.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      uchar.h
+  GEN      unictype.h
+  GEN      unistd.h
+  GEN      unitypes.h
+  GEN      utime.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-recursive
+make[3]: Entering directory '/sources/patch-2.8/lib'
+make[4]: Entering directory '/sources/patch-2.8/lib'
+  CC       libpatch_a-argmatch.o
+  CC       libpatch_a-openat-proc.o
+  CC       libpatch_a-backupfile.o
+  CC       libpatch_a-backup-find.o
+  CC       libpatch_a-basename-lgpl.o
+  CC       libpatch_a-bitrotate.o
+  CC       libpatch_a-c-ctype.o
+  CC       libpatch_a-c-strcasecmp.o
+  CC       libpatch_a-c-strncasecmp.o
+  CC       libpatch_a-c32isprint.o
+  CC       libpatch_a-chdir-long.o
+  CC       libpatch_a-cloexec.o
+  CC       libpatch_a-close-stream.o
+  CC       libpatch_a-closeout.o
+  CC       libpatch_a-dirname-lgpl.o
+  CC       libpatch_a-stripslash.o
+  CC       libpatch_a-error.o
+  CC       libpatch_a-exitfail.o
+  CC       libpatch_a-fcntl.o
+  CC       libpatch_a-fd-hook.o
+  CC       libpatch_a-filenamecat-lgpl.o
+  CC       libpatch_a-getprogname.o
+  CC       libpatch_a-gettime.o
+  CC       libpatch_a-hard-locale.o
+  CC       libpatch_a-hash.o
+  CC       libpatch_a-ialloc.o
+  CC       libpatch_a-localcharset.o
+  CC       libpatch_a-malloca.o
+  CC       libpatch_a-mbrtoc32.o
+  CC       libpatch_a-mbrtowc.o
+  CC       libpatch_a-mbszero.o
+  CC       libpatch_a-openat-die.o
+  CC       libpatch_a-opendirat.o
+  CC       libpatch_a-parse-datetime.o
+  CC       libpatch_a-progname.o
+  CC       libpatch_a-quotearg.o
+  CC       libpatch_a-realloc.o
+  CC       libpatch_a-reallocarray.o
+  CC       libpatch_a-renameatu.o
+  CC       libpatch_a-same-inode.o
+  CC       libpatch_a-save-cwd.o
+  CC       libpatch_a-setlocale_null.o
+  CC       libpatch_a-setlocale_null-unlocked.o
+  CC       libpatch_a-stat-time.o
+  CC       libpatch_a-stdlib.o
+  CC       libpatch_a-stdopen.o
+  CC       libpatch_a-tempname.o
+  CC       libpatch_a-time_rz.o
+  CC       libpatch_a-timespec.o
+  CC       libpatch_a-unistd.o
+  CC       libpatch_a-utimens.o
+  CC       libpatch_a-wctype-h.o
+  CC       libpatch_a-xmalloc.o
+  CC       libpatch_a-xalloc-die.o
+  CC       libpatch_a-xstdopen.o
+  CC       libpatch_a-mktime.o
+  CC       malloc/libpatch_a-scratch_buffer_grow_preserve.o
+  CC       malloc/libpatch_a-scratch_buffer_grow.o
+  CC       malloc/libpatch_a-scratch_buffer_set_array_size.o
+  CC       unictype/libpatch_a-ctype_print.o
+  AR       libpatch.a
+make[4]: Leaving directory '/sources/patch-2.8/lib'
+make[3]: Leaving directory '/sources/patch-2.8/lib'
+make[2]: Leaving directory '/sources/patch-2.8/lib'
+Making all in src
+make[2]: Entering directory '/sources/patch-2.8/src'
+  CC       inp.o
+  CC       patch.o
+  CC       pch.o
+  CC       safe.o
+  CC       version.o
+  CC       util.o
+  CC       merge.o
+  CCLD     patch
+make[2]: Leaving directory '/sources/patch-2.8/src'
+Making all in tests
+make[2]: Entering directory '/sources/patch-2.8/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/patch-2.8/tests'
+make[2]: Entering directory '/sources/patch-2.8'
+make[2]: Leaving directory '/sources/patch-2.8'
+make[1]: Leaving directory '/sources/patch-2.8'
