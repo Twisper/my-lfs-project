@@ -48,6 +48,23 @@ make 2>&1 | tee "$LOG_DIR/make.log"
 echo "Installing ${PKT_NAME}"
 make install 2>&1 | tee "$LOG_DIR/install.log"
 
+cat > /etc/syslog.conf << "EOF"
+# Begin /etc/syslog.conf
+
+auth,authpriv.* -/var/log/auth.log
+*.*;auth,authpriv.none -/var/log/sys.log
+daemon.* -/var/log/daemon.log
+kern.* -/var/log/kern.log
+mail.* -/var/log/mail.log
+user.* -/var/log/user.log
+*.emerg *
+
+# Do not open any internet ports.
+secure_mode 2
+
+# End /etc/syslog.conf
+EOF
+
 echo "Installing done. Cleaning up"
 cd "/sources"
 rm -rfv "$FLD_NAME"
