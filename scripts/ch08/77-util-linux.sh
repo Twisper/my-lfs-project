@@ -57,6 +57,12 @@ echo "Unpacking done"
 echo "Compiling and testing ${PKT_NAME}"
 make 2>&1 | tee "$LOG_DIR/make.log"
 
+touch /etc/fstab
+chown -R tester .
+
+echo "Testing is done, check for results"
+read -p "> "
+
 echo "Installing ${PKT_NAME}"
 make install 2>&1 | tee "$LOG_DIR/install.log"
 
