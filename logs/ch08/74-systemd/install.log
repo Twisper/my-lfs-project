@@ -1,0 +1,8 @@
+mkdir: created directory '/usr/share/doc/udev-20230818'
+mkdir: created directory '/usr/share/doc/udev-20230818/lfs'
+'udev-lfs-20230818/55-lfs.rules' -> '/etc/udev/rules.d/55-lfs.rules'
+'udev-lfs-20230818/init-net-rules.sh' -> '/usr/lib/udev/init-net-rules.sh'
+'udev-lfs-20230818/write_net_rules' -> '/usr/lib/udev/write_net_rules'
+'udev-lfs-20230818/rule_generator.functions' -> '/usr/lib/udev/rule_generator.functions'
+'udev-lfs-20230818/README' -> '/usr/share/doc/udev-20230818/lfs/README'
+'udev-lfs-20230818/55-lfs.txt' -> '/usr/share/doc/udev-20230818/lfs/55-lfs.txt'
