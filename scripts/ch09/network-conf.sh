@@ -21,7 +21,7 @@ nameserver <1.1.1.1>
 # End /etc/resolv.conf
 EOF
 
-echo "<lfs>" > /etc/hostname
+echo "FenOS" > /etc/hostname
 
 cat > /etc/hosts << "EOF"
 # Begin /etc/hosts

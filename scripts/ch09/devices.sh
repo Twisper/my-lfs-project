@@ -6,8 +6,8 @@ sed -e '/^AlternativeNamesPolicy/s/=.*$/=/'  \
        /usr/lib/udev/network/99-default.link \
      > /etc/udev/network/99-default.link
 
-sed -e 's/"write_cd_rules"/"write_cd_rules mode"/' \
-    -i /etc/udev/rules.d/83-cdrom-symlinks.rules
+#sed -e 's/"write_cd_rules"/"write_cd_rules mode"/' \
+#    -i /etc/udev/rules.d/83-cdrom-symlinks.rules
 
 cat > /etc/udev/rules.d/75-cd-aliases.rules << "EOF"
 # Begin /etc/udev/rules.d/75-cd-aliases.rules
