@@ -1,0 +1,209 @@
+Making check in docs
+make[1]: Entering directory '/sources/man-db-2.13.1/docs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/man-db-2.13.1/docs'
+Making check in gl/lib
+make[1]: Entering directory '/sources/man-db-2.13.1/gl/lib'
+make  check-recursive
+make[2]: Entering directory '/sources/man-db-2.13.1/gl/lib'
+make[3]: Entering directory '/sources/man-db-2.13.1/gl/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/man-db-2.13.1/gl/lib'
+make[2]: Leaving directory '/sources/man-db-2.13.1/gl/lib'
+make[1]: Leaving directory '/sources/man-db-2.13.1/gl/lib'
+Making check in gl/po
+make[1]: Entering directory '/sources/man-db-2.13.1/gl/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/man-db-2.13.1/gl/po'
+Making check in init
+make[1]: Entering directory '/sources/man-db-2.13.1/init'
+Making check in systemd
+make[2]: Entering directory '/sources/man-db-2.13.1/init/systemd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/man-db-2.13.1/init/systemd'
+make[2]: Entering directory '/sources/man-db-2.13.1/init'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/man-db-2.13.1/init'
+make[1]: Leaving directory '/sources/man-db-2.13.1/init'
+Making check in lib
+make[1]: Entering directory '/sources/man-db-2.13.1/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/man-db-2.13.1/lib'
+Making check in libdb
+make[1]: Entering directory '/sources/man-db-2.13.1/libdb'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/man-db-2.13.1/libdb'
+Making check in src
+make[1]: Entering directory '/sources/man-db-2.13.1/src'
+Making check in .
+make[2]: Entering directory '/sources/man-db-2.13.1/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/man-db-2.13.1/src'
+Making check in tests
+make[2]: Entering directory '/sources/man-db-2.13.1/src/tests'
+make  fspause get-mtime \
+  testlib.sh lexgrog-backslash-dash-rhs lexgrog-basic lexgrog-multiple-whatis man-deleted-directory man-exact-section-matches man-executable-page-on-path man-invalid-db-entry man-language-specific-requests man-mandatory-manpath man-missing-locales man-override-dir man-recode-in-place man-recode-suffix man-so-links-same-section man-suffixed-extension man-symlinks-with-matching-names manconv-coding-tags manconv-guess-from-encoding manconv-incomplete-char-at-eof manconv-odd-combinations mandb-basic mandb-bogus-symlink mandb-cachedir-tag mandb-empty-page mandb-purge-updates-timestamp mandb-regular-file-symlink-changes mandb-symlink-beats-whatis-ref mandb-symlink-target-timestamp mandb-whatis-broken-link-changes manpath-slash whatis-path-to-executable zsoelim-so-includes
+make[3]: Entering directory '/sources/man-db-2.13.1/src/tests'
+make[3]: Nothing to be done for 'testlib.sh'.
+make[3]: Nothing to be done for 'lexgrog-backslash-dash-rhs'.
+make[3]: Nothing to be done for 'lexgrog-basic'.
+make[3]: Nothing to be done for 'lexgrog-multiple-whatis'.
+make[3]: Nothing to be done for 'man-deleted-directory'.
+make[3]: Nothing to be done for 'man-exact-section-matches'.
+make[3]: Nothing to be done for 'man-executable-page-on-path'.
+make[3]: Nothing to be done for 'man-invalid-db-entry'.
+make[3]: Nothing to be done for 'man-language-specific-requests'.
+make[3]: Nothing to be done for 'man-mandatory-manpath'.
+make[3]: Nothing to be done for 'man-missing-locales'.
+make[3]: Nothing to be done for 'man-override-dir'.
+make[3]: Nothing to be done for 'man-recode-in-place'.
+make[3]: Nothing to be done for 'man-recode-suffix'.
+make[3]: Nothing to be done for 'man-so-links-same-section'.
+make[3]: Nothing to be done for 'man-suffixed-extension'.
+make[3]: Nothing to be done for 'man-symlinks-with-matching-names'.
+make[3]: Nothing to be done for 'manconv-coding-tags'.
+make[3]: Nothing to be done for 'manconv-guess-from-encoding'.
+make[3]: Nothing to be done for 'manconv-incomplete-char-at-eof'.
+make[3]: Nothing to be done for 'manconv-odd-combinations'.
+make[3]: Nothing to be done for 'mandb-basic'.
+make[3]: Nothing to be done for 'mandb-bogus-symlink'.
+make[3]: Nothing to be done for 'mandb-cachedir-tag'.
+make[3]: Nothing to be done for 'mandb-empty-page'.
+make[3]: Nothing to be done for 'mandb-purge-updates-timestamp'.
+make[3]: Nothing to be done for 'mandb-regular-file-symlink-changes'.
+make[3]: Nothing to be done for 'mandb-symlink-beats-whatis-ref'.
+make[3]: Nothing to be done for 'mandb-symlink-target-timestamp'.
+make[3]: Nothing to be done for 'mandb-whatis-broken-link-changes'.
+make[3]: Nothing to be done for 'manpath-slash'.
+make[3]: Nothing to be done for 'whatis-path-to-executable'.
+make[3]: Nothing to be done for 'zsoelim-so-includes'.
+  CC       fspause.o
+  CC       get-mtime.o
+  CCLD     get-mtime
+  CCLD     fspause
+make[3]: Leaving directory '/sources/man-db-2.13.1/src/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/man-db-2.13.1/src/tests'
+make[4]: Entering directory '/sources/man-db-2.13.1/src/tests'
+PASS: lexgrog-backslash-dash-rhs
+PASS: lexgrog-basic
+PASS: lexgrog-multiple-whatis
+PASS: man-deleted-directory
+PASS: man-executable-page-on-path
+PASS: man-exact-section-matches
+PASS: man-invalid-db-entry
+PASS: man-override-dir
+PASS: man-recode-in-place
+PASS: man-missing-locales
+PASS: man-recode-suffix
+PASS: man-language-specific-requests
+PASS: man-symlinks-with-matching-names
+PASS: manconv-incomplete-char-at-eof
+PASS: manconv-guess-from-encoding
+PASS: mandb-bogus-symlink
+PASS: man-suffixed-extension
+PASS: mandb-basic
+PASS: manconv-coding-tags
+PASS: mandb-cachedir-tag
+PASS: man-so-links-same-section
+PASS: mandb-empty-page
+PASS: mandb-symlink-target-timestamp
+PASS: manconv-odd-combinations
+PASS: manpath-slash
+PASS: mandb-purge-updates-timestamp
+PASS: mandb-whatis-broken-link-changes
+PASS: mandb-symlink-beats-whatis-ref
+PASS: zsoelim-so-includes
+PASS: mandb-regular-file-symlink-changes
+PASS: man-mandatory-manpath
+PASS: whatis-path-to-executable
+============================================================================
+Testsuite summary for man-db 2.13.1
+============================================================================
+# TOTAL: 32
+# PASS:  32
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/man-db-2.13.1/src/tests'
+make[3]: Leaving directory '/sources/man-db-2.13.1/src/tests'
+make[2]: Leaving directory '/sources/man-db-2.13.1/src/tests'
+make[1]: Leaving directory '/sources/man-db-2.13.1/src'
+Making check in man
+make[1]: Entering directory '/sources/man-db-2.13.1/man'
+Making check in it
+make[2]: Entering directory '/sources/man-db-2.13.1/man/it'
+make  check-TESTS
+make[3]: Entering directory '/sources/man-db-2.13.1/man/it'
+make[4]: Entering directory '/sources/man-db-2.13.1/man/it'
+PASS: man8/accessdb.8
+PASS: man5/manpath.5
+PASS: man1/manpath.1
+PASS: man1/zsoelim.1
+PASS: man1/whatis.1
+PASS: man1/man.1
+PASS: man1/apropos.1
+PASS: man8/catman.8
+PASS: man8/mandb.8
+============================================================================
+Testsuite summary for man-db 2.13.1
+============================================================================
+# TOTAL: 9
+# PASS:  9
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/man-db-2.13.1/man/it'
+make[3]: Leaving directory '/sources/man-db-2.13.1/man/it'
+make[2]: Leaving directory '/sources/man-db-2.13.1/man/it'
+make[2]: Entering directory '/sources/man-db-2.13.1/man'
+make  check-TESTS
+make[3]: Entering directory '/sources/man-db-2.13.1/man'
+make[4]: Entering directory '/sources/man-db-2.13.1/man'
+PASS: man1/apropos.1
+PASS: man1/lexgrog.1
+PASS: man1/manpath.1
+PASS: man1/man-recode.1
+PASS: man1/manconv.1
+PASS: man1/whatis.1
+PASS: man1/man.1
+PASS: man8/accessdb.8
+PASS: man5/manpath.5
+PASS: man1/zsoelim.1
+PASS: man8/catman.8
+PASS: man8/mandb.8
+============================================================================
+Testsuite summary for man-db 2.13.1
+============================================================================
+# TOTAL: 12
+# PASS:  12
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/man-db-2.13.1/man'
+make[3]: Leaving directory '/sources/man-db-2.13.1/man'
+make[2]: Leaving directory '/sources/man-db-2.13.1/man'
+make[1]: Leaving directory '/sources/man-db-2.13.1/man'
+Making check in manual
+make[1]: Entering directory '/sources/man-db-2.13.1/manual'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/man-db-2.13.1/manual'
+Making check in po
+make[1]: Entering directory '/sources/man-db-2.13.1/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/man-db-2.13.1/po'
+Making check in tools
+make[1]: Entering directory '/sources/man-db-2.13.1/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/man-db-2.13.1/tools'
+make[1]: Entering directory '/sources/man-db-2.13.1'
+make[1]: Leaving directory '/sources/man-db-2.13.1'

@@ -1,0 +1,353 @@
+make  all-recursive
+make[1]: Entering directory '/sources/man-db-2.13.1'
+Making all in docs
+make[2]: Entering directory '/sources/man-db-2.13.1/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/man-db-2.13.1/docs'
+Making all in gl/lib
+make[2]: Entering directory '/sources/man-db-2.13.1/gl/lib'
+  GEN      alloca.h
+  GEN      ctype.h
+  GEN      dirent.h
+  GEN      error.h
+  GEN      fcntl.h
+  GEN      getopt.h
+  GEN      getopt-cdefs.h
+  GEN      malloc/dynarray.gl.h
+  GEN      malloc/scratch_buffer.gl.h
+  GEN      malloc/dynarray-skeleton.gl.h
+  GEN      glob-libc.gl.h
+  GEN      inttypes.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      pthread.h
+  GEN      sched.h
+  GEN      signal.h
+  GEN      stddef.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      strings.h
+  GEN      sys/file.h
+  GEN      sys/ioctl.h
+  GEN      sys/random.h
+  GEN      sys/select.h
+  GEN      sys/socket.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      sys/uio.h
+  GEN      termios.h
+  GEN      time.h
+  GEN      uchar.h
+  GEN      unicase.h
+  GEN      unictype.h
+  GEN      uninorm.h
+  GEN      unistd.h
+  GEN      unistr.h
+  GEN      unitypes.h
+  GEN      utime.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-recursive
+make[3]: Entering directory '/sources/man-db-2.13.1/gl/lib'
+make[4]: Entering directory '/sources/man-db-2.13.1/gl/lib'
+  CC       libgnu_la-argp-ba.lo
+  CC       libgnu_la-argp-eexst.lo
+  CC       libgnu_la-argp-fmtstream.lo
+  CC       libgnu_la-argp-fs-xinl.lo
+  CC       libgnu_la-argp-help.lo
+  CC       libgnu_la-argp-parse.lo
+  CC       libgnu_la-argp-pin.lo
+  CC       libgnu_la-argp-pv.lo
+  CC       libgnu_la-argp-pvh.lo
+  CC       libgnu_la-argp-xinl.lo
+  CC       libgnu_la-gl_array_list.lo
+  CC       libgnu_la-openat-proc.lo
+  CC       libgnu_la-basename-lgpl.lo
+  CC       libgnu_la-bitrotate.lo
+  CC       libgnu_la-btoc32.lo
+  CC       libgnu_la-c32_apply_type_test.lo
+  CC       libgnu_la-btowc.lo
+  CC       libgnu_la-c32_get_type_test.lo
+  CC       libgnu_la-c32isalnum.lo
+  CC       libgnu_la-c32isalpha.lo
+  CC       libgnu_la-c32isblank.lo
+  CC       libgnu_la-c32iscntrl.lo
+  CC       libgnu_la-c32isdigit.lo
+  CC       libgnu_la-c32isgraph.lo
+  CC       libgnu_la-c32islower.lo
+  CC       libgnu_la-c32isprint.lo
+  CC       libgnu_la-c32ispunct.lo
+  CC       libgnu_la-c32isspace.lo
+  CC       libgnu_la-c32isupper.lo
+  CC       libgnu_la-c32isxdigit.lo
+  CC       libgnu_la-c32tolower.lo
+  CC       libgnu_la-canonicalize.lo
+  CC       libgnu_la-chdir-long.lo
+  CC       libgnu_la-cloexec.lo
+  CC       libgnu_la-dirname.lo
+  CC       libgnu_la-basename.lo
+  CC       libgnu_la-dirname-lgpl.lo
+  CC       libgnu_la-stripslash.lo
+  CC       libgnu_la-exitfail.lo
+  CC       libgnu_la-fcntl.lo
+  CC       libgnu_la-fd-hook.lo
+  CC       libgnu_la-fd-safer-flag.lo
+  CC       libgnu_la-dup-safer-flag.lo
+  CC       libgnu_la-file-set.lo
+  CC       libgnu_la-filenamecat-lgpl.lo
+  CC       libgnu_la-getopt.lo
+  CC       libgnu_la-getopt1.lo
+  CC       libgnu_la-getprogname.lo
+  CC       libgnu_la-gettime.lo
+  CC       libgnu_la-hard-locale.lo
+  CC       libgnu_la-hash.lo
+  CC       libgnu_la-gl_hash_map.lo
+  CC       libgnu_la-hash-pjw.lo
+  CC       libgnu_la-hash-pjw-bare.lo
+  CC       libgnu_la-gl_hash_set.lo
+  CC       libgnu_la-hash-triple-simple.lo
+  CC       libgnu_la-ialloc.lo
+  CC       libgnu_la-idpriv-drop.lo
+  CC       libgnu_la-ioctl.lo
+  CC       libgnu_la-idpriv-droptemp.lo
+  CC       libgnu_la-gl_linkedhash_list.lo
+  CC       libgnu_la-gl_list.lo
+  CC       libgnu_la-localcharset.lo
+  CC       libgnu_la-malloca.lo
+  CC       libgnu_la-gl_map.lo
+  CC       libgnu_la-mbrtoc32.lo
+  CC       libgnu_la-mbrtowc.lo
+  CC       libgnu_la-mbsrtoc32s.lo
+  CC       libgnu_la-mbsrtowcs.lo
+  CC       libgnu_la-mbszero.lo
+  CC       libgnu_la-nanosleep.lo
+  CC       libgnu_la-nonblocking.lo
+  CC       libgnu_la-openat-die.lo
+  CC       libgnu_la-progname.lo
+  CC       libgnu_la-gl_rbtree_list.lo
+  CC       libgnu_la-renameatu.lo
+  CC       libgnu_la-same-inode.lo
+  CC       libgnu_la-save-cwd.lo
+  CC       libgnu_la-gl_set.lo
+  CC       libgnu_la-setlocale_null.lo
+  CC       libgnu_la-setlocale_null-unlocked.lo
+  CC       libgnu_la-sig-handler.lo
+  CC       libgnu_la-sockets.lo
+  CC       libgnu_la-stat-time.lo
+  CC       libgnu_la-stdopen.lo
+  CC       libgnu_la-strnlen1.lo
+  CC       libgnu_la-sys_socket.lo
+  CC       libgnu_la-tempname.lo
+  CC       glthread/libgnu_la-threadlib.lo
+  CC       libgnu_la-timespec.lo
+  CC       libgnu_la-unistd.lo
+  CC       libgnu_la-dup-safer.lo
+  CC       libgnu_la-fd-safer.lo
+  CC       libgnu_la-pipe-safer.lo
+  CC       libgnu_la-utimens.lo
+  CC       libgnu_la-vaszprintf.lo
+  CC       libgnu_la-aszprintf.lo
+  CC       libgnu_la-verror.lo
+  CC       libgnu_la-vsnzprintf.lo
+  CC       libgnu_la-wctype-h.lo
+  CC       libgnu_la-xmalloc.lo
+  CC       libgnu_la-xalloc-die.lo
+  CC       libgnu_la-xgetcwd.lo
+  CC       libgnu_la-gl_xlist.lo
+  CC       libgnu_la-gl_xmap.lo
+  CC       libgnu_la-gl_xset.lo
+  CC       libgnu_la-xsize.lo
+  CC       libgnu_la-xstdopen.lo
+  CC       libgnu_la-xstrndup.lo
+  CC       libgnu_la-xvasprintf.lo
+  CC       libgnu_la-xasprintf.lo
+  CC       asnprintf.lo
+  CC       mbsrtoc32s-state.lo
+  CC       mbsrtowcs-state.lo
+  CC       printf-args.lo
+  CC       printf-parse.lo
+  CC       vasnprintf.lo
+  CC       malloc/libgnu_la-dynarray_at_failure.lo
+  CC       malloc/libgnu_la-dynarray_emplace_enlarge.lo
+  CC       malloc/libgnu_la-dynarray_finalize.lo
+  CC       malloc/libgnu_la-dynarray_resize.lo
+  CC       malloc/libgnu_la-dynarray_resize_clear.lo
+  CC       malloc/libgnu_la-scratch_buffer_grow.lo
+  CC       malloc/libgnu_la-scratch_buffer_grow_preserve.lo
+  CC       malloc/libgnu_la-scratch_buffer_set_array_size.lo
+  CC       glthread/libgnu_la-lock.lo
+  CC       unicase/libgnu_la-tolower.lo
+  CC       unictype/libgnu_la-ctype_alnum.lo
+  CC       unictype/libgnu_la-ctype_alpha.lo
+  CC       unictype/libgnu_la-ctype_blank.lo
+  CC       unictype/libgnu_la-ctype_cntrl.lo
+  CC       unictype/libgnu_la-ctype_digit.lo
+  CC       unictype/libgnu_la-ctype_graph.lo
+  CC       unictype/libgnu_la-ctype_lower.lo
+  CC       unictype/libgnu_la-ctype_print.lo
+  CC       unictype/libgnu_la-ctype_punct.lo
+  CC       unictype/libgnu_la-ctype_space.lo
+  CC       unictype/libgnu_la-ctype_upper.lo
+  CC       unictype/libgnu_la-ctype_xdigit.lo
+  CC       unistr/libgnu_la-u32-chr.lo
+  CC       unistr/libgnu_la-u32-cpy.lo
+  CC       unistr/libgnu_la-u32-pcpy.lo
+  CC       unistr/libgnu_la-u32-strcat.lo
+  CC       unistr/libgnu_la-u32-strlen.lo
+  CCLD     libgnu.la
+make[4]: Leaving directory '/sources/man-db-2.13.1/gl/lib'
+make[3]: Leaving directory '/sources/man-db-2.13.1/gl/lib'
+make[2]: Leaving directory '/sources/man-db-2.13.1/gl/lib'
+Making all in gl/po
+make[2]: Entering directory '/sources/man-db-2.13.1/gl/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/man-db-2.13.1/gl/po'
+Making all in init
+make[2]: Entering directory '/sources/man-db-2.13.1/init'
+Making all in systemd
+make[3]: Entering directory '/sources/man-db-2.13.1/init/systemd'
+sed -e "s,[@]bindir[@],/usr/bin,g" \
+    -e "s,[@]cache_top_owner[@],bin,g" \
+    man-db.service.in > man-db.service
+sed -e "s,[@]cache_top_owner[@],bin,g" man-db.conf.in > man-db.conf
+make[3]: Leaving directory '/sources/man-db-2.13.1/init/systemd'
+make[3]: Entering directory '/sources/man-db-2.13.1/init'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/man-db-2.13.1/init'
+make[2]: Leaving directory '/sources/man-db-2.13.1/init'
+Making all in lib
+make[2]: Entering directory '/sources/man-db-2.13.1/lib'
+  CC       libman_la-appendstr.lo
+  CC       libman_la-cleanup.lo
+  CC       libman_la-compression.lo
+  CC       libman_la-debug.lo
+  CC       libman_la-encodings.lo
+  CC       libman_la-filenames.lo
+  CC       libman_la-fatal.lo
+  CC       libman_la-glcontainers.lo
+  CC       libman_la-linelength.lo
+  CC       libman_la-orderfiles.lo
+  CC       libman_la-pathsearch.lo
+  CC       libman_la-sandbox.lo
+  CC       libman_la-security.lo
+  CC       libman_la-tempfile.lo
+  CC       libman_la-util.lo
+  CC       libman_la-wordfnmatch.lo
+  CC       libman_la-xregcomp.lo
+  CCLD     libman.la
+make[2]: Leaving directory '/sources/man-db-2.13.1/lib'
+Making all in libdb
+make[2]: Entering directory '/sources/man-db-2.13.1/libdb'
+  CC       libmandb_la-db_btree.lo
+  CC       libmandb_la-db_delete.lo
+  CC       libmandb_la-db_gdbm.lo
+  CC       libmandb_la-db_lookup.lo
+  CC       libmandb_la-db_ndbm.lo
+  CC       libmandb_la-db_store.lo
+  CC       libmandb_la-db_ver.lo
+  CC       libmandb_la-db_xdbm.lo
+  CCLD     libmandb.la
+make[2]: Leaving directory '/sources/man-db-2.13.1/libdb'
+Making all in src
+make[2]: Entering directory '/sources/man-db-2.13.1/src'
+Making all in .
+make[3]: Entering directory '/sources/man-db-2.13.1/src'
+  CC       catman.o
+  CC       globbing.o
+  CC       manp.o
+  CC       convert.o
+  CC       decompress.o
+  CC       lexgrog.o
+  CC       descriptions.o
+  CC       lexgrog_test.o
+  CC       manconv.o
+  CC       manconv_client.o
+  CC       ult_src.o
+  CC       utf8.o
+  CC       man.o
+  CC       zsoelim.o
+  CC       man-recode.o
+  CC       check_mandirs.o
+  CC       descriptions_store.o
+  CC       mandb.o
+  CC       straycats.o
+  CC       manpath.o
+  CC       whatis.o
+  CC       globbing_test.o
+  CC       manconv_main.o
+  CC       zsoelim_main.o
+  CC       accessdb.o
+  CCLD     catman
+  CCLD     lexgrog
+  CCLD     man-recode
+  CCLD     manpath
+  CCLD     globbing
+  CCLD     manconv
+  CCLD     zsoelim
+  CCLD     accessdb
+  CCLD     mandb
+  CCLD     whatis
+  CCLD     man
+rm -f apropos
+ln -s whatis apropos
+make[3]: Leaving directory '/sources/man-db-2.13.1/src'
+Making all in tests
+make[3]: Entering directory '/sources/man-db-2.13.1/src/tests'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/man-db-2.13.1/src/tests'
+make[2]: Leaving directory '/sources/man-db-2.13.1/src'
+Making all in man
+make[2]: Entering directory '/sources/man-db-2.13.1/man'
+Making all in it
+make[3]: Entering directory '/sources/man-db-2.13.1/man/it'
+  GEN      replace.sed
+  GEN      man1/apropos.1
+  GEN      man1/man.1
+  GEN      man1/whatis.1
+  GEN      man1/manpath.1
+  GEN      man5/manpath.5
+  GEN      man1/zsoelim.1
+  GEN      man8/accessdb.8
+  GEN      man8/catman.8
+  GEN      man8/mandb.8
+make[3]: Leaving directory '/sources/man-db-2.13.1/man/it'
+make[3]: Entering directory '/sources/man-db-2.13.1/man'
+  GEN      replace.sed
+  GEN      man1/apropos.1
+  GEN      man1/lexgrog.1
+  GEN      man1/man.1
+  GEN      man1/man-recode.1
+  GEN      man1/manconv.1
+  GEN      man1/whatis.1
+  GEN      man1/manpath.1
+  GEN      man1/zsoelim.1
+  GEN      man5/manpath.5
+  GEN      man8/accessdb.8
+  GEN      man8/catman.8
+  GEN      man8/mandb.8
+make[3]: Leaving directory '/sources/man-db-2.13.1/man'
+make[2]: Leaving directory '/sources/man-db-2.13.1/man'
+Making all in manual
+make[2]: Entering directory '/sources/man-db-2.13.1/manual'
+(echo '.ds V 2.13.1'; echo '.ds td 2025-05-02') > version
+soelim -I. man_db.me | tbl > man_db.pp.new && mv -f man_db.pp.new man_db.pp
+LC_ALL=C nroff -me man_db.pp > man_db.cat.new && mv -f man_db.cat.new man_db.cat
+groff -me -Tps man_db.pp > man_db.ps.new && mv -f man_db.ps.new man_db.ps
+troff:./files.me:389: warning: character with input code 173 not defined
+troff:./files.me:389: warning: character with input code 173 not defined
+./db.me:255: warning: table wider than line length minus indentation
+make[2]: Leaving directory '/sources/man-db-2.13.1/manual'
+Making all in po
+make[2]: Entering directory '/sources/man-db-2.13.1/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/man-db-2.13.1/po'
+Making all in tools
+make[2]: Entering directory '/sources/man-db-2.13.1/tools'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/man-db-2.13.1/tools'
+make[2]: Entering directory '/sources/man-db-2.13.1'
+make[2]: Leaving directory '/sources/man-db-2.13.1'
+make[1]: Leaving directory '/sources/man-db-2.13.1'
